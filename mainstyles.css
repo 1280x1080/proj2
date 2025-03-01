@@ -1,0 +1,115 @@
+@font-face{
+    font-family: "Fixedsys Excelsior";
+    src: url("files/fonts/fixedsysexcelsior.ttf");
+}
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 1s ease-out, visibility 1s ease-out;
+}
+.preloader-content{
+    text-align: center;
+}
+
+
+
+.preloader-content button{
+    border-radius: 15px;
+    border: 1px solid greenyellow;
+    background-color: transparent;
+    color: greenyellow;
+    transition: background 0.3s ease, color 0.3s ease;
+    width: 300px;
+    font-family: "Fixedsys Excelsior";
+}
+
+.preloader-content button:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+    color: black;
+}
+
+.preloader-content button:focus{
+    background-color: greenyellow;
+    color: black;
+    outline: none;
+}
+
+#preloader img {
+    transition: opacity 1s ease-out;
+}
+
+#loader-image{
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+}
+
+#preloader.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.navbar{
+    width: 100%;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+}
+
+nav{
+    margin-left: 30px;
+}
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    list-style: none;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: "Fixedsys Excelsior";
+    font-size: 25px;
+}
+
+nav a#current{
+    color: green;
+}
+
+nav a:hover{
+    color: greenyellow;
+    cursor: crosshair;
+}
+
+.lobby-header{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.lobby-content{
+    font-family: "Fixedsys Excelsior";
+}

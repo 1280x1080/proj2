@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <head>
+        <title>Sigma Fight 2 | The Best Browser Game!</title>
+        <link rel="stylesheet" href="battlePick.css">
+    </head>
+    <body>
+
+        <div id="preloader">
+            <div class="preloader-content">
+                <h1 id="loadingText">Going to the arena</h1>
+                <br>
+                <button id="loadButton" onclick="loadLobby()">LOAD MUSIC</button>
+            </div>
+
+        </div>
+        <!--------->
+
+        <audio src="../../files/audio/lobby/sigmafight2lobbymusic.mp3" id="lobby-audio"></audio>
+
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="../../main.html">HOME</a></li>
+                    <li><a href="#" id="current">BATTLE</a></li>
+                    <li><a href="#">TUTORIAL</a></li>
+                    <li><a href="#">CONTROLS</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="arenaChooseContainer">
+            <div class="arenaChoose">
+                <h1>Choose your arena!</h1>
+                <div class="arenaPick" >
+                    <button onclick="prevLast()"><</button>
+                    <div class="arenaContainer" id="arenaShow"></div>
+                    <button onclick="prevNext()">></button>
+                </div>
+                <h1 id="arenaName">Arena Name</h1>
+            </div>
+        </div>
+
+        <div class="playerChooseContainer">
+            <div class="player1Choose">
+                <h1>Player 1 Character</h1>
+                <div class="choose1Container">
+                    <button onclick="char1Prev()"><</button>
+                    <div id="char1Display"></div>
+                    <button onclick="char1Next()">></button>
+                </div>
+                <h1 id="char1Name">Character 1 Name</h1>
+
+            </div>
+            <div class="player2Choose">
+                <h1>Player 2 Character</h1>
+                <div class="choose2Container">
+                    <button onclick="char2Prev()"><</button>
+                    <div id="char2Display"></div>
+                    <button onclick="char2Next()">></button>
+                </div>
+                <h1 id="char2Name">Character 2 Name</h1>
+            </div>
+
+
+        </div>
+
+
+        <script src="battlePick.js"></script>
+    </body>
+
+</html>
