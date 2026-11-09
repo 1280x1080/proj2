@@ -21,6 +21,14 @@ Each part ends on a choice; **the top comment decides the next part**.
 * Project files per part: `VIDEOS/VIDEO_NNN/script.json`, `beats.py`, `edit_videoNNN.py` (SCENES → SEGMENTS /
   OVERLAYS / CAPTIONS), `audio/build_cues.py`, `scene_sheet.py` → `SCENES.md`, `README.md`.
 
+## Publish kit (every part) — `VIDEOS/VIDEO_NNN/PUBLISH.md`
+Deliver with every part, each in its own copyable code block:
+1. **Title** — hook first, then `| Going Down Part N`; under ~70 characters, at most 1 emoji.
+2. **Description** — 2–3 short lines of setup, the question with `1️⃣ OPTION` / `2️⃣ OPTION`, "The top comment decides
+   Part N+1.", then 4–6 hashtags (incl. #shorts). Emojis: 3–5 total, never one per line.
+3. **Pinned comment (the creator's)** — must say follow / reply / comment for PART N+1, mention that the top comment
+   decides, plus one debate hook that doesn't give away the answer.
+
 ## Characters
 | who | look | voice / behaviour | status after Part 1 |
 |---|---|---|---|
