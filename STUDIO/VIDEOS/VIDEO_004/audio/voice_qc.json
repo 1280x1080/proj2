@@ -1,0 +1,319 @@
+{
+  "model": "base.en",
+  "lines": [
+    {
+      "id": "R01",
+      "text": "You wake up at three-seventeen AM.",
+      "heard": "You wake up at 3 17 a.m.",
+      "mismatches": 0,
+      "duration": 1.97,
+      "words_per_sec": 3.55,
+      "clipped": false
+    },
+    {
+      "id": "R02",
+      "text": "Your phone is ringing.",
+      "heard": "Your phone is ringing.",
+      "mismatches": 0,
+      "duration": 1.08,
+      "words_per_sec": 3.7,
+      "clipped": false
+    },
+    {
+      "id": "R03",
+      "text": "It's an unknown number. You answer.",
+      "heard": "It's an unknown number, you answer.",
+      "mismatches": 0,
+      "duration": 1.97,
+      "words_per_sec": 3.05,
+      "clipped": false
+    },
+    {
+      "id": "R04",
+      "text": "A voice whispers.",
+      "heard": "A voice whispers.",
+      "mismatches": 0,
+      "duration": 1.2,
+      "words_per_sec": 2.5,
+      "clipped": false
+    },
+    {
+      "id": "R05",
+      "text": "\"Whatever you do, don't open your bedroom door.\"",
+      "heard": "Whatever you do, don't open your bedroom door.",
+      "mismatches": 0,
+      "duration": 2.15,
+      "words_per_sec": 3.72,
+      "clipped": false
+    },
+    {
+      "id": "R06",
+      "text": "You freeze. Because something is already knocking on it.",
+      "heard": "You freeze because something is already knocking on it.",
+      "mismatches": 0,
+      "duration": 2.54,
+      "words_per_sec": 3.54,
+      "clipped": false
+    },
+    {
+      "id": "R07",
+      "text": "Three slow knocks.",
+      "heard": "3. Slow Nox",
+      "mismatches": 0,
+      "duration": 1.16,
+      "words_per_sec": 2.59,
+      "clipped": false
+    },
+    {
+      "id": "R08",
+      "text": "Then your phone vibrates again. A text message.",
+      "heard": "Then your phone vibrates again, a text message.",
+      "mismatches": 0,
+      "duration": 3.03,
+      "words_per_sec": 2.64,
+      "clipped": false
+    },
+    {
+      "id": "R09",
+      "text": "\"I'm outside. Let me in.\"",
+      "heard": "I'm outside, let me in.",
+      "mismatches": 0,
+      "duration": 1.45,
+      "words_per_sec": 3.45,
+      "clipped": false
+    },
+    {
+      "id": "R10",
+      "text": "You stare at the message. Then another one arrives.",
+      "heard": "You stare at the message, then another one arrives.",
+      "mismatches": 0,
+      "duration": 2.73,
+      "words_per_sec": 3.3,
+      "clipped": false
+    },
+    {
+      "id": "R11",
+      "text": "\"Don't listen to the thing... pretending to be me.\"",
+      "heard": "Don't listen to the thing pretending to be me.",
+      "mismatches": 0,
+      "duration": 2.43,
+      "words_per_sec": 3.7,
+      "clipped": false
+    },
+    {
+      "id": "R12",
+      "text": "Your stomach drops.",
+      "heard": "Your stomach drops.",
+      "mismatches": 0,
+      "duration": 1.04,
+      "words_per_sec": 2.88,
+      "clipped": false
+    },
+    {
+      "id": "R13",
+      "text": "Because the voice on the phone sounds exactly like yours.",
+      "heard": "because the voice on the phone sounds exactly like yours.",
+      "mismatches": 0,
+      "duration": 2.64,
+      "words_per_sec": 3.79,
+      "clipped": false
+    },
+    {
+      "id": "R14",
+      "text": "Suddenly, the knocking stops. Silence.",
+      "heard": "Suddenly, the knocking stops. Silence.",
+      "mismatches": 0,
+      "duration": 2.88,
+      "words_per_sec": 1.74,
+      "clipped": false
+    },
+    {
+      "id": "R15",
+      "text": "Then... you hear your own voice. From the hallway.",
+      "heard": "Then, you hear your own voice from the hallway.",
+      "mismatches": 0,
+      "duration": 3.06,
+      "words_per_sec": 2.94,
+      "clipped": false
+    },
+    {
+      "id": "R16",
+      "text": "\"Hey. It's okay. I'm coming inside.\"",
+      "heard": "Hey, it's okay, I'm coming inside.",
+      "mismatches": 0,
+      "duration": 1.81,
+      "words_per_sec": 3.31,
+      "clipped": false
+    },
+    {
+      "id": "R17",
+      "text": "You look at your bedroom door. The handle slowly begins to turn.",
+      "heard": "You look at your bedroom door, the handle slowly begins to turn.",
+      "mismatches": 0,
+      "duration": 3.33,
+      "words_per_sec": 3.6,
+      "clipped": false
+    },
+    {
+      "id": "R18",
+      "text": "But there's something strange.",
+      "heard": "But there's something strange.",
+      "mismatches": 0,
+      "duration": 1.38,
+      "words_per_sec": 2.9,
+      "clipped": false
+    },
+    {
+      "id": "R19",
+      "text": "Your bedroom door has no lock.",
+      "heard": "Your bedroom door has no lock.",
+      "mismatches": 0,
+      "duration": 1.7,
+      "words_per_sec": 3.53,
+      "clipped": false
+    },
+    {
+      "id": "R20",
+      "text": "And you've never heard it creak... like that before.",
+      "heard": "And you've never heard it, Creek, like that before.",
+      "mismatches": 0,
+      "duration": 2.23,
+      "words_per_sec": 4.04,
+      "clipped": false
+    },
+    {
+      "id": "R21",
+      "text": "Your phone lights up one last time. A new message.",
+      "heard": "Your phone lights up one last time. A new message.",
+      "mismatches": 0,
+      "duration": 2.72,
+      "words_per_sec": 3.68,
+      "clipped": false
+    },
+    {
+      "id": "R22",
+      "text": "\"There's a second door behind your wardrobe. Get inside. Now.\"",
+      "heard": "There's a second door behind your wardrobe, get inside, now.",
+      "mismatches": 0,
+      "duration": 2.93,
+      "words_per_sec": 3.41,
+      "clipped": false
+    },
+    {
+      "id": "R23",
+      "text": "You turn toward your wardrobe.",
+      "heard": "You turn towards your wardrobe.",
+      "mismatches": 0,
+      "duration": 1.37,
+      "words_per_sec": 3.65,
+      "clipped": false
+    },
+    {
+      "id": "R24",
+      "text": "And for the first time, you notice it. A small wooden door, behind it.",
+      "heard": "And for the first time, you notice it. A small wooden door behind it.",
+      "mismatches": 0,
+      "duration": 4.33,
+      "words_per_sec": 3.23,
+      "clipped": false
+    },
+    {
+      "id": "R25",
+      "text": "Something scratches from the other side.",
+      "heard": "Something scratches from the other side.",
+      "mismatches": 0,
+      "duration": 1.67,
+      "words_per_sec": 3.59,
+      "clipped": false
+    },
+    {
+      "id": "R26",
+      "text": "Then a voice whispers.",
+      "heard": "then a voice whispers.",
+      "mismatches": 0,
+      "duration": 1.48,
+      "words_per_sec": 2.7,
+      "clipped": false
+    },
+    {
+      "id": "R27",
+      "text": "\"Finally. You found me.\"",
+      "heard": "Finally, you found me.",
+      "mismatches": 0,
+      "duration": 1.75,
+      "words_per_sec": 2.29,
+      "clipped": false
+    },
+    {
+      "id": "R28",
+      "text": "What do you do? Comment A or B.",
+      "heard": "What do you do? Comment A or B.",
+      "mismatches": 0,
+      "duration": 1.96,
+      "words_per_sec": 4.08,
+      "clipped": false
+    },
+    {
+      "id": "R29",
+      "text": "Choose carefully. Because one of these doors leads to you.",
+      "heard": "Choose carefully because one of these doors leads to you.",
+      "mismatches": 0,
+      "duration": 2.63,
+      "words_per_sec": 3.8,
+      "clipped": false
+    },
+    {
+      "id": "R30",
+      "text": "The other leads to something wearing your face.",
+      "heard": "The other leads to something wearing your face.",
+      "mismatches": 0,
+      "duration": 2.19,
+      "words_per_sec": 3.65,
+      "clipped": false
+    },
+    {
+      "id": "R31",
+      "text": "The top comment decides.",
+      "heard": "The top comment decides.",
+      "mismatches": 0,
+      "duration": 1.24,
+      "words_per_sec": 3.23,
+      "clipped": false
+    }
+  ],
+  "gaps": [
+    0.3,
+    0.35,
+    0.3,
+    0.25,
+    0.5,
+    0.35,
+    1.4,
+    0.35,
+    0.5,
+    0.35,
+    0.5,
+    0.3,
+    0.5,
+    1.2,
+    0.35,
+    0.5,
+    0.6,
+    0.25,
+    0.3,
+    0.6,
+    0.35,
+    0.4,
+    0.25,
+    0.5,
+    0.6,
+    0.25,
+    1.1,
+    0.35,
+    0.3,
+    0.4
+  ],
+  "total": 80.75,
+  "peak_db": -2.64,
+  "passed": true
+}

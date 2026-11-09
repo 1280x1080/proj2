@@ -1,4 +1,12 @@
 {
+  "breath_close": {
+    "file": "breath_close.flac",
+    "description": "Slow breathing very close to a door, 3 s",
+    "category": "body",
+    "loop": false,
+    "duration": 3.173,
+    "peak_db": -10.0
+  },
   "click_ui": {
     "file": "click_ui.flac",
     "description": "Crisp UI click",
@@ -22,6 +30,14 @@
     "loop": false,
     "duration": 0.959,
     "peak_db": -3.0
+  },
+  "door_creak_long": {
+    "file": "door_creak_long.flac",
+    "description": "Wooden door creaking open a crack, low and wrong, 2.4 s",
+    "category": "foley",
+    "loop": false,
+    "duration": 3.355,
+    "peak_db": -5.0
   },
   "door_knock": {
     "file": "door_knock.flac",
@@ -47,6 +63,14 @@
     "duration": 0.689,
     "peak_db": -3.0
   },
+  "floor_creak": {
+    "file": "floor_creak.flac",
+    "description": "Single floorboard creak in the hallway, 0.9 s",
+    "category": "foley",
+    "loop": false,
+    "duration": 1.603,
+    "peak_db": -8.0
+  },
   "footstep_hard": {
     "file": "footstep_hard.flac",
     "description": "Single shoe step on hard floor",
@@ -70,6 +94,14 @@
     "loop": false,
     "duration": 1.049,
     "peak_db": -8.0
+  },
+  "handle_creak": {
+    "file": "handle_creak.flac",
+    "description": "Door lever handle slowly turning: metal squeak + latch friction, 1.8 s",
+    "category": "foley",
+    "loop": false,
+    "duration": 2.34,
+    "peak_db": -6.0
   },
   "heartbeat": {
     "file": "heartbeat.flac",
@@ -103,6 +135,14 @@
     "duration": 0.85,
     "peak_db": -3.0
   },
+  "knock_slow": {
+    "file": "knock_slow.flac",
+    "description": "One heavy, slow knuckle knock on a bedroom door (from inside the room)",
+    "category": "foley",
+    "loop": false,
+    "duration": 1.091,
+    "peak_db": -2.0
+  },
   "lamp_buzz": {
     "file": "lamp_buzz.flac",
     "description": "Mains hum of an old lamp: 50/100 Hz hum + faint crackle, 6 s loopable",
@@ -110,6 +150,30 @@
     "loop": true,
     "duration": 6.0,
     "peak_db": -30.0
+  },
+  "night_room": {
+    "file": "night_room.flac",
+    "description": "Bedroom at 3 AM: fridge hum through the wall, distant traffic, soft wind, 10 s loopable",
+    "category": "ambience",
+    "loop": true,
+    "duration": 10.0,
+    "peak_db": -22.0
+  },
+  "phone_ring": {
+    "file": "phone_ring.flac",
+    "description": "Phone ringtone through a small speaker, one 2.2 s ring cycle",
+    "category": "phone",
+    "loop": false,
+    "duration": 1.53,
+    "peak_db": -4.0
+  },
+  "phone_vibrate": {
+    "file": "phone_vibrate.flac",
+    "description": "Phone vibrating on a wooden nightstand, 1.2 s",
+    "category": "phone",
+    "loop": false,
+    "duration": 1.343,
+    "peak_db": -6.0
   },
   "pluck_note": {
     "file": "pluck_note.flac",
@@ -151,6 +215,22 @@
     "duration": 7.0,
     "peak_db": -26.0
   },
+  "scratch_wood": {
+    "file": "scratch_wood.flac",
+    "description": "Nails slowly scratching wood from the other side, 1.6 s",
+    "category": "foley",
+    "loop": false,
+    "duration": 2.287,
+    "peak_db": -6.0
+  },
+  "text_ping": {
+    "file": "text_ping.flac",
+    "description": "Soft incoming-text chime (phone speaker)",
+    "category": "phone",
+    "loop": false,
+    "duration": 0.9,
+    "peak_db": -8.0
+  },
   "thud_wood": {
     "file": "thud_wood.flac",
     "description": "Knock / object set down on a wooden table",
@@ -166,6 +246,14 @@
     "loop": false,
     "duration": 0.022,
     "peak_db": -10.0
+  },
+  "tinnitus": {
+    "file": "tinnitus.flac",
+    "description": "Silence-ringing: faint high tone over still air, 6 s loopable",
+    "category": "ambience",
+    "loop": true,
+    "duration": 6.0,
+    "peak_db": -30.0
   },
   "whoosh": {
     "file": "whoosh.flac",

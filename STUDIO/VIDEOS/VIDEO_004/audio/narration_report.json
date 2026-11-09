@@ -1,0 +1,1898 @@
+{
+  "R01": {
+    "key": "3098e4cea640",
+    "text": "You wake up at three-seventeen AM.",
+    "chosen": "R01_r1_t2.wav",
+    "mismatches": 0,
+    "heard": "You wake up at 3.17am.",
+    "duration": 1.97,
+    "words": [
+      {
+        "w": "You",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "w": "wake",
+        "start": 0.16,
+        "end": 0.32
+      },
+      {
+        "w": "up",
+        "start": 0.32,
+        "end": 0.52
+      },
+      {
+        "w": "at",
+        "start": 0.52,
+        "end": 0.7
+      },
+      {
+        "w": "three-seventeen",
+        "start": 0.7,
+        "end": 1.26
+      },
+      {
+        "w": "AM.",
+        "start": 1.26,
+        "end": 1.64
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R01_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "You wake up at 3.17am.",
+        "gen_seconds": 15.1
+      },
+      {
+        "file": "R01_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "You wake up at 3.17 a.m.",
+        "gen_seconds": 14.2
+      },
+      {
+        "file": "R01_r0_t2.wav",
+        "mismatches": 0,
+        "heard": "You wake up at 3.17 a.m.",
+        "gen_seconds": 14.6
+      },
+      {
+        "file": "R01_r1_t0.wav",
+        "mismatches": 0,
+        "heard": "You wake up at 3.17am.",
+        "gen_seconds": 15.2
+      },
+      {
+        "file": "R01_r1_t1.wav",
+        "mismatches": 0,
+        "heard": "You wake up at 3.17am.",
+        "gen_seconds": 14.8
+      },
+      {
+        "file": "R01_r1_t2.wav",
+        "mismatches": 0,
+        "heard": "You wake up at 3.17am.",
+        "gen_seconds": 15.4
+      }
+    ]
+  },
+  "R02": {
+    "key": "f77cda6268e9",
+    "text": "Your phone is ringing.",
+    "chosen": "R02_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Your phone is ringing.",
+    "duration": 1.08,
+    "words": [
+      {
+        "w": "Your",
+        "start": 0.0,
+        "end": 0.2
+      },
+      {
+        "w": "phone",
+        "start": 0.2,
+        "end": 0.44
+      },
+      {
+        "w": "is",
+        "start": 0.44,
+        "end": 0.58
+      },
+      {
+        "w": "ringing.",
+        "start": 0.58,
+        "end": 0.8
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R02_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Your phone is ringing.",
+        "gen_seconds": 8.2
+      },
+      {
+        "file": "R02_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Your phone is ringing.",
+        "gen_seconds": 9.8
+      }
+    ]
+  },
+  "R03": {
+    "key": "e16364946ae8",
+    "text": "It's an unknown number. You answer.",
+    "chosen": "R03_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "It's an unknown number, you answer.",
+    "duration": 1.97,
+    "words": [
+      {
+        "w": "It's",
+        "start": 0.0,
+        "end": 0.2
+      },
+      {
+        "w": "an",
+        "start": 0.2,
+        "end": 0.26
+      },
+      {
+        "w": "unknown",
+        "start": 0.26,
+        "end": 0.66
+      },
+      {
+        "w": "number.",
+        "start": 0.66,
+        "end": 1.06
+      },
+      {
+        "w": "You",
+        "start": 1.34,
+        "end": 1.42
+      },
+      {
+        "w": "answer.",
+        "start": 1.42,
+        "end": 1.66
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R03_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "It's an unknown number, you answer.",
+        "gen_seconds": 15.5
+      },
+      {
+        "file": "R03_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "It's an unknown number, you answer.",
+        "gen_seconds": 15.0
+      }
+    ]
+  },
+  "R04": {
+    "key": "72f5487f3877",
+    "text": "A voice whispers.",
+    "chosen": "R04_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "A voice whispers.",
+    "duration": 1.2,
+    "words": [
+      {
+        "w": "A",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "w": "voice",
+        "start": 0.16,
+        "end": 0.38
+      },
+      {
+        "w": "whispers.",
+        "start": 0.38,
+        "end": 0.78
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R04_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "A voice whispers.",
+        "gen_seconds": 11.3
+      },
+      {
+        "file": "R04_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "A voice whispers.",
+        "gen_seconds": 11.1
+      }
+    ]
+  },
+  "R05": {
+    "key": "d5f6f65855d7",
+    "text": "\"Whatever you do, don't open your bedroom door.\"",
+    "chosen": "R05_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Whatever you do, don't open your bedroom door.",
+    "duration": 2.15,
+    "words": [
+      {
+        "w": "\"Whatever",
+        "start": 0.0,
+        "end": 0.22
+      },
+      {
+        "w": "you",
+        "start": 0.22,
+        "end": 0.46
+      },
+      {
+        "w": "do,",
+        "start": 0.46,
+        "end": 0.7
+      },
+      {
+        "w": "don't",
+        "start": 0.92,
+        "end": 1.08
+      },
+      {
+        "w": "open",
+        "start": 1.08,
+        "end": 1.26
+      },
+      {
+        "w": "your",
+        "start": 1.26,
+        "end": 1.42
+      },
+      {
+        "w": "bedroom",
+        "start": 1.42,
+        "end": 1.6
+      },
+      {
+        "w": "door.\"",
+        "start": 1.6,
+        "end": 1.92
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R05_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Whatever you do, don't open your bedroom door.",
+        "gen_seconds": 15.6
+      },
+      {
+        "file": "R05_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Whatever you do, don't open your bedroom door.",
+        "gen_seconds": 14.5
+      }
+    ]
+  },
+  "R06": {
+    "key": "eedb6950ab93",
+    "text": "You freeze. Because something is already knocking on it.",
+    "chosen": "R06_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "You freeze, because something is already knocking on it.",
+    "duration": 2.54,
+    "words": [
+      {
+        "w": "You",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "w": "freeze.",
+        "start": 0.16,
+        "end": 0.46
+      },
+      {
+        "w": "Because",
+        "start": 0.74,
+        "end": 1.0
+      },
+      {
+        "w": "something",
+        "start": 1.0,
+        "end": 1.22
+      },
+      {
+        "w": "is",
+        "start": 1.22,
+        "end": 1.4
+      },
+      {
+        "w": "already",
+        "start": 1.4,
+        "end": 1.68
+      },
+      {
+        "w": "knocking",
+        "start": 1.68,
+        "end": 2.0
+      },
+      {
+        "w": "on",
+        "start": 2.0,
+        "end": 2.22
+      },
+      {
+        "w": "it.",
+        "start": 2.22,
+        "end": 2.38
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R06_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "You freeze, because something is already knocking on it.",
+        "gen_seconds": 15.3
+      },
+      {
+        "file": "R06_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "You freeze, because something is already knocking on it.",
+        "gen_seconds": 17.0
+      }
+    ]
+  },
+  "R07": {
+    "key": "fed1db885cf0",
+    "text": "Three slow knocks.",
+    "chosen": "R07_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Three slow knocks.",
+    "duration": 1.16,
+    "words": [
+      {
+        "w": "Three",
+        "start": 0.0,
+        "end": 0.24
+      },
+      {
+        "w": "slow",
+        "start": 0.24,
+        "end": 0.54
+      },
+      {
+        "w": "knocks.",
+        "start": 0.54,
+        "end": 0.86
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R07_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Three slow knocks.",
+        "gen_seconds": 11.1
+      },
+      {
+        "file": "R07_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Three slow knocks.",
+        "gen_seconds": 11.3
+      }
+    ]
+  },
+  "R08": {
+    "key": "38f56df947be",
+    "text": "Then your phone vibrates again. A text message.",
+    "chosen": "R08_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Then your phone vibrates again, a text message.",
+    "duration": 3.03,
+    "words": [
+      {
+        "w": "Then",
+        "start": 0.0,
+        "end": 0.3
+      },
+      {
+        "w": "your",
+        "start": 0.3,
+        "end": 0.56
+      },
+      {
+        "w": "phone",
+        "start": 0.56,
+        "end": 0.82
+      },
+      {
+        "w": "vibrates",
+        "start": 0.82,
+        "end": 1.38
+      },
+      {
+        "w": "again.",
+        "start": 1.38,
+        "end": 1.68
+      },
+      {
+        "w": "A",
+        "start": 2.08,
+        "end": 2.18
+      },
+      {
+        "w": "text",
+        "start": 2.18,
+        "end": 2.38
+      },
+      {
+        "w": "message.",
+        "start": 2.38,
+        "end": 2.76
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R08_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Then your phone vibrates again, a text message.",
+        "gen_seconds": 18.1
+      },
+      {
+        "file": "R08_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Then your phone vibrates again, a text message.",
+        "gen_seconds": 18.1
+      }
+    ]
+  },
+  "R09": {
+    "key": "62dd711b59da",
+    "text": "\"I'm outside. Let me in.\"",
+    "chosen": "R09_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "I'm outside. Let me in.",
+    "duration": 1.45,
+    "words": [
+      {
+        "w": "\"I'm",
+        "start": 0.0,
+        "end": 0.18
+      },
+      {
+        "w": "outside.",
+        "start": 0.18,
+        "end": 0.56
+      },
+      {
+        "w": "Let",
+        "start": 0.88,
+        "end": 0.94
+      },
+      {
+        "w": "me",
+        "start": 0.94,
+        "end": 1.08
+      },
+      {
+        "w": "in.\"",
+        "start": 1.08,
+        "end": 1.28
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R09_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "I'm outside. Let me in.",
+        "gen_seconds": 12.8
+      },
+      {
+        "file": "R09_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "I'm outside. Let me in.",
+        "gen_seconds": 12.8
+      }
+    ]
+  },
+  "R10": {
+    "key": "85f7ae8e47db",
+    "text": "You stare at the message. Then another one arrives.",
+    "chosen": "R10_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "You stare at the message, then another one arrives.",
+    "duration": 2.73,
+    "words": [
+      {
+        "w": "You",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "w": "stare",
+        "start": 0.16,
+        "end": 0.36
+      },
+      {
+        "w": "at",
+        "start": 0.36,
+        "end": 0.48
+      },
+      {
+        "w": "the",
+        "start": 0.48,
+        "end": 0.56
+      },
+      {
+        "w": "message.",
+        "start": 0.56,
+        "end": 0.94
+      },
+      {
+        "w": "Then",
+        "start": 1.42,
+        "end": 1.64
+      },
+      {
+        "w": "another",
+        "start": 1.64,
+        "end": 1.88
+      },
+      {
+        "w": "one",
+        "start": 1.88,
+        "end": 2.06
+      },
+      {
+        "w": "arrives.",
+        "start": 2.06,
+        "end": 2.38
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R10_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "You stare at the message, then another one arrives.",
+        "gen_seconds": 17.3
+      },
+      {
+        "file": "R10_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "you stare at the message. Then another one arrives.",
+        "gen_seconds": 17.9
+      }
+    ]
+  },
+  "R11": {
+    "key": "2afabc1523e8",
+    "text": "\"Don't listen to the thing... pretending to be me.\"",
+    "chosen": "R11_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Don't listen to the thing pretending to be me.",
+    "duration": 2.43,
+    "words": [
+      {
+        "w": "\"Don't",
+        "start": 0.0,
+        "end": 0.36
+      },
+      {
+        "w": "listen",
+        "start": 0.36,
+        "end": 0.58
+      },
+      {
+        "w": "to",
+        "start": 0.58,
+        "end": 0.82
+      },
+      {
+        "w": "the",
+        "start": 0.82,
+        "end": 0.94
+      },
+      {
+        "w": "thing...",
+        "start": 0.94,
+        "end": 1.16
+      },
+      {
+        "w": "pretending",
+        "start": 1.16,
+        "end": 1.56
+      },
+      {
+        "w": "to",
+        "start": 1.56,
+        "end": 1.84
+      },
+      {
+        "w": "be",
+        "start": 1.84,
+        "end": 1.98
+      },
+      {
+        "w": "me.\"",
+        "start": 1.98,
+        "end": 2.18
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R11_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Don't listen to the thing pretending to be me.",
+        "gen_seconds": 15.1
+      },
+      {
+        "file": "R11_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Don't listen to the thing, pretending to be me.",
+        "gen_seconds": 13.9
+      }
+    ]
+  },
+  "R12": {
+    "key": "15f68b4cf65d",
+    "text": "Your stomach drops.",
+    "chosen": "R12_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Your stomach drops!",
+    "duration": 1.04,
+    "words": [
+      {
+        "w": "Your",
+        "start": 0.0,
+        "end": 0.18
+      },
+      {
+        "w": "stomach",
+        "start": 0.18,
+        "end": 0.42
+      },
+      {
+        "w": "drops.",
+        "start": 0.42,
+        "end": 0.78
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R12_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Your stomach drops!",
+        "gen_seconds": 11.5
+      },
+      {
+        "file": "R12_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Your stomach drops.",
+        "gen_seconds": 10.4
+      }
+    ]
+  },
+  "R13": {
+    "key": "e2fbd45097da",
+    "text": "Because the voice on the phone sounds exactly like yours.",
+    "chosen": "R13_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "because the voice on the phone sounds exactly like yours.",
+    "duration": 2.64,
+    "words": [
+      {
+        "w": "Because",
+        "start": 0.0,
+        "end": 0.28
+      },
+      {
+        "w": "the",
+        "start": 0.28,
+        "end": 0.42
+      },
+      {
+        "w": "voice",
+        "start": 0.42,
+        "end": 0.62
+      },
+      {
+        "w": "on",
+        "start": 0.62,
+        "end": 0.8
+      },
+      {
+        "w": "the",
+        "start": 0.8,
+        "end": 0.9
+      },
+      {
+        "w": "phone",
+        "start": 0.9,
+        "end": 1.1
+      },
+      {
+        "w": "sounds",
+        "start": 1.1,
+        "end": 1.38
+      },
+      {
+        "w": "exactly",
+        "start": 1.38,
+        "end": 1.76
+      },
+      {
+        "w": "like",
+        "start": 1.76,
+        "end": 2.1
+      },
+      {
+        "w": "yours.",
+        "start": 2.1,
+        "end": 2.32
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R13_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "because the voice on the phone sounds exactly like yours.",
+        "gen_seconds": 16.7
+      },
+      {
+        "file": "R13_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "because the voice on the phone sounds exactly like yours.",
+        "gen_seconds": 17.7
+      }
+    ]
+  },
+  "R14": {
+    "key": "f17c2fd4765b",
+    "text": "Suddenly, the knocking stops. Silence.",
+    "chosen": "R14_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Suddenly, the knocking stops. Silence.",
+    "duration": 2.88,
+    "words": [
+      {
+        "w": "Suddenly,",
+        "start": 0.0,
+        "end": 0.48
+      },
+      {
+        "w": "the",
+        "start": 0.86,
+        "end": 0.92
+      },
+      {
+        "w": "knocking",
+        "start": 0.92,
+        "end": 1.18
+      },
+      {
+        "w": "stops.",
+        "start": 1.18,
+        "end": 1.72
+      },
+      {
+        "w": "Silence.",
+        "start": 2.24,
+        "end": 2.4
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R14_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Suddenly, the knocking stops. Silence.",
+        "gen_seconds": 17.4
+      },
+      {
+        "file": "R14_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Suddenly, the knocking stops. Silence.",
+        "gen_seconds": 17.8
+      }
+    ]
+  },
+  "R15": {
+    "key": "d55cd6e059b7",
+    "text": "Then... you hear your own voice. From the hallway.",
+    "chosen": "R15_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Then you hear your own voice, from the hallway.",
+    "duration": 3.06,
+    "words": [
+      {
+        "w": "Then...",
+        "start": 0.0,
+        "end": 0.34
+      },
+      {
+        "w": "you",
+        "start": 0.34,
+        "end": 0.68
+      },
+      {
+        "w": "hear",
+        "start": 0.68,
+        "end": 0.84
+      },
+      {
+        "w": "your",
+        "start": 0.84,
+        "end": 1.02
+      },
+      {
+        "w": "own",
+        "start": 1.02,
+        "end": 1.26
+      },
+      {
+        "w": "voice.",
+        "start": 1.26,
+        "end": 1.64
+      },
+      {
+        "w": "From",
+        "start": 2.0,
+        "end": 2.16
+      },
+      {
+        "w": "the",
+        "start": 2.16,
+        "end": 2.32
+      },
+      {
+        "w": "hallway.",
+        "start": 2.32,
+        "end": 2.62
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R15_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Then you hear your own voice, from the hallway.",
+        "gen_seconds": 16.9
+      },
+      {
+        "file": "R15_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Then you hear your own voice, from the hallway.",
+        "gen_seconds": 18.5
+      }
+    ]
+  },
+  "R16": {
+    "key": "608cad87ca9b",
+    "text": "\"Hey. It's okay. I'm coming inside.\"",
+    "chosen": "R16_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Hey, it's okay, I'm coming inside.",
+    "duration": 1.81,
+    "words": [
+      {
+        "w": "\"Hey.",
+        "start": 0.0,
+        "end": 0.26
+      },
+      {
+        "w": "It's",
+        "start": 0.46,
+        "end": 0.58
+      },
+      {
+        "w": "okay.",
+        "start": 0.58,
+        "end": 0.8
+      },
+      {
+        "w": "I'm",
+        "start": 0.92,
+        "end": 1.06
+      },
+      {
+        "w": "coming",
+        "start": 1.06,
+        "end": 1.2
+      },
+      {
+        "w": "inside.\"",
+        "start": 1.2,
+        "end": 1.54
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R16_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Hey, it's okay, I'm coming inside.",
+        "gen_seconds": 16.3
+      },
+      {
+        "file": "R16_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Hey, it's okay, I'm coming inside.",
+        "gen_seconds": 13.9
+      }
+    ]
+  },
+  "R17": {
+    "key": "4204989ad18c",
+    "text": "You look at your bedroom door. The handle slowly begins to turn.",
+    "chosen": "R17_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "You look at your bedroom door, the handle slowly begins to turn.",
+    "duration": 3.33,
+    "words": [
+      {
+        "w": "You",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "w": "look",
+        "start": 0.16,
+        "end": 0.3
+      },
+      {
+        "w": "at",
+        "start": 0.3,
+        "end": 0.42
+      },
+      {
+        "w": "your",
+        "start": 0.42,
+        "end": 0.56
+      },
+      {
+        "w": "bedroom",
+        "start": 0.56,
+        "end": 0.8
+      },
+      {
+        "w": "door.",
+        "start": 0.8,
+        "end": 1.14
+      },
+      {
+        "w": "The",
+        "start": 1.56,
+        "end": 1.66
+      },
+      {
+        "w": "handle",
+        "start": 1.66,
+        "end": 1.92
+      },
+      {
+        "w": "slowly",
+        "start": 1.92,
+        "end": 2.26
+      },
+      {
+        "w": "begins",
+        "start": 2.26,
+        "end": 2.56
+      },
+      {
+        "w": "to",
+        "start": 2.56,
+        "end": 2.82
+      },
+      {
+        "w": "turn.",
+        "start": 2.82,
+        "end": 3.04
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R17_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "You look at your bedroom door, the handle slowly begins to turn.",
+        "gen_seconds": 18.8
+      },
+      {
+        "file": "R17_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "You look at your bedroom door, the handle slowly begins to turn.",
+        "gen_seconds": 19.2
+      }
+    ]
+  },
+  "R18": {
+    "key": "583c75f8f170",
+    "text": "But there's something strange.",
+    "chosen": "R18_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "But there's something strange.",
+    "duration": 1.38,
+    "words": [
+      {
+        "w": "But",
+        "start": 0.0,
+        "end": 0.14
+      },
+      {
+        "w": "there's",
+        "start": 0.14,
+        "end": 0.36
+      },
+      {
+        "w": "something",
+        "start": 0.36,
+        "end": 0.54
+      },
+      {
+        "w": "strange.",
+        "start": 0.54,
+        "end": 0.98
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R18_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "But there's something strange.",
+        "gen_seconds": 12.4
+      },
+      {
+        "file": "R18_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "But there's something strange.",
+        "gen_seconds": 11.9
+      }
+    ]
+  },
+  "R19": {
+    "key": "37def35f61cb",
+    "text": "Your bedroom door has no lock.",
+    "chosen": "R19_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Your bedroom door has no lock.",
+    "duration": 1.7,
+    "words": [
+      {
+        "w": "Your",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "w": "bedroom",
+        "start": 0.16,
+        "end": 0.48
+      },
+      {
+        "w": "door",
+        "start": 0.48,
+        "end": 0.74
+      },
+      {
+        "w": "has",
+        "start": 0.74,
+        "end": 0.98
+      },
+      {
+        "w": "no",
+        "start": 0.98,
+        "end": 1.18
+      },
+      {
+        "w": "lock.",
+        "start": 1.18,
+        "end": 1.48
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R19_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Your bedroom door has no lock.",
+        "gen_seconds": 13.0
+      },
+      {
+        "file": "R19_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Your bedroom door has no lock.",
+        "gen_seconds": 11.9
+      }
+    ]
+  },
+  "R20": {
+    "key": "f2468d27e07c",
+    "text": "And you've never heard it creak... like that before.",
+    "chosen": "R20_r0_t2.wav",
+    "mismatches": 0,
+    "heard": "And you've never heard it creak like that before.",
+    "duration": 2.23,
+    "words": [
+      {
+        "w": "And",
+        "start": 0.0,
+        "end": 0.12
+      },
+      {
+        "w": "you've",
+        "start": 0.12,
+        "end": 0.28
+      },
+      {
+        "w": "never",
+        "start": 0.28,
+        "end": 0.42
+      },
+      {
+        "w": "heard",
+        "start": 0.42,
+        "end": 0.66
+      },
+      {
+        "w": "it",
+        "start": 0.66,
+        "end": 0.8
+      },
+      {
+        "w": "creak...",
+        "start": 0.8,
+        "end": 1.16
+      },
+      {
+        "w": "like",
+        "start": 1.16,
+        "end": 1.42
+      },
+      {
+        "w": "that",
+        "start": 1.42,
+        "end": 1.66
+      },
+      {
+        "w": "before.",
+        "start": 1.66,
+        "end": 1.96
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R20_r0_t0.wav",
+        "mismatches": 1,
+        "heard": "And you've never heard it creak, like not before.",
+        "gen_seconds": 14.3
+      },
+      {
+        "file": "R20_r0_t1.wav",
+        "mismatches": 1,
+        "heard": "And you've never heard a creak like that before.",
+        "gen_seconds": 13.8
+      },
+      {
+        "file": "R20_r0_t2.wav",
+        "mismatches": 0,
+        "heard": "And you've never heard it creak like that before.",
+        "gen_seconds": 14.5
+      }
+    ]
+  },
+  "R21": {
+    "key": "715d1ecf04dc",
+    "text": "Your phone lights up one last time. A new message.",
+    "chosen": "R21_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Your phone lights up one last time, a new message.",
+    "duration": 2.72,
+    "words": [
+      {
+        "w": "Your",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "w": "phone",
+        "start": 0.16,
+        "end": 0.4
+      },
+      {
+        "w": "lights",
+        "start": 0.4,
+        "end": 0.64
+      },
+      {
+        "w": "up",
+        "start": 0.64,
+        "end": 0.84
+      },
+      {
+        "w": "one",
+        "start": 0.84,
+        "end": 1.04
+      },
+      {
+        "w": "last",
+        "start": 1.04,
+        "end": 1.3
+      },
+      {
+        "w": "time.",
+        "start": 1.3,
+        "end": 1.66
+      },
+      {
+        "w": "A",
+        "start": 1.9,
+        "end": 2.0
+      },
+      {
+        "w": "new",
+        "start": 2.0,
+        "end": 2.14
+      },
+      {
+        "w": "message.",
+        "start": 2.14,
+        "end": 2.44
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R21_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Your phone lights up one last time, a new message.",
+        "gen_seconds": 16.6
+      },
+      {
+        "file": "R21_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Your phone lights up one last time, a new message.",
+        "gen_seconds": 15.5
+      }
+    ]
+  },
+  "R22": {
+    "key": "3ab0cfca1a68",
+    "text": "\"There's a second door behind your wardrobe. Get inside. Now.\"",
+    "chosen": "R22_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "There's a second door behind your wardrobe. Get inside, now.",
+    "duration": 2.93,
+    "words": [
+      {
+        "w": "\"There's",
+        "start": 0.0,
+        "end": 0.2
+      },
+      {
+        "w": "a",
+        "start": 0.2,
+        "end": 0.3
+      },
+      {
+        "w": "second",
+        "start": 0.3,
+        "end": 0.5
+      },
+      {
+        "w": "door",
+        "start": 0.5,
+        "end": 0.7
+      },
+      {
+        "w": "behind",
+        "start": 0.7,
+        "end": 0.98
+      },
+      {
+        "w": "your",
+        "start": 0.98,
+        "end": 1.12
+      },
+      {
+        "w": "wardrobe.",
+        "start": 1.12,
+        "end": 1.52
+      },
+      {
+        "w": "Get",
+        "start": 1.72,
+        "end": 1.8
+      },
+      {
+        "w": "inside.",
+        "start": 1.8,
+        "end": 2.16
+      },
+      {
+        "w": "Now.\"",
+        "start": 2.36,
+        "end": 2.64
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R22_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "There's a second door behind your wardrobe. Get inside, now.",
+        "gen_seconds": 17.1
+      },
+      {
+        "file": "R22_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "There's a second door behind your wardrobe. Get inside, now.",
+        "gen_seconds": 17.0
+      }
+    ]
+  },
+  "R23": {
+    "key": "31bb2ed50b1e",
+    "text": "You turn toward your wardrobe.",
+    "chosen": "R23_r0_t2.wav",
+    "mismatches": 0,
+    "heard": "you turn toward your wardrobe.",
+    "duration": 1.37,
+    "words": [
+      {
+        "w": "You",
+        "start": 0.0,
+        "end": 0.14
+      },
+      {
+        "w": "turn",
+        "start": 0.14,
+        "end": 0.34
+      },
+      {
+        "w": "toward",
+        "start": 0.34,
+        "end": 0.6
+      },
+      {
+        "w": "your",
+        "start": 0.6,
+        "end": 0.78
+      },
+      {
+        "w": "wardrobe.",
+        "start": 0.78,
+        "end": 1.14
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R23_r0_t0.wav",
+        "mismatches": 1,
+        "heard": "You turn towards your wardrobe.",
+        "gen_seconds": 12.1
+      },
+      {
+        "file": "R23_r0_t1.wav",
+        "mismatches": 1,
+        "heard": "You turn towards your wardrobe.",
+        "gen_seconds": 11.7
+      },
+      {
+        "file": "R23_r0_t2.wav",
+        "mismatches": 0,
+        "heard": "you turn toward your wardrobe.",
+        "gen_seconds": 11.2
+      }
+    ]
+  },
+  "R24": {
+    "key": "41f21f6dd961",
+    "text": "And for the first time, you notice it. A small wooden door, behind it.",
+    "chosen": "R24_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "And for the first time, you notice it, a small wooden door behind it.",
+    "duration": 4.33,
+    "words": [
+      {
+        "w": "And",
+        "start": 0.0,
+        "end": 0.32
+      },
+      {
+        "w": "for",
+        "start": 0.32,
+        "end": 0.48
+      },
+      {
+        "w": "the",
+        "start": 0.48,
+        "end": 0.6
+      },
+      {
+        "w": "first",
+        "start": 0.6,
+        "end": 0.78
+      },
+      {
+        "w": "time,",
+        "start": 0.78,
+        "end": 1.08
+      },
+      {
+        "w": "you",
+        "start": 1.4,
+        "end": 1.5
+      },
+      {
+        "w": "notice",
+        "start": 1.5,
+        "end": 1.8
+      },
+      {
+        "w": "it.",
+        "start": 1.8,
+        "end": 2.06
+      },
+      {
+        "w": "A",
+        "start": 2.42,
+        "end": 2.56
+      },
+      {
+        "w": "small",
+        "start": 2.56,
+        "end": 2.84
+      },
+      {
+        "w": "wooden",
+        "start": 2.84,
+        "end": 3.06
+      },
+      {
+        "w": "door,",
+        "start": 3.06,
+        "end": 3.42
+      },
+      {
+        "w": "behind",
+        "start": 3.42,
+        "end": 3.9
+      },
+      {
+        "w": "it.",
+        "start": 3.9,
+        "end": 4.18
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R24_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "And for the first time, you notice it, a small wooden door behind it.",
+        "gen_seconds": 21.2
+      },
+      {
+        "file": "R24_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "And for the first time, you notice it, a small wooden door behind it.",
+        "gen_seconds": 23.6
+      }
+    ]
+  },
+  "R25": {
+    "key": "5761030df34e",
+    "text": "Something scratches from the other side.",
+    "chosen": "R25_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Something scratches from the other side.",
+    "duration": 1.67,
+    "words": [
+      {
+        "w": "Something",
+        "start": 0.0,
+        "end": 0.34
+      },
+      {
+        "w": "scratches",
+        "start": 0.34,
+        "end": 0.66
+      },
+      {
+        "w": "from",
+        "start": 0.66,
+        "end": 0.96
+      },
+      {
+        "w": "the",
+        "start": 0.96,
+        "end": 1.06
+      },
+      {
+        "w": "other",
+        "start": 1.06,
+        "end": 1.22
+      },
+      {
+        "w": "side.",
+        "start": 1.22,
+        "end": 1.5
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R25_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Something scratches from the other side.",
+        "gen_seconds": 11.8
+      },
+      {
+        "file": "R25_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Something scratches from the other side.",
+        "gen_seconds": 13.1
+      }
+    ]
+  },
+  "R26": {
+    "key": "a89182246d82",
+    "text": "Then a voice whispers.",
+    "chosen": "R26_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Then a voice whispers.",
+    "duration": 1.48,
+    "words": [
+      {
+        "w": "Then",
+        "start": 0.0,
+        "end": 0.3
+      },
+      {
+        "w": "a",
+        "start": 0.3,
+        "end": 0.5
+      },
+      {
+        "w": "voice",
+        "start": 0.5,
+        "end": 0.74
+      },
+      {
+        "w": "whispers.",
+        "start": 0.74,
+        "end": 1.14
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R26_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Then a voice whispers.",
+        "gen_seconds": 10.7
+      },
+      {
+        "file": "R26_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Then a voice whispers.",
+        "gen_seconds": 11.7
+      }
+    ]
+  },
+  "R27": {
+    "key": "f49640a2a587",
+    "text": "\"Finally. You found me.\"",
+    "chosen": "R27_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Finally, you found me.",
+    "duration": 1.75,
+    "words": [
+      {
+        "w": "\"Finally.",
+        "start": 0.0,
+        "end": 0.48
+      },
+      {
+        "w": "You",
+        "start": 0.94,
+        "end": 1.04
+      },
+      {
+        "w": "found",
+        "start": 1.04,
+        "end": 1.28
+      },
+      {
+        "w": "me.\"",
+        "start": 1.28,
+        "end": 1.56
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R27_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Finally, you found me.",
+        "gen_seconds": 12.1
+      },
+      {
+        "file": "R27_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Finally, you found me.",
+        "gen_seconds": 10.1
+      }
+    ]
+  },
+  "R28": {
+    "key": "8cdce3846195",
+    "text": "What do you do? Comment A or B.",
+    "chosen": "R28_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "What do you do? Comment A or B.",
+    "duration": 1.96,
+    "words": [
+      {
+        "w": "What",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "w": "do",
+        "start": 0.16,
+        "end": 0.3
+      },
+      {
+        "w": "you",
+        "start": 0.3,
+        "end": 0.38
+      },
+      {
+        "w": "do?",
+        "start": 0.38,
+        "end": 0.6
+      },
+      {
+        "w": "Comment",
+        "start": 1.08,
+        "end": 1.12
+      },
+      {
+        "w": "A",
+        "start": 1.12,
+        "end": 1.38
+      },
+      {
+        "w": "or",
+        "start": 1.38,
+        "end": 1.56
+      },
+      {
+        "w": "B.",
+        "start": 1.56,
+        "end": 1.76
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R28_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "What do you do? Comment A or B.",
+        "gen_seconds": 12.8
+      },
+      {
+        "file": "R28_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "What do you do? Comment A or B.",
+        "gen_seconds": 13.5
+      }
+    ]
+  },
+  "R29": {
+    "key": "44780a176517",
+    "text": "Choose carefully. Because one of these doors leads to you.",
+    "chosen": "R29_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Choose carefully, because one of these doors leads to you.",
+    "duration": 2.63,
+    "words": [
+      {
+        "w": "Choose",
+        "start": 0.0,
+        "end": 0.24
+      },
+      {
+        "w": "carefully.",
+        "start": 0.24,
+        "end": 0.68
+      },
+      {
+        "w": "Because",
+        "start": 0.96,
+        "end": 1.2
+      },
+      {
+        "w": "one",
+        "start": 1.2,
+        "end": 1.38
+      },
+      {
+        "w": "of",
+        "start": 1.38,
+        "end": 1.5
+      },
+      {
+        "w": "these",
+        "start": 1.5,
+        "end": 1.64
+      },
+      {
+        "w": "doors",
+        "start": 1.64,
+        "end": 1.86
+      },
+      {
+        "w": "leads",
+        "start": 1.86,
+        "end": 2.06
+      },
+      {
+        "w": "to",
+        "start": 2.06,
+        "end": 2.3
+      },
+      {
+        "w": "you.",
+        "start": 2.3,
+        "end": 2.48
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R29_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Choose carefully, because one of these doors leads to you.",
+        "gen_seconds": 14.8
+      },
+      {
+        "file": "R29_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Choose carefully, because one of these doors leads to you.",
+        "gen_seconds": 17.8
+      }
+    ]
+  },
+  "R30": {
+    "key": "6dbc9a31cc66",
+    "text": "The other leads to something wearing your face.",
+    "chosen": "R30_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "The other leads to something wearing your face.",
+    "duration": 2.19,
+    "words": [
+      {
+        "w": "The",
+        "start": 0.0,
+        "end": 0.12
+      },
+      {
+        "w": "other",
+        "start": 0.12,
+        "end": 0.32
+      },
+      {
+        "w": "leads",
+        "start": 0.32,
+        "end": 0.56
+      },
+      {
+        "w": "to",
+        "start": 0.56,
+        "end": 0.78
+      },
+      {
+        "w": "something",
+        "start": 0.78,
+        "end": 1.0
+      },
+      {
+        "w": "wearing",
+        "start": 1.0,
+        "end": 1.28
+      },
+      {
+        "w": "your",
+        "start": 1.28,
+        "end": 1.52
+      },
+      {
+        "w": "face.",
+        "start": 1.52,
+        "end": 1.8
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R30_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "The other leads to something wearing your face.",
+        "gen_seconds": 13.8
+      },
+      {
+        "file": "R30_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "The other leads to something wearing your face.",
+        "gen_seconds": 14.4
+      }
+    ]
+  },
+  "R31": {
+    "key": "8088104049e9",
+    "text": "The top comment decides.",
+    "chosen": "R31_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "The top comment decides.",
+    "duration": 1.24,
+    "words": [
+      {
+        "w": "The",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "w": "top",
+        "start": 0.16,
+        "end": 0.3
+      },
+      {
+        "w": "comment",
+        "start": 0.3,
+        "end": 0.6
+      },
+      {
+        "w": "decides.",
+        "start": 0.6,
+        "end": 0.9
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "R31_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "The top comment decides.",
+        "gen_seconds": 10.6
+      },
+      {
+        "file": "R31_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "The top comment decides.",
+        "gen_seconds": 10.3
+      }
+    ]
+  }
+}

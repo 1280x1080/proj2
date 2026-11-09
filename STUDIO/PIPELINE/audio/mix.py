@@ -152,6 +152,12 @@ def run(cues_path):
         if c.get("rate"):
             x = dsp.pitch_shift_resample(x, 12 * np.log2(c["rate"]))
         place(bus, x, c["t"], c.get("gain_db", 0.0), c.get("pan", 0.0), loop, n)
+    # optional: duck the SFX / ambience buses under the voice so the background swells in the pauses
+    # (cues.json "sfx_duck_db" / "amb_duck_db", default 0 = off, so older mixes are unchanged)
+    if C.get("sfx_duck_db"):
+        sfx, _ = duck(sfx, narr, depth_db=float(C["sfx_duck_db"]), attack=0.04, release=0.35)
+    if C.get("amb_duck_db"):
+        amb, _ = duck(amb, narr, depth_db=float(C["amb_duck_db"]), attack=0.08, release=0.6)
     stems["sfx"] = sfx
     stems["ambience"] = amb
 

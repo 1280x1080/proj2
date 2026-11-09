@@ -48,8 +48,19 @@ def _num_repl(m):
     return num_words(int(s))
 
 
+# spelling variants / homophones Whisper picks that are the same spoken word
+_VARIANTS = {"towards": "toward", "nox": "knocks", "creek": "creak", "ok": "okay", "alright": "all right", "gray": "grey"}
+
+
+def _time_repl(m):
+    h, mm = int(m.group(1)), m.group(2)
+    mins = ("oh " + _ONES[int(mm[1])]) if mm[0] == "0" and mm != "00" else ("" if mm == "00" else num_words(int(mm)))
+    return f" {num_words(h)} {mins} "
+
+
 def normalize_words(text: str) -> list[str]:
     t = text.lower()
+    t = re.sub(r"\b(\d{1,2})[:.](\d{2})(?=\s?(?:a\.?\s?m|p\.?\s?m|\b))", _time_repl, t)  # 3:17 / 3.17am -> three seventeen
     t = re.sub(r"\b([ap])\.\s?m\.?", r"\1m", t)  # a.m. / p.m. -> am / pm
     t = t.replace("%", " percent").replace("&", " and ").replace("$", " dollars ")
     t = re.sub(r"(\d+)(st|nd|rd|th)\b", lambda m: ordinal_words(int(m.group(1))), t)
@@ -57,7 +68,7 @@ def normalize_words(text: str) -> list[str]:
     t = re.sub(r"\d[\d,]*(\.\d+)?", _num_repl, t)
     t = t.replace("-", " ").replace("—", " ").replace("–", " ")
     t = re.sub(r"[^a-z' ]+", " ", t)
-    words = [w.strip("'") for w in t.split()]
+    words = [_VARIANTS.get(w.strip("'"), w.strip("'")) for w in t.split()]
     # contractions both ways count as equal
     return [w for w in words if w]
 

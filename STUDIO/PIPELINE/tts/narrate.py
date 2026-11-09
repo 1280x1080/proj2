@@ -255,7 +255,9 @@ def run(script_path, takes=3, only=None, force=False, engine_name="chatterbox", 
                     break
             if min(c["mismatches"] for c in cands) == 0:
                 break
-        best = min(cands, key=lambda c: (c["mismatches"], -c["mean_p"], abs(c["dur"] - _expected_dur(line["text"]))))
+        nwords = len(normalize_words(line["text"]))
+        too_fast = lambda c: nwords / max(c["dur"], 0.1) > 4.0  # noqa: E731  (prefer a take within the pace limit)
+        best = min(cands, key=lambda c: (c["mismatches"], too_fast(c), -c["mean_p"], abs(c["dur"] - _expected_dur(line["text"]))))
         x = dsp.read_audio(best["path"])
         dsp.write_audio(out / "lines" / f"{lid}.wav", x)
         words = align_words(line["text"], best["words"], best["dur"])

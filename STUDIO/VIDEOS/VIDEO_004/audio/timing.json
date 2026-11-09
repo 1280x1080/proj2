@@ -1,0 +1,1369 @@
+{
+  "duration": 80.75,
+  "lines": [
+    {
+      "id": "R01",
+      "who": "narrator",
+      "text": "You wake up at three-seventeen AM.",
+      "start": 0.15,
+      "end": 2.12,
+      "words": [
+        {
+          "w": "You",
+          "start": 0.15,
+          "end": 0.31
+        },
+        {
+          "w": "wake",
+          "start": 0.31,
+          "end": 0.47
+        },
+        {
+          "w": "up",
+          "start": 0.47,
+          "end": 0.67
+        },
+        {
+          "w": "at",
+          "start": 0.67,
+          "end": 0.85
+        },
+        {
+          "w": "three-seventeen",
+          "start": 0.85,
+          "end": 1.41
+        },
+        {
+          "w": "AM.",
+          "start": 1.41,
+          "end": 1.79
+        }
+      ]
+    },
+    {
+      "id": "R02",
+      "who": "narrator",
+      "text": "Your phone is ringing.",
+      "start": 2.42,
+      "end": 3.5,
+      "words": [
+        {
+          "w": "Your",
+          "start": 2.42,
+          "end": 2.62
+        },
+        {
+          "w": "phone",
+          "start": 2.62,
+          "end": 2.86
+        },
+        {
+          "w": "is",
+          "start": 2.86,
+          "end": 3.0
+        },
+        {
+          "w": "ringing.",
+          "start": 3.0,
+          "end": 3.22
+        }
+      ]
+    },
+    {
+      "id": "R03",
+      "who": "narrator",
+      "text": "It's an unknown number. You answer.",
+      "start": 3.85,
+      "end": 5.82,
+      "words": [
+        {
+          "w": "It's",
+          "start": 3.85,
+          "end": 4.05
+        },
+        {
+          "w": "an",
+          "start": 4.05,
+          "end": 4.11
+        },
+        {
+          "w": "unknown",
+          "start": 4.11,
+          "end": 4.51
+        },
+        {
+          "w": "number.",
+          "start": 4.51,
+          "end": 4.91
+        },
+        {
+          "w": "You",
+          "start": 5.19,
+          "end": 5.27
+        },
+        {
+          "w": "answer.",
+          "start": 5.27,
+          "end": 5.51
+        }
+      ]
+    },
+    {
+      "id": "R04",
+      "who": "narrator",
+      "text": "A voice whispers.",
+      "start": 6.12,
+      "end": 7.32,
+      "words": [
+        {
+          "w": "A",
+          "start": 6.12,
+          "end": 6.28
+        },
+        {
+          "w": "voice",
+          "start": 6.28,
+          "end": 6.5
+        },
+        {
+          "w": "whispers.",
+          "start": 6.5,
+          "end": 6.9
+        }
+      ]
+    },
+    {
+      "id": "R05",
+      "who": "caller",
+      "text": "\"Whatever you do, don't open your bedroom door.\"",
+      "start": 7.57,
+      "end": 9.72,
+      "words": [
+        {
+          "w": "\"Whatever",
+          "start": 7.57,
+          "end": 7.79
+        },
+        {
+          "w": "you",
+          "start": 7.79,
+          "end": 8.03
+        },
+        {
+          "w": "do,",
+          "start": 8.03,
+          "end": 8.27
+        },
+        {
+          "w": "don't",
+          "start": 8.49,
+          "end": 8.65
+        },
+        {
+          "w": "open",
+          "start": 8.65,
+          "end": 8.83
+        },
+        {
+          "w": "your",
+          "start": 8.83,
+          "end": 8.99
+        },
+        {
+          "w": "bedroom",
+          "start": 8.99,
+          "end": 9.17
+        },
+        {
+          "w": "door.\"",
+          "start": 9.17,
+          "end": 9.49
+        }
+      ]
+    },
+    {
+      "id": "R06",
+      "who": "narrator",
+      "text": "You freeze. Because something is already knocking on it.",
+      "start": 10.22,
+      "end": 12.76,
+      "words": [
+        {
+          "w": "You",
+          "start": 10.22,
+          "end": 10.38
+        },
+        {
+          "w": "freeze.",
+          "start": 10.38,
+          "end": 10.68
+        },
+        {
+          "w": "Because",
+          "start": 10.96,
+          "end": 11.22
+        },
+        {
+          "w": "something",
+          "start": 11.22,
+          "end": 11.44
+        },
+        {
+          "w": "is",
+          "start": 11.44,
+          "end": 11.62
+        },
+        {
+          "w": "already",
+          "start": 11.62,
+          "end": 11.9
+        },
+        {
+          "w": "knocking",
+          "start": 11.9,
+          "end": 12.22
+        },
+        {
+          "w": "on",
+          "start": 12.22,
+          "end": 12.44
+        },
+        {
+          "w": "it.",
+          "start": 12.44,
+          "end": 12.6
+        }
+      ]
+    },
+    {
+      "id": "R07",
+      "who": "narrator",
+      "text": "Three slow knocks.",
+      "start": 13.11,
+      "end": 14.27,
+      "words": [
+        {
+          "w": "Three",
+          "start": 13.11,
+          "end": 13.35
+        },
+        {
+          "w": "slow",
+          "start": 13.35,
+          "end": 13.65
+        },
+        {
+          "w": "knocks.",
+          "start": 13.65,
+          "end": 13.97
+        }
+      ]
+    },
+    {
+      "id": "R08",
+      "who": "narrator",
+      "text": "Then your phone vibrates again. A text message.",
+      "start": 15.67,
+      "end": 18.7,
+      "words": [
+        {
+          "w": "Then",
+          "start": 15.67,
+          "end": 15.97
+        },
+        {
+          "w": "your",
+          "start": 15.97,
+          "end": 16.23
+        },
+        {
+          "w": "phone",
+          "start": 16.23,
+          "end": 16.49
+        },
+        {
+          "w": "vibrates",
+          "start": 16.49,
+          "end": 17.05
+        },
+        {
+          "w": "again.",
+          "start": 17.05,
+          "end": 17.35
+        },
+        {
+          "w": "A",
+          "start": 17.75,
+          "end": 17.85
+        },
+        {
+          "w": "text",
+          "start": 17.85,
+          "end": 18.05
+        },
+        {
+          "w": "message.",
+          "start": 18.05,
+          "end": 18.43
+        }
+      ]
+    },
+    {
+      "id": "R09",
+      "who": "texter",
+      "text": "\"I'm outside. Let me in.\"",
+      "start": 19.05,
+      "end": 20.5,
+      "words": [
+        {
+          "w": "\"I'm",
+          "start": 19.05,
+          "end": 19.23
+        },
+        {
+          "w": "outside.",
+          "start": 19.23,
+          "end": 19.61
+        },
+        {
+          "w": "Let",
+          "start": 19.93,
+          "end": 19.99
+        },
+        {
+          "w": "me",
+          "start": 19.99,
+          "end": 20.13
+        },
+        {
+          "w": "in.\"",
+          "start": 20.13,
+          "end": 20.33
+        }
+      ]
+    },
+    {
+      "id": "R10",
+      "who": "narrator",
+      "text": "You stare at the message. Then another one arrives.",
+      "start": 21.0,
+      "end": 23.73,
+      "words": [
+        {
+          "w": "You",
+          "start": 21.0,
+          "end": 21.16
+        },
+        {
+          "w": "stare",
+          "start": 21.16,
+          "end": 21.36
+        },
+        {
+          "w": "at",
+          "start": 21.36,
+          "end": 21.48
+        },
+        {
+          "w": "the",
+          "start": 21.48,
+          "end": 21.56
+        },
+        {
+          "w": "message.",
+          "start": 21.56,
+          "end": 21.94
+        },
+        {
+          "w": "Then",
+          "start": 22.42,
+          "end": 22.64
+        },
+        {
+          "w": "another",
+          "start": 22.64,
+          "end": 22.88
+        },
+        {
+          "w": "one",
+          "start": 22.88,
+          "end": 23.06
+        },
+        {
+          "w": "arrives.",
+          "start": 23.06,
+          "end": 23.38
+        }
+      ]
+    },
+    {
+      "id": "R11",
+      "who": "texter",
+      "text": "\"Don't listen to the thing... pretending to be me.\"",
+      "start": 24.08,
+      "end": 26.51,
+      "words": [
+        {
+          "w": "\"Don't",
+          "start": 24.08,
+          "end": 24.44
+        },
+        {
+          "w": "listen",
+          "start": 24.44,
+          "end": 24.66
+        },
+        {
+          "w": "to",
+          "start": 24.66,
+          "end": 24.9
+        },
+        {
+          "w": "the",
+          "start": 24.9,
+          "end": 25.02
+        },
+        {
+          "w": "thing...",
+          "start": 25.02,
+          "end": 25.24
+        },
+        {
+          "w": "pretending",
+          "start": 25.24,
+          "end": 25.64
+        },
+        {
+          "w": "to",
+          "start": 25.64,
+          "end": 25.92
+        },
+        {
+          "w": "be",
+          "start": 25.92,
+          "end": 26.06
+        },
+        {
+          "w": "me.\"",
+          "start": 26.06,
+          "end": 26.26
+        }
+      ]
+    },
+    {
+      "id": "R12",
+      "who": "narrator",
+      "text": "Your stomach drops.",
+      "start": 27.01,
+      "end": 28.05,
+      "words": [
+        {
+          "w": "Your",
+          "start": 27.01,
+          "end": 27.19
+        },
+        {
+          "w": "stomach",
+          "start": 27.19,
+          "end": 27.43
+        },
+        {
+          "w": "drops.",
+          "start": 27.43,
+          "end": 27.79
+        }
+      ]
+    },
+    {
+      "id": "R13",
+      "who": "narrator",
+      "text": "Because the voice on the phone sounds exactly like yours.",
+      "start": 28.35,
+      "end": 30.99,
+      "words": [
+        {
+          "w": "Because",
+          "start": 28.35,
+          "end": 28.63
+        },
+        {
+          "w": "the",
+          "start": 28.63,
+          "end": 28.77
+        },
+        {
+          "w": "voice",
+          "start": 28.77,
+          "end": 28.97
+        },
+        {
+          "w": "on",
+          "start": 28.97,
+          "end": 29.15
+        },
+        {
+          "w": "the",
+          "start": 29.15,
+          "end": 29.25
+        },
+        {
+          "w": "phone",
+          "start": 29.25,
+          "end": 29.45
+        },
+        {
+          "w": "sounds",
+          "start": 29.45,
+          "end": 29.73
+        },
+        {
+          "w": "exactly",
+          "start": 29.73,
+          "end": 30.11
+        },
+        {
+          "w": "like",
+          "start": 30.11,
+          "end": 30.45
+        },
+        {
+          "w": "yours.",
+          "start": 30.45,
+          "end": 30.67
+        }
+      ]
+    },
+    {
+      "id": "R14",
+      "who": "narrator",
+      "text": "Suddenly, the knocking stops. Silence.",
+      "start": 31.49,
+      "end": 34.37,
+      "words": [
+        {
+          "w": "Suddenly,",
+          "start": 31.49,
+          "end": 31.97
+        },
+        {
+          "w": "the",
+          "start": 32.35,
+          "end": 32.41
+        },
+        {
+          "w": "knocking",
+          "start": 32.41,
+          "end": 32.67
+        },
+        {
+          "w": "stops.",
+          "start": 32.67,
+          "end": 33.21
+        },
+        {
+          "w": "Silence.",
+          "start": 33.73,
+          "end": 33.89
+        }
+      ]
+    },
+    {
+      "id": "R15",
+      "who": "narrator",
+      "text": "Then... you hear your own voice. From the hallway.",
+      "start": 35.57,
+      "end": 38.63,
+      "words": [
+        {
+          "w": "Then...",
+          "start": 35.57,
+          "end": 35.91
+        },
+        {
+          "w": "you",
+          "start": 35.91,
+          "end": 36.25
+        },
+        {
+          "w": "hear",
+          "start": 36.25,
+          "end": 36.41
+        },
+        {
+          "w": "your",
+          "start": 36.41,
+          "end": 36.59
+        },
+        {
+          "w": "own",
+          "start": 36.59,
+          "end": 36.83
+        },
+        {
+          "w": "voice.",
+          "start": 36.83,
+          "end": 37.21
+        },
+        {
+          "w": "From",
+          "start": 37.57,
+          "end": 37.73
+        },
+        {
+          "w": "the",
+          "start": 37.73,
+          "end": 37.89
+        },
+        {
+          "w": "hallway.",
+          "start": 37.89,
+          "end": 38.19
+        }
+      ]
+    },
+    {
+      "id": "R16",
+      "who": "double",
+      "text": "\"Hey. It's okay. I'm coming inside.\"",
+      "start": 38.98,
+      "end": 40.79,
+      "words": [
+        {
+          "w": "\"Hey.",
+          "start": 38.98,
+          "end": 39.24
+        },
+        {
+          "w": "It's",
+          "start": 39.44,
+          "end": 39.56
+        },
+        {
+          "w": "okay.",
+          "start": 39.56,
+          "end": 39.78
+        },
+        {
+          "w": "I'm",
+          "start": 39.9,
+          "end": 40.04
+        },
+        {
+          "w": "coming",
+          "start": 40.04,
+          "end": 40.18
+        },
+        {
+          "w": "inside.\"",
+          "start": 40.18,
+          "end": 40.52
+        }
+      ]
+    },
+    {
+      "id": "R17",
+      "who": "narrator",
+      "text": "You look at your bedroom door. The handle slowly begins to turn.",
+      "start": 41.29,
+      "end": 44.62,
+      "words": [
+        {
+          "w": "You",
+          "start": 41.29,
+          "end": 41.45
+        },
+        {
+          "w": "look",
+          "start": 41.45,
+          "end": 41.59
+        },
+        {
+          "w": "at",
+          "start": 41.59,
+          "end": 41.71
+        },
+        {
+          "w": "your",
+          "start": 41.71,
+          "end": 41.85
+        },
+        {
+          "w": "bedroom",
+          "start": 41.85,
+          "end": 42.09
+        },
+        {
+          "w": "door.",
+          "start": 42.09,
+          "end": 42.43
+        },
+        {
+          "w": "The",
+          "start": 42.85,
+          "end": 42.95
+        },
+        {
+          "w": "handle",
+          "start": 42.95,
+          "end": 43.21
+        },
+        {
+          "w": "slowly",
+          "start": 43.21,
+          "end": 43.55
+        },
+        {
+          "w": "begins",
+          "start": 43.55,
+          "end": 43.85
+        },
+        {
+          "w": "to",
+          "start": 43.85,
+          "end": 44.11
+        },
+        {
+          "w": "turn.",
+          "start": 44.11,
+          "end": 44.33
+        }
+      ]
+    },
+    {
+      "id": "R18",
+      "who": "narrator",
+      "text": "But there's something strange.",
+      "start": 45.22,
+      "end": 46.6,
+      "words": [
+        {
+          "w": "But",
+          "start": 45.22,
+          "end": 45.36
+        },
+        {
+          "w": "there's",
+          "start": 45.36,
+          "end": 45.58
+        },
+        {
+          "w": "something",
+          "start": 45.58,
+          "end": 45.76
+        },
+        {
+          "w": "strange.",
+          "start": 45.76,
+          "end": 46.2
+        }
+      ]
+    },
+    {
+      "id": "R19",
+      "who": "narrator",
+      "text": "Your bedroom door has no lock.",
+      "start": 46.85,
+      "end": 48.55,
+      "words": [
+        {
+          "w": "Your",
+          "start": 46.85,
+          "end": 47.01
+        },
+        {
+          "w": "bedroom",
+          "start": 47.01,
+          "end": 47.33
+        },
+        {
+          "w": "door",
+          "start": 47.33,
+          "end": 47.59
+        },
+        {
+          "w": "has",
+          "start": 47.59,
+          "end": 47.83
+        },
+        {
+          "w": "no",
+          "start": 47.83,
+          "end": 48.03
+        },
+        {
+          "w": "lock.",
+          "start": 48.03,
+          "end": 48.33
+        }
+      ]
+    },
+    {
+      "id": "R20",
+      "who": "narrator",
+      "text": "And you've never heard it creak... like that before.",
+      "start": 48.85,
+      "end": 51.08,
+      "words": [
+        {
+          "w": "And",
+          "start": 48.85,
+          "end": 48.97
+        },
+        {
+          "w": "you've",
+          "start": 48.97,
+          "end": 49.13
+        },
+        {
+          "w": "never",
+          "start": 49.13,
+          "end": 49.27
+        },
+        {
+          "w": "heard",
+          "start": 49.27,
+          "end": 49.51
+        },
+        {
+          "w": "it",
+          "start": 49.51,
+          "end": 49.65
+        },
+        {
+          "w": "creak...",
+          "start": 49.65,
+          "end": 50.01
+        },
+        {
+          "w": "like",
+          "start": 50.01,
+          "end": 50.27
+        },
+        {
+          "w": "that",
+          "start": 50.27,
+          "end": 50.51
+        },
+        {
+          "w": "before.",
+          "start": 50.51,
+          "end": 50.81
+        }
+      ]
+    },
+    {
+      "id": "R21",
+      "who": "narrator",
+      "text": "Your phone lights up one last time. A new message.",
+      "start": 51.68,
+      "end": 54.4,
+      "words": [
+        {
+          "w": "Your",
+          "start": 51.68,
+          "end": 51.84
+        },
+        {
+          "w": "phone",
+          "start": 51.84,
+          "end": 52.08
+        },
+        {
+          "w": "lights",
+          "start": 52.08,
+          "end": 52.32
+        },
+        {
+          "w": "up",
+          "start": 52.32,
+          "end": 52.52
+        },
+        {
+          "w": "one",
+          "start": 52.52,
+          "end": 52.72
+        },
+        {
+          "w": "last",
+          "start": 52.72,
+          "end": 52.98
+        },
+        {
+          "w": "time.",
+          "start": 52.98,
+          "end": 53.34
+        },
+        {
+          "w": "A",
+          "start": 53.58,
+          "end": 53.68
+        },
+        {
+          "w": "new",
+          "start": 53.68,
+          "end": 53.82
+        },
+        {
+          "w": "message.",
+          "start": 53.82,
+          "end": 54.12
+        }
+      ]
+    },
+    {
+      "id": "R22",
+      "who": "texter",
+      "text": "\"There's a second door behind your wardrobe. Get inside. Now.\"",
+      "start": 54.75,
+      "end": 57.68,
+      "words": [
+        {
+          "w": "\"There's",
+          "start": 54.75,
+          "end": 54.95
+        },
+        {
+          "w": "a",
+          "start": 54.95,
+          "end": 55.05
+        },
+        {
+          "w": "second",
+          "start": 55.05,
+          "end": 55.25
+        },
+        {
+          "w": "door",
+          "start": 55.25,
+          "end": 55.45
+        },
+        {
+          "w": "behind",
+          "start": 55.45,
+          "end": 55.73
+        },
+        {
+          "w": "your",
+          "start": 55.73,
+          "end": 55.87
+        },
+        {
+          "w": "wardrobe.",
+          "start": 55.87,
+          "end": 56.27
+        },
+        {
+          "w": "Get",
+          "start": 56.47,
+          "end": 56.55
+        },
+        {
+          "w": "inside.",
+          "start": 56.55,
+          "end": 56.91
+        },
+        {
+          "w": "Now.\"",
+          "start": 57.11,
+          "end": 57.39
+        }
+      ]
+    },
+    {
+      "id": "R23",
+      "who": "narrator",
+      "text": "You turn toward your wardrobe.",
+      "start": 58.08,
+      "end": 59.45,
+      "words": [
+        {
+          "w": "You",
+          "start": 58.08,
+          "end": 58.22
+        },
+        {
+          "w": "turn",
+          "start": 58.22,
+          "end": 58.42
+        },
+        {
+          "w": "toward",
+          "start": 58.42,
+          "end": 58.68
+        },
+        {
+          "w": "your",
+          "start": 58.68,
+          "end": 58.86
+        },
+        {
+          "w": "wardrobe.",
+          "start": 58.86,
+          "end": 59.22
+        }
+      ]
+    },
+    {
+      "id": "R24",
+      "who": "narrator",
+      "text": "And for the first time, you notice it. A small wooden door, behind it.",
+      "start": 59.7,
+      "end": 64.03,
+      "words": [
+        {
+          "w": "And",
+          "start": 59.7,
+          "end": 60.02
+        },
+        {
+          "w": "for",
+          "start": 60.02,
+          "end": 60.18
+        },
+        {
+          "w": "the",
+          "start": 60.18,
+          "end": 60.3
+        },
+        {
+          "w": "first",
+          "start": 60.3,
+          "end": 60.48
+        },
+        {
+          "w": "time,",
+          "start": 60.48,
+          "end": 60.78
+        },
+        {
+          "w": "you",
+          "start": 61.1,
+          "end": 61.2
+        },
+        {
+          "w": "notice",
+          "start": 61.2,
+          "end": 61.5
+        },
+        {
+          "w": "it.",
+          "start": 61.5,
+          "end": 61.76
+        },
+        {
+          "w": "A",
+          "start": 62.12,
+          "end": 62.26
+        },
+        {
+          "w": "small",
+          "start": 62.26,
+          "end": 62.54
+        },
+        {
+          "w": "wooden",
+          "start": 62.54,
+          "end": 62.76
+        },
+        {
+          "w": "door,",
+          "start": 62.76,
+          "end": 63.12
+        },
+        {
+          "w": "behind",
+          "start": 63.12,
+          "end": 63.6
+        },
+        {
+          "w": "it.",
+          "start": 63.6,
+          "end": 63.88
+        }
+      ]
+    },
+    {
+      "id": "R25",
+      "who": "narrator",
+      "text": "Something scratches from the other side.",
+      "start": 64.53,
+      "end": 66.2,
+      "words": [
+        {
+          "w": "Something",
+          "start": 64.53,
+          "end": 64.87
+        },
+        {
+          "w": "scratches",
+          "start": 64.87,
+          "end": 65.19
+        },
+        {
+          "w": "from",
+          "start": 65.19,
+          "end": 65.49
+        },
+        {
+          "w": "the",
+          "start": 65.49,
+          "end": 65.59
+        },
+        {
+          "w": "other",
+          "start": 65.59,
+          "end": 65.75
+        },
+        {
+          "w": "side.",
+          "start": 65.75,
+          "end": 66.03
+        }
+      ]
+    },
+    {
+      "id": "R26",
+      "who": "narrator",
+      "text": "Then a voice whispers.",
+      "start": 66.8,
+      "end": 68.28,
+      "words": [
+        {
+          "w": "Then",
+          "start": 66.8,
+          "end": 67.1
+        },
+        {
+          "w": "a",
+          "start": 67.1,
+          "end": 67.3
+        },
+        {
+          "w": "voice",
+          "start": 67.3,
+          "end": 67.54
+        },
+        {
+          "w": "whispers.",
+          "start": 67.54,
+          "end": 67.94
+        }
+      ]
+    },
+    {
+      "id": "R27",
+      "who": "thing",
+      "text": "\"Finally. You found me.\"",
+      "start": 68.53,
+      "end": 70.28,
+      "words": [
+        {
+          "w": "\"Finally.",
+          "start": 68.53,
+          "end": 69.01
+        },
+        {
+          "w": "You",
+          "start": 69.47,
+          "end": 69.57
+        },
+        {
+          "w": "found",
+          "start": 69.57,
+          "end": 69.81
+        },
+        {
+          "w": "me.\"",
+          "start": 69.81,
+          "end": 70.09
+        }
+      ]
+    },
+    {
+      "id": "R28",
+      "who": "narrator",
+      "text": "What do you do? Comment A or B.",
+      "start": 71.38,
+      "end": 73.34,
+      "words": [
+        {
+          "w": "What",
+          "start": 71.38,
+          "end": 71.54
+        },
+        {
+          "w": "do",
+          "start": 71.54,
+          "end": 71.68
+        },
+        {
+          "w": "you",
+          "start": 71.68,
+          "end": 71.76
+        },
+        {
+          "w": "do?",
+          "start": 71.76,
+          "end": 71.98
+        },
+        {
+          "w": "Comment",
+          "start": 72.46,
+          "end": 72.5
+        },
+        {
+          "w": "A",
+          "start": 72.5,
+          "end": 72.76
+        },
+        {
+          "w": "or",
+          "start": 72.76,
+          "end": 72.94
+        },
+        {
+          "w": "B.",
+          "start": 72.94,
+          "end": 73.14
+        }
+      ]
+    },
+    {
+      "id": "R29",
+      "who": "narrator",
+      "text": "Choose carefully. Because one of these doors leads to you.",
+      "start": 73.69,
+      "end": 76.32,
+      "words": [
+        {
+          "w": "Choose",
+          "start": 73.69,
+          "end": 73.93
+        },
+        {
+          "w": "carefully.",
+          "start": 73.93,
+          "end": 74.37
+        },
+        {
+          "w": "Because",
+          "start": 74.65,
+          "end": 74.89
+        },
+        {
+          "w": "one",
+          "start": 74.89,
+          "end": 75.07
+        },
+        {
+          "w": "of",
+          "start": 75.07,
+          "end": 75.19
+        },
+        {
+          "w": "these",
+          "start": 75.19,
+          "end": 75.33
+        },
+        {
+          "w": "doors",
+          "start": 75.33,
+          "end": 75.55
+        },
+        {
+          "w": "leads",
+          "start": 75.55,
+          "end": 75.75
+        },
+        {
+          "w": "to",
+          "start": 75.75,
+          "end": 75.99
+        },
+        {
+          "w": "you.",
+          "start": 75.99,
+          "end": 76.17
+        }
+      ]
+    },
+    {
+      "id": "R30",
+      "who": "narrator",
+      "text": "The other leads to something wearing your face.",
+      "start": 76.62,
+      "end": 78.81,
+      "words": [
+        {
+          "w": "The",
+          "start": 76.62,
+          "end": 76.74
+        },
+        {
+          "w": "other",
+          "start": 76.74,
+          "end": 76.94
+        },
+        {
+          "w": "leads",
+          "start": 76.94,
+          "end": 77.18
+        },
+        {
+          "w": "to",
+          "start": 77.18,
+          "end": 77.4
+        },
+        {
+          "w": "something",
+          "start": 77.4,
+          "end": 77.62
+        },
+        {
+          "w": "wearing",
+          "start": 77.62,
+          "end": 77.9
+        },
+        {
+          "w": "your",
+          "start": 77.9,
+          "end": 78.14
+        },
+        {
+          "w": "face.",
+          "start": 78.14,
+          "end": 78.42
+        }
+      ]
+    },
+    {
+      "id": "R31",
+      "who": "narrator",
+      "text": "The top comment decides.",
+      "start": 79.21,
+      "end": 80.45,
+      "words": [
+        {
+          "w": "The",
+          "start": 79.21,
+          "end": 79.37
+        },
+        {
+          "w": "top",
+          "start": 79.37,
+          "end": 79.51
+        },
+        {
+          "w": "comment",
+          "start": 79.51,
+          "end": 79.81
+        },
+        {
+          "w": "decides.",
+          "start": 79.81,
+          "end": 80.11
+        }
+      ]
+    }
+  ]
+}

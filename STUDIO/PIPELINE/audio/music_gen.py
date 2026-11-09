@@ -293,6 +293,51 @@ def cue_video003():
     return s, dict(loop=False)
 
 
+def cue_video004():
+    """THE ROOM THAT WASN'T THERE - Part 1.  A bed that never stops (no dead air): low D drone + slow,
+    detuned music-box lullaby; heartbeat pulse from the knocks; high string cluster after "Silence";
+    pulse quickens into the second door; the choice screen sits on drone + bell.  Ducks under the voice
+    in mix.py, so it swells in every pause."""
+    edl = _load_edl("004")
+    B = edl.BEATS
+    D = edl.DURATION
+    s = Score(D, bpm=66, seed=4)
+    s.note("bass", "bass", 26, 0.0, D, gain=0.24)                       # D1 drone, whole video
+    s.note("pad", "pad", 38, 0.0, D, gain=0.09, bright=0.12)            # D2 pad
+    s.note("pad", "pad", 45, 0.0, B["silence"], gain=0.05, bright=0.1)  # A2 fifth until the silence
+    # music-box lullaby (slightly detuned): hook, ring, each text
+    lull = [74, 77, 76, 72, 74, 69]
+    for k, tt in enumerate([0.05, B["ring"], B["text1"], B["text2"], B["text3"]]):
+        for j in range(3):
+            s.note("lead", "bell", lull[(k + j) % 6] - 0.15 * j, tt + j * 0.42, 2.0, gain=0.05, pan=(-0.3 if j % 2 else 0.3),
+                   bright=0.2)
+    # heartbeat pulse from the knocks to the silence, again from the handle to the choice
+    for t0, t1, bpm in ((B["knocks"][0], B["silence"], 66), (B["handle"], B["small_door"], 84), (B["small_door"], B["freeze"], 104)):
+        t = t0
+        while t < t1:
+            s.hit("perc", drum_kick(0.4), t, 0.2)
+            s.hit("perc", drum_kick(0.3), t + 0.26, 0.12)
+            t += 60 / bpm
+    # after "Silence": the music thins to a high cluster (never off)
+    for m, p in ((86, -0.3), (87, 0.3)):
+        s.note("pad", "strings", m, B["silence"], B["handle"] - B["silence"] + 1.0, gain=0.025, pan=p, bright=0.1)
+    # tension strings from the third text into the freeze
+    for m, p in ((50, -0.4), (51, 0.4), (57, 0.0)):
+        s.note("pad", "tremolo", m, B["text3"], B["freeze"] - B["text3"] + 0.3, gain=0.05, pan=p, rate=9.0)
+    sw = max(0.5, B["freeze"] - B["small_door"])
+    nz = dsp.sweep_filter(pink(sw, 5) * np.linspace(0, 1, secs(sw)) ** 2, 200, 3200, "band", q=0.9)
+    s.hit("fx", nz, B["small_door"], 0.08)
+    s.hit("perc", drum_tom(44, 2.0), B["freeze"], 0.45)
+    # choice: slow low pulse + bell, under the last lines
+    t = B["choice"]
+    while t < D - 0.5:
+        s.hit("perc", drum_kick(0.5), t, 0.14)
+        t += 60 / 60
+    s.note("lead", "bell", 62, B["choice"] + 0.3, 3.0, gain=0.05, bright=0.2)
+    s.note("lead", "bell", 61, B["choice"] + 3.3, 3.0, gain=0.05, bright=0.2)
+    return s, dict(loop=False)
+
+
 def main():
     num = sys.argv[1].zfill(3)
     s, opts = globals()[f"cue_video{num}"]()

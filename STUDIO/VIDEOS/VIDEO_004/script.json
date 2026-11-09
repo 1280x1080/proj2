@@ -1,0 +1,260 @@
+{
+  "title": "THE ROOM THAT WASN'T THERE - Part 1: Don't Open the Door",
+  "series": "THE ROOM THAT WASN'T THERE",
+  "part": 1,
+  "notes": "Second person, present tense. One line = one cut (plus inserts). Every voice uses the same TTS voice on purpose: the caller, the texts, the hallway voice and the thing all 'sound exactly like yours'. Text stays in normal case (TTS reads ALL-CAPS words as letters); captions are rendered ALL CAPS.",
+  "voice_ref": null,
+  "voices": {},
+  "lead_in": 0.15,
+  "tail": 0.3,
+  "lines": [
+    {
+      "id": "R01",
+      "who": "narrator",
+      "text": "You wake up at three-seventeen AM.",
+      "delivery": "calm",
+      "emotion": 0.45,
+      "pause_after": 0.3
+    },
+    {
+      "id": "R02",
+      "who": "narrator",
+      "text": "Your phone is ringing.",
+      "delivery": "slow",
+      "emotion": 0.45,
+      "pause_after": 0.35
+    },
+    {
+      "id": "R03",
+      "who": "narrator",
+      "text": "It's an unknown number. You answer.",
+      "delivery": "calm",
+      "emotion": 0.45,
+      "pause_after": 0.3
+    },
+    {
+      "id": "R04",
+      "who": "narrator",
+      "text": "A voice whispers.",
+      "delivery": "whisper",
+      "emotion": 0.4,
+      "pause_after": 0.25
+    },
+    {
+      "id": "R05",
+      "who": "caller",
+      "text": "\"Whatever you do, don't open your bedroom door.\"",
+      "delivery": "whisper",
+      "emotion": 0.4,
+      "pause_after": 0.5
+    },
+    {
+      "id": "R06",
+      "who": "narrator",
+      "text": "You freeze. Because something is already knocking on it.",
+      "delivery": "dramatic",
+      "emotion": 0.55,
+      "pause_after": 0.35
+    },
+    {
+      "id": "R07",
+      "who": "narrator",
+      "text": "Three slow knocks.",
+      "delivery": "whisper",
+      "emotion": 0.45,
+      "pause_after": 1.4
+    },
+    {
+      "id": "R08",
+      "who": "narrator",
+      "text": "Then your phone vibrates again. A text message.",
+      "delivery": "calm",
+      "emotion": 0.45,
+      "pause_after": 0.35
+    },
+    {
+      "id": "R09",
+      "who": "texter",
+      "text": "\"I'm outside. Let me in.\"",
+      "delivery": "whisper",
+      "emotion": 0.4,
+      "pause_after": 0.5
+    },
+    {
+      "id": "R10",
+      "who": "narrator",
+      "text": "You stare at the message. Then another one arrives.",
+      "delivery": "calm",
+      "emotion": 0.45,
+      "pause_after": 0.35
+    },
+    {
+      "id": "R11",
+      "who": "texter",
+      "text": "\"Don't listen to the thing... pretending to be me.\"",
+      "delivery": "slow",
+      "emotion": 0.45,
+      "pause_after": 0.5
+    },
+    {
+      "id": "R12",
+      "who": "narrator",
+      "text": "Your stomach drops.",
+      "delivery": "dramatic",
+      "emotion": 0.55,
+      "pause_after": 0.3
+    },
+    {
+      "id": "R13",
+      "who": "narrator",
+      "text": "Because the voice on the phone sounds exactly like yours.",
+      "delivery": "dramatic",
+      "emotion": 0.55,
+      "pause_after": 0.5
+    },
+    {
+      "id": "R14",
+      "who": "narrator",
+      "text": "Suddenly, the knocking stops. Silence.",
+      "delivery": "whisper",
+      "emotion": 0.45,
+      "pause_after": 1.2
+    },
+    {
+      "id": "R15",
+      "who": "narrator",
+      "text": "Then... you hear your own voice. From the hallway.",
+      "delivery": "slow",
+      "emotion": 0.5,
+      "pause_after": 0.35
+    },
+    {
+      "id": "R16",
+      "who": "double",
+      "text": "\"Hey. It's okay. I'm coming inside.\"",
+      "delivery": "warm",
+      "emotion": 0.5,
+      "pause_after": 0.5
+    },
+    {
+      "id": "R17",
+      "who": "narrator",
+      "text": "You look at your bedroom door. The handle slowly begins to turn.",
+      "delivery": "slow",
+      "emotion": 0.5,
+      "pause_after": 0.6
+    },
+    {
+      "id": "R18",
+      "who": "narrator",
+      "text": "But there's something strange.",
+      "delivery": "calm",
+      "emotion": 0.45,
+      "pause_after": 0.25
+    },
+    {
+      "id": "R19",
+      "who": "narrator",
+      "text": "Your bedroom door has no lock.",
+      "delivery": "dramatic",
+      "emotion": 0.55,
+      "pause_after": 0.3
+    },
+    {
+      "id": "R20",
+      "who": "narrator",
+      "text": "And you've never heard it creak... like that before.",
+      "delivery": "slow",
+      "emotion": 0.5,
+      "pause_after": 0.6
+    },
+    {
+      "id": "R21",
+      "who": "narrator",
+      "text": "Your phone lights up one last time. A new message.",
+      "delivery": "calm",
+      "emotion": 0.5,
+      "pause_after": 0.35
+    },
+    {
+      "id": "R22",
+      "who": "texter",
+      "text": "\"There's a second door behind your wardrobe. Get inside. Now.\"",
+      "delivery": "excited",
+      "emotion": 0.65,
+      "pause_after": 0.4
+    },
+    {
+      "id": "R23",
+      "who": "narrator",
+      "text": "You turn toward your wardrobe.",
+      "delivery": "calm",
+      "emotion": 0.45,
+      "pause_after": 0.25
+    },
+    {
+      "id": "R24",
+      "who": "narrator",
+      "text": "And for the first time, you notice it. A small wooden door, behind it.",
+      "delivery": "slow",
+      "emotion": 0.5,
+      "pause_after": 0.5
+    },
+    {
+      "id": "R25",
+      "who": "narrator",
+      "text": "Something scratches from the other side.",
+      "delivery": "whisper",
+      "emotion": 0.5,
+      "pause_after": 0.6
+    },
+    {
+      "id": "R26",
+      "who": "narrator",
+      "text": "Then a voice whispers.",
+      "delivery": "whisper",
+      "emotion": 0.45,
+      "pause_after": 0.25
+    },
+    {
+      "id": "R27",
+      "who": "thing",
+      "text": "\"Finally. You found me.\"",
+      "delivery": "whisper",
+      "emotion": 0.4,
+      "pause_after": 1.1
+    },
+    {
+      "id": "R28",
+      "who": "narrator",
+      "text": "What do you do? Comment A or B.",
+      "delivery": "dramatic",
+      "emotion": 0.55,
+      "pause_after": 0.35
+    },
+    {
+      "id": "R29",
+      "who": "narrator",
+      "text": "Choose carefully. Because one of these doors leads to you.",
+      "delivery": "slow",
+      "emotion": 0.5,
+      "pause_after": 0.3
+    },
+    {
+      "id": "R30",
+      "who": "narrator",
+      "text": "The other leads to something wearing your face.",
+      "delivery": "slow",
+      "emotion": 0.55,
+      "pause_after": 0.4
+    },
+    {
+      "id": "R31",
+      "who": "narrator",
+      "text": "The top comment decides.",
+      "delivery": "calm",
+      "emotion": 0.5,
+      "pause_after": 0.0
+    }
+  ]
+}
