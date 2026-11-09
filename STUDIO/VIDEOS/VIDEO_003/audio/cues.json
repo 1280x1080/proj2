@@ -325,5 +325,10 @@
       "pan": 0.0,
       "note": "S31"
     }
-  ]
+  ],
+  "music": {
+    "file": "music.wav",
+    "gain_db": -4.0,
+    "duck_db": -10.0
+  }
 }

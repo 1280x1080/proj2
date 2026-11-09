@@ -60,14 +60,15 @@ sentences, S08 → "She starts to turn. The doors cut her off." ("doors close/sh
 The TTS checker's number normaliser also had a bug ("13th" counted as a mismatch against "thirteenth"; "3 a.m." against "AM");
 fixed in `PIPELINE/tts/textnorm.py` (QC code, not editing code) and every line re-scored.
 
-## Caption gap (needs your OK — editing code untouched as asked)
-The series spec is ALL-CAPS captions with one key word in RED (danger) or YELLOW (rules/objects). The current
-`edl_engine.py` builds captions from the narration text and supports one emphasis colour, so today:
-* captions render in the script's case (the script can't be ALL CAPS: Chatterbox read "IT" as "I.T." in a test), and
-* only the RED key words are coloured; YELLOW key words render white.
-
-`CAPTIONS` already carries the full spec (`upper=True`, `line_colors={line: {word: colour}}`); the engine ignores
-unknown keys. Reading those two keys in `draw_captions` is a ~10-line change — say the word and I'll make it.
+## Render
+* `anim2d.py`: all 17 shots drawn in 2D (teen mascot, Gus, the Rider, Mr. Reyes; FLUO → DIM → RED lighting, lobby warmth).
+* `music_gen.cue_video003`: drone + music-box motif, heartbeat bass under the tests, tremolo into the drop, silence punches.
+* Captions: ALL CAPS, one key word per line in RED / YELLOW (`upper` + `line_colors` now read by `edl_engine.draw_captions`,
+  approved; videos without those keys are unchanged).
+* Export `EXPORTS/video003.mp4`: 2149 frames in 143 s (0.066 s/frame, 4 workers). QC: 1080×1920/30 fps/H.264/AAC, 71.6 s,
+  −14.2 LUFS, −1.25 dBTP, no black, no silence; the only "frozen" flag is the static choice screen (intended).
+* Known weak spots: hand inserts (slap, wet hand) are simple shapes; the Rider's sleeves read as tubes; Gus's lips barely move
+  under the beard; all three voices are the same default TTS voice.
 
 ## Other production notes
 * **Voices**: no reference clips yet, so narrator, Gus and the Rider use the same default Chatterbox voice. Add clips

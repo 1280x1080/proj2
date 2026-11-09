@@ -538,7 +538,7 @@ def build_captions(edit: Edit):
         t1 = ws[-1]["end"] + off + 0.25
         if i + 1 < len(phrases):
             t1 = min(t1, phrases[i + 1][1][0]["start"] + off - 0.04)
-        caps.append(dict(t0=t0, t1=max(t1, t0 + 0.3), who=ln.get("who", "narrator"),
+        caps.append(dict(t0=t0, t1=max(t1, t0 + 0.3), who=ln.get("who", "narrator"), line=ln.get("id"),
                          words=[dict(w, start=w["start"] + off, end=w["end"] + off) for w in ws]))
     return caps
 
@@ -558,12 +558,19 @@ def draw_captions(edit: Edit, canvas, t):
     cap = next((c for c in edit.captions if c["t0"] <= t < c["t1"]), None)
     if cap is None:
         return
-    emph = {kit._norm(e) for e in cfg.get("emphasis", [])}
+    # per-line key-word colours (line_colors={line_id: {word: colour}}) replace the global emphasis list
+    lc = cfg.get("line_colors")
+    if lc is not None:
+        colors = {kit._norm(k): v for k, v in lc.get(cap.get("line"), {}).items()}
+    else:
+        colors = {kit._norm(e): cfg.get("emphasis_color", "#ff8a3d") for e in cfg.get("emphasis", [])}
+    emph = set(colors)
     size = cfg.get("size", 84)
     base_col = cfg.get("color", "#ffffff")
     hi_col = cfg.get("highlight", "#ffd23f")
-    em_col = cfg.get("emphasis_color", "#ff8a3d")
     words = [w["w"].strip() for w in cap["words"]]
+    if cfg.get("upper"):
+        words = [w.upper() for w in words]
     # layout: one or two lines that fit inside the safe width
     maxw = W - 2 * SAFE - 40
     s = size
@@ -602,7 +609,7 @@ def draw_captions(edit: Edit, canvas, t):
             wd = cap["words"][wi]
             active = wd["start"] - 0.02 <= t <= wd["end"] + 0.06 or (t > wd["end"] and wi + 1 < len(cap["words"])
                                                                       and t < cap["words"][wi + 1]["start"])
-            col = em_col if kit._norm(w) in emph else (hi_col if active else base_col)
+            col = colors[kit._norm(w)] if kit._norm(w) in emph else (hi_col if active else base_col)
             blob = skia.TextBlob(w, f)
             pop = 1.0
             if kit._norm(w) in emph:

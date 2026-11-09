@@ -52,12 +52,12 @@
     },
     "loudness_lufs": {
       "ok": true,
-      "value": -14.14,
+      "value": -14.17,
       "want": "-14 \u00b11"
     },
     "true_peak_dbtp": {
       "ok": true,
-      "value": -1.28,
+      "value": -1.25,
       "want": "<= -1.0"
     },
     "no_long_silence": {
@@ -74,16 +74,6 @@
       "ok": false,
       "value": [
         {
-          "start": 17.8,
-          "end": 18.8667,
-          "dur": 1.0667000000000009
-        },
-        {
-          "start": 42.5333,
-          "end": 43.8333,
-          "dur": 1.3000000000000043
-        },
-        {
           "start": 68.6333,
           "end": 69.6333,
           "dur": 1.0
@@ -97,6 +87,6 @@
       "want": "no frozen picture >= 1 s (unless intended)"
     }
   },
-  "contact_sheet": "VIDEOS/VIDEO_003/qc/contact_sheet.png",
+  "contact_sheet": "/home/user/proj2/STUDIO/VIDEOS/VIDEO_003/qc/contact_sheet.png",
   "passed": false
 }

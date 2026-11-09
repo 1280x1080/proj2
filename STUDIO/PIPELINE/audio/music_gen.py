@@ -255,6 +255,44 @@ def cue_video002():
     return s, dict(loop=False)
 
 
+def cue_video003():
+    """GOING DOWN Part 1 - elevator horror.  Low drone + music-box bell motif; heartbeat bass under the
+    tests; tremolo cluster rising into the drop; silence punch on the drop and on "Stay in"; low hit on
+    the freeze; the choice screen sits on a quiet drone."""
+    edl = _load_edl("003")
+    B = edl.BEATS
+    D = edl.DURATION
+    s = Score(D, bpm=70, seed=3)
+    # drone (A1 + E2) under everything
+    s.note("bass", "bass", 33, 0.0, D, gain=0.22)
+    s.note("pad", "pad", 40, 0.0, B["drop"], gain=0.10, bright=0.15)
+    # music-box motif: hook, the glowing 13, the doors on 13, each rule card
+    motif = [76, 72, 75, 71]
+    for k, tt in enumerate([0.05, B["thirteen_glow"], B["doors13"]] + list(B["rules"])):
+        s.note("lead", "bell", motif[k % 4], tt, 2.4, gain=0.06, pan=(-0.3 if k % 2 else 0.3), bright=0.25)
+    # unease pad after the presence
+    for t0, name in ((B["doors13"], "Am"), (B["gus"], "Fmaj7"), (B["rules"][0], "Dm7"), (B["mirror_test"], "Esus4")):
+        s.chord("pad", "strings", name, t0, 8.0, gain=0.07, octave=3, bright=0.2)
+    # heartbeat bass pulse under the tests
+    t = B["mirror_test"]
+    while t < B["drop"]:
+        s.hit("perc", drum_kick(0.4), t, 0.22)
+        s.hit("perc", drum_kick(0.3), t + 0.28, 0.14)
+        t += 60 / 72 if t < B["mom"] else 60 / 96
+    # tremolo cluster rising from the mom test into the drop
+    for m, p in ((57, -0.4), (58, 0.4), (64, 0.0)):
+        s.note("pad", "tremolo", m, B["inside"], B["drop"] - B["inside"] + 0.2, gain=0.06, pan=p, rate=10.0)
+    s.gate(B["drop"] - 0.02, B["drop"] + 0.45, gain=0.0, fade=0.03)
+    s.hit("perc", drum_tom(48, 1.6), B["drop"] + 0.45, 0.45)
+    # red section: low red pad, drops out for "Stay in"
+    s.chord("pad", "pad", "Am", B["drop"] + 0.4, B["freeze"] - B["drop"], gain=0.12, octave=2, bright=0.1)
+    s.gate(B["stay"] - 0.05, B["stay"] + 1.3, gain=0.15, fade=0.05)
+    s.hit("perc", drum_tom(44, 2.0), B["freeze"], 0.5)
+    s.note("pad", "stab", 45, B["freeze"], 1.6, gain=0.10, bright=0.15)
+    s.note("lead", "bell", 69, B["choice"] + 0.2, 3.0, gain=0.06, bright=0.2)
+    return s, dict(loop=False)
+
+
 def main():
     num = sys.argv[1].zfill(3)
     s, opts = globals()[f"cue_video{num}"]()

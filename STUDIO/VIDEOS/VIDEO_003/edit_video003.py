@@ -149,9 +149,9 @@ SCENES = [
 # ---------------------------------------------------------------------------------------------
 # build SEGMENTS
 # ---------------------------------------------------------------------------------------------
-FOCUS = dict(indicator_cu=(540, 700), panel_cu=(560, 900), car_wide=(540, 960), you_cu=(540, 860), mirror_pov=(540, 900), doors_13=(540, 980),
+FOCUS = dict(indicator_cu=(540, 700), panel_cu=(380, 850), car_wide=(540, 960), you_cu=(540, 860), mirror_pov=(540, 900), doors_13=(540, 980),
              doors_9=(540, 980), gus_reveal=(560, 900), gus_cu=(540, 860), palm_cu=(540, 960), rider_corner=(540, 900),
-             thumb_cu=(540, 960), hand_slap=(540, 960), car_red=(540, 960), lobby_pov=(540, 980), wet_hand_cu=(540, 900),
+             thumb_cu=(420, 900), hand_slap=(540, 960), car_red=(540, 960), lobby_pov=(540, 980), wet_hand_cu=(540, 900),
              choice_bg=(540, 960))
 
 
@@ -271,7 +271,7 @@ CAPTIONS = dict(
     emphasis=sorted({w for d in _line_colors.values() for w, c in d.items() if c == RED}), emphasis_color=RED,
     speakers=False,
     # keep captions off faces (close-ups) and below the choice pills
-    overrides=[(sg["t0"], sg["t1"], 0.80) for sg in SEGMENTS if sg["src"] in ("you_cu", "gus_cu", "choice_bg")],
+    overrides=[(sg["t0"], sg["t1"], 0.80) for sg in SEGMENTS if sg["src"] in ("you_cu", "gus_cu", "choice_bg", "palm_cu", "panel_cu", "thumb_cu")],
     upper=True, line_colors=_line_colors,
 )
 
