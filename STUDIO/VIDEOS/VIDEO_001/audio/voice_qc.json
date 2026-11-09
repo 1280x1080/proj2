@@ -1,0 +1,29 @@
+{
+  "model": "base.en",
+  "lines": [
+    {
+      "id": "L1",
+      "text": "Every night at eleven, Mia's lamp flickered exactly three times.",
+      "heard": "Every night at 11, Mia's lamp flickered exactly three times.",
+      "mismatches": 0,
+      "duration": 3.77,
+      "words_per_sec": 2.65,
+      "clipped": false
+    },
+    {
+      "id": "L2",
+      "text": "Wait... that was four.",
+      "heard": "Wait, that was four.",
+      "mismatches": 0,
+      "duration": 1.33,
+      "words_per_sec": 3.01,
+      "clipped": false
+    }
+  ],
+  "gaps": [
+    1.5
+  ],
+  "total": 7.55,
+  "peak_db": -3.0,
+  "passed": true
+}

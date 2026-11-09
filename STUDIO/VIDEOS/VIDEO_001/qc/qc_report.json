@@ -40,7 +40,7 @@
     "duration": {
       "ok": true,
       "value": 10.0,
-      "want": 10.0
+      "want": "30-90 s (tests may be shorter)"
     },
     "av_length_match": {
       "ok": true,
@@ -76,6 +76,6 @@
       "want": "no frozen picture >= 1 s (unless intended)"
     }
   },
-  "contact_sheet": "VIDEOS/VIDEO_001/qc/contact_sheet.png",
+  "contact_sheet": "/home/user/proj2/STUDIO/VIDEOS/VIDEO_001/qc/contact_sheet.png",
   "passed": true
 }

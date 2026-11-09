@@ -47,9 +47,9 @@ def run(path, out_dir=None):
     seam = float(np.abs(f[0] - f[-1]).mean())
     med, p95 = float(np.median(diffs)), float(np.percentile(diffs, 95))
     res["picture_seam"] = dict(seam_diff=round(seam, 2), median_motion=round(med, 2), p95_motion=round(p95, 2),
-                               ok=seam <= max(p95, 3.0) * 1.1)
+                               ok=bool(seam <= max(p95, 3.0) * 1.1))
     res["black_at_seam"] = dict(first=float(f[0].mean()), last=float(f[-1].mean()),
-                                ok=f[0].mean() > 8 and f[-1].mean() > 8)
+                                ok=bool(f[0].mean() > 8 and f[-1].mean() > 8))
 
     # --- audio seam
     if a is not None:
@@ -75,7 +75,7 @@ def run(path, out_dir=None):
     res["loop3x_file"] = dict(path=str(x3), duration=float(p3["format"]["duration"]),
                               ok=abs(float(p3["format"]["duration"]) - 3 * vdur) < 0.2)
     res["passed"] = all(v["ok"] for k, v in res.items() if isinstance(v, dict) and "ok" in v)
-    (out_dir / "loop_test.json").write_text(json.dumps(res, indent=2))
+    (out_dir / "loop_test.json").write_text(json.dumps(res, indent=2, default=lambda o: o.item() if hasattr(o, "item") else str(o)))
     for k, v in res.items():
         if isinstance(v, dict):
             print(f"  [{'PASS' if v['ok'] else 'FAIL'}] {k:22s} " + ", ".join(f"{a}={b}" for a, b in v.items() if a != "ok"))
