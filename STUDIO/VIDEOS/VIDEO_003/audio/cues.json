@@ -1,0 +1,329 @@
+{
+  "duration": 71.63,
+  "loop": false,
+  "narration": {
+    "file": "narration_raw.wav",
+    "offset": 0.0
+  },
+  "cues": [
+    {
+      "t": 0.0,
+      "sfx": "click_ui",
+      "gain_db": -4,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S01"
+    },
+    {
+      "t": 0.0,
+      "sfx": "room_tone",
+      "gain_db": 0,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "elevator car tone",
+      "dur": 71.63,
+      "fade_in": 0.02
+    },
+    {
+      "t": 0.0,
+      "sfx": "lamp_buzz",
+      "gain_db": -4,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "fluorescent hum (dies at the drop)",
+      "dur": 56.1,
+      "fade_in": 0.02,
+      "fade_out": 0.05
+    },
+    {
+      "t": 7.41,
+      "sfx": "riser",
+      "gain_db": -26,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S04"
+    },
+    {
+      "t": 11.38,
+      "sfx": "ding",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S06"
+    },
+    {
+      "t": 11.63,
+      "sfx": "whoosh_soft",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S06"
+    },
+    {
+      "t": 13.86,
+      "sfx": "heartbeat",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S07"
+    },
+    {
+      "t": 17.07,
+      "sfx": "door_close",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S08"
+    },
+    {
+      "t": 19.3,
+      "sfx": "whoosh",
+      "gain_db": -9,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S09"
+    },
+    {
+      "t": 19.5,
+      "sfx": "impact_soft",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S09"
+    },
+    {
+      "t": 26.1,
+      "sfx": "tick",
+      "gain_db": -16,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S12"
+    },
+    {
+      "t": 26.5,
+      "sfx": "tick",
+      "gain_db": -16,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S12"
+    },
+    {
+      "t": 28.01,
+      "sfx": "click_ui",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S13"
+    },
+    {
+      "t": 31.07,
+      "sfx": "click_ui",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S14"
+    },
+    {
+      "t": 33.8,
+      "sfx": "click_ui",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S15"
+    },
+    {
+      "t": 37.03,
+      "sfx": "ding",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S16"
+    },
+    {
+      "t": 37.28,
+      "sfx": "whoosh_soft",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S16"
+    },
+    {
+      "t": 39.14,
+      "sfx": "heartbeat",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S17"
+    },
+    {
+      "t": 39.94,
+      "sfx": "heartbeat",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S17"
+    },
+    {
+      "t": 42.51,
+      "sfx": "whoosh_soft",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S18"
+    },
+    {
+      "t": 44.78,
+      "sfx": "impact_hard",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S19"
+    },
+    {
+      "t": 48.89,
+      "sfx": "flicker_zap",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S21"
+    },
+    {
+      "t": 49.39,
+      "sfx": "flicker_zap",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S21"
+    },
+    {
+      "t": 52.65,
+      "sfx": "heartbeat",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S23"
+    },
+    {
+      "t": 54.51,
+      "sfx": "thud_wood",
+      "gain_db": -4,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S24"
+    },
+    {
+      "t": 54.51,
+      "sfx": "impact_soft",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S24"
+    },
+    {
+      "t": 56.04,
+      "sfx": "whoosh",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S25"
+    },
+    {
+      "t": 56.1,
+      "sfx": "wind",
+      "gain_db": -10,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "shaft air after the drop",
+      "dur": 15.529999999999994,
+      "fade_in": 0.4
+    },
+    {
+      "t": 56.44,
+      "sfx": "impact_cinematic",
+      "gain_db": -4,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S25"
+    },
+    {
+      "t": 58.35,
+      "sfx": "ding",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S26"
+    },
+    {
+      "t": 58.8,
+      "sfx": "ding",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S26"
+    },
+    {
+      "t": 58.95,
+      "sfx": "whoosh_soft",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S26"
+    },
+    {
+      "t": 59.3,
+      "sfx": "ding",
+      "gain_db": -34,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S26"
+    },
+    {
+      "t": 60.8,
+      "sfx": "riser",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S28"
+    },
+    {
+      "t": 64.64,
+      "sfx": "impact_soft",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S30a"
+    },
+    {
+      "t": 64.84,
+      "sfx": "heartbeat",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S30a"
+    },
+    {
+      "t": 66.53,
+      "sfx": "impact_cinematic",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S30b"
+    },
+    {
+      "t": 67.68,
+      "sfx": "pop",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S31"
+    },
+    {
+      "t": 67.83,
+      "sfx": "pop",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "S31"
+    }
+  ]
+}

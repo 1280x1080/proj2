@@ -23,6 +23,23 @@ def num_words(n: int) -> str:
     return str(n)
 
 
+_ORD = {"one": "first", "two": "second", "three": "third", "five": "fifth", "eight": "eighth", "nine": "ninth",
+        "twelve": "twelfth"}
+
+
+def ordinal_words(n: int) -> str:
+    """13 -> 'thirteenth', 22 -> 'twenty second' (so '13th' and 'thirteenth' compare equal)."""
+    ws = num_words(n).split()
+    last = ws[-1]
+    if last in _ORD:
+        last = _ORD[last]
+    elif last.endswith("y"):
+        last = last[:-1] + "ieth"
+    else:
+        last += "th"
+    return " ".join(ws[:-1] + [last])
+
+
 def _num_repl(m):
     s = m.group(0).replace(",", "")
     if "." in s:
@@ -33,8 +50,10 @@ def _num_repl(m):
 
 def normalize_words(text: str) -> list[str]:
     t = text.lower()
+    t = re.sub(r"\b([ap])\.\s?m\.?", r"\1m", t)  # a.m. / p.m. -> am / pm
     t = t.replace("%", " percent").replace("&", " and ").replace("$", " dollars ")
-    t = re.sub(r"(\d+)(st|nd|rd|th)\b", r"\1", t)
+    t = re.sub(r"(\d+)(st|nd|rd|th)\b", lambda m: ordinal_words(int(m.group(1))), t)
+    t = re.sub(r"(\d)([a-z])", r"\1 \2", t)  # 3am -> 3 am
     t = re.sub(r"\d[\d,]*(\.\d+)?", _num_repl, t)
     t = t.replace("-", " ").replace("—", " ").replace("–", " ")
     t = re.sub(r"[^a-z' ]+", " ", t)

@@ -1,0 +1,255 @@
+{
+  "title": "GOING DOWN - Part 1",
+  "series": "GOING DOWN",
+  "part": 1,
+  "notes": "Second person, present tense. One script line = one cut. Text stays in normal case on purpose: Chatterbox reads ALL-CAPS words as letters ('IT' -> 'I.T.'). Captions are ALL CAPS on screen (see README).",
+  "voice_ref": null,
+  "voices": {
+    "gus": null,
+    "rider": null
+  },
+  "lead_in": 0.15,
+  "tail": 0.4,
+  "lines": [
+    {
+      "id": "S01",
+      "who": "narrator",
+      "text": "Your elevator pressed a button by itself.",
+      "delivery": "dramatic",
+      "emotion": 0.6,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S02",
+      "who": "narrator",
+      "text": "Three AM, going down from twenty-two.",
+      "delivery": "calm",
+      "emotion": 0.4,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S03",
+      "who": "narrator",
+      "text": "But your building has no thirteenth floor.",
+      "delivery": "calm",
+      "emotion": 0.45,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S04",
+      "who": "narrator",
+      "text": "Button thirteen is glowing.",
+      "delivery": "dramatic",
+      "emotion": 0.55,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S05",
+      "who": "narrator",
+      "text": "In the mirror, you look alone.",
+      "delivery": "calm",
+      "emotion": 0.4,
+      "pause_after": 0.7
+    },
+    {
+      "id": "S06",
+      "who": "narrator",
+      "text": "The doors open on thirteen.",
+      "delivery": "dramatic",
+      "emotion": 0.5,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S07",
+      "who": "narrator",
+      "text": "A woman. Red raincoat. Facing the wall.",
+      "delivery": "calm",
+      "emotion": 0.45,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S08",
+      "who": "narrator",
+      "text": "She starts to turn. The doors cut her off.",
+      "delivery": "dramatic",
+      "emotion": 0.55,
+      "pause_after": 0.7
+    },
+    {
+      "id": "S09",
+      "who": "narrator",
+      "text": "Behind you, someone coughs.",
+      "delivery": "dramatic",
+      "emotion": 0.6,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S10",
+      "who": "narrator",
+      "text": "An old janitor named Gus.",
+      "delivery": "calm",
+      "emotion": 0.4,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S11",
+      "who": "gus",
+      "text": "\"She rides every night. Hold out your hand.\"",
+      "delivery": "slow",
+      "emotion": 0.5,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S12",
+      "who": "narrator",
+      "text": "He writes three rules on your palm.",
+      "delivery": "calm",
+      "emotion": 0.45,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S13",
+      "who": "gus",
+      "text": "\"One. Never look in the mirror with the doors open.\"",
+      "delivery": "slow",
+      "emotion": 0.5,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S14",
+      "who": "gus",
+      "text": "\"Two. Never press a floor she asks for.\"",
+      "delivery": "slow",
+      "emotion": 0.5,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S15",
+      "who": "gus",
+      "text": "\"Three. Only get out when the bell rings twice.\"",
+      "delivery": "slow",
+      "emotion": 0.5,
+      "pause_after": 0.7
+    },
+    {
+      "id": "S16",
+      "who": "narrator",
+      "text": "Floor nine. Nobody there.",
+      "delivery": "whisper",
+      "emotion": 0.4,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S17",
+      "who": "narrator",
+      "text": "The mirror shows someone. Behind you.",
+      "delivery": "dramatic",
+      "emotion": 0.65,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S18",
+      "who": "narrator",
+      "text": "You stare at your shoes until the doors close.",
+      "delivery": "whisper",
+      "emotion": 0.45,
+      "pause_after": 0.6
+    },
+    {
+      "id": "S19",
+      "who": "narrator",
+      "text": "When you look up, she's inside.",
+      "delivery": "dramatic",
+      "emotion": 0.65,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S20",
+      "who": "rider",
+      "text": "\"Could you press thirteen, please?\"",
+      "delivery": "whisper",
+      "emotion": 0.35,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S21",
+      "who": "narrator",
+      "text": "You don't move. The lights die.",
+      "delivery": "dramatic",
+      "emotion": 0.55,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S22",
+      "who": "rider",
+      "text": "\"Sweetie, it's Mom. Press it for me.\"",
+      "delivery": "warm",
+      "emotion": 0.55,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S23",
+      "who": "narrator",
+      "text": "Your thumb finds the button.",
+      "delivery": "slow",
+      "emotion": 0.5,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S24",
+      "who": "narrator",
+      "text": "Gus slaps your hand away.",
+      "delivery": "slow",
+      "emotion": 0.7,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S25",
+      "who": "narrator",
+      "text": "The car drops. Everything goes red.",
+      "delivery": "excited",
+      "emotion": 0.75,
+      "pause_after": 0.7
+    },
+    {
+      "id": "S26",
+      "who": "narrator",
+      "text": "The bell rings twice. Lobby.",
+      "delivery": "calm",
+      "emotion": 0.45,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S28",
+      "who": "narrator",
+      "text": "Rule three says go.",
+      "delivery": "calm",
+      "emotion": 0.45,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S29",
+      "who": "gus",
+      "text": "\"Stay in. That's not your floor.\"",
+      "delivery": "dramatic",
+      "emotion": 0.6,
+      "pause_after": 0.4
+    },
+    {
+      "id": "S30",
+      "who": "narrator",
+      "text": "A wet hand settles on your shoulder.",
+      "delivery": "slow",
+      "emotion": 0.55,
+      "pause_after": 1.2
+    },
+    {
+      "id": "S31",
+      "who": "narrator",
+      "text": "Do you step out? The top comment decides.",
+      "delivery": "dramatic",
+      "emotion": 0.55,
+      "pause_after": 0.0
+    }
+  ]
+}

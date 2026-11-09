@@ -1,0 +1,1230 @@
+{
+  "duration": 70.03,
+  "lines": [
+    {
+      "id": "S01",
+      "who": "narrator",
+      "text": "Your elevator pressed a button by itself.",
+      "start": 0.15,
+      "end": 2.2,
+      "words": [
+        {
+          "w": "Your",
+          "start": 0.15,
+          "end": 0.33
+        },
+        {
+          "w": "elevator",
+          "start": 0.33,
+          "end": 0.67
+        },
+        {
+          "w": "pressed",
+          "start": 0.67,
+          "end": 0.97
+        },
+        {
+          "w": "a",
+          "start": 0.97,
+          "end": 1.11
+        },
+        {
+          "w": "button",
+          "start": 1.11,
+          "end": 1.29
+        },
+        {
+          "w": "by",
+          "start": 1.29,
+          "end": 1.53
+        },
+        {
+          "w": "itself.",
+          "start": 1.53,
+          "end": 1.83
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "who": "narrator",
+      "text": "Three AM, going down from twenty-two.",
+      "start": 2.6,
+      "end": 4.72,
+      "words": [
+        {
+          "w": "Three",
+          "start": 2.6,
+          "end": 2.87
+        },
+        {
+          "w": "AM,",
+          "start": 2.87,
+          "end": 3.14
+        },
+        {
+          "w": "going",
+          "start": 3.42,
+          "end": 3.56
+        },
+        {
+          "w": "down",
+          "start": 3.56,
+          "end": 3.78
+        },
+        {
+          "w": "from",
+          "start": 3.78,
+          "end": 3.96
+        },
+        {
+          "w": "twenty-two.",
+          "start": 3.96,
+          "end": 4.42
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "who": "narrator",
+      "text": "But your building has no thirteenth floor.",
+      "start": 5.12,
+      "end": 7.07,
+      "words": [
+        {
+          "w": "But",
+          "start": 5.12,
+          "end": 5.26
+        },
+        {
+          "w": "your",
+          "start": 5.26,
+          "end": 5.4
+        },
+        {
+          "w": "building",
+          "start": 5.4,
+          "end": 5.74
+        },
+        {
+          "w": "has",
+          "start": 5.74,
+          "end": 6.0
+        },
+        {
+          "w": "no",
+          "start": 6.0,
+          "end": 6.16
+        },
+        {
+          "w": "thirteenth",
+          "start": 6.16,
+          "end": 6.68
+        },
+        {
+          "w": "floor.",
+          "start": 6.68,
+          "end": 6.84
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "who": "narrator",
+      "text": "Button thirteen is glowing.",
+      "start": 7.47,
+      "end": 8.81,
+      "words": [
+        {
+          "w": "Button",
+          "start": 7.47,
+          "end": 7.71
+        },
+        {
+          "w": "thirteen",
+          "start": 7.71,
+          "end": 8.03
+        },
+        {
+          "w": "is",
+          "start": 8.03,
+          "end": 8.27
+        },
+        {
+          "w": "glowing.",
+          "start": 8.27,
+          "end": 8.53
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "who": "narrator",
+      "text": "In the mirror, you look alone.",
+      "start": 9.21,
+      "end": 10.99,
+      "words": [
+        {
+          "w": "In",
+          "start": 9.21,
+          "end": 9.35
+        },
+        {
+          "w": "the",
+          "start": 9.35,
+          "end": 9.47
+        },
+        {
+          "w": "mirror,",
+          "start": 9.47,
+          "end": 9.77
+        },
+        {
+          "w": "you",
+          "start": 10.09,
+          "end": 10.23
+        },
+        {
+          "w": "look",
+          "start": 10.23,
+          "end": 10.37
+        },
+        {
+          "w": "alone.",
+          "start": 10.37,
+          "end": 10.73
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "who": "narrator",
+      "text": "The doors open on thirteen.",
+      "start": 11.69,
+      "end": 13.12,
+      "words": [
+        {
+          "w": "The",
+          "start": 11.69,
+          "end": 11.83
+        },
+        {
+          "w": "doors",
+          "start": 11.83,
+          "end": 11.99
+        },
+        {
+          "w": "open",
+          "start": 11.99,
+          "end": 12.27
+        },
+        {
+          "w": "on",
+          "start": 12.27,
+          "end": 12.45
+        },
+        {
+          "w": "thirteen.",
+          "start": 12.45,
+          "end": 12.79
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "who": "narrator",
+      "text": "A woman. Red raincoat. Facing the wall.",
+      "start": 13.52,
+      "end": 16.13,
+      "words": [
+        {
+          "w": "A",
+          "start": 13.52,
+          "end": 13.68
+        },
+        {
+          "w": "woman.",
+          "start": 13.68,
+          "end": 13.94
+        },
+        {
+          "w": "Red",
+          "start": 14.4,
+          "end": 14.56
+        },
+        {
+          "w": "raincoat.",
+          "start": 14.56,
+          "end": 15.08
+        },
+        {
+          "w": "Facing",
+          "start": 15.34,
+          "end": 15.5
+        },
+        {
+          "w": "the",
+          "start": 15.5,
+          "end": 15.68
+        },
+        {
+          "w": "wall.",
+          "start": 15.68,
+          "end": 15.88
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "who": "narrator",
+      "text": "She starts to turn. The doors cut her off.",
+      "start": 16.53,
+      "end": 18.81,
+      "words": [
+        {
+          "w": "She",
+          "start": 16.53,
+          "end": 16.71
+        },
+        {
+          "w": "starts",
+          "start": 16.71,
+          "end": 16.89
+        },
+        {
+          "w": "to",
+          "start": 16.89,
+          "end": 17.13
+        },
+        {
+          "w": "turn.",
+          "start": 17.13,
+          "end": 17.37
+        },
+        {
+          "w": "The",
+          "start": 17.81,
+          "end": 17.85
+        },
+        {
+          "w": "doors",
+          "start": 17.85,
+          "end": 18.03
+        },
+        {
+          "w": "cut",
+          "start": 18.03,
+          "end": 18.25
+        },
+        {
+          "w": "her",
+          "start": 18.25,
+          "end": 18.39
+        },
+        {
+          "w": "off.",
+          "start": 18.39,
+          "end": 18.61
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "who": "narrator",
+      "text": "Behind you, someone coughs.",
+      "start": 19.51,
+      "end": 21.06,
+      "words": [
+        {
+          "w": "Behind",
+          "start": 19.51,
+          "end": 19.81
+        },
+        {
+          "w": "you,",
+          "start": 19.81,
+          "end": 20.05
+        },
+        {
+          "w": "someone",
+          "start": 20.25,
+          "end": 20.47
+        },
+        {
+          "w": "coughs.",
+          "start": 20.47,
+          "end": 20.95
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "who": "narrator",
+      "text": "An old janitor named Gus.",
+      "start": 21.46,
+      "end": 23.25,
+      "words": [
+        {
+          "w": "An",
+          "start": 21.46,
+          "end": 21.62
+        },
+        {
+          "w": "old",
+          "start": 21.62,
+          "end": 21.86
+        },
+        {
+          "w": "janitor",
+          "start": 21.86,
+          "end": 22.32
+        },
+        {
+          "w": "named",
+          "start": 22.32,
+          "end": 22.6
+        },
+        {
+          "w": "Gus.",
+          "start": 22.6,
+          "end": 22.92
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "who": "gus",
+      "text": "\"She rides every night. Hold out your hand.\"",
+      "start": 23.65,
+      "end": 25.56,
+      "words": [
+        {
+          "w": "\"She",
+          "start": 23.65,
+          "end": 23.81
+        },
+        {
+          "w": "rides",
+          "start": 23.81,
+          "end": 23.97
+        },
+        {
+          "w": "every",
+          "start": 23.97,
+          "end": 24.23
+        },
+        {
+          "w": "night.",
+          "start": 24.23,
+          "end": 24.47
+        },
+        {
+          "w": "Hold",
+          "start": 24.73,
+          "end": 24.81
+        },
+        {
+          "w": "out",
+          "start": 24.81,
+          "end": 24.93
+        },
+        {
+          "w": "your",
+          "start": 24.93,
+          "end": 25.07
+        },
+        {
+          "w": "hand.\"",
+          "start": 25.07,
+          "end": 25.33
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "who": "narrator",
+      "text": "He writes three rules on your palm.",
+      "start": 25.96,
+      "end": 27.67,
+      "words": [
+        {
+          "w": "He",
+          "start": 25.96,
+          "end": 26.2
+        },
+        {
+          "w": "writes",
+          "start": 26.2,
+          "end": 26.34
+        },
+        {
+          "w": "three",
+          "start": 26.34,
+          "end": 26.62
+        },
+        {
+          "w": "rules",
+          "start": 26.62,
+          "end": 26.86
+        },
+        {
+          "w": "on",
+          "start": 26.86,
+          "end": 27.08
+        },
+        {
+          "w": "your",
+          "start": 27.08,
+          "end": 27.18
+        },
+        {
+          "w": "palm.",
+          "start": 27.18,
+          "end": 27.42
+        }
+      ]
+    },
+    {
+      "id": "S13",
+      "who": "gus",
+      "text": "\"One. Never look in the mirror with the doors open.\"",
+      "start": 28.07,
+      "end": 30.73,
+      "words": [
+        {
+          "w": "\"One.",
+          "start": 28.07,
+          "end": 28.31
+        },
+        {
+          "w": "Never",
+          "start": 28.85,
+          "end": 29.01
+        },
+        {
+          "w": "look",
+          "start": 29.01,
+          "end": 29.19
+        },
+        {
+          "w": "in",
+          "start": 29.19,
+          "end": 29.33
+        },
+        {
+          "w": "the",
+          "start": 29.33,
+          "end": 29.43
+        },
+        {
+          "w": "mirror",
+          "start": 29.43,
+          "end": 29.59
+        },
+        {
+          "w": "with",
+          "start": 29.59,
+          "end": 29.81
+        },
+        {
+          "w": "the",
+          "start": 29.81,
+          "end": 29.95
+        },
+        {
+          "w": "doors",
+          "start": 29.95,
+          "end": 30.11
+        },
+        {
+          "w": "open.\"",
+          "start": 30.11,
+          "end": 30.51
+        }
+      ]
+    },
+    {
+      "id": "S14",
+      "who": "gus",
+      "text": "\"Two. Never press a floor she asks for.\"",
+      "start": 31.13,
+      "end": 33.46,
+      "words": [
+        {
+          "w": "\"Two.",
+          "start": 31.13,
+          "end": 31.37
+        },
+        {
+          "w": "Never",
+          "start": 31.67,
+          "end": 31.85
+        },
+        {
+          "w": "press",
+          "start": 31.85,
+          "end": 32.09
+        },
+        {
+          "w": "a",
+          "start": 32.09,
+          "end": 32.27
+        },
+        {
+          "w": "floor",
+          "start": 32.27,
+          "end": 32.45
+        },
+        {
+          "w": "she",
+          "start": 32.45,
+          "end": 32.63
+        },
+        {
+          "w": "asks",
+          "start": 32.63,
+          "end": 32.95
+        },
+        {
+          "w": "for.\"",
+          "start": 32.95,
+          "end": 33.27
+        }
+      ]
+    },
+    {
+      "id": "S15",
+      "who": "gus",
+      "text": "\"Three. Only get out when the bell rings twice.\"",
+      "start": 33.86,
+      "end": 36.64,
+      "words": [
+        {
+          "w": "\"Three.",
+          "start": 33.86,
+          "end": 34.14
+        },
+        {
+          "w": "Only",
+          "start": 34.56,
+          "end": 34.9
+        },
+        {
+          "w": "get",
+          "start": 34.9,
+          "end": 35.08
+        },
+        {
+          "w": "out",
+          "start": 35.08,
+          "end": 35.26
+        },
+        {
+          "w": "when",
+          "start": 35.26,
+          "end": 35.44
+        },
+        {
+          "w": "the",
+          "start": 35.44,
+          "end": 35.56
+        },
+        {
+          "w": "bell",
+          "start": 35.56,
+          "end": 35.72
+        },
+        {
+          "w": "rings",
+          "start": 35.72,
+          "end": 36.0
+        },
+        {
+          "w": "twice.\"",
+          "start": 36.0,
+          "end": 36.28
+        }
+      ]
+    },
+    {
+      "id": "S16",
+      "who": "narrator",
+      "text": "Floor nine. Nobody there.",
+      "start": 37.34,
+      "end": 38.8,
+      "words": [
+        {
+          "w": "Floor",
+          "start": 37.34,
+          "end": 37.56
+        },
+        {
+          "w": "nine.",
+          "start": 37.56,
+          "end": 37.82
+        },
+        {
+          "w": "Nobody",
+          "start": 38.16,
+          "end": 38.28
+        },
+        {
+          "w": "there.",
+          "start": 38.28,
+          "end": 38.62
+        }
+      ]
+    },
+    {
+      "id": "S17",
+      "who": "narrator",
+      "text": "The mirror shows someone. Behind you.",
+      "start": 39.2,
+      "end": 41.17,
+      "words": [
+        {
+          "w": "The",
+          "start": 39.2,
+          "end": 39.34
+        },
+        {
+          "w": "mirror",
+          "start": 39.34,
+          "end": 39.56
+        },
+        {
+          "w": "shows",
+          "start": 39.56,
+          "end": 39.86
+        },
+        {
+          "w": "someone.",
+          "start": 39.86,
+          "end": 40.28
+        },
+        {
+          "w": "Behind",
+          "start": 40.52,
+          "end": 40.78
+        },
+        {
+          "w": "you.",
+          "start": 40.78,
+          "end": 41.0
+        }
+      ]
+    },
+    {
+      "id": "S18",
+      "who": "narrator",
+      "text": "You stare at your shoes until the doors close.",
+      "start": 41.57,
+      "end": 43.89,
+      "words": [
+        {
+          "w": "You",
+          "start": 41.57,
+          "end": 41.71
+        },
+        {
+          "w": "stare",
+          "start": 41.71,
+          "end": 41.93
+        },
+        {
+          "w": "at",
+          "start": 41.93,
+          "end": 42.05
+        },
+        {
+          "w": "your",
+          "start": 42.05,
+          "end": 42.17
+        },
+        {
+          "w": "shoes",
+          "start": 42.17,
+          "end": 42.53
+        },
+        {
+          "w": "until",
+          "start": 42.53,
+          "end": 42.87
+        },
+        {
+          "w": "the",
+          "start": 42.87,
+          "end": 42.99
+        },
+        {
+          "w": "doors",
+          "start": 42.99,
+          "end": 43.19
+        },
+        {
+          "w": "close.",
+          "start": 43.19,
+          "end": 43.57
+        }
+      ]
+    },
+    {
+      "id": "S19",
+      "who": "narrator",
+      "text": "When you look up, she's inside.",
+      "start": 44.49,
+      "end": 46.05,
+      "words": [
+        {
+          "w": "When",
+          "start": 44.49,
+          "end": 44.63
+        },
+        {
+          "w": "you",
+          "start": 44.63,
+          "end": 44.73
+        },
+        {
+          "w": "look",
+          "start": 44.73,
+          "end": 44.87
+        },
+        {
+          "w": "up,",
+          "start": 44.87,
+          "end": 45.11
+        },
+        {
+          "w": "she's",
+          "start": 45.31,
+          "end": 45.51
+        },
+        {
+          "w": "inside.",
+          "start": 45.51,
+          "end": 45.83
+        }
+      ]
+    },
+    {
+      "id": "S20",
+      "who": "rider",
+      "text": "\"Could you press thirteen, please?\"",
+      "start": 46.45,
+      "end": 47.95,
+      "words": [
+        {
+          "w": "\"Could",
+          "start": 46.45,
+          "end": 46.59
+        },
+        {
+          "w": "you",
+          "start": 46.59,
+          "end": 46.71
+        },
+        {
+          "w": "press",
+          "start": 46.71,
+          "end": 46.91
+        },
+        {
+          "w": "thirteen,",
+          "start": 46.91,
+          "end": 47.29
+        },
+        {
+          "w": "please?\"",
+          "start": 47.35,
+          "end": 47.59
+        }
+      ]
+    },
+    {
+      "id": "S21",
+      "who": "narrator",
+      "text": "You don't move. The lights die.",
+      "start": 48.35,
+      "end": 49.94,
+      "words": [
+        {
+          "w": "You",
+          "start": 48.35,
+          "end": 48.51
+        },
+        {
+          "w": "don't",
+          "start": 48.51,
+          "end": 49.01
+        },
+        {
+          "w": "move.",
+          "start": 49.01,
+          "end": 49.05
+        },
+        {
+          "w": "The",
+          "start": 49.23,
+          "end": 49.33
+        },
+        {
+          "w": "lights",
+          "start": 49.33,
+          "end": 49.53
+        },
+        {
+          "w": "die.",
+          "start": 49.53,
+          "end": 49.77
+        }
+      ]
+    },
+    {
+      "id": "S22",
+      "who": "rider",
+      "text": "\"Sweetie, it's Mom. Press it for me.\"",
+      "start": 50.34,
+      "end": 52.31,
+      "words": [
+        {
+          "w": "\"Sweetie,",
+          "start": 50.34,
+          "end": 50.76
+        },
+        {
+          "w": "it's",
+          "start": 50.88,
+          "end": 50.98
+        },
+        {
+          "w": "Mom.",
+          "start": 50.98,
+          "end": 51.22
+        },
+        {
+          "w": "Press",
+          "start": 51.52,
+          "end": 51.62
+        },
+        {
+          "w": "it",
+          "start": 51.62,
+          "end": 51.78
+        },
+        {
+          "w": "for",
+          "start": 51.78,
+          "end": 51.92
+        },
+        {
+          "w": "me.\"",
+          "start": 51.92,
+          "end": 52.12
+        }
+      ]
+    },
+    {
+      "id": "S23",
+      "who": "narrator",
+      "text": "Your thumb finds the button.",
+      "start": 52.71,
+      "end": 54.02,
+      "words": [
+        {
+          "w": "Your",
+          "start": 52.71,
+          "end": 52.89
+        },
+        {
+          "w": "thumb",
+          "start": 52.89,
+          "end": 53.09
+        },
+        {
+          "w": "finds",
+          "start": 53.09,
+          "end": 53.41
+        },
+        {
+          "w": "the",
+          "start": 53.41,
+          "end": 53.55
+        },
+        {
+          "w": "button.",
+          "start": 53.55,
+          "end": 53.75
+        }
+      ]
+    },
+    {
+      "id": "S24",
+      "who": "narrator",
+      "text": "Gus slaps your hand away.",
+      "start": 54.42,
+      "end": 55.7,
+      "words": [
+        {
+          "w": "Gus",
+          "start": 54.42,
+          "end": 54.62
+        },
+        {
+          "w": "slaps",
+          "start": 54.62,
+          "end": 54.96
+        },
+        {
+          "w": "your",
+          "start": 54.96,
+          "end": 55.06
+        },
+        {
+          "w": "hand",
+          "start": 55.06,
+          "end": 55.26
+        },
+        {
+          "w": "away.",
+          "start": 55.26,
+          "end": 55.48
+        }
+      ]
+    },
+    {
+      "id": "S25",
+      "who": "narrator",
+      "text": "The car drops. Everything goes red.",
+      "start": 56.1,
+      "end": 57.91,
+      "words": [
+        {
+          "w": "The",
+          "start": 56.1,
+          "end": 56.22
+        },
+        {
+          "w": "car",
+          "start": 56.22,
+          "end": 56.38
+        },
+        {
+          "w": "drops.",
+          "start": 56.38,
+          "end": 56.74
+        },
+        {
+          "w": "Everything",
+          "start": 57.08,
+          "end": 57.28
+        },
+        {
+          "w": "goes",
+          "start": 57.28,
+          "end": 57.5
+        },
+        {
+          "w": "red.",
+          "start": 57.5,
+          "end": 57.74
+        }
+      ]
+    },
+    {
+      "id": "S26",
+      "who": "narrator",
+      "text": "The bell rings twice. Lobby.",
+      "start": 58.61,
+      "end": 60.46,
+      "words": [
+        {
+          "w": "The",
+          "start": 58.61,
+          "end": 58.79
+        },
+        {
+          "w": "bell",
+          "start": 58.79,
+          "end": 58.97
+        },
+        {
+          "w": "rings",
+          "start": 58.97,
+          "end": 59.21
+        },
+        {
+          "w": "twice.",
+          "start": 59.21,
+          "end": 59.51
+        },
+        {
+          "w": "Lobby.",
+          "start": 59.99,
+          "end": 60.17
+        }
+      ]
+    },
+    {
+      "id": "S28",
+      "who": "narrator",
+      "text": "Rule three says go.",
+      "start": 60.86,
+      "end": 61.99,
+      "words": [
+        {
+          "w": "Rule",
+          "start": 60.86,
+          "end": 61.06
+        },
+        {
+          "w": "three",
+          "start": 61.06,
+          "end": 61.3
+        },
+        {
+          "w": "says",
+          "start": 61.3,
+          "end": 61.54
+        },
+        {
+          "w": "go.",
+          "start": 61.54,
+          "end": 61.82
+        }
+      ]
+    },
+    {
+      "id": "S29",
+      "who": "gus",
+      "text": "\"Stay in. That's not your floor.\"",
+      "start": 62.39,
+      "end": 64.2,
+      "words": [
+        {
+          "w": "\"Stay",
+          "start": 62.39,
+          "end": 62.65
+        },
+        {
+          "w": "in.",
+          "start": 62.65,
+          "end": 62.91
+        },
+        {
+          "w": "That's",
+          "start": 63.19,
+          "end": 63.39
+        },
+        {
+          "w": "not",
+          "start": 63.39,
+          "end": 63.49
+        },
+        {
+          "w": "your",
+          "start": 63.49,
+          "end": 63.63
+        },
+        {
+          "w": "floor.\"",
+          "start": 63.63,
+          "end": 63.91
+        }
+      ]
+    },
+    {
+      "id": "S30",
+      "who": "narrator",
+      "text": "A wet hand settles on your shoulder.",
+      "start": 64.6,
+      "end": 66.38,
+      "words": [
+        {
+          "w": "A",
+          "start": 64.6,
+          "end": 64.74
+        },
+        {
+          "w": "wet",
+          "start": 64.74,
+          "end": 64.88
+        },
+        {
+          "w": "hand",
+          "start": 64.88,
+          "end": 65.24
+        },
+        {
+          "w": "settles",
+          "start": 65.24,
+          "end": 65.54
+        },
+        {
+          "w": "on",
+          "start": 65.54,
+          "end": 65.78
+        },
+        {
+          "w": "your",
+          "start": 65.78,
+          "end": 65.9
+        },
+        {
+          "w": "shoulder.",
+          "start": 65.9,
+          "end": 66.12
+        }
+      ]
+    },
+    {
+      "id": "S31",
+      "who": "narrator",
+      "text": "Do you step out? The top comment decides.",
+      "start": 67.58,
+      "end": 69.63,
+      "words": [
+        {
+          "w": "Do",
+          "start": 67.58,
+          "end": 67.76
+        },
+        {
+          "w": "you",
+          "start": 67.76,
+          "end": 67.9
+        },
+        {
+          "w": "step",
+          "start": 67.9,
+          "end": 68.02
+        },
+        {
+          "w": "out?",
+          "start": 68.02,
+          "end": 68.36
+        },
+        {
+          "w": "The",
+          "start": 68.62,
+          "end": 68.68
+        },
+        {
+          "w": "top",
+          "start": 68.68,
+          "end": 68.82
+        },
+        {
+          "w": "comment",
+          "start": 68.82,
+          "end": 69.06
+        },
+        {
+          "w": "decides.",
+          "start": 69.06,
+          "end": 69.36
+        }
+      ]
+    }
+  ]
+}

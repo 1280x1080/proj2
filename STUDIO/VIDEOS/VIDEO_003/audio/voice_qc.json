@@ -1,0 +1,309 @@
+{
+  "model": "base.en",
+  "lines": [
+    {
+      "id": "S01",
+      "text": "Your elevator pressed a button by itself.",
+      "heard": "Your elevator pressed a button by itself.",
+      "mismatches": 0,
+      "duration": 2.05,
+      "words_per_sec": 3.41,
+      "clipped": false
+    },
+    {
+      "id": "S02",
+      "text": "Three AM, going down from twenty-two.",
+      "heard": "3 a.m. going down from 22.",
+      "mismatches": 0,
+      "duration": 2.12,
+      "words_per_sec": 3.3,
+      "clipped": false
+    },
+    {
+      "id": "S03",
+      "text": "But your building has no thirteenth floor.",
+      "heard": "But your building has no 13th floor.",
+      "mismatches": 0,
+      "duration": 1.95,
+      "words_per_sec": 3.59,
+      "clipped": false
+    },
+    {
+      "id": "S04",
+      "text": "Button thirteen is glowing.",
+      "heard": "Button 13 is glowing.",
+      "mismatches": 0,
+      "duration": 1.34,
+      "words_per_sec": 2.99,
+      "clipped": false
+    },
+    {
+      "id": "S05",
+      "text": "In the mirror, you look alone.",
+      "heard": "In the mirror, you look alone.",
+      "mismatches": 0,
+      "duration": 1.78,
+      "words_per_sec": 3.37,
+      "clipped": false
+    },
+    {
+      "id": "S06",
+      "text": "The doors open on thirteen.",
+      "heard": "The doors open on 13.",
+      "mismatches": 0,
+      "duration": 1.43,
+      "words_per_sec": 3.5,
+      "clipped": false
+    },
+    {
+      "id": "S07",
+      "text": "A woman. Red raincoat. Facing the wall.",
+      "heard": "A woman, red raincoat, facing the wall",
+      "mismatches": 0,
+      "duration": 2.61,
+      "words_per_sec": 2.68,
+      "clipped": false
+    },
+    {
+      "id": "S08",
+      "text": "She starts to turn. The doors cut her off.",
+      "heard": "She starts to turn. The doors cut her off.",
+      "mismatches": 0,
+      "duration": 2.28,
+      "words_per_sec": 3.95,
+      "clipped": false
+    },
+    {
+      "id": "S09",
+      "text": "Behind you, someone coughs.",
+      "heard": "Behind you, someone coughs.",
+      "mismatches": 0,
+      "duration": 1.55,
+      "words_per_sec": 2.58,
+      "clipped": false
+    },
+    {
+      "id": "S10",
+      "text": "An old janitor named Gus.",
+      "heard": "an old janitor named Gus.",
+      "mismatches": 0,
+      "duration": 1.79,
+      "words_per_sec": 2.79,
+      "clipped": false
+    },
+    {
+      "id": "S11",
+      "text": "\"She rides every night. Hold out your hand.\"",
+      "heard": "She rides every night, hold out your hand.",
+      "mismatches": 0,
+      "duration": 1.91,
+      "words_per_sec": 4.19,
+      "clipped": false
+    },
+    {
+      "id": "S12",
+      "text": "He writes three rules on your palm.",
+      "heard": "He writes three rules on your palm.",
+      "mismatches": 0,
+      "duration": 1.71,
+      "words_per_sec": 4.09,
+      "clipped": false
+    },
+    {
+      "id": "S13",
+      "text": "\"One. Never look in the mirror with the doors open.\"",
+      "heard": "1. Never look in the mirror with the doors open.",
+      "mismatches": 0,
+      "duration": 2.66,
+      "words_per_sec": 3.76,
+      "clipped": false
+    },
+    {
+      "id": "S14",
+      "text": "\"Two. Never press a floor she asks for.\"",
+      "heard": "2. Never press a floor she asks for.",
+      "mismatches": 0,
+      "duration": 2.33,
+      "words_per_sec": 3.43,
+      "clipped": false
+    },
+    {
+      "id": "S15",
+      "text": "\"Three. Only get out when the bell rings twice.\"",
+      "heard": "3. Only get out when the bell rings twice.",
+      "mismatches": 0,
+      "duration": 2.78,
+      "words_per_sec": 3.24,
+      "clipped": false
+    },
+    {
+      "id": "S16",
+      "text": "Floor nine. Nobody there.",
+      "heard": "Floor 9, nobody there.",
+      "mismatches": 0,
+      "duration": 1.46,
+      "words_per_sec": 2.74,
+      "clipped": false
+    },
+    {
+      "id": "S17",
+      "text": "The mirror shows someone. Behind you.",
+      "heard": "The mirror shows someone behind you.",
+      "mismatches": 0,
+      "duration": 1.97,
+      "words_per_sec": 3.05,
+      "clipped": false
+    },
+    {
+      "id": "S18",
+      "text": "You stare at your shoes until the doors close.",
+      "heard": "You stare at your shoes until the doors close.",
+      "mismatches": 0,
+      "duration": 2.32,
+      "words_per_sec": 3.88,
+      "clipped": false
+    },
+    {
+      "id": "S19",
+      "text": "When you look up, she's inside.",
+      "heard": "When you look up, she's inside.",
+      "mismatches": 0,
+      "duration": 1.56,
+      "words_per_sec": 3.85,
+      "clipped": false
+    },
+    {
+      "id": "S20",
+      "text": "\"Could you press thirteen, please?\"",
+      "heard": "Could you press 13 please?",
+      "mismatches": 0,
+      "duration": 1.5,
+      "words_per_sec": 3.33,
+      "clipped": false
+    },
+    {
+      "id": "S21",
+      "text": "You don't move. The lights die.",
+      "heard": "You don't move, the lights die.",
+      "mismatches": 0,
+      "duration": 1.59,
+      "words_per_sec": 3.77,
+      "clipped": false
+    },
+    {
+      "id": "S22",
+      "text": "\"Sweetie, it's Mom. Press it for me.\"",
+      "heard": "Sweetie, it's Mom. Press it for me.",
+      "mismatches": 0,
+      "duration": 1.97,
+      "words_per_sec": 3.55,
+      "clipped": false
+    },
+    {
+      "id": "S23",
+      "text": "Your thumb finds the button.",
+      "heard": "Your thumb finds the button.",
+      "mismatches": 0,
+      "duration": 1.31,
+      "words_per_sec": 3.82,
+      "clipped": false
+    },
+    {
+      "id": "S24",
+      "text": "Gus slaps your hand away.",
+      "heard": "Gus slaps your hand away.",
+      "mismatches": 0,
+      "duration": 1.28,
+      "words_per_sec": 3.91,
+      "clipped": false
+    },
+    {
+      "id": "S25",
+      "text": "The car drops. Everything goes red.",
+      "heard": "The car drops, everything goes red.",
+      "mismatches": 0,
+      "duration": 1.81,
+      "words_per_sec": 3.31,
+      "clipped": false
+    },
+    {
+      "id": "S26",
+      "text": "The bell rings twice. Lobby.",
+      "heard": "The bell rings twice, lobby.",
+      "mismatches": 0,
+      "duration": 1.85,
+      "words_per_sec": 2.7,
+      "clipped": false
+    },
+    {
+      "id": "S28",
+      "text": "Rule three says go.",
+      "heard": "Rule 3 says go.",
+      "mismatches": 0,
+      "duration": 1.13,
+      "words_per_sec": 3.54,
+      "clipped": false
+    },
+    {
+      "id": "S29",
+      "text": "\"Stay in. That's not your floor.\"",
+      "heard": "Stay in, that's not your floor.",
+      "mismatches": 0,
+      "duration": 1.81,
+      "words_per_sec": 3.31,
+      "clipped": false
+    },
+    {
+      "id": "S30",
+      "text": "A wet hand settles on your shoulder.",
+      "heard": "A wet hand settles on your shoulder.",
+      "mismatches": 0,
+      "duration": 1.78,
+      "words_per_sec": 3.93,
+      "clipped": false
+    },
+    {
+      "id": "S31",
+      "text": "Do you step out? The top comment decides.",
+      "heard": "Do you step out? The top comment decides.",
+      "mismatches": 0,
+      "duration": 2.05,
+      "words_per_sec": 3.9,
+      "clipped": false
+    }
+  ],
+  "gaps": [
+    0.4,
+    0.4,
+    0.4,
+    0.4,
+    0.7,
+    0.4,
+    0.4,
+    0.7,
+    0.4,
+    0.4,
+    0.4,
+    0.4,
+    0.4,
+    0.4,
+    0.7,
+    0.4,
+    0.4,
+    0.6,
+    0.4,
+    0.4,
+    0.4,
+    0.4,
+    0.4,
+    0.4,
+    0.7,
+    0.4,
+    0.4,
+    0.4,
+    1.2
+  ],
+  "total": 70.03,
+  "peak_db": -2.59,
+  "passed": true
+}
