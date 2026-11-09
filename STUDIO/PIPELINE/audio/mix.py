@@ -39,7 +39,7 @@ METER = pyln.Meter(SR)
 
 NARR_LUFS = -16.0
 MASTER_LUFS = -14.0
-CEILING_DBTP = -1.0
+CEILING_DBTP = -1.3  # -1.0 dBTP spec with 0.3 dB headroom: AAC encoding adds ~0.25 dB of true peak
 
 
 def lufs(x):

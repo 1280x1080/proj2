@@ -1,0 +1,102 @@
+{
+  "file": "/home/user/proj2/STUDIO/EXPORTS/video003.mp4",
+  "duration": 71.63,
+  "checks": {
+    "resolution": {
+      "ok": true,
+      "value": "1080x1920",
+      "want": "1080x1920"
+    },
+    "fps": {
+      "ok": true,
+      "value": 30.0,
+      "want": 30
+    },
+    "video_codec": {
+      "ok": true,
+      "value": "h264",
+      "want": "h264"
+    },
+    "pix_fmt": {
+      "ok": true,
+      "value": "yuv420p",
+      "want": "yuv420p"
+    },
+    "color": {
+      "ok": true,
+      "value": "bt709/bt709/bt709",
+      "want": "bt709"
+    },
+    "audio_codec": {
+      "ok": true,
+      "value": "aac",
+      "want": "aac"
+    },
+    "audio_rate": {
+      "ok": true,
+      "value": "48000",
+      "want": 48000
+    },
+    "duration": {
+      "ok": true,
+      "value": 71.63,
+      "want": "30-90 s (tests may be shorter)"
+    },
+    "av_length_match": {
+      "ok": true,
+      "value": {
+        "video": 71.6,
+        "audio": 71.63
+      },
+      "want": "|diff| < 0.08 s"
+    },
+    "loudness_lufs": {
+      "ok": true,
+      "value": -14.14,
+      "want": "-14 \u00b11"
+    },
+    "true_peak_dbtp": {
+      "ok": true,
+      "value": -1.28,
+      "want": "<= -1.0"
+    },
+    "no_long_silence": {
+      "ok": true,
+      "value": [],
+      "want": "no silence > 1.5 s"
+    },
+    "no_black": {
+      "ok": true,
+      "value": [],
+      "want": "no black segments >= 0.1 s (unless intended)"
+    },
+    "no_frozen": {
+      "ok": false,
+      "value": [
+        {
+          "start": 17.8,
+          "end": 18.8667,
+          "dur": 1.0667000000000009
+        },
+        {
+          "start": 42.5333,
+          "end": 43.8333,
+          "dur": 1.3000000000000043
+        },
+        {
+          "start": 68.6333,
+          "end": 69.6333,
+          "dur": 1.0
+        },
+        {
+          "start": 69.6333,
+          "end": 71.4,
+          "dur": 1.7667000000000002
+        }
+      ],
+      "want": "no frozen picture >= 1 s (unless intended)"
+    }
+  },
+  "contact_sheet": "VIDEOS/VIDEO_003/qc/contact_sheet.png",
+  "passed": false
+}
