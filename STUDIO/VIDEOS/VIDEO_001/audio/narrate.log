@@ -1,0 +1,7 @@
+chatterbox loaded in 9.0s (sr=24000)
+whisper small.en loaded in 1.3s
+[L1] take r0t0: 0 mismatches, 3.59s audio, 15.6s gen  | "Every night at 11, Mia's lamp flickered exactly three times."
+[L1] take r0t1: 0 mismatches, 3.77s audio, 20.1s gen  | "Every night at 11, Mia's lamp flickered exactly three times."
+[L2] take r0t0: 0 mismatches, 1.05s audio, 9.6s gen  | 'Wait, that was 4.'
+[L2] take r0t1: 0 mismatches, 1.33s audio, 10.2s gen  | 'Wait, that was four.'
+narration: 7.55s, 2 lines; lines with mismatches: none

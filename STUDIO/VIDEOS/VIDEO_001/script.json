@@ -1,0 +1,13 @@
+{
+  "title": "Pipeline test: the fourth flicker",
+  "voice_ref": null,
+  "voices": {},
+  "lead_in": 0.35,
+  "tail": 0.6,
+  "lines": [
+    {"id": "L1", "who": "narrator", "text": "Every night at eleven, Mia's lamp flickered exactly three times.",
+     "delivery": "calm", "emotion": 0.45, "pause_after": 1.5},
+    {"id": "L2", "who": "mia", "text": "Wait... that was four.",
+     "delivery": "dramatic", "emotion": 0.65, "pause_after": 0.0}
+  ]
+}

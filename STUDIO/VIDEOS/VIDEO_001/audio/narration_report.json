@@ -1,0 +1,122 @@
+{
+  "L1": {
+    "key": "304b4c874680",
+    "text": "Every night at eleven, Mia's lamp flickered exactly three times.",
+    "chosen": "L1_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Every night at 11, Mia's lamp flickered exactly three times.",
+    "duration": 3.77,
+    "words": [
+      {
+        "w": "Every",
+        "start": 0.0,
+        "end": 0.28
+      },
+      {
+        "w": "night",
+        "start": 0.28,
+        "end": 0.52
+      },
+      {
+        "w": "at",
+        "start": 0.52,
+        "end": 0.7
+      },
+      {
+        "w": "eleven,",
+        "start": 0.7,
+        "end": 1.0
+      },
+      {
+        "w": "Mia's",
+        "start": 1.66,
+        "end": 1.9
+      },
+      {
+        "w": "lamp",
+        "start": 1.9,
+        "end": 2.1
+      },
+      {
+        "w": "flickered",
+        "start": 2.1,
+        "end": 2.46
+      },
+      {
+        "w": "exactly",
+        "start": 2.46,
+        "end": 2.86
+      },
+      {
+        "w": "three",
+        "start": 2.86,
+        "end": 3.14
+      },
+      {
+        "w": "times.",
+        "start": 3.14,
+        "end": 3.5
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "L1_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Every night at 11, Mia's lamp flickered exactly three times.",
+        "gen_seconds": 15.6
+      },
+      {
+        "file": "L1_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Every night at 11, Mia's lamp flickered exactly three times.",
+        "gen_seconds": 20.1
+      }
+    ]
+  },
+  "L2": {
+    "key": "801c67960a4d",
+    "text": "Wait... that was four.",
+    "chosen": "L2_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Wait, that was four.",
+    "duration": 1.33,
+    "words": [
+      {
+        "w": "Wait...",
+        "start": 0.0,
+        "end": 0.34
+      },
+      {
+        "w": "that",
+        "start": 0.52,
+        "end": 0.56
+      },
+      {
+        "w": "was",
+        "start": 0.56,
+        "end": 0.66
+      },
+      {
+        "w": "four.",
+        "start": 0.66,
+        "end": 0.96
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "L2_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Wait, that was 4.",
+        "gen_seconds": 9.6
+      },
+      {
+        "file": "L2_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Wait, that was four.",
+        "gen_seconds": 10.2
+      }
+    ]
+  }
+}

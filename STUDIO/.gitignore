@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+VIDEOS/*/audio/takes/
+VIDEOS/*/audio/stems/
+VIDEOS/*/renders/
+VIDEOS/*/qc/stills/
+VIDEOS/*/qc/*_loop3x.mp4

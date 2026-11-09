@@ -1,0 +1,194 @@
+{
+  "click_ui": {
+    "file": "click_ui.flac",
+    "description": "Crisp UI click",
+    "category": "ui",
+    "loop": false,
+    "duration": 0.041,
+    "peak_db": -9.33
+  },
+  "ding": {
+    "file": "ding.flac",
+    "description": "Bright notification ding (FM bell)",
+    "category": "ui",
+    "loop": false,
+    "duration": 1.576,
+    "peak_db": -6.0
+  },
+  "door_close": {
+    "file": "door_close.flac",
+    "description": "Door shutting with latch",
+    "category": "foley",
+    "loop": false,
+    "duration": 0.959,
+    "peak_db": -3.0
+  },
+  "door_knock": {
+    "file": "door_knock.flac",
+    "description": "Single knuckle knock on a wooden door, heard from inside",
+    "category": "foley",
+    "loop": false,
+    "duration": 0.81,
+    "peak_db": -2.0
+  },
+  "door_open": {
+    "file": "door_open.flac",
+    "description": "Door handle click + creaky swing",
+    "category": "foley",
+    "loop": false,
+    "duration": 1.871,
+    "peak_db": -4.0
+  },
+  "flicker_zap": {
+    "file": "flicker_zap.flac",
+    "description": "Bulb flicker: electric crackle with a hum dropout (0.3 s)",
+    "category": "foley",
+    "loop": false,
+    "duration": 0.689,
+    "peak_db": -3.0
+  },
+  "footstep_hard": {
+    "file": "footstep_hard.flac",
+    "description": "Single shoe step on hard floor",
+    "category": "foley",
+    "loop": false,
+    "duration": 0.401,
+    "peak_db": -6.0
+  },
+  "footstep_soft": {
+    "file": "footstep_soft.flac",
+    "description": "Soft step on carpet",
+    "category": "foley",
+    "loop": false,
+    "duration": 0.203,
+    "peak_db": -9.0
+  },
+  "glass_clink": {
+    "file": "glass_clink.flac",
+    "description": "Two glasses clinking",
+    "category": "foley",
+    "loop": false,
+    "duration": 1.049,
+    "peak_db": -8.0
+  },
+  "heartbeat": {
+    "file": "heartbeat.flac",
+    "description": "Lub-dub heartbeat, one beat (~0.8 s)",
+    "category": "body",
+    "loop": false,
+    "duration": 0.392,
+    "peak_db": -3.0
+  },
+  "impact_cinematic": {
+    "file": "impact_cinematic.flac",
+    "description": "Big trailer hit: sub drop, metallic layer and long tail",
+    "category": "impact",
+    "loop": false,
+    "duration": 5.364,
+    "peak_db": -1.0
+  },
+  "impact_hard": {
+    "file": "impact_hard.flac",
+    "description": "Hard punchy hit with low boom and click",
+    "category": "impact",
+    "loop": false,
+    "duration": 2.201,
+    "peak_db": -1.0
+  },
+  "impact_soft": {
+    "file": "impact_soft.flac",
+    "description": "Soft cushioned thud (body landing on sofa, bag dropped)",
+    "category": "impact",
+    "loop": false,
+    "duration": 0.85,
+    "peak_db": -3.0
+  },
+  "lamp_buzz": {
+    "file": "lamp_buzz.flac",
+    "description": "Mains hum of an old lamp: 50/100 Hz hum + faint crackle, 6 s loopable",
+    "category": "ambience",
+    "loop": true,
+    "duration": 6.0,
+    "peak_db": -30.0
+  },
+  "pluck_note": {
+    "file": "pluck_note.flac",
+    "description": "Single plucked string note (C5)",
+    "category": "ui",
+    "loop": false,
+    "duration": 1.383,
+    "peak_db": -8.0
+  },
+  "pop": {
+    "file": "pop.flac",
+    "description": "Cartoon pop for text/stickers appearing",
+    "category": "ui",
+    "loop": false,
+    "duration": 0.165,
+    "peak_db": -6.0
+  },
+  "rain_window": {
+    "file": "rain_window.flac",
+    "description": "Rain on a window, 8 s loopable",
+    "category": "ambience",
+    "loop": true,
+    "duration": 7.0,
+    "peak_db": -22.0
+  },
+  "riser": {
+    "file": "riser.flac",
+    "description": "Tension riser: noise + rising tone, 2.5 s, ends abruptly",
+    "category": "movement",
+    "loop": false,
+    "duration": 3.456,
+    "peak_db": -2.0
+  },
+  "room_tone": {
+    "file": "room_tone.flac",
+    "description": "Quiet interior room tone, 8 s loopable",
+    "category": "ambience",
+    "loop": true,
+    "duration": 7.0,
+    "peak_db": -26.0
+  },
+  "thud_wood": {
+    "file": "thud_wood.flac",
+    "description": "Knock / object set down on a wooden table",
+    "category": "impact",
+    "loop": false,
+    "duration": 0.478,
+    "peak_db": -3.0
+  },
+  "tick": {
+    "file": "tick.flac",
+    "description": "Clock tick",
+    "category": "ui",
+    "loop": false,
+    "duration": 0.022,
+    "peak_db": -10.0
+  },
+  "whoosh": {
+    "file": "whoosh.flac",
+    "description": "Fast air whoosh (camera whip, object flying past), ~0.6 s",
+    "category": "movement",
+    "loop": false,
+    "duration": 0.688,
+    "peak_db": -2.0
+  },
+  "whoosh_soft": {
+    "file": "whoosh_soft.flac",
+    "description": "Gentle swish for titles and transitions",
+    "category": "movement",
+    "loop": false,
+    "duration": 0.493,
+    "peak_db": -6.0
+  },
+  "wind": {
+    "file": "wind.flac",
+    "description": "Outdoor wind gusts, 10 s loopable",
+    "category": "ambience",
+    "loop": true,
+    "duration": 9.0,
+    "peak_db": -22.0
+  }
+}

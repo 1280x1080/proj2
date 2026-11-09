@@ -1,0 +1,93 @@
+{
+  "duration": 7.55,
+  "lines": [
+    {
+      "id": "L1",
+      "who": "narrator",
+      "text": "Every night at eleven, Mia's lamp flickered exactly three times.",
+      "start": 0.35,
+      "end": 4.12,
+      "words": [
+        {
+          "w": "Every",
+          "start": 0.35,
+          "end": 0.63
+        },
+        {
+          "w": "night",
+          "start": 0.63,
+          "end": 0.87
+        },
+        {
+          "w": "at",
+          "start": 0.87,
+          "end": 1.05
+        },
+        {
+          "w": "eleven,",
+          "start": 1.05,
+          "end": 1.35
+        },
+        {
+          "w": "Mia's",
+          "start": 2.01,
+          "end": 2.25
+        },
+        {
+          "w": "lamp",
+          "start": 2.25,
+          "end": 2.45
+        },
+        {
+          "w": "flickered",
+          "start": 2.45,
+          "end": 2.81
+        },
+        {
+          "w": "exactly",
+          "start": 2.81,
+          "end": 3.21
+        },
+        {
+          "w": "three",
+          "start": 3.21,
+          "end": 3.49
+        },
+        {
+          "w": "times.",
+          "start": 3.49,
+          "end": 3.85
+        }
+      ]
+    },
+    {
+      "id": "L2",
+      "who": "mia",
+      "text": "Wait... that was four.",
+      "start": 5.62,
+      "end": 6.95,
+      "words": [
+        {
+          "w": "Wait...",
+          "start": 5.62,
+          "end": 5.96
+        },
+        {
+          "w": "that",
+          "start": 6.14,
+          "end": 6.18
+        },
+        {
+          "w": "was",
+          "start": 6.18,
+          "end": 6.28
+        },
+        {
+          "w": "four.",
+          "start": 6.28,
+          "end": 6.58
+        }
+      ]
+    }
+  ]
+}
