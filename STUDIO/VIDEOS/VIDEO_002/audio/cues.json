@@ -1,0 +1,97 @@
+{
+  "duration": 5.0,
+  "loop": false,
+  "narration": {
+    "file": "narration_raw.wav",
+    "offset": 0.0
+  },
+  "music": {
+    "file": "music.wav",
+    "gain_db": -3.0,
+    "duck_db": -9.0
+  },
+  "cues": [
+    {
+      "t": 0.0,
+      "sfx": "room_tone",
+      "gain_db": 0,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "room",
+      "dur": 5.0,
+      "fade_in": 0.02
+    },
+    {
+      "t": 0.0,
+      "sfx": "whoosh",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "drops into frame"
+    },
+    {
+      "t": 0.22,
+      "sfx": "impact_soft",
+      "gain_db": -3,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "lands"
+    },
+    {
+      "t": 0.22,
+      "sfx": "footstep_hard",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": -0.15,
+      "note": "left shoe"
+    },
+    {
+      "t": 0.25,
+      "sfx": "footstep_hard",
+      "gain_db": -7,
+      "bus": "sfx",
+      "pan": 0.15,
+      "note": "right shoe"
+    },
+    {
+      "t": 0.27,
+      "sfx": "pop",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "NEW MASCOT chip"
+    },
+    {
+      "t": 2.41,
+      "sfx": "whoosh_soft",
+      "gain_db": -11,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "push-in"
+    },
+    {
+      "t": 3.35,
+      "sfx": "thud_wood",
+      "gain_db": -9,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "taps cap"
+    },
+    {
+      "t": 3.38,
+      "sfx": "pop",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "FRESH CAP stamp"
+    },
+    {
+      "t": 4.07,
+      "sfx": "ding",
+      "gain_db": -9,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "wink sparkle"
+    }
+  ]
+}

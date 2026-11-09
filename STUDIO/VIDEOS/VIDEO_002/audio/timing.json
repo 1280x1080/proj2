@@ -1,0 +1,59 @@
+{
+  "duration": 4.47,
+  "lines": [
+    {
+      "id": "L1",
+      "who": "teen",
+      "text": "Yo! I'm the new mascot. Same studio, fresh cap.",
+      "start": 0.55,
+      "end": 3.87,
+      "words": [
+        {
+          "w": "Yo!",
+          "start": 0.55,
+          "end": 0.87
+        },
+        {
+          "w": "I'm",
+          "start": 1.11,
+          "end": 1.37
+        },
+        {
+          "w": "the",
+          "start": 1.37,
+          "end": 1.45
+        },
+        {
+          "w": "new",
+          "start": 1.45,
+          "end": 1.57
+        },
+        {
+          "w": "mascot.",
+          "start": 1.57,
+          "end": 1.97
+        },
+        {
+          "w": "Same",
+          "start": 2.45,
+          "end": 2.53
+        },
+        {
+          "w": "studio,",
+          "start": 2.53,
+          "end": 2.95
+        },
+        {
+          "w": "fresh",
+          "start": 3.23,
+          "end": 3.33
+        },
+        {
+          "w": "cap.",
+          "start": 3.33,
+          "end": 3.67
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Mascot test: new guy, same studio",
+  "voice_ref": null,
+  "voices": {},
+  "lead_in": 0.55,
+  "tail": 0.6,
+  "lines": [
+    {"id": "L1", "who": "teen", "text": "Yo! I'm the new mascot. Same studio, fresh cap.",
+     "delivery": "excited", "emotion": 0.6, "pause_after": 0.0}
+  ]
+}

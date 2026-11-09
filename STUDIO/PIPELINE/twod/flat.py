@@ -315,6 +315,8 @@ class Style:
     skirt: bool = False
     glasses: bool = False
     beard: bool = False
+    cap: str | None = None         # cap colour (None = no cap)
+    cap_backwards: bool = True
 
 
 class Puppet:
@@ -470,6 +472,13 @@ class Puppet:
             cel(c, back, shade(hair, 0.85), L)
         if S.hair_style == "bun":
             cel(c, ellipse_path(hx - turn * 20, hy - ry * 1.08, rx * 0.42, ry * 0.36), hair, L)
+        if S.cap and S.cap_backwards:
+            # backwards brim sticks out behind the head: peeks out on the side away from the face
+            bx = hx - turn * rx * 1.05
+            bw = rx * (0.42 + 0.62 * abs(turn))
+            brim = blob([(bx - bw, hy - ry * 0.58), (bx, hy - ry * 0.72), (bx + bw, hy - ry * 0.58),
+                         (bx + bw * 0.7, hy - ry * 0.47), (bx - bw * 0.7, hy - ry * 0.47)], 0.45)
+            cel(c, brim, shade(hexc(S.cap), 0.82), L, k=0.5)
 
         # ears
         for side in (-1, 1):
@@ -491,6 +500,7 @@ class Puppet:
                            paint("#e0675a", 0.35 * P["blush"], blur=6))
 
         # eyes
+        brows = []
         eo = max(0.0, min(1.0, P["eye_open"]))
         px, py = P["pupil"]
         for side in (-1, 1):
@@ -522,13 +532,15 @@ class Puppet:
                 c.drawPath(ellipse_path(ex, ey, erx, ery * eo), paint("#2a1d18", 0.55, stroke=2.2))
             # brows
             raise_, angle = P["brow"]
-            by = ey - 38 * hs - raise_ * 12
+            by = ey - (33 if S.cap else 38) * hs - raise_ * 12
             inner = (ex - side * 16 * sq, by - angle * 9 * 1)
             outer = (ex + side * 18 * sq, by + angle * 6 * 1 - 3)
             bp = skia.Path()
             bp.moveTo(*inner)
             bp.quadTo((inner[0] + outer[0]) / 2, by - 7, *outer)
-            c.drawPath(bp, paint(shade(hair, 0.9), stroke=9 * hs))
+            brows.append(bp)
+            if not S.cap:
+                c.drawPath(bp, paint(shade(hair, 0.9), stroke=9 * hs))
 
         if S.glasses:
             for side in (-1, 1):
@@ -554,6 +566,69 @@ class Puppet:
 
         # front hair cap (stops above brows)
         self._draw_hair_cap(c, hx, hy, rx, ry, turn, hair, L)
+        if S.cap:
+            self._draw_cap_front(c, hx, hy, rx, ry, turn, hair, L)
+            for bp in brows:  # brows read on top of the bangs (cartoon convention)
+                c.drawPath(bp, paint(shade(hair, 0.75), stroke=9 * hs))
+
+    def _draw_cap_front(self, c, hx, hy, rx, ry, turn, hair, L):
+        """Baseball cap worn backwards: dome + band, snapback opening at the front with hair showing
+        through it, bangs hanging below the band."""
+        cap = hexc(self.s.cap)
+        dark = shade(cap, 0.78)
+        sw = turn * 30
+        band_c = hy - ry * 0.64         # band height at the front centre
+        band_s = hy - ry * 0.4          # band height at the sides (over the ears)
+        dome = blob([(hx - rx * 1.05, band_s), (hx - rx * 1.03, hy - ry * 0.78), (hx - rx * 0.45 + sw * 0.4, hy - ry * 1.16),
+                     (hx + rx * 0.45 + sw * 0.4, hy - ry * 1.16), (hx + rx * 1.03, hy - ry * 0.78), (hx + rx * 1.05, band_s),
+                     (hx + rx * 0.55 + sw, hy - ry * 0.57), (hx + sw, band_c), (hx - rx * 0.55 + sw, hy - ry * 0.57)], 0.45)
+        cel(c, dome, cap, L, k=1.1)
+        # panel seams + top button
+        top = (hx + sw * 0.5, hy - ry * 1.13)
+        for dx in (-0.62, 0.62):
+            seam = skia.Path()
+            seam.moveTo(*top)
+            seam.quadTo(hx + rx * dx * 0.8 + sw * 0.7, hy - ry * 0.98, hx + rx * dx + sw * 0.8, hy - ry * 0.6)
+            c.drawPath(seam, paint(dark, 0.7, stroke=4))
+        c.drawCircle(*top, 9, paint(dark))
+        # band along the lower edge
+        band = skia.Path()
+        band.moveTo(hx - rx * 1.03, band_s - 4)
+        band.quadTo(hx - rx * 0.5 + sw, hy - ry * 0.64, hx + sw, band_c - 4)
+        band.quadTo(hx + rx * 0.5 + sw, hy - ry * 0.64, hx + rx * 1.03, band_s - 4)
+        c.drawPath(band, paint(dark, stroke=11))
+        # snapback opening (hair shows through) + strap
+        ow, oh = rx * 0.28, ry * 0.26
+        ox, oy = hx + sw, band_c - 2
+        opening = skia.Path()
+        opening.moveTo(ox - ow, oy)
+        opening.cubicTo(ox - ow, oy - oh * 1.3, ox + ow, oy - oh * 1.3, ox + ow, oy)
+        opening.close()
+        c.drawPath(opening, paint(shade(hair, 0.9)))
+        for k in range(3):  # a few hair strands visible inside the opening
+            hxk = ox - ow * 0.55 + k * ow * 0.55
+            c.drawLine(hxk, oy - oh * 0.7, hxk + 6 + turn * 6, oy - 4, paint(tint(hair, 1.5), 0.5, stroke=3))
+        strap = rrect_path(ox - ow - 4, oy - 14, ox + ow + 4, oy + 1, 5)
+        c.drawPath(strap, paint(dark))
+        c.drawRoundRect(skia.Rect.MakeLTRB(ox - 9, oy - 16, ox + 9, oy + 3), 3, 3, paint("#d8d4cc"))
+        # bangs hanging below the band (some of the fringe still showing)
+        tip_y = hy - ry * 0.4
+        locks = [(-0.52, 0.82), (-0.22, 1.0), (0.1, 0.92), (0.4, 0.75)]
+        for off, ln in locks:
+            x0 = hx + rx * off + sw
+            y0 = hy - ry * 0.6 + abs(off) * ry * 0.1
+            tip = (x0 - 10 + turn * 8, y0 + (tip_y - y0) * ln + 4)
+            lock = blob([(x0 - 26, y0 - 6), (x0 + 24, y0 - 6), (x0 + 12, (y0 + tip[1]) / 2), tip,
+                         (x0 - 20, (y0 + tip[1]) / 2)], 0.35)
+            cel(c, lock, hair, L, k=0.5)
+        c.drawPath(band, paint(dark, stroke=11))
+        # short hair at the sides, under the cap, above the ears
+        for side in (-1, 1):
+            vis = 1 - max(0, side * turn) * 0.8
+            sx = hx + side * rx * (0.98 - 0.1 * side * turn)
+            tuft = blob([(sx - side * 4, band_s - 8), (sx + side * 14 * vis, band_s - 4),
+                         (sx + side * 8 * vis, band_s + 34), (sx - side * 12, band_s + 22)], 0.4)
+            c.drawPath(tuft, paint(hair))
 
     def _draw_hair_cap(self, c, hx, hy, rx, ry, turn, hair, L):
         st = self.s.hair_style
@@ -727,6 +802,17 @@ class Puppet:
                         (rx * 1.02, hy - ry * 0.55), (rx * 0.7, hy - ry * 0.48), (rx * 0.1, hy - ry * 0.52),
                         (-rx * 0.4, hy - ry * 0.2), (-rx * 0.62, hy + ry * 0.05)], 0.42)
             cel(c, cap, hair, L, k=0.9)
+        if S.cap:
+            capc = hexc(S.cap)
+            dome = blob([(-rx * 1.06, hy - ry * 0.3), (-rx * 0.9, hy - ry * 0.95), (rx * 0.25, hy - ry * 1.16),
+                         (rx * 1.0, hy - ry * 0.6), (rx * 0.85, hy - ry * 0.42), (-rx * 0.2, hy - ry * 0.36)], 0.45)
+            brim = blob([(-rx * 0.95, hy - ry * 0.44), (-rx * 1.75, hy - ry * 0.42), (-rx * 1.8, hy - ry * 0.32),
+                         (-rx * 0.95, hy - ry * 0.28)], 0.3) if S.cap_backwards else \
+                blob([(rx * 0.9, hy - ry * 0.5), (rx * 1.7, hy - ry * 0.4), (rx * 1.7, hy - ry * 0.32), (rx * 0.9, hy - ry * 0.36)], 0.3)
+            cel(c, brim, shade(capc, 0.82), L, k=0.5)
+            cel(c, dome, capc, L, k=1.0)
+            lock = blob([(rx * 0.55, hy - ry * 0.42), (rx * 0.92, hy - ry * 0.44), (rx * 0.86, hy - ry * 0.2)], 0.4)
+            cel(c, lock, hair, L, k=0.4)
         arm(ph + math.pi, S.shirt)
         c.restore()
 
@@ -766,6 +852,12 @@ CAST = {
                  pants="#2e3440", shoes="#2a2420", eyes="#2a1d14"),
     "nana": Style(skin="#efc6a4", hair="#c9c4bd", hair_style="bun", shirt="#7b5ea7", shirt_detail="#efe6f6",
                   pants="#5a4a6b", skirt=True, glasses=True, height=0.93),
+    # mascot: average-height teen (5'9" ~ 175 cm vs the 170 cm base puppet), red cap on backwards, bangs showing
+    "teen": Style(skin="#e6b08a", hair="#3b2718", hair_style="short", shirt="#9aa3ad", shirt_detail="#e9ecef",
+                  pants="#3b5b86", shoes="#ecebe6", eyes="#3a2416", height=1.03, width=0.9, head_scale=1.04,
+                  sleeves="long", cap="#d0312d", cap_backwards=True),
     "kid": Style(skin="#f0c2a0", hair="#8a5a2b", hair_style="spiky", shirt="#e3b23c", shirt_detail="#ffffff",
                  pants="#3e6c9c", height=0.72, width=0.85, head_scale=1.12, sleeves="short"),
 }
+
+CAST["mascot"] = CAST["teen"]

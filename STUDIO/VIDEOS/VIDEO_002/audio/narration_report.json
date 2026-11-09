@@ -1,0 +1,78 @@
+{
+  "L1": {
+    "key": "b670457b5915",
+    "text": "Yo! I'm the new mascot. Same studio, fresh cap.",
+    "chosen": "L1_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Yo, I'm the new mascot, same studio, fresh cap.",
+    "duration": 3.32,
+    "words": [
+      {
+        "w": "Yo!",
+        "start": 0.0,
+        "end": 0.32
+      },
+      {
+        "w": "I'm",
+        "start": 0.56,
+        "end": 0.82
+      },
+      {
+        "w": "the",
+        "start": 0.82,
+        "end": 0.9
+      },
+      {
+        "w": "new",
+        "start": 0.9,
+        "end": 1.02
+      },
+      {
+        "w": "mascot.",
+        "start": 1.02,
+        "end": 1.42
+      },
+      {
+        "w": "Same",
+        "start": 1.9,
+        "end": 1.98
+      },
+      {
+        "w": "studio,",
+        "start": 1.98,
+        "end": 2.4
+      },
+      {
+        "w": "fresh",
+        "start": 2.68,
+        "end": 2.78
+      },
+      {
+        "w": "cap.",
+        "start": 2.78,
+        "end": 3.12
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "L1_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Yo, I'm the new mascot, same studio, fresh cap.",
+        "gen_seconds": 14.9
+      },
+      {
+        "file": "L1_r0_t1.wav",
+        "mismatches": 1,
+        "heard": "Yo, on the new mascot, same studio, fresh cap!",
+        "gen_seconds": 18.0
+      },
+      {
+        "file": "L1_r0_t2.wav",
+        "mismatches": 0,
+        "heard": "Yo, I'm the new mascot, same studio, fresh cap.",
+        "gen_seconds": 18.6
+      }
+    ]
+  }
+}

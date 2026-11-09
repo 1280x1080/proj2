@@ -225,6 +225,36 @@ def cue_video001():
     return s, dict(loop=False)
 
 
+def cue_video002():
+    """5 s mascot test: bright, bouncy C-G-Am-F at 112 bpm; downbeat hit on the landing; button on the wink."""
+    edl = _load_edl("002")
+    B = edl.BEATS
+    s = Score(edl.DURATION, bpm=112, seed=2)
+    bar = s.beat * 4
+    prog = ["C", "G", "Am", "F"]
+    t0 = B["land"]
+    s.hit("perc", drum_kick(), t0, 0.5)
+    s.hit("fx", inst_stab(midi_hz(60), 0.5), t0, 0.12)
+    t, i = t0, 0
+    while t < s.duration:
+        name = prog[i % 4]
+        s.chord("pad", "pad", name, t, bar + 0.2, gain=0.14, octave=4, bright=0.45)
+        s.note("bass", "bass", chord(name, 2)[0], t, s.beat * 1.6, gain=0.26)
+        s.note("bass", "bass", chord(name, 2)[0], t + s.beat * 2, s.beat * 1.6, gain=0.22)
+        for k in range(8):
+            nt = chord(name, 5)[[0, 1, 2, 1, 0, 2, 1, 2][k]]
+            s.note("lead", "pluck", nt, t + k * s.beat / 2, 0.5, gain=0.06, pan=(-0.35 if k % 2 else 0.35))
+        for k in range(4):
+            s.hit("perc", drum_kick(), t + k * s.beat, 0.28 if k % 2 == 0 else 0.0)
+            s.hit("perc", drum_snare(), t + k * s.beat, 0.16 if k % 2 == 1 else 0.0)
+            s.hit("perc", drum_hat(), t + k * s.beat + s.beat / 2, 0.07)
+        t += bar
+        i += 1
+    s.gate(B["wink"] - 0.05, B["wink"] + 0.25, gain=0.3, fade=0.04)
+    s.hit("fx", inst_bell(midi_hz(84), 1.5), B["wink"] + 0.05, 0.1)
+    return s, dict(loop=False)
+
+
 def main():
     num = sys.argv[1].zfill(3)
     s, opts = globals()[f"cue_video{num}"]()
