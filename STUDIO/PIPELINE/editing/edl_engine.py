@@ -616,11 +616,11 @@ def draw_captions(edit: Edit, canvas, t):
     lab_h = s * 0.62 if speaker else 0.0
     lab_gap = s * 0.22 if speaker else 0.0
     text_h = gap * (len(lines) - 1) + s * 1.05 + stroke
-    lw = max(lw, (kit.measure(speaker.upper(), s * 0.42, "Black") + 60) if speaker else 0)
+    lab = cfg.get("speaker_names", {}).get(speaker, speaker).upper() if speaker else ""
+    lw = max(lw, (kit.measure(lab, s * 0.42, "Black") + 60) if speaker else 0)
     surf = _layer(lw, lab_h + lab_gap + text_h + 20)
     c = surf.getCanvas()
     if speaker:
-        lab = speaker.upper()
         lf = kit.font(s * 0.42, "Black")
         lwid = lf.measureText(lab)
         lx = (lw - lwid) / 2

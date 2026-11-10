@@ -49,7 +49,7 @@ def _num_repl(m):
 
 
 # spelling variants / homophones Whisper picks that are the same spoken word
-_VARIANTS = {"backroom": "back room", "isle": "aisle", "towards": "toward", "nox": "knocks", "creek": "creak", "ok": "okay", "alright": "all right", "gray": "grey"}
+_VARIANTS = {"oh": "zero", "backroom": "back room", "isle": "aisle", "towards": "toward", "nox": "knocks", "creek": "creak", "ok": "okay", "alright": "all right", "gray": "grey"}
 
 
 def _time_repl(m):

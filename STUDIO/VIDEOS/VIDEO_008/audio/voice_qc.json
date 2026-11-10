@@ -1,0 +1,329 @@
+{
+  "model": "base.en",
+  "lines": [
+    {
+      "id": "F01",
+      "text": "Your radio station just played a recording of you dying.",
+      "heard": "Your radio station just played a recording of you dying.",
+      "mismatches": 0,
+      "duration": 2.92,
+      "words_per_sec": 3.42,
+      "clipped": false
+    },
+    {
+      "id": "F02",
+      "text": "The recording was made ninety seconds from now.",
+      "heard": "The recording was made 90 seconds from now.",
+      "mismatches": 0,
+      "duration": 2.81,
+      "words_per_sec": 2.85,
+      "clipped": false
+    },
+    {
+      "id": "F03",
+      "text": "You're working alone during the night shift.",
+      "heard": "You're working alone during the night shift.",
+      "mismatches": 0,
+      "duration": 2.04,
+      "words_per_sec": 3.43,
+      "clipped": false
+    },
+    {
+      "id": "F04",
+      "text": "It's one-oh-six AM.",
+      "heard": "It's 1-0-6 AM.",
+      "mismatches": 0,
+      "duration": 1.66,
+      "words_per_sec": 3.01,
+      "clipped": false
+    },
+    {
+      "id": "F05",
+      "text": "Suddenly, the studio speakers turn on by themselves.",
+      "heard": "Suddenly, the studio speakers turn on by themselves.",
+      "mismatches": 0,
+      "duration": 3.57,
+      "words_per_sec": 2.24,
+      "clipped": false
+    },
+    {
+      "id": "F06",
+      "text": "Then you hear your own voice.",
+      "heard": "Then you hear your own voice.",
+      "mismatches": 0,
+      "duration": 1.72,
+      "words_per_sec": 3.49,
+      "clipped": false
+    },
+    {
+      "id": "F07",
+      "text": "\"If you're hearing this, don't answer line three.\"",
+      "heard": "If you're hearing this, don't answer line 3.",
+      "mismatches": 0,
+      "duration": 2.32,
+      "words_per_sec": 3.45,
+      "clipped": false
+    },
+    {
+      "id": "F08",
+      "text": "You check the recording. There's no file.",
+      "heard": "You check the recording. There's no file.",
+      "mismatches": 0,
+      "duration": 2.51,
+      "words_per_sec": 2.79,
+      "clipped": false
+    },
+    {
+      "id": "F09",
+      "text": "No scheduled broadcast. Nothing.",
+      "heard": "No scheduled broadcast. Nothing.",
+      "mismatches": 0,
+      "duration": 2.56,
+      "words_per_sec": 1.56,
+      "clipped": false
+    },
+    {
+      "id": "F10",
+      "text": "Then the studio phone starts ringing.",
+      "heard": "Then the studio phone starts ringing.",
+      "mismatches": 0,
+      "duration": 1.92,
+      "words_per_sec": 3.13,
+      "clipped": false
+    },
+    {
+      "id": "F11",
+      "text": "Line three. You stare at it.",
+      "heard": "Line 3. You stare at it.",
+      "mismatches": 0,
+      "duration": 2.88,
+      "words_per_sec": 2.08,
+      "clipped": false
+    },
+    {
+      "id": "F12",
+      "text": "The phone's cable is lying disconnected on the floor.",
+      "heard": "The phone's cable is lying disconnected on the floor.",
+      "mismatches": 0,
+      "duration": 2.87,
+      "words_per_sec": 3.14,
+      "clipped": false
+    },
+    {
+      "id": "F13",
+      "text": "The recording starts playing again.",
+      "heard": "The recording starts playing again.",
+      "mismatches": 0,
+      "duration": 1.8,
+      "words_per_sec": 2.78,
+      "clipped": false
+    },
+    {
+      "id": "F14",
+      "text": "This time, your voice sounds terrified.",
+      "heard": "This time, your voice sounds terrified.",
+      "mismatches": 0,
+      "duration": 2.65,
+      "words_per_sec": 2.26,
+      "clipped": false
+    },
+    {
+      "id": "F15",
+      "text": "\"Whatever you do... don't let him know you're alone!\"",
+      "heard": "Whatever you do, don't let him know you're alone.",
+      "mismatches": 0,
+      "duration": 2.33,
+      "words_per_sec": 3.86,
+      "clipped": false
+    },
+    {
+      "id": "F16",
+      "text": "The phone stops ringing. Silence.",
+      "heard": "The phone stops ringing. Silence.",
+      "mismatches": 0,
+      "duration": 2.88,
+      "words_per_sec": 1.74,
+      "clipped": false
+    },
+    {
+      "id": "F17",
+      "text": "Then someone speaks through the receiver.",
+      "heard": "Then someone speaks through the receiver.",
+      "mismatches": 0,
+      "duration": 1.96,
+      "words_per_sec": 3.06,
+      "clipped": false
+    },
+    {
+      "id": "F18",
+      "text": "\"Hello? Are you alone in there?\"",
+      "heard": "Hello? Are you alone in there?",
+      "mismatches": 0,
+      "duration": 2.15,
+      "words_per_sec": 2.79,
+      "clipped": false
+    },
+    {
+      "id": "F19",
+      "text": "You slowly step away from the phone.",
+      "heard": "You slowly step away from the phone.",
+      "mismatches": 0,
+      "duration": 2.08,
+      "words_per_sec": 3.37,
+      "clipped": false
+    },
+    {
+      "id": "F20",
+      "text": "The speakers suddenly crackle. Your own voice returns.",
+      "heard": "The speakers suddenly crackle. Your own voice returns.",
+      "mismatches": 0,
+      "duration": 3.81,
+      "words_per_sec": 2.1,
+      "clipped": false
+    },
+    {
+      "id": "F21",
+      "text": "\"You answered him last time. You just don't remember.\"",
+      "heard": "You answered him last time. You just don't remember.",
+      "mismatches": 0,
+      "duration": 2.9,
+      "words_per_sec": 3.1,
+      "clipped": false
+    },
+    {
+      "id": "F22",
+      "text": "You freeze. The recording continues.",
+      "heard": "You freeze. The recording continues.",
+      "mismatches": 0,
+      "duration": 2.62,
+      "words_per_sec": 1.91,
+      "clipped": false
+    },
+    {
+      "id": "F23",
+      "text": "\"You have to destroy the transmitter.\"",
+      "heard": "You have to destroy the transmitter.",
+      "mismatches": 0,
+      "duration": 1.61,
+      "words_per_sec": 3.73,
+      "clipped": false
+    },
+    {
+      "id": "F24",
+      "text": "Suddenly, the studio computer displays a new message.",
+      "heard": "Suddenly, the studio computer displays a new message.",
+      "mismatches": 0,
+      "duration": 3.51,
+      "words_per_sec": 2.28,
+      "clipped": false
+    },
+    {
+      "id": "F25",
+      "text": "Transmission received. The sender? Your own radio station.",
+      "heard": "transmission received, the sender, your own radio station.",
+      "mismatches": 0,
+      "duration": 4.51,
+      "words_per_sec": 1.77,
+      "clipped": false
+    },
+    {
+      "id": "F26",
+      "text": "The message reads: stop listening to the version of you that wants to survive.",
+      "heard": "The message reads, stop listening to the version of you that wants to survive.",
+      "mismatches": 0,
+      "duration": 4.24,
+      "words_per_sec": 3.3,
+      "clipped": false
+    },
+    {
+      "id": "F27",
+      "text": "Then the phone rings again. This time, the voice on the receiver is yours.",
+      "heard": "Then the phone rings again, this time the voice on the receiver is yours.",
+      "mismatches": 0,
+      "duration": 4.83,
+      "words_per_sec": 2.9,
+      "clipped": false
+    },
+    {
+      "id": "F28",
+      "text": "\"Please. Don't destroy the transmitter.\"",
+      "heard": "Please, don't destroy the transmitter.",
+      "mismatches": 0,
+      "duration": 2.16,
+      "words_per_sec": 2.31,
+      "clipped": false
+    },
+    {
+      "id": "F29",
+      "text": "You have two conflicting warnings.",
+      "heard": "You have two conflicting warnings.",
+      "mismatches": 0,
+      "duration": 2.05,
+      "words_per_sec": 2.44,
+      "clipped": false
+    },
+    {
+      "id": "F30",
+      "text": "One version of you says destroy the transmitter. Another begs you to keep it running.",
+      "heard": "One version of you says destroy the transmitter. Another begs you to keep it running.",
+      "mismatches": 0,
+      "duration": 4.91,
+      "words_per_sec": 3.05,
+      "clipped": false
+    },
+    {
+      "id": "F31",
+      "text": "\"Whatever you choose... one of us is going to disappear tonight.\"",
+      "heard": "Whatever you choose, one of us is going to disappear tonight.",
+      "mismatches": 0,
+      "duration": 3.11,
+      "words_per_sec": 3.54,
+      "clipped": false
+    },
+    {
+      "id": "F32",
+      "text": "Comment A or B. Your choice decides Part 2.",
+      "heard": "Comment A or B. Your choice decides part 2.",
+      "mismatches": 0,
+      "duration": 3.85,
+      "words_per_sec": 2.34,
+      "clipped": false
+    }
+  ],
+  "gaps": [
+    0.15,
+    0.35,
+    0.15,
+    0.15,
+    0.15,
+    0.15,
+    0.35,
+    0.15,
+    0.15,
+    0.15,
+    0.15,
+    0.35,
+    0.15,
+    0.15,
+    0.4,
+    0.45,
+    0.15,
+    0.35,
+    0.15,
+    0.15,
+    0.35,
+    0.15,
+    0.35,
+    0.15,
+    0.15,
+    0.35,
+    0.15,
+    0.4,
+    0.15,
+    0.15,
+    0.15
+  ],
+  "total": 97.04,
+  "peak_db": -0.59,
+  "passed": true
+}

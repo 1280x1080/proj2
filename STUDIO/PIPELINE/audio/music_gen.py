@@ -412,6 +412,31 @@ def cue_video007():
     return s, dict(loop=False)
 
 
+def cue_video008():
+    """THE FREQUENCY THAT KNOWS TOMORROW Part 1: low synth drone, a ticking pulse that follows the clock, a detuned
+    'station ident' bell motif each time the recording plays, tension strings from the terrified recording on, and a
+    hit + silence-ish drop at the freeze; choice: drone + slow pulse.  Music never fully stops (beds carry the gaps)."""
+    edl = _load_edl("008")
+    B, D = edl.BEATS, edl.DURATION
+    st = edl.start
+    s = Score(D, bpm=60, seed=8)
+    s.note("bass", "bass", 31, 0.0, D, gain=0.16)
+    s.note("pad", "pad", 43, 0.0, D, gain=0.06, bright=0.12)
+    t = 0.0
+    while t < D - 0.5:  # pulse on every second (the clock)
+        s.hit("perc", drum_kick(0.25), t, 0.07 if t < st("F15") else 0.12)
+        t += 1.0
+    for k, tt in enumerate((0.05, st("F07"), st("F15"), st("F21"), st("F31"))):  # station-ident motif, more detuned each time
+        for j, m in enumerate((79, 74, 77)):
+            s.note("lead", "bell", m - 0.12 * k * (j % 2), tt + j * 0.32, 1.8, gain=0.05, pan=(-0.3 if j % 2 else 0.3), bright=0.2)
+    for m, p in ((55, -0.4), (56, 0.4), (62, 0.0)):
+        s.note("pad", "tremolo", m, st("F15"), B["freeze"] - st("F15"), gain=0.045, pan=p, rate=8.5)
+    s.gate(st("F16") - 0.05, st("F17"), gain=0.25, fade=0.05)  # "Silence."
+    s.hit("perc", drum_tom(44, 2.0), B["freeze"], 0.45)
+    s.gate(B["freeze"] + 0.4, B["choice"] + 0.3, gain=0.3, fade=0.1)
+    return s, dict(loop=False)
+
+
 def main():
     num = sys.argv[1].zfill(3)
     s, opts = globals()[f"cue_video{num}"]()

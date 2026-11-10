@@ -18,6 +18,24 @@ sys.path.insert(0, str(HERE.parent / "audio"))
 import dsp  # noqa: E402
 
 
+def voice_fx(x, kind, seed=0):
+    """Colour a line: 'radio' = studio speaker (band-limited, warm drive, hiss + crackle); 'phone' = handset line."""
+    import numpy as _np
+    if kind == "radio":
+        y = dsp.saturate(dsp.bandpass(x, 220, 4800), 1.5)
+        hiss = dsp.highpass(_np.random.default_rng(seed).standard_normal(len(y)), 3000) * 0.006
+        r = _np.random.default_rng(seed + 1)
+        crack = _np.zeros(len(y))
+        for _ in range(max(1, len(y) // 9000)):
+            i = int(r.integers(0, max(1, len(y) - 300)))
+            crack[i:i + 300] += r.standard_normal(min(300, len(y) - i)) * 0.05 * _np.exp(-_np.arange(min(300, len(y) - i)) / 60)
+        return y + hiss + crack
+    if kind == "phone":
+        y = dsp.saturate(dsp.bandpass(x, 380, 3300, order=3), 2.2)
+        return y + dsp.highpass(_np.random.default_rng(seed).standard_normal(len(y)), 2000) * 0.004
+    return x
+
+
 def assemble(script_path):
     script_path = Path(script_path).resolve()
     vdir = script_path.parent
@@ -33,6 +51,8 @@ def assemble(script_path):
         x = dsp.read_audio(out / "lines" / f"{lid}.wav")
         if x.ndim == 2:
             x = x.mean(1)
+        if line.get("fx"):
+            x = voice_fx(x, line["fx"], seed=len(placed))
         if line.get("at") is not None:
             if line["at"] < t - 1e-3:  # never overlap: a long previous line pushes this one later
                 print(f"  ! {lid}: at={line['at']} would overlap the previous line - placed at {t:.2f}")

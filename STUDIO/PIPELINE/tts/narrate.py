@@ -226,8 +226,8 @@ def run(script_path, takes=3, only=None, force=False, engine_name="chatterbox", 
                 engine = QwenEngine()
                 qwen_voices = engine.prepare_voices(S, vdir)
                 checker = Checker(whisper_model)
-            voice = (vdir / line["voice_ref"]) if line.get("voice_ref") else \
-                qwen_voices.get(line.get("who", "narrator"), qwen_voices["narrator"])
+            who = S.get("voice_alias", {}).get(line.get("who", "narrator"), line.get("who", "narrator"))
+            voice = (vdir / line["voice_ref"]) if line.get("voice_ref") else qwen_voices.get(who, qwen_voices["narrator"])
         else:
             voice = line.get("voice_ref") or S.get("voices", {}).get(line.get("who", "narrator")) or S.get("voice_ref")
             voice = (vdir / voice) if voice else None

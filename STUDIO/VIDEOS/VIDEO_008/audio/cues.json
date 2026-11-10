@@ -1,0 +1,1018 @@
+{
+  "duration": 98.34,
+  "loop": false,
+  "narration": {
+    "file": "narration_raw.wav",
+    "offset": 0.0
+  },
+  "sfx_duck_db": -5.0,
+  "amb_duck_db": -5.0,
+  "ceiling_dbtp": -1.7,
+  "cues": [
+    {
+      "t": 0.0,
+      "sfx": "room_tone",
+      "gain_db": 3,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "studio air",
+      "dur": 98.34,
+      "fade_in": 0.02
+    },
+    {
+      "t": 0.0,
+      "sfx": "crt_hum",
+      "gain_db": 2,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "console / computer hum",
+      "dur": 98.34,
+      "fade_in": 0.02
+    },
+    {
+      "t": 0.0,
+      "sfx": "transmitter_hum",
+      "gain_db": 3,
+      "bus": "amb",
+      "pan": 0.4,
+      "note": "transmitter rack",
+      "dur": 98.34,
+      "fade_in": 0.02
+    },
+    {
+      "t": 0.0,
+      "sfx": "crackle_burst",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "the recording cuts in (hook)"
+    },
+    {
+      "t": 0.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 1.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 2.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 3.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 4.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 5.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 6.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 7.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 8.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 9.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 10.38,
+      "sfx": "radio_static",
+      "gain_db": 0,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "speakers live: dead-air static",
+      "dur": 87.96000000000001,
+      "fade_in": 0.1
+    },
+    {
+      "t": 10.38,
+      "sfx": "speaker_on",
+      "gain_db": -3,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "speakers turn on by themselves"
+    },
+    {
+      "t": 10.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 11.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 12.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 13.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 14.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 15.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 16.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 17.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 18.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 18.84,
+      "sfx": "click_ui",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "search"
+    },
+    {
+      "t": 19.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 19.64,
+      "sfx": "computer_beep",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "no file"
+    },
+    {
+      "t": 20.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 21.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 22.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 23.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 24.01,
+      "sfx": "desk_phone_ring",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "line three"
+    },
+    {
+      "t": 24.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 25.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 25.61,
+      "sfx": "desk_phone_ring",
+      "gain_db": -13,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "line three"
+    },
+    {
+      "t": 26.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 27.21,
+      "sfx": "desk_phone_ring",
+      "gain_db": -13,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "line three"
+    },
+    {
+      "t": 27.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 28.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 28.81,
+      "sfx": "desk_phone_ring",
+      "gain_db": -13,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "line three"
+    },
+    {
+      "t": 29.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 30.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 31.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 32.13,
+      "sfx": "crackle_burst",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "recording again"
+    },
+    {
+      "t": 32.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 33.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 34.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 35.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 36.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 37.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 38.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 39.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 39.86,
+      "sfx": "impact_soft",
+      "gain_db": -16,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "ringing cuts"
+    },
+    {
+      "t": 40.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 41.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 42.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 43.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 44.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 45.15,
+      "sfx": "breath_close",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.3,
+      "note": "breathing on the line"
+    },
+    {
+      "t": 45.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 46.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 47.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 47.95,
+      "sfx": "footstep_soft",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "you step back"
+    },
+    {
+      "t": 48.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 48.65,
+      "sfx": "footstep_soft",
+      "gain_db": -13,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 49.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 49.98,
+      "sfx": "crackle_burst",
+      "gain_db": -3,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "speakers crackle"
+    },
+    {
+      "t": 50.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 51.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 52.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 53.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 54.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 55.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 56.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 57.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 58.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 59.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 59.86,
+      "sfx": "heartbeat",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "frozen"
+    },
+    {
+      "t": 60.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 61.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 61.87,
+      "sfx": "computer_beep",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "transmission received"
+    },
+    {
+      "t": 62.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 63.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 64.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 65.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 66.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 67.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 68.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 69.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 70.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 71.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 72.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 73.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 74.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 74.83,
+      "sfx": "desk_phone_ring",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "phone again"
+    },
+    {
+      "t": 75.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 76.43,
+      "sfx": "desk_phone_ring",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "phone again"
+    },
+    {
+      "t": 76.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 77.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 78.03,
+      "sfx": "desk_phone_ring",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "phone again"
+    },
+    {
+      "t": 78.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 79.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 80.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 81.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 82.22,
+      "sfx": "impact_cinematic",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "freeze"
+    },
+    {
+      "t": 82.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 83.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 84.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 85.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 86.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 87.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 88.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 89.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 90,
+      "sfx": "glitch",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "1:07:30 passes"
+    },
+    {
+      "t": 90.05,
+      "sfx": "crackle_burst",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 90.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 91.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 92.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 93.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 94.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 95.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 96.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    },
+    {
+      "t": 97.5,
+      "sfx": "tick",
+      "gain_db": -20,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "wall clock (counting down to 1:07:30)"
+    }
+  ],
+  "music": {
+    "file": "music.wav",
+    "gain_db": -4.0,
+    "duck_db": -10.0
+  }
+}

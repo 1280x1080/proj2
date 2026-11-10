@@ -1,0 +1,143 @@
+
+********
+Warning: flash-attn is not installed. Will only run the manual PyTorch version. Please install flash-attn for faster inference.
+********
+ 
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 2704.69it/s]
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+designed voice 'you' -> you_qwen.wav  (Young man, early 20s, warm late-night radio host voice, friendly mid-l...)
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+designed voice 'unknown' -> unknown_qwen.wav  (Older man, 60s, low and slow, gentle in a wrong way, too friendly, sli...)
+whisper small.en loaded in 2.9s
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 2021.11it/s]
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F01] take r0t0: 0 mismatches, 2.92s audio, 35.9s gen  | 'Your radio station just played a recording of you dying.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F01] take r0t1: 0 mismatches, 3.33s audio, 27.9s gen  | 'Your radio station just played a recording of you dying.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F02] take r0t0: 0 mismatches, 2.34s audio, 22.4s gen  | 'The recording was made 90 seconds from now.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F02] take r0t1: 0 mismatches, 2.81s audio, 22.9s gen  | 'The recording was made 90 seconds from now.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F03] take r0t0: 0 mismatches, 2.04s audio, 20.1s gen  | "You're working alone during the night shift."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F03] take r0t1: 0 mismatches, 1.96s audio, 17.3s gen  | "You're working alone during the night shift."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F04] take r0t0: 0 mismatches, 1.66s audio, 16.4s gen  | "It's 1.06 a.m."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F04] take r0t1: 1 mismatches, 1.76s audio, 16.0s gen  | "It's 1 0 6 a.m."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F04] take r0t2: 0 mismatches, 1.51s audio, 14.2s gen  | "It's 1.06 AM."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F05] take r0t0: 0 mismatches, 3.57s audio, 28.4s gen  | 'Suddenly, the studio speakers turn on by themselves.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F05] take r0t1: 0 mismatches, 3.10s audio, 22.4s gen  | 'Suddenly, the studio speakers turn on by themselves.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F06] take r0t0: 0 mismatches, 1.72s audio, 18.0s gen  | 'then you hear your own voice.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F06] take r0t1: 0 mismatches, 1.44s audio, 17.1s gen  | 'Then you hear your own voice.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F07] take r0t0: 0 mismatches, 2.44s audio, 18.4s gen  | "If you're hearing this, don't answer Line 3."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F07] take r0t1: 0 mismatches, 2.32s audio, 18.7s gen  | "If you're hearing this, don't answer Line 3."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F08] take r0t0: 0 mismatches, 2.67s audio, 23.6s gen  | "You check the recording. There's no file."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F08] take r0t1: 0 mismatches, 2.51s audio, 21.0s gen  | "You check the recording. There's no file."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F09] take r0t0: 0 mismatches, 2.84s audio, 24.0s gen  | 'No scheduled broadcast, nothing.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F09] take r0t1: 0 mismatches, 2.56s audio, 21.5s gen  | 'No scheduled broadcast. Nothing.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F10] take r0t0: 0 mismatches, 1.97s audio, 18.9s gen  | 'Then the studio phone starts ringing.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F10] take r0t1: 0 mismatches, 1.92s audio, 18.6s gen  | 'Then the studio phone starts ringing.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F11] take r0t0: 0 mismatches, 3.05s audio, 26.7s gen  | 'Line 3. You stare at it.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F11] take r0t1: 0 mismatches, 2.88s audio, 24.6s gen  | 'Line 3. You stare at it.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F12] take r0t0: 0 mismatches, 2.87s audio, 24.6s gen  | "The phone's cable is lying disconnected on the floor."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F12] take r0t1: 0 mismatches, 2.84s audio, 22.5s gen  | "The phone's cable is lying disconnected on the floor."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F13] take r0t0: 0 mismatches, 1.80s audio, 17.3s gen  | 'The recording starts playing again.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F13] take r0t1: 0 mismatches, 1.93s audio, 18.1s gen  | 'the recording starts playing again.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F14] take r0t0: 0 mismatches, 2.65s audio, 25.6s gen  | 'This time, your voice sounds terrified.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F14] take r0t1: 0 mismatches, 2.25s audio, 18.4s gen  | 'This time your voice sounds terrified.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F15] take r0t0: 0 mismatches, 2.33s audio, 19.8s gen  | "Whatever you do, don't let him know you're alone."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F15] take r0t1: 0 mismatches, 2.31s audio, 18.2s gen  | "Whatever you do, don't let him know you're alone."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F16] take r0t0: 0 mismatches, 2.88s audio, 23.1s gen  | 'The phone stops ringing. Silence.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F16] take r0t1: 0 mismatches, 2.69s audio, 19.6s gen  | 'The phone stops ringing, silence.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F17] take r0t0: 0 mismatches, 1.96s audio, 18.0s gen  | 'Then someone speaks through the receiver.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F17] take r0t1: 0 mismatches, 1.94s audio, 17.3s gen  | 'Then someone speaks through the receiver.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F18] take r0t0: 0 mismatches, 2.15s audio, 21.0s gen  | 'Hello? Are you alone in there?'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F18] take r0t1: 0 mismatches, 2.55s audio, 22.3s gen  | 'Hello, are you alone in there?'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F19] take r0t0: 0 mismatches, 1.95s audio, 19.2s gen  | 'you slowly step away from the phone.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F19] take r0t1: 0 mismatches, 2.08s audio, 17.7s gen  | 'you slowly step away from the phone.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F20] take r0t0: 0 mismatches, 3.81s audio, 27.0s gen  | 'The speakers suddenly crackle, your own voice returns.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F20] take r0t1: 0 mismatches, 3.77s audio, 28.3s gen  | 'The speakers suddenly crackle. Your own voice returns.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F21] take r0t0: 0 mismatches, 2.90s audio, 22.2s gen  | "You answered him last time. You just don't remember."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F21] take r0t1: 0 mismatches, 3.15s audio, 22.6s gen  | "You answered him last time, you just don't remember."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F22] take r0t0: 0 mismatches, 2.62s audio, 24.4s gen  | 'You freeze. The recording continues.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F22] take r0t1: 0 mismatches, 2.98s audio, 26.4s gen  | 'You freeze, the recording continues.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F23] take r0t0: 0 mismatches, 1.61s audio, 16.6s gen  | 'You have to destroy the transmitter.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F23] take r0t1: 0 mismatches, 1.61s audio, 15.1s gen  | 'You have to destroy the transmitter.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F24] take r0t0: 0 mismatches, 3.51s audio, 26.2s gen  | 'Suddenly, the studio computer displays a new message.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F24] take r0t1: 0 mismatches, 3.16s audio, 22.5s gen  | 'Suddenly, the studio computer displays a new message.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F25] take r0t0: 0 mismatches, 4.51s audio, 32.1s gen  | 'Transmission received. The sender. Your own radio station.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F25] take r0t1: 0 mismatches, 4.39s audio, 32.1s gen  | 'Transmission received. The sender, your own radio station.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F26] take r0t0: 0 mismatches, 4.23s audio, 30.5s gen  | 'The message reads, stop listening to the version of you that wants to survive.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F26] take r0t1: 0 mismatches, 4.24s audio, 30.3s gen  | 'The message reads, stop listening to the version of you that wants to survive.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F27] take r0t0: 0 mismatches, 5.00s audio, 38.6s gen  | 'Then the phone rings again. This time, the voice on the receiver is yours.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F27] take r0t1: 0 mismatches, 4.83s audio, 31.9s gen  | 'Then the phone rings again. This time, the voice on the receiver is yours.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F28] take r0t0: 0 mismatches, 2.16s audio, 15.9s gen  | "Please, don't destroy the transmitter."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F28] take r0t1: 0 mismatches, 2.21s audio, 15.9s gen  | "Please, don't destroy the transmitter."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F29] take r0t0: 0 mismatches, 2.05s audio, 20.6s gen  | 'You have two conflicting warnings.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F29] take r0t1: 0 mismatches, 2.09s audio, 19.1s gen  | 'You have two conflicting warnings.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F30] take r0t0: 0 mismatches, 4.75s audio, 35.4s gen  | 'One version of you says destroy the transmitter, another begs you to keep it running.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F30] take r0t1: 0 mismatches, 4.91s audio, 35.0s gen  | 'One version of you says destroy the transmitter. Another begs you to keep it running.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F31] take r0t0: 0 mismatches, 3.05s audio, 23.5s gen  | 'Whatever you choose, one of us is going to disappear tonight.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F31] take r0t1: 0 mismatches, 3.11s audio, 21.1s gen  | 'Whatever you choose, one of us is going to disappear tonight.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F32] take r0t0: 0 mismatches, 3.85s audio, 23.8s gen  | 'Comment A or B. Your choice decides part two.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[F32] take r0t1: 0 mismatches, 3.65s audio, 25.6s gen  | 'Comment A or B, Your Choice Decides Part 2.'
+narration: 101.94s, 32 lines; lines with mismatches: none
