@@ -18,3 +18,13 @@ Psychological horror / romance. Series bible: [`SERIES/THE_LAST_BELL/series_bibl
 
 Build: `narrate.py --engine qwen` → `place_lines.py` → `voice_qc.py` → `music_gen.py 9` → `audio/build_cues.py` →
 `mix.py` → `dead_air.py` → `edl_engine.py` → `qc_video.py`.
+
+## QA
+| check | result |
+|---|---|
+| Export | 114.5 s, 3434 frames, 1080×1920 / 30 fps / H.264 / AAC |
+| Overlap check | clean (captions vs faces, door glass, handle, phone, alarm text, overlays) |
+| Voice QC | 33/33 lines, 0 word mismatches, no clipping (door fx now peak-limited in `place_lines.py`) |
+| Dead air | none; every pause filled −33.8…−15.8 LUFS; voice ≥ 9.7 LU over bed |
+| Loudness | −14.1 LUFS, true peak −1.7 dBTP |
+| Length | 114 s — over the 90 s guideline because the full Part 1 script was kept |
