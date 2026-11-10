@@ -17,6 +17,17 @@ from kit import H, W, blink, span  # noqa: E402
 MIA = Puppet(CAST["mia"], "mia")
 KAI = Puppet(CAST["mascot"], "kai")
 MOON = "#9fb6ff"
+MIA_AT, KAI_AT = (320, 1880), (760, 1880)
+
+
+def face_box(p, at, scale=1.15):
+    x, y = p.head_pos(at[0], at[1], scale)
+    r = p.HEAD_RX * p.s.head_scale * scale
+    return (x - r * 1.15, y - r * 1.5, x + r * 1.15, y + r * 1.35)
+
+
+# keep-clear zones per shot (checked against the captions on every frame by edl_engine)
+ZONES = {"porch": lambda t: [("Mia's face", *face_box(MIA, MIA_AT)), ("Kai's face", *face_box(KAI, KAI_AT))]}
 
 
 def flashlight(c, x, y, ang):
@@ -43,21 +54,18 @@ def shot_porch(c, t):
     c.drawRect(skia.Rect.MakeLTRB(0, 1420, W, H), paint("#1a2030"))  # porch boards
     for k in range(6):
         c.drawLine(0, 1460 + k * 80, W, 1460 + k * 80, paint("#000000", 0.3, stroke=3))
-    # flashlight beam from Kai toward the door
-    flat.light_cone(c, (700, 1130), (420, 760), (640, 1420), "#fff2c8", 0.22)
     L = Light(dir=(0.5, -0.7), shadow_px=16, rim=MOON, rim_alpha=0.7, rim_px=5)
-    mia_talk = TIMING.mouth(t, "mia") if TIMING else 0.0
-    kai_talk = TIMING.mouth(t, "kai") if TIMING else 0.0
     mia_on = t >= start("D2") - 0.1
     kai_on = t >= start("D3") - 0.1
-    MIA.draw(c, 320, 1880, 1.15, dict(breathe=t, eye_open=blink(t, seed=61), turn=0.45, pupil=(0.7, 0.0),
-                                      mouth="smirk" if mia_on else "smile", talk=mia_talk, brow=(0.3, 0.0),
-                                      arm_r=(25, 120) if mia_on else (10, 14)), light=L)
-    KAI.draw(c, 760, 1880, 1.15, dict(breathe=t, eye_open=blink(t, seed=62), turn=-0.45, pupil=(-0.7, 0.0),
-                                      mouth="o" if kai_on else "flat", talk=kai_talk,
-                                      brow=(0.9, 0.9) if kai_on else (0.5, 0.6), arm_r=(35, 95), hold_r=flashlight,
-                                      crouch=0.05 * math.sin(math.pi * span(t, start("D3"), start("D3") + 0.4, "linear"))),
-             light=L, facing=1)
+    mia = dict(breathe=t, eye_open=blink(t, seed=61), turn=0.45, pupil=(0.7, 0.0), mouth="smirk" if mia_on else "smile",
+               brow=(0.3, 0.0), arm_r=(9, 12), arm_l=(9, 12))
+    kai = dict(breathe=t, eye_open=blink(t, seed=62), turn=-0.45, pupil=(-0.7, 0.0), mouth="o" if kai_on else "flat",
+               brow=(0.9, 0.9) if kai_on else (0.5, 0.6), arm_r=(9, 12), arm_l=(9, 12),
+               crouch=0.05 * math.sin(math.pi * span(t, start("D3"), start("D3") + 0.4, "linear")))
+    if TIMING:  # lip-sync: mouths open and close on every syllable of their own lines
+        mia, kai = TIMING.lip(mia, t, "mia"), TIMING.lip(kai, t, "kai")
+    MIA.draw(c, *MIA_AT, 1.15, mia, light=L)
+    KAI.draw(c, *KAI_AT, 1.15, kai, light=L, facing=1)
     c.drawRect(skia.Rect.MakeWH(W, H), paint("#3a4a80", 0.25, blend=skia.BlendMode.kMultiply))
     flat.vignette(c, W, H, 0.5)
 

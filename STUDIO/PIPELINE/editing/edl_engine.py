@@ -107,7 +107,8 @@ class Edit:
             return seg["freeze"]
         if "src_t" in seg:
             return seg["src_t"](t)
-        return seg.get("offset", 0.0) + (t - seg["t0"]) * seg.get("speed", 1.0)
+        # default: the shot gets the absolute video time (every anim2d keys poses / lip-sync / doors off it)
+        return seg.get("offset", seg["t0"]) + (t - seg["t0"]) * seg.get("speed", 1.0)
 
     def plan(self):
         """[(frame, [(source, src_time), ...])] for every output frame - what the edit actually shows."""
@@ -303,7 +304,10 @@ def vhs(arr, t):
 
 # ============================================================================ paste (safe-area enforcement)
 
-def paste(canvas, img: skia.Image, cx, cy, scale=1.0, alpha=1.0, rot=0.0, margin=SAFE):
+RECTS: list = []  # (kind, rect) pasted in the current frame - used by the overlap check
+
+
+def paste(canvas, img: skia.Image, cx, cy, scale=1.0, alpha=1.0, rot=0.0, margin=SAFE, kind="overlay"):
     """Draw an overlay image centred at (cx, cy); shrink + move so it stays fully inside the safe area."""
     w, h = img.width() * scale, img.height() * scale
     # bounding box of the rotated image
@@ -324,7 +328,10 @@ def paste(canvas, img: skia.Image, cx, cy, scale=1.0, alpha=1.0, rot=0.0, margin
     p.setAlphaf(max(0.0, min(1.0, alpha)))
     canvas.drawImage(img, -img.width() / 2, -img.height() / 2, skia.SamplingOptions(skia.FilterMode.kLinear), p)
     canvas.restore()
-    return skia.Rect.MakeXYWH(cx - bw / 2, cy - bh / 2, bw, bh)
+    r = skia.Rect.MakeXYWH(cx - bw / 2, cy - bh / 2, bw, bh)
+    if alpha > 0.3:
+        RECTS.append((kind, r))
+    return r
 
 
 def _layer(w, h):
@@ -546,98 +553,99 @@ def build_captions(edit: Edit):
         t0 = ws[0]["start"] + off - 0.04
         t1 = ws[-1]["end"] + off + 0.25
         if i + 1 < len(phrases):
-            t1 = min(t1, phrases[i + 1][1][0]["start"] + off - 0.04)
+            nxt = phrases[i + 1][1][0]["start"] + off - 0.04
+            # hold the caption until the next one when the gap is short (no blinking between chunks)
+            t1 = nxt if nxt - t1 < 0.7 else min(t1, nxt)
         caps.append(dict(t0=t0, t1=max(t1, t0 + 0.3), who=ln.get("who", "narrator"), line=ln.get("id"),
                          words=[dict(w, start=w["start"] + off, end=w["end"] + off) for w in ws]))
     return caps
 
 
 def _cap_y(cfg, t):
+    """Top of the first caption line.  FIXED for the whole video (per-shot overrides only with allow_overrides=True)."""
     y = cfg.get("y", 0.72)
-    for t0, t1, yy in cfg.get("overrides", []):
-        if t0 <= t <= t1:
-            y = yy
+    if cfg.get("allow_overrides"):
+        for t0, t1, yy in cfg.get("overrides", []):
+            if t0 <= t <= t1:
+                y = yy
     return y * H if y <= 1 else y
 
 
+CAP_IN = 0.16  # every caption chunk: same fade + 18 px rise, ease-out
+
+
+def _strip_quotes(w):
+    return w.replace('"', "").replace("\u201c", "").replace("\u201d", "")
+
+
 def draw_captions(edit: Edit, canvas, t):
+    """Caption style v2: fixed position, fixed size, one consistent entrance, key words coloured, and a speaker
+    label pill above the text whenever a character (not the narrator) speaks - their quotes are dropped."""
     cfg = edit.captions_cfg
     if not cfg:
         return
     cap = next((c for c in edit.captions if c["t0"] <= t < c["t1"]), None)
     if cap is None:
         return
-    # per-line key-word colours (line_colors={line_id: {word: colour}}) replace the global emphasis list
     lc = cfg.get("line_colors")
     if lc is not None:
         colors = {kit._norm(k): v for k, v in lc.get(cap.get("line"), {}).items()}
     else:
         colors = {kit._norm(e): cfg.get("emphasis_color", "#ff8a3d") for e in cfg.get("emphasis", [])}
-    emph = set(colors)
     size = cfg.get("size", 84)
     base_col = cfg.get("color", "#ffffff")
-    hi_col = cfg.get("highlight", "#ffd23f")
+    speaker = cap["who"] if (cfg.get("speakers", True) and cap["who"] != "narrator") else None
     words = [w["w"].strip() for w in cap["words"]]
+    if speaker:
+        words = [_strip_quotes(w) for w in words]
     if cfg.get("upper"):
         words = [w.upper() for w in words]
-    # layout: one or two lines that fit inside the safe width
+    words = [w for w in words if w]
+    if not words:
+        return
     maxw = W - 2 * SAFE - 40
-    s = size
+    s = size  # fixed size; shrink only if 2 lines are not enough
     lines = kit.wrap(" ".join(words), s, maxw)
     while len(lines) > 2 and s > 40:
         s *= 0.92
         lines = kit.wrap(" ".join(words), s, maxw)
     f = kit.font(s, "Black")
-    space = f.measureText(" ")
     stroke = max(6, s * 0.16)
     gap = s * 1.12
-    lw = max(f.measureText(l) for l in lines) * 1.15 + stroke * 2 + 20
-    lh = gap * len(lines) + s * 0.4 + stroke
-    if cfg.get("speakers") and cap["who"] != "narrator":
-        lh += s * 0.75
-    surf = _layer(lw + 40, lh + 40)
+    lw = max(f.measureText(l) for l in lines) + stroke * 2 + 40
+    lab_h = s * 0.62 if speaker else 0.0
+    lab_gap = s * 0.22 if speaker else 0.0
+    text_h = gap * (len(lines) - 1) + s * 1.05 + stroke
+    lw = max(lw, (kit.measure(speaker.upper(), s * 0.42, "Black") + 60) if speaker else 0)
+    surf = _layer(lw, lab_h + lab_gap + text_h + 20)
     c = surf.getCanvas()
-    y = 20 + s * 0.9 + stroke / 2
-    if cfg.get("speakers") and cap["who"] != "narrator":
-        lab = cap["who"].upper()
-        lf = kit.font(s * 0.5, "Black")
+    if speaker:
+        lab = speaker.upper()
+        lf = kit.font(s * 0.42, "Black")
         lwid = lf.measureText(lab)
-        lx = (lw + 40 - lwid) / 2
-        c.drawRoundRect(skia.Rect.MakeXYWH(lx - 16, 14, lwid + 32, s * 0.62), 12, 12, flat.paint("#141418", 0.85))
-        c.drawString(lab, lx, 14 + s * 0.5, lf,
-                     skia.Paint(AntiAlias=True, Color=flat.hexc(cfg.get("speaker_colors", {}).get(cap["who"], "#9fd3ff"))))
-        y += s * 0.75
-    wi = 0
+        lx = (lw - lwid) / 2
+        c.drawRoundRect(skia.Rect.MakeXYWH(lx - 18, 0, lwid + 36, lab_h), lab_h * 0.28, lab_h * 0.28,
+                        flat.paint(cfg.get("label_bg", "#1a1d2b"), 0.88))
+        c.drawString(lab, lx, lab_h * 0.5 + s * 0.15, lf,
+                     skia.Paint(AntiAlias=True, Color=flat.hexc(cfg.get("speaker_colors", {}).get(speaker, "#9fd3ff"))))
+    y = lab_h + lab_gap + s * 0.86 + stroke / 2
+    space = f.measureText(" ")
     for l in lines:
-        lws = l.split(" ")
-        n_em = sum(1 for w in lws if kit._norm(w) in emph)
-        x = (lw + 40 - f.measureText(l) - n_em * s * 0.24) / 2
-        for w in lws:
-            em_pad = s * 0.12 if kit._norm(w) in emph else 0.0
-            x += em_pad
-            wd = cap["words"][wi]
-            active = wd["start"] - 0.02 <= t <= wd["end"] + 0.06 or (t > wd["end"] and wi + 1 < len(cap["words"])
-                                                                      and t < cap["words"][wi + 1]["start"])
-            col = colors[kit._norm(w)] if kit._norm(w) in emph else (hi_col if active else base_col)
+        x = (lw - f.measureText(l)) / 2
+        for w in l.split(" "):
+            col = colors.get(kit._norm(w), base_col)
             blob = skia.TextBlob(w, f)
-            pop = 1.0
-            if kit._norm(w) in emph:
-                pop = 1.0 + 0.12 * (1 - kit.span(t, wd["start"], wd["start"] + 0.2, "out"))
-            c.save()
-            ww = f.measureText(w)
-            c.translate(x + ww / 2, y - s * 0.35)
-            c.scale(pop, pop)
-            c.translate(-(x + ww / 2), -(y - s * 0.35))
-            c.drawTextBlob(blob, x, y, skia.Paint(AntiAlias=True, Color=flat.hexc("#141418"),
-                                                  Style=skia.Paint.kStroke_Style, StrokeWidth=stroke,
-                                                  StrokeJoin=skia.Paint.kRound_Join))
+            c.drawTextBlob(blob, x, y, skia.Paint(AntiAlias=True, Color=flat.hexc("#141418"), Style=skia.Paint.kStroke_Style,
+                                                  StrokeWidth=stroke, StrokeJoin=skia.Paint.kRound_Join))
             c.drawTextBlob(blob, x, y, skia.Paint(AntiAlias=True, Color=flat.hexc(col)))
-            c.restore()
-            x += ww + space + em_pad
-            wi += 1
+            x += f.measureText(w) + space
         y += gap
-    u = kit.span(t, cap["t0"], cap["t0"] + 0.1, "out")
-    paste(canvas, surf.makeImageSnapshot(), W / 2, _cap_y(cfg, t), scale=0.92 + 0.08 * u, alpha=min(1.0, u * 1.5))
+    img = surf.makeImageSnapshot()
+    u = kit.ease_out(kit.span(t, cap["t0"], cap["t0"] + CAP_IN, "linear"), 3)
+    text_top = _cap_y(cfg, t)  # the first text line always starts here; the label sits above it
+    top = text_top - lab_h - lab_gap + (1 - u) * 18
+    r = paste(canvas, img, W / 2, top + img.height() / 2, alpha=u, kind="caption")
+    return r
 
 
 # ============================================================================ frame render
@@ -650,8 +658,43 @@ def _init_worker(edl_path):
     _EDIT = Edit(edl_path)
 
 
+def _overlap_issues(edit: Edit, seg, t):
+    """Caption vs overlays, and caption vs the shot's keep-clear zones (anim2d.ZONES[shot](t) -> [(name, l,t,r,b)])."""
+    caps = [r for k, r in RECTS if k == "caption"]
+    if not caps:
+        return []
+    cap = caps[0]
+    out = []
+    for k, r in RECTS:
+        if k != "caption" and skia.Rect.Intersects(cap, r):
+            inter = skia.Rect(cap.left(), cap.top(), cap.right(), cap.bottom())
+            if inter.intersect(r) and inter.width() * inter.height() > 400:
+                out.append(f"caption over {k}")
+    zones_fn = None
+    if seg is not None:
+        spec = edit.sources.get(seg["src"] if not isinstance(seg["src"], (list, tuple)) else "", {})
+        if spec.get("kind", "2d") == "2d":
+            try:
+                zones_fn = getattr(edit.anim, "ZONES", {}).get(spec.get("shot", seg["src"]))
+            except Exception:
+                zones_fn = None
+    if zones_fn:
+        m = zoom_matrix(seg, t)
+        for name, l, tp, r, b in zones_fn(edit.src_time(seg, t)):
+            zr = m.mapRect(skia.Rect.MakeLTRB(l, tp, r, b))
+            inter = skia.Rect(cap.left(), cap.top(), cap.right(), cap.bottom())
+            if inter.intersect(zr) and inter.width() * inter.height() > 0.08 * zr.width() * zr.height():
+                out.append(f"caption over {name}")
+    return out
+
+
+ISSUES: list = []
+
+
 def render_frame(edit: Edit, i):
     t = i / FPS
+    RECTS.clear()
+    ISSUES.clear()
     seg = edit.segment_at(t)
     base = render_segment_picture(edit, seg, t)
     surf = skia.Surface(W, H)
@@ -667,13 +710,18 @@ def render_frame(edit: Edit, i):
         c.drawImage(skia.Image.fromarray(np.ascontiguousarray(rgba), colorType=skia.kRGBA_8888_ColorType), 0, 0)
     for ov in edit.overlays:
         if ov["t0"] <= t < ov["t1"]:
+            n0 = len(RECTS)
             OVERLAY_KINDS[ov["kind"]](ov, t, c)
+            for j in range(n0, len(RECTS)):  # tag overlay rects with their kind
+                RECTS[j] = (ov["kind"], RECTS[j][1])
     draw_captions(edit, c, t)
+    ISSUES.extend(_overlap_issues(edit, seg, t))
     return kit.surface_to_array(surf)
 
 
 def _worker_frame(i):
-    return i, render_frame(_EDIT, i).tobytes()
+    buf = render_frame(_EDIT, i).tobytes()
+    return i, buf, list(ISSUES)
 
 
 def export(edl_path, out=None, frames=None, workers=None, crf=18, preset="slow"):
@@ -699,13 +747,21 @@ def export(edl_path, out=None, frames=None, workers=None, crf=18, preset="slow")
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     workers = workers or max(1, (os.cpu_count() or 2))
     with mp.get_context("fork").Pool(workers, initializer=_init_worker, initargs=(str(edit.path),)) as pool:
-        for n, (i, buf) in enumerate(pool.imap(_worker_frame, rng, chunksize=2)):
+        overlaps = {}
+        for n, (i, buf, iss) in enumerate(pool.imap(_worker_frame, rng, chunksize=2)):
             proc.stdin.write(buf)
+            for msg in iss:
+                overlaps.setdefault(msg, []).append(round(i / FPS, 2))
             if n % 30 == 0:
                 el = time.time() - t0
                 print(f"  frame {i}/{rng.stop}  {el:.1f}s  ({el / (n + 1):.3f} s/frame)", flush=True)
     proc.stdin.close()
     proc.wait()
+    qc_dir = edit.dir / "qc"
+    qc_dir.mkdir(exist_ok=True)
+    summary = {k: dict(frames=len(v), first=v[0], last=v[-1]) for k, v in overlaps.items()}
+    (qc_dir / "overlaps.json").write_text(json.dumps(summary, indent=2))
+    print("OVERLAP CHECK:", "clean" if not summary else json.dumps(summary))
     dt = time.time() - t0
     stats = dict(out=str(out), frames=len(rng), seconds=round(dt, 1), sec_per_frame=round(dt / max(1, len(rng)), 3),
                  workers=workers)
@@ -720,6 +776,8 @@ def stills(edl_path, times, out_dir):
     paths = []
     for t in times:
         arr = render_frame(edit, int(round(t * FPS)))
+        if ISSUES:
+            print(f"  ! {t:.2f}s: " + "; ".join(ISSUES))
         from PIL import Image
         p = out_dir / f"still_{t:06.2f}.png"
         Image.fromarray(arr).save(p)

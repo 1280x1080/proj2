@@ -1,5 +1,7 @@
 # STUDIO — code-driven vertical-short pipeline
 
+**Read [`STANDARDS.md`](STANDARDS.md) first** — the review rules every video must pass before it is sent.
+
 Story idea → finished 1080×1920 / 30 fps / H.264 + AAC MP4 with no manual editing.
 CPU only, free/open-source tools only, all music and SFX synthesised by code, OFL fonts (Inter).
 

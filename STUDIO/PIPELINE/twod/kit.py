@@ -165,9 +165,24 @@ class Timing:
                 n_syl = max(1, _syllables(w["w"]))
                 u = (t - w["start"]) / d
                 env = math.sin(math.pi * clamp(u)) ** 0.5
-                osc = 0.55 + 0.45 * abs(math.sin(math.pi * n_syl * clamp(u)))
+                osc = 0.1 + 0.9 * abs(math.sin(math.pi * n_syl * clamp(u)))  # closes between syllables
                 best = max(best, env * osc)
         return best
+
+    def talking(self, t, who, pad=0.06):
+        """True while `who` is inside one of their lines (mouth animates; closes between words)."""
+        for ln in self.data["lines"]:
+            if ln.get("who") == who and ln["start"] - pad <= t <= ln["end"] + pad:
+                return True
+        return False
+
+    def lip(self, pose, t, who):
+        """Set a puppet pose's lip-sync for speaker `who`: talk amount + speaking flag."""
+        pose = dict(pose)
+        if self.talking(t, who):
+            pose["talk"] = self.mouth(t, who)
+            pose["speaking"] = True
+        return pose
 
     def speaking(self, t, who=None, pad=0.1):
         for ln in self.data["lines"]:

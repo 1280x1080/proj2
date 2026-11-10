@@ -280,6 +280,7 @@ POSE_DEFAULT = dict(
     brow=(0.0, 0.0),      # (raise -1..1, angle -1 angry .. +1 worried)
     mouth="smile",        # smile | neutral | frown | o | grin | flat | smirk
     talk=0.0,             # 0..1 mouth opening (from word timing)
+    speaking=False,       # True while this character's line plays: mouth fully closes between syllables
     head_tilt=0.0,        # degrees
     turn=0.0,             # fake 3/4 head/body turn -1 (to screen-left) .. 1 (to screen-right)
     lean=0.0,             # whole-body lean, degrees
@@ -671,13 +672,16 @@ class Puppet:
         shape = P["mouth"]
         dark = hexc("#5a2320")
         line = paint("#4a2420", stroke=5.5 * hs)
-        if talk > 0.06 or shape in ("o", "grin"):
+        speaking = P.get("speaking", False)
+        if speaking and talk <= 0.08:  # talking characters close their mouth between syllables / words
+            shape = {"o": "neutral", "grin": "smile"}.get(shape, shape)
+        if talk > 0.08 or (shape in ("o", "grin") and not speaking):
             if shape == "o":
-                w, h = 15 + talk * 4, 14 + talk * 14
+                w, h = (12 + talk * 10, 6 + talk * 30) if speaking else (15 + talk * 4, 14 + talk * 14)
             elif shape == "grin":
-                w, h = 38, 14 + talk * 16
+                w, h = 38, (6 + talk * 28) if speaking else (14 + talk * 16)
             else:
-                w, h = 28 + talk * 6, 6 + talk * 26
+                w, h = 26 + talk * 8, 5 + talk * 32
             w *= hs
             h *= hs
             m = skia.Path()
