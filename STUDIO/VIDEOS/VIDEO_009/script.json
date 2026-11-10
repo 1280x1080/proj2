@@ -1,0 +1,265 @@
+{
+  "title": "THE LAST BELL - Part 1: The Lockdown",
+  "series": "THE LAST BELL",
+  "part": 1,
+  "engine": "qwen",
+  "notes": "Qwen3-TTS. 'outside' is HER voice (voice_alias) heard through the door (fx door) - the entity copies it. Principal through the intercom (fx intercom).",
+  "voice_ref": null,
+  "voices": {
+    "narrator": {
+      "design": "Young woman narrator, early 20s, warm and intimate, quick natural storytelling pace, a soft smile in her voice that turns tense when things go wrong.",
+      "ref_text": "I still remember that afternoon. The sun was low, the hallway was empty, and for once I wasn't nervous at all."
+    },
+    "her": {
+      "design": "Teenage girl, 16, soft warm voice, a little shy and playful, gentle; when scared she whispers and her voice shakes.",
+      "ref_text": "Okay, your handwriting is honestly the worst I've ever seen. No, I'm kidding. Kind of. Hand me the glue?"
+    },
+    "intercom": {
+      "design": "Middle-aged man, school principal, firm calm authoritative voice, speaking slowly and clearly into a microphone.",
+      "ref_text": "Good afternoon, students. This is your principal speaking. Please listen carefully to the following announcement."
+    }
+  },
+  "voice_alias": {
+    "outside": "her"
+  },
+  "lead_in": 0.1,
+  "tail": 0.3,
+  "lines": [
+    {
+      "id": "H1",
+      "who": "narrator",
+      "text": "You finally get to spend time alone with your crush after school.",
+      "delivery": "warm",
+      "pause_after": 0.12
+    },
+    {
+      "id": "H2",
+      "who": "narrator",
+      "text": "Then someone using her voice starts begging you to open the classroom door.",
+      "delivery": "dramatic",
+      "pause_after": 0.3
+    },
+    {
+      "id": "P01",
+      "who": "narrator",
+      "text": "You've had a crush on her for months. Today, you finally get time alone together.",
+      "delivery": "warm",
+      "pause_after": 0.12
+    },
+    {
+      "id": "P02",
+      "who": "narrator",
+      "text": "You stay after school to finish a project.",
+      "delivery": "calm",
+      "pause_after": 0.12
+    },
+    {
+      "id": "P03",
+      "who": "narrator",
+      "text": "She's laughing at your terrible handwriting.",
+      "delivery": "warm",
+      "pause_after": 0.12
+    },
+    {
+      "id": "P04",
+      "who": "narrator",
+      "text": "For once, talking to her doesn't feel awkward.",
+      "delivery": "warm",
+      "pause_after": 0.25
+    },
+    {
+      "id": "P05",
+      "who": "narrator",
+      "text": "Then suddenly... the emergency alarm starts screaming.",
+      "delivery": "dramatic",
+      "pause_after": 0.12
+    },
+    {
+      "id": "P06",
+      "who": "narrator",
+      "text": "The classroom lights turn red.",
+      "delivery": "dramatic",
+      "pause_after": 0.25
+    },
+    {
+      "id": "P07",
+      "who": "intercom",
+      "text": "\"Attention. This is an emergency lockdown. An unidentified individual has entered the school.\"",
+      "delivery": "calm",
+      "pause_after": 0.12,
+      "fx": "intercom"
+    },
+    {
+      "id": "P08",
+      "who": "intercom",
+      "text": "\"Lock your doors. Cover your windows. Do not respond to anyone calling your name.\"",
+      "delivery": "calm",
+      "pause_after": 0.35,
+      "fx": "intercom"
+    },
+    {
+      "id": "P09",
+      "who": "narrator",
+      "text": "You look at your crush. She's no longer smiling.",
+      "delivery": "calm",
+      "pause_after": 0.12
+    },
+    {
+      "id": "P10",
+      "who": "narrator",
+      "text": "You both move away from the windows. The hallway goes completely silent.",
+      "delivery": "whisper",
+      "pause_after": 0.12
+    },
+    {
+      "id": "P11",
+      "who": "narrator",
+      "text": "Then... three knocks.",
+      "delivery": "whisper",
+      "pause_after": 1.4
+    },
+    {
+      "id": "P12",
+      "who": "outside",
+      "text": "\"Hey... can you let me in?\"",
+      "delivery": "warm",
+      "pause_after": 0.3,
+      "fx": "door"
+    },
+    {
+      "id": "P13",
+      "who": "narrator",
+      "text": "She's sitting right beside you. She slowly shakes her head.",
+      "delivery": "whisper",
+      "pause_after": 0.12
+    },
+    {
+      "id": "P14",
+      "who": "her",
+      "text": "\"Don't open it.\"",
+      "delivery": "whisper",
+      "pause_after": 0.3
+    },
+    {
+      "id": "P15",
+      "who": "narrator",
+      "text": "The knocking comes again. This time, it sounds exactly like her.",
+      "delivery": "dramatic",
+      "pause_after": 0.12
+    },
+    {
+      "id": "P16",
+      "who": "outside",
+      "text": "\"Please. It's getting closer. Why are you leaving me out here?\"",
+      "delivery": "excited",
+      "pause_after": 0.3,
+      "fx": "door"
+    },
+    {
+      "id": "P17",
+      "who": "narrator",
+      "text": "Your crush grabs your arm. Her hands are shaking.",
+      "delivery": "whisper",
+      "pause_after": 0.12
+    },
+    {
+      "id": "P18",
+      "who": "her",
+      "text": "\"That's not me.\"",
+      "delivery": "whisper",
+      "pause_after": 0.3
+    },
+    {
+      "id": "P19",
+      "who": "narrator",
+      "text": "Then the voice says something that makes your blood run cold.",
+      "delivery": "dramatic",
+      "pause_after": 0.12
+    },
+    {
+      "id": "P20",
+      "who": "outside",
+      "text": "\"Come on... you know I like you.\"",
+      "delivery": "warm",
+      "pause_after": 0.4,
+      "fx": "door"
+    },
+    {
+      "id": "P21",
+      "who": "narrator",
+      "text": "You turn toward your crush. She looks completely confused.",
+      "delivery": "calm",
+      "pause_after": 0.12
+    },
+    {
+      "id": "P22",
+      "who": "narrator",
+      "text": "Your phone vibrates. A photo, from an unknown number.",
+      "delivery": "calm",
+      "pause_after": 0.12
+    },
+    {
+      "id": "P23",
+      "who": "narrator",
+      "text": "It's the two of you, in this classroom... taken from behind you.",
+      "delivery": "dramatic",
+      "pause_after": 0.12
+    },
+    {
+      "id": "P24",
+      "who": "narrator",
+      "text": "You turn around. There's nobody there.",
+      "delivery": "whisper",
+      "pause_after": 0.3
+    },
+    {
+      "id": "P25",
+      "who": "narrator",
+      "text": "Another message: She hasn't told you what happened last time.",
+      "delivery": "dramatic",
+      "pause_after": 0.12
+    },
+    {
+      "id": "P26",
+      "who": "narrator",
+      "text": "Your crush starts crying. She looks right at you.",
+      "delivery": "calm",
+      "pause_after": 0.12
+    },
+    {
+      "id": "P27",
+      "who": "her",
+      "text": "\"Please... don't let it remember me.\"",
+      "delivery": "whisper",
+      "pause_after": 0.35
+    },
+    {
+      "id": "P28",
+      "who": "narrator",
+      "text": "The door handle begins to turn.",
+      "delivery": "dramatic",
+      "pause_after": 0.3
+    },
+    {
+      "id": "P29",
+      "who": "narrator",
+      "text": "She grabs your hand and whispers...",
+      "delivery": "whisper",
+      "pause_after": 0.12
+    },
+    {
+      "id": "P30",
+      "who": "her",
+      "text": "\"Whatever you do, don't let it touch your shadow.\"",
+      "delivery": "whisper",
+      "pause_after": 0.35
+    },
+    {
+      "id": "P31",
+      "who": "narrator",
+      "text": "Comment A or B. Your decision decides Part 2.",
+      "delivery": "calm",
+      "pause_after": 0.0
+    }
+  ]
+}

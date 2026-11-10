@@ -30,6 +30,16 @@ def voice_fx(x, kind, seed=0):
             i = int(r.integers(0, max(1, len(y) - 300)))
             crack[i:i + 300] += r.standard_normal(min(300, len(y) - i)) * 0.05 * _np.exp(-_np.arange(min(300, len(y) - i)) / 60)
         return y + hiss + crack
+    if kind == "door":  # heard through a closed classroom door: dull, a little roomy
+        y = dsp.lowpass(dsp.highpass(x, 120), 1700, 2)
+        ir = dsp.reverb_ir(0.6, damp=1800, stereo=False)
+        from scipy.signal import fftconvolve as _fc
+        wet = _fc(y, ir)[: len(y)]
+        return y * 0.85 + wet * 0.25
+    if kind == "intercom":  # old school PA: narrow band, driven, mains hum
+        y = dsp.saturate(dsp.bandpass(x, 350, 3200, order=3), 2.5)
+        t = _np.arange(len(y)) / dsp.SR
+        return y + 0.008 * _np.sin(2 * _np.pi * 60 * t) + dsp.highpass(_np.random.default_rng(seed).standard_normal(len(y)), 2500) * 0.003
     if kind == "phone":
         y = dsp.saturate(dsp.bandpass(x, 380, 3300, order=3), 2.2)
         return y + dsp.highpass(_np.random.default_rng(seed).standard_normal(len(y)), 2000) * 0.004

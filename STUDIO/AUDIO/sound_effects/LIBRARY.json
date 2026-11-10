@@ -15,6 +15,22 @@
     "duration": 0.457,
     "peak_db": -4.0
   },
+  "chair_scrape": {
+    "file": "chair_scrape.flac",
+    "description": "Chair legs scraping on a classroom floor",
+    "category": "school",
+    "loop": false,
+    "duration": 1.17,
+    "peak_db": -10.0
+  },
+  "classroom_after": {
+    "file": "classroom_after.flac",
+    "description": "Empty classroom after school: HVAC air, fluorescent hum, far-off kids outside, 10 s loopable",
+    "category": "ambience",
+    "loop": true,
+    "duration": 10.0,
+    "peak_db": -26.0
+  },
   "click_ui": {
     "file": "click_ui.flac",
     "description": "Crisp UI click",
@@ -167,6 +183,14 @@
     "duration": 2.34,
     "peak_db": -6.0
   },
+  "handle_turn": {
+    "file": "handle_turn.flac",
+    "description": "Metal lever handle slowly pressed down: squeak + latch strain",
+    "category": "school",
+    "loop": false,
+    "duration": 1.999,
+    "peak_db": -6.0
+  },
   "heartbeat": {
     "file": "heartbeat.flac",
     "description": "Lub-dub heartbeat, one beat (~0.8 s)",
@@ -215,6 +239,30 @@
     "duration": 6.0,
     "peak_db": -30.0
   },
+  "light_buzz_out": {
+    "file": "light_buzz_out.flac",
+    "description": "Fluorescent lights clunk off, emergency red light buzz starts",
+    "category": "school",
+    "loop": false,
+    "duration": 1.916,
+    "peak_db": -8.0
+  },
+  "lock_click": {
+    "file": "lock_click.flac",
+    "description": "Door lock thrown: metal clack",
+    "category": "school",
+    "loop": false,
+    "duration": 0.509,
+    "peak_db": -6.0
+  },
+  "lockdown_alarm": {
+    "file": "lockdown_alarm.flac",
+    "description": "School lockdown alarm in the hallway: harsh two-tone whoop, 3 s",
+    "category": "school",
+    "loop": false,
+    "duration": 4.251,
+    "peak_db": -5.0
+  },
   "mop_slam": {
     "file": "mop_slam.flac",
     "description": "Wooden mop handle slammed across a counter",
@@ -238,6 +286,22 @@
     "loop": false,
     "duration": 2.311,
     "peak_db": -4.0
+  },
+  "pa_chime": {
+    "file": "pa_chime.flac",
+    "description": "Old school PA: click + two-note chime before an announcement",
+    "category": "school",
+    "loop": false,
+    "duration": 1.553,
+    "peak_db": -6.0
+  },
+  "pencil_scribble": {
+    "file": "pencil_scribble.flac",
+    "description": "Pencil scribbling on paper, 1.2 s",
+    "category": "school",
+    "loop": false,
+    "duration": 1.199,
+    "peak_db": -16.0
   },
   "phone_ring": {
     "file": "phone_ring.flac",

@@ -437,6 +437,48 @@ def cue_video008():
     return s, dict(loop=False)
 
 
+def cue_video009():
+    """THE LAST BELL Part 1: a soft lo-fi pluck love theme (Fmaj7-Am7-Dm7-C) for the afternoon; the hook flash-forward
+    cuts it with a hit; from the alarm a low drone + tremolo strings, a slow heartbeat kick, the love theme returning as
+    a detuned music-box bell when she cries; hit at the freeze; choice: drone + pulse."""
+    edl = _load_edl("009")
+    B, D = edl.BEATS, edl.DURATION
+    st = edl.start
+    A = B["alarm"]
+    s = Score(D, bpm=78, seed=9)
+    prog = [(53, 57, 60, 64), (57, 60, 64, 67), (50, 53, 57, 60), (48, 52, 55, 60)]
+    beat = 60 / 78
+    def theme(t0, t1, gain):
+        t, k = t0, 0
+        while t < t1 - 0.2:
+            ch = prog[(k // 4) % 4]
+            s.note("lead", "pluck", ch[k % 4] + 12, t, beat * 1.5, gain=gain, pan=(-0.2 if k % 2 else 0.2), bright=0.4)
+            if k % 4 == 0:
+                s.note("pad", "pad", ch[0] - 12, t, beat * 4, gain=gain * 0.6, bright=0.2)
+            t += beat
+            k += 1
+    theme(0.0, B["hook_red"], 0.10)
+    s.hit("perc", drum_tom(48, 1.2), B["hook_red"], 0.35)
+    s.note("bass", "bass", 29, B["hook_red"], B["story"] - B["hook_red"], gain=0.16)
+    theme(B["story"], A, 0.10)
+    s.hit("perc", drum_tom(44, 1.5), A, 0.4)
+    s.note("bass", "bass", 29, A, D - A, gain=0.16)
+    s.note("pad", "pad", 41, A, D - A, gain=0.06, bright=0.12)
+    for m, p in ((53, -0.4), (54, 0.4), (60, 0.0)):
+        s.note("pad", "tremolo", m, st("P11"), B["freeze"] - st("P11"), gain=0.04, pan=p, rate=8.0)
+    t = A + 0.5
+    while t < D - 0.6:  # heartbeat pulse, faster after the photo
+        s.hit("perc", drum_kick(0.3), t, 0.09)
+        s.hit("perc", drum_kick(0.25), t + 0.22, 0.05)
+        t += 1.1 if t < B["photo"] else 0.8
+    for j, m in enumerate((72, 76, 79, 77, 76)):  # her theme on a broken music box when she cries
+        s.note("lead", "bell", m - 0.3 * (j % 2), st("P26") + j * 0.45, 1.6, gain=0.045, pan=0.2, bright=0.2)
+    s.gate(st("P11") - 0.1, B["knocks"][-1] + 0.4, gain=0.35, fade=0.05)  # hold breath for the knocks
+    s.hit("perc", drum_tom(40, 2.0), B["freeze"], 0.45)
+    s.gate(B["freeze"] + 0.4, B["choice"] + 0.3, gain=0.3, fade=0.1)
+    return s, dict(loop=False)
+
+
 def main():
     num = sys.argv[1].zfill(3)
     s, opts = globals()[f"cue_video{num}"]()
