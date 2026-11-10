@@ -9,3 +9,135 @@ designed voice 'intercom' -> intercom_qwen.wav  (Middle-aged man, school princip
 whisper small.en loaded in 15.4s
 Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1483.40it/s]
 Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[H1] take r0t0: 0 mismatches, 3.07s audio, 211.9s gen  | 'You finally get to spend time alone with your crush after school?'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[H1] take r0t1: 0 mismatches, 3.47s audio, 32.4s gen  | 'You finally get to spend time alone with your crush after school.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[H2] take r0t0: 0 mismatches, 3.84s audio, 30.1s gen  | 'Then, someone using her voice starts begging you to open the classroom door.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[H2] take r0t1: 0 mismatches, 3.72s audio, 34.9s gen  | 'Then someone using her voice starts begging you to open the classroom door.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P01] take r0t0: 0 mismatches, 4.55s audio, 40.6s gen  | "You've had a crush on her for months. Today you finally get time alone together."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P01] take r0t1: 0 mismatches, 4.50s audio, 38.4s gen  | "You've had a crush on her for months. Today, you finally get time alone together."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P02] take r0t0: 0 mismatches, 2.12s audio, 24.3s gen  | 'You stay after school to finish a project.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P02] take r0t1: 0 mismatches, 2.17s audio, 24.5s gen  | 'You stay after school to finish a project?'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P03] take r0t0: 0 mismatches, 2.27s audio, 21.0s gen  | "She's laughing at your terrible handwriting."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P03] take r0t1: 0 mismatches, 2.21s audio, 23.8s gen  | "She's laughing at your terrible handwriting."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P04] take r0t0: 0 mismatches, 2.46s audio, 23.0s gen  | "For once, talking to her doesn't feel awkward."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P04] take r0t1: 0 mismatches, 2.46s audio, 20.8s gen  | "For once, talking to her doesn't feel awkward."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P05] take r0t0: 0 mismatches, 2.86s audio, 21.5s gen  | 'Then suddenly, the emergency alarm starts screaming.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P05] take r0t1: 0 mismatches, 2.90s audio, 27.9s gen  | 'Then suddenly, the emergency alarm starts screaming.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P06] take r0t0: 0 mismatches, 1.67s audio, 14.5s gen  | 'The classroom lights turn red.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P06] take r0t1: 0 mismatches, 1.72s audio, 20.6s gen  | 'The classroom lights turn red.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P07] take r0t0: 0 mismatches, 7.02s audio, 51.1s gen  | 'Attention! This is an emergency lockdown. An unidentified individual has entered the school.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P07] take r0t1: 0 mismatches, 6.41s audio, 46.3s gen  | 'Attention. This is an emergency lockdown. An unidentified individual has entered the school.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P08] take r0t0: 0 mismatches, 6.24s audio, 44.3s gen  | 'Lock your doors. Cover your windows. Do not respond to anyone calling your name.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P08] take r0t1: 0 mismatches, 5.46s audio, 39.7s gen  | 'Lock your doors. Cover your windows. Do not respond to anyone calling your name.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P09] take r0t0: 0 mismatches, 3.30s audio, 28.6s gen  | "You look at your crush, she's no longer smiling."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P09] take r0t1: 0 mismatches, 2.99s audio, 28.2s gen  | "You look at your crush, she's no longer smiling."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P10] take r0t0: 0 mismatches, 4.14s audio, 36.0s gen  | 'You both move away from the windows. The hallway goes completely silent.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P10] take r0t1: 0 mismatches, 4.41s audio, 35.7s gen  | 'You both move away from the windows. The hallway goes completely silent.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P11] take r0t0: 0 mismatches, 2.21s audio, 20.4s gen  | 'Then, three knocks.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P11] take r0t1: 0 mismatches, 2.00s audio, 19.3s gen  | 'Then, three knocks.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P12] take r0t0: 0 mismatches, 1.78s audio, 18.7s gen  | 'Hey, can you let me in?'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P12] take r0t1: 0 mismatches, 2.13s audio, 22.3s gen  | 'Hey, can you let me in?'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P13] take r0t0: 0 mismatches, 3.70s audio, 32.0s gen  | "She's sitting right beside you. She slowly shakes her head."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P13] take r0t1: 0 mismatches, 3.55s audio, 32.5s gen  | "She's sitting right beside you. She slowly shakes her head."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P14] take r0t0: 0 mismatches, 0.91s audio, 11.9s gen  | "Don't open it!"
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P14] take r0t1: 0 mismatches, 0.97s audio, 14.7s gen  | "Don't open it!"
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P15] take r0t0: 0 mismatches, 4.75s audio, 33.4s gen  | 'The knocking comes again. This time, it sounds exactly like her.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P15] take r0t1: 0 mismatches, 4.34s audio, 35.9s gen  | 'The knocking comes again. This time, it sounds exactly like her.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P16] take r0t0: 0 mismatches, 4.65s audio, 33.6s gen  | "Please! It's getting closer! Why are you leaving me out here?"
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P16] take r0t1: 0 mismatches, 4.98s audio, 36.9s gen  | "Please! It's getting closer! Why are you leaving me out here?"
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P17] take r0t0: 0 mismatches, 3.26s audio, 29.4s gen  | 'Your crush grabs your arm. Her hands are shaking.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P17] take r0t1: 0 mismatches, 3.27s audio, 28.9s gen  | 'Your crush grabs your arm, her hands are shaking.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P18] take r0t0: 0 mismatches, 1.17s audio, 12.5s gen  | "That's not me!"
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P18] take r0t1: 0 mismatches, 1.10s audio, 16.6s gen  | "That's not me!"
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P19] take r0t0: 0 mismatches, 2.62s audio, 21.1s gen  | 'Then the voice says something that makes your blood run cold.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P19] take r0t1: 0 mismatches, 2.72s audio, 25.2s gen  | 'Then the voice says something that makes your blood run cold.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P20] take r0t0: 0 mismatches, 2.53s audio, 25.8s gen  | 'Come on, you know I like you.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P20] take r0t1: 0 mismatches, 2.46s audio, 23.4s gen  | 'Come on, you know I like you.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P21] take r0t0: 0 mismatches, 3.71s audio, 31.5s gen  | 'You turn toward your crush. She looks completely confused.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P21] take r0t1: 0 mismatches, 3.42s audio, 31.4s gen  | 'You turn toward your crush. She looks completely confused.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P22] take r0t0: 0 mismatches, 3.59s audio, 32.0s gen  | 'Your phone vibrates? A photo from an unknown number.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P22] take r0t1: 0 mismatches, 3.70s audio, 30.4s gen  | 'Your phone vibrates. A photo from an unknown number.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P23] take r0t0: 0 mismatches, 3.92s audio, 32.6s gen  | "It's the two of you in this classroom taken from behind you."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P23] take r0t1: 0 mismatches, 3.52s audio, 31.3s gen  | "It's the two of you in this classroom taken from behind you."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P24] take r0t0: 0 mismatches, 2.70s audio, 26.5s gen  | "You turn around. There's nobody there."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P24] take r0t1: 0 mismatches, 2.46s audio, 22.0s gen  | "You turn around, there's nobody there."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P25] take r0t0: 0 mismatches, 3.79s audio, 31.1s gen  | "Another message? She hasn't told you what happened last time."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P25] take r0t1: 0 mismatches, 3.43s audio, 29.2s gen  | "Another message. She hasn't told you what happened last time."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P26] take r0t0: 0 mismatches, 3.26s audio, 29.0s gen  | 'Your crush starts crying. She looks right at you.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P26] take r0t1: 0 mismatches, 3.14s audio, 30.4s gen  | 'Your crush starts crying. She looks right at you.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P27] take r0t0: 0 mismatches, 2.19s audio, 19.2s gen  | "Please, don't let it remember me."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P27] take r0t1: 0 mismatches, 2.02s audio, 17.9s gen  | "Please, don't let it remember me."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P28] take r0t0: 0 mismatches, 1.54s audio, 16.9s gen  | 'The door handle begins to turn.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P28] take r0t1: 0 mismatches, 1.80s audio, 21.1s gen  | 'The door handle begins to turn.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P29] take r0t0: 0 mismatches, 2.00s audio, 20.2s gen  | 'She grabs your hand and whispers.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P29] take r0t1: 0 mismatches, 1.82s audio, 19.0s gen  | 'She grabs your hand and whispers.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P30] take r0t0: 0 mismatches, 2.69s audio, 28.6s gen  | "Whatever you do, don't let it touch your shadow."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P30] take r0t1: 0 mismatches, 2.89s audio, 25.0s gen  | "Whatever you do, don't let it touch your shadow."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P31] take r0t0: 0 mismatches, 3.20s audio, 26.2s gen  | 'Comment A or B. Your decision decides part two.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[P31] take r0t1: 0 mismatches, 3.93s audio, 36.0s gen  | 'Comment A or B. Your decision decides part two.'
+narration: 111.17s, 33 lines; lines with mismatches: none

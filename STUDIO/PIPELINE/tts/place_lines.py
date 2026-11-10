@@ -62,7 +62,9 @@ def assemble(script_path):
         if x.ndim == 2:
             x = x.mean(1)
         if line.get("fx"):
+            pk = float(np.max(np.abs(x))) or 1.0
             x = voice_fx(x, line["fx"], seed=len(placed))
+            x = x * min(1.0, pk / max(float(np.max(np.abs(x))), 1e-9))  # fx never pushes the line past its original peak
         if line.get("at") is not None:
             if line["at"] < t - 1e-3:  # never overlap: a long previous line pushes this one later
                 print(f"  ! {lid}: at={line['at']} would overlap the previous line - placed at {t:.2f}")

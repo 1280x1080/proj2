@@ -1,0 +1,339 @@
+{
+  "model": "base.en",
+  "lines": [
+    {
+      "id": "H1",
+      "text": "You finally get to spend time alone with your crush after school.",
+      "heard": "You finally get to spend time alone with your crush after school.",
+      "mismatches": 0,
+      "duration": 3.07,
+      "words_per_sec": 3.91,
+      "clipped": false
+    },
+    {
+      "id": "H2",
+      "text": "Then someone using her voice starts begging you to open the classroom door.",
+      "heard": "Then, someone using her voice starts begging you to open the classroom door.",
+      "mismatches": 0,
+      "duration": 3.84,
+      "words_per_sec": 3.39,
+      "clipped": false
+    },
+    {
+      "id": "P01",
+      "text": "You've had a crush on her for months. Today, you finally get time alone together.",
+      "heard": "You've had a crush on her for months. Today, you finally get time alone together. . . . . . .",
+      "mismatches": 0,
+      "duration": 4.5,
+      "words_per_sec": 3.33,
+      "clipped": false
+    },
+    {
+      "id": "P02",
+      "text": "You stay after school to finish a project.",
+      "heard": "You stay after school to finish a project?",
+      "mismatches": 0,
+      "duration": 2.17,
+      "words_per_sec": 3.69,
+      "clipped": false
+    },
+    {
+      "id": "P03",
+      "text": "She's laughing at your terrible handwriting.",
+      "heard": "She's laughing at your terrible handwriting.",
+      "mismatches": 0,
+      "duration": 2.21,
+      "words_per_sec": 2.71,
+      "clipped": false
+    },
+    {
+      "id": "P04",
+      "text": "For once, talking to her doesn't feel awkward.",
+      "heard": "For once, talking to her doesn't feel awkward.",
+      "mismatches": 0,
+      "duration": 2.46,
+      "words_per_sec": 3.25,
+      "clipped": false
+    },
+    {
+      "id": "P05",
+      "text": "Then suddenly... the emergency alarm starts screaming.",
+      "heard": "Then suddenly, the emergency alarm starts screaming.",
+      "mismatches": 0,
+      "duration": 2.86,
+      "words_per_sec": 2.45,
+      "clipped": false
+    },
+    {
+      "id": "P06",
+      "text": "The classroom lights turn red.",
+      "heard": "The classroom lights turn red.",
+      "mismatches": 0,
+      "duration": 1.67,
+      "words_per_sec": 2.99,
+      "clipped": false
+    },
+    {
+      "id": "P07",
+      "text": "\"Attention. This is an emergency lockdown. An unidentified individual has entered the school.\"",
+      "heard": "Attention. This is an emergency lockdown, an unidentified individual has entered the school.",
+      "mismatches": 0,
+      "duration": 6.41,
+      "words_per_sec": 2.03,
+      "clipped": false
+    },
+    {
+      "id": "P08",
+      "text": "\"Lock your doors. Cover your windows. Do not respond to anyone calling your name.\"",
+      "heard": "Lock your doors. Cover your windows. Do not respond to anyone calling your name.",
+      "mismatches": 0,
+      "duration": 6.24,
+      "words_per_sec": 2.24,
+      "clipped": false
+    },
+    {
+      "id": "P09",
+      "text": "You look at your crush. She's no longer smiling.",
+      "heard": "You look at your crush, she's no longer smiling.",
+      "mismatches": 0,
+      "duration": 2.99,
+      "words_per_sec": 3.01,
+      "clipped": false
+    },
+    {
+      "id": "P10",
+      "text": "You both move away from the windows. The hallway goes completely silent.",
+      "heard": "You both move away from the windows. The hallway goes completely silent.",
+      "mismatches": 0,
+      "duration": 4.41,
+      "words_per_sec": 2.72,
+      "clipped": false
+    },
+    {
+      "id": "P11",
+      "text": "Then... three knocks.",
+      "heard": "Then, three knocks.",
+      "mismatches": 0,
+      "duration": 2.0,
+      "words_per_sec": 1.5,
+      "clipped": false
+    },
+    {
+      "id": "P12",
+      "text": "\"Hey... can you let me in?\"",
+      "heard": "Hey, can you let me in?",
+      "mismatches": 0,
+      "duration": 2.13,
+      "words_per_sec": 2.82,
+      "clipped": false
+    },
+    {
+      "id": "P13",
+      "text": "She's sitting right beside you. She slowly shakes her head.",
+      "heard": "She's sitting right beside you. She slowly shakes her head.",
+      "mismatches": 0,
+      "duration": 3.55,
+      "words_per_sec": 2.82,
+      "clipped": false
+    },
+    {
+      "id": "P14",
+      "text": "\"Don't open it.\"",
+      "heard": "Don't open it!",
+      "mismatches": 0,
+      "duration": 0.91,
+      "words_per_sec": 3.3,
+      "clipped": false
+    },
+    {
+      "id": "P15",
+      "text": "The knocking comes again. This time, it sounds exactly like her.",
+      "heard": "The knocking comes again. This time, it sounds exactly like her.",
+      "mismatches": 0,
+      "duration": 4.75,
+      "words_per_sec": 2.32,
+      "clipped": false
+    },
+    {
+      "id": "P16",
+      "text": "\"Please. It's getting closer. Why are you leaving me out here?\"",
+      "heard": "Please, it's getting closer. Why are you leaving me out here?",
+      "mismatches": 0,
+      "duration": 4.98,
+      "words_per_sec": 2.21,
+      "clipped": false
+    },
+    {
+      "id": "P17",
+      "text": "Your crush grabs your arm. Her hands are shaking.",
+      "heard": "Your crush grabs your arm. Her hands are shaking.",
+      "mismatches": 0,
+      "duration": 3.27,
+      "words_per_sec": 2.75,
+      "clipped": false
+    },
+    {
+      "id": "P18",
+      "text": "\"That's not me.\"",
+      "heard": "That's not me!",
+      "mismatches": 0,
+      "duration": 1.1,
+      "words_per_sec": 2.73,
+      "clipped": false
+    },
+    {
+      "id": "P19",
+      "text": "Then the voice says something that makes your blood run cold.",
+      "heard": "Then the voice says something that makes your blood run cold.",
+      "mismatches": 0,
+      "duration": 2.62,
+      "words_per_sec": 4.2,
+      "clipped": false
+    },
+    {
+      "id": "P20",
+      "text": "\"Come on... you know I like you.\"",
+      "heard": "Come on, you know I like you.",
+      "mismatches": 0,
+      "duration": 2.53,
+      "words_per_sec": 2.77,
+      "clipped": false
+    },
+    {
+      "id": "P21",
+      "text": "You turn toward your crush. She looks completely confused.",
+      "heard": "You turn toward your crush. She looks completely confused.",
+      "mismatches": 0,
+      "duration": 3.71,
+      "words_per_sec": 2.43,
+      "clipped": false
+    },
+    {
+      "id": "P22",
+      "text": "Your phone vibrates. A photo, from an unknown number.",
+      "heard": "Your phone vibrates, a photo from an unknown number.",
+      "mismatches": 0,
+      "duration": 3.59,
+      "words_per_sec": 2.51,
+      "clipped": false
+    },
+    {
+      "id": "P23",
+      "text": "It's the two of you, in this classroom... taken from behind you.",
+      "heard": "It's the two of you in this classroom taken from behind you.",
+      "mismatches": 0,
+      "duration": 3.92,
+      "words_per_sec": 3.06,
+      "clipped": false
+    },
+    {
+      "id": "P24",
+      "text": "You turn around. There's nobody there.",
+      "heard": "You turn around. There's nobody there.",
+      "mismatches": 0,
+      "duration": 2.46,
+      "words_per_sec": 2.44,
+      "clipped": false
+    },
+    {
+      "id": "P25",
+      "text": "Another message: She hasn't told you what happened last time.",
+      "heard": "Another message? She hasn't told you what happened last time.",
+      "mismatches": 0,
+      "duration": 3.79,
+      "words_per_sec": 2.64,
+      "clipped": false
+    },
+    {
+      "id": "P26",
+      "text": "Your crush starts crying. She looks right at you.",
+      "heard": "Your crush starts crying. She looks right at you.",
+      "mismatches": 0,
+      "duration": 3.14,
+      "words_per_sec": 2.87,
+      "clipped": false
+    },
+    {
+      "id": "P27",
+      "text": "\"Please... don't let it remember me.\"",
+      "heard": "Please, don't let it remember me.",
+      "mismatches": 0,
+      "duration": 2.19,
+      "words_per_sec": 2.74,
+      "clipped": false
+    },
+    {
+      "id": "P28",
+      "text": "The door handle begins to turn.",
+      "heard": "The door handle begins to turn.",
+      "mismatches": 0,
+      "duration": 1.8,
+      "words_per_sec": 3.33,
+      "clipped": false
+    },
+    {
+      "id": "P29",
+      "text": "She grabs your hand and whispers...",
+      "heard": "She grabs your hand and whispers.",
+      "mismatches": 0,
+      "duration": 2.0,
+      "words_per_sec": 3.0,
+      "clipped": false
+    },
+    {
+      "id": "P30",
+      "text": "\"Whatever you do, don't let it touch your shadow.\"",
+      "heard": "Whatever you do, don't let it touch your shadow.",
+      "mismatches": 0,
+      "duration": 2.69,
+      "words_per_sec": 3.35,
+      "clipped": false
+    },
+    {
+      "id": "P31",
+      "text": "Comment A or B. Your decision decides Part 2.",
+      "heard": "Comment A or B, your decision decides Part 2.",
+      "mismatches": 0,
+      "duration": 3.2,
+      "words_per_sec": 2.81,
+      "clipped": false
+    }
+  ],
+  "gaps": [
+    0.12,
+    0.3,
+    0.12,
+    0.12,
+    0.12,
+    0.25,
+    0.12,
+    0.25,
+    0.12,
+    0.35,
+    0.12,
+    0.12,
+    1.4,
+    0.3,
+    0.12,
+    0.3,
+    0.12,
+    0.3,
+    0.12,
+    0.3,
+    0.12,
+    0.4,
+    0.12,
+    0.12,
+    0.12,
+    0.3,
+    0.12,
+    0.12,
+    0.35,
+    0.3,
+    0.12,
+    0.35
+  ],
+  "total": 111.17,
+  "peak_db": -2.47,
+  "passed": true
+}

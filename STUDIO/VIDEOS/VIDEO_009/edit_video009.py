@@ -93,15 +93,15 @@ OVERLAYS = [
     dict(kind="chip", t0=B["alarm"], t1=B["choice"], text="LOCKDOWN · ROOM 2B", size=26, y=0.045, bg="#c0392b", color="#ffffff"),
     # choice screen: pinned to the storage-room door (A, left) and the window (B, right)
     dict(kind="title", t0=B["choice"], t1=DURATION, text="WHAT DO YOU DO?", size=96, y=0.12, stroke=12),
-    dict(kind="text", t0=B["choice"] + 0.3, t1=DURATION, text="A  HIDE IN THE STORAGE ROOM", size=40, x=0.27, y=0.22,
+    dict(kind="text", t0=B["choice"] + 0.3, t1=DURATION, text="A  HIDE IN THE STORAGE ROOM", size=50, x=0.5, y=0.215,
          weight="ExtraBold", color="#ffffff", stroke=0, bg="#e2574c", bg_alpha=0.96),
-    dict(kind="text", t0=B["choice"] + 0.3, t1=DURATION, text="Risk: only one way out", size=26, x=0.24, y=0.255,
+    dict(kind="text", t0=B["choice"] + 0.3, t1=DURATION, text="Risk: only one way out", size=34, x=0.5, y=0.258,
          weight="Bold", color="#ffffff", stroke=0, bg="#000000", bg_alpha=0.7),
-    dict(kind="text", t0=B["choice"] + 0.8, t1=DURATION, text="B  ESCAPE THROUGH THE WINDOW", size=40, x=0.72, y=0.30,
+    dict(kind="text", t0=B["choice"] + 0.8, t1=DURATION, text="B  ESCAPE THROUGH THE WINDOW", size=50, x=0.5, y=0.315,
          weight="ExtraBold", color="#ffffff", stroke=0, bg="#3f8fd6", bg_alpha=0.96),
-    dict(kind="text", t0=B["choice"] + 0.8, t1=DURATION, text="Risk: 2nd floor - and it's in the courtyard", size=26, x=0.74,
-         y=0.335, weight="Bold", color="#ffffff", stroke=0, bg="#000000", bg_alpha=0.7),
-    dict(kind="text", t0=start("P31") - 0.1, t1=DURATION, text="COMMENT A OR B · YOUR DECISION DETERMINES PART 2", size=32,
+    dict(kind="text", t0=B["choice"] + 0.8, t1=DURATION, text="Risk: 2nd floor - and something's in the courtyard", size=34, x=0.5,
+         y=0.358, weight="Bold", color="#ffffff", stroke=0, bg="#000000", bg_alpha=0.7),
+    dict(kind="text", t0=start("P31") - 0.1, t1=DURATION, text="COMMENT A OR B · YOUR DECISION DETERMINES PART 2", size=33,
          y=0.885, weight="Black", color="#ffd23f", stroke=8, stroke_color="#141418"),
 ]
 CAPTIONS = dict(

@@ -76,7 +76,7 @@ def tears(c, p, x, scale, t, t0):
     hx, hy = p.head_pos(x, FEET, scale)
     s = scale
     for side in (-1, 1):
-        ex, ey = hx + side * 42 * s - 0.3 * 38 * s, hy + 14 * s
+        ex, ey = hx + (-0.35 * 38 + side * 40) * s, hy + 26 * s  # from the lower lid down
         u = ((t - t0) * 0.5 + (0.3 if side > 0 else 0)) % 1
         c.drawPath(capsule((ex, ey), (ex + side * 3, ey + 70 * s * min(1, (t - t0) * 2)), 7 * s), paint("#cfe8ff", 0.75))
         c.drawCircle(ex + side * 3, ey + 70 * s * u + 20, 6 * s, paint("#e8f6ff", 0.8))
@@ -231,15 +231,15 @@ def shot_door_cu(c, t):
 def shot_alarm_cu(c, t):
     r = max(red(t), 0.6)
     flat.linear_grad(c, (0, 0, W, H), ["#3a1a1a", "#1a0a0a"])
-    c.drawRoundRect(skia.Rect.MakeLTRB(240, 700, 840, 1100), 30, 30, paint("#2a2d33"))  # intercom
+    c.drawRoundRect(skia.Rect.MakeLTRB(240, 660, 840, 1060), 30, 30, paint("#2a2d33"))  # intercom
     a = max(TIMING.mouth(t, "intercom") if TIMING else 0.0, 0.0)
     for k in range(9):
-        c.drawLine(290, 740 + k * 40, 790, 740 + k * 40, paint("#4a4f58", stroke=12 + 4 * a))
+        c.drawLine(290, 700 + k * 40, 790, 700 + k * 40, paint("#4a4f58", stroke=12 + 4 * a))
     on = 0.5 + 0.5 * math.sin(t * 7)
-    c.drawCircle(540, 420, 120, paint("#5a0f0a"))
-    c.drawCircle(540, 420, 100, paint(RED_C, 0.6 + 0.4 * on))
-    glow(c, 540, 420, 900 * (0.6 + 0.4 * on), RED_C, 0.4 * r)
-    kit.draw_text(c, "LOCKDOWN", 540, 1300, 90, color="#ffffff", weight="Black", alpha=0.5 + 0.5 * on)
+    c.drawCircle(540, 300, 110, paint("#5a0f0a"))
+    c.drawCircle(540, 300, 92, paint(RED_C, 0.6 + 0.4 * on))
+    glow(c, 540, 300, 900 * (0.6 + 0.4 * on), RED_C, 0.4 * r)
+    kit.draw_text(c, "LOCKDOWN", 540, 1180, 84, color="#ffffff", weight="Black", alpha=0.5 + 0.5 * on)
     flat.vignette(c, W, H, 0.5)
 
 
@@ -351,12 +351,13 @@ def shot_choice_bg(c, t):
     u = span(t, B["choice"], B["choice"] + 6.0, "linear")
     c.drawPath(poly_path([(1060, 1260), (1060 - 480 * u, 1330), (1060 - 520 * u, 1400), (1060, 1400)]), paint("#000000", 0.6, blur=8))
     # the courtyard below the window: something waiting
-    c.drawPath(ellipse_path(400, 860, 16, 36), paint("#000000", 0.85))
-    c.drawCircle(400, 815, 14, paint("#000000", 0.85))
-    for (x, y), col in (((125, 900), "#e2574c"), ((400, 830), "#3f8fd6")):  # pins on the storage door + the window
-        p = 1 + 0.2 * math.sin(t * 6 + x)
-        c.drawCircle(x, y, 14 * p, paint(col))
-        c.drawCircle(x, y, 14 * p, paint("#ffffff", stroke=4))
+    c.drawPath(ellipse_path(480, 870, 14, 30), paint("#000000", 0.85))
+    c.drawCircle(480, 832, 12, paint("#000000", 0.85))
+    for (x, y), col, letter in (((125, 980), "#e2574c", "A"), ((400, 830), "#3f8fd6", "B")):  # storage door + window
+        p = 1 + 0.08 * math.sin(t * 6 + x)
+        c.drawCircle(x, y, 40 * p, paint(col))
+        c.drawCircle(x, y, 40 * p, paint("#ffffff", stroke=5))
+        kit.draw_text(c, letter, x, y + 17, 48, color="#ffffff", weight="Black")
     flat.vignette(c, W, H, 0.6)
 
 
@@ -388,6 +389,11 @@ ZONES = {
     "you_cu": lambda t: _cu_zones(face_xy(YOU, YOU_X + 60 * span(t, start("P10"), start("P10") + 1.5))[0],
                                   face_xy(YOU, YOU_X)[1] + 70, 2.4, t)[:1],
 }
+ZONES.update({
+    "alarm_cu": lambda t: [("beacon", 430, 190, 650, 410), ("intercom", 240, 660, 840, 1060), ("LOCKDOWN", 300, 1110, 780, 1200)],
+    "door_cu": lambda t: [("glass", 330, 330, 750, 900), ("handle", 600, 1100, 830, 1200)],
+    "phone_cu": lambda t: [("photo", 270, 450, 810, 1010)] + ([("message", 270, 1120, 810, 1330)] if t >= start("P25") - 0.1 else []),
+})
 SHOTS = dict(class_wide=shot_class_wide, two_cu=shot_two_cu, her_cu=shot_her_cu, you_cu=shot_you_cu, door_cu=shot_door_cu,
              alarm_cu=shot_alarm_cu, paper_cu=shot_paper_cu, arm_cu=shot_arm_cu, hands_cu=shot_hands_cu,
              phone_cu=shot_phone_cu, behind_pov=shot_behind_pov, choice_bg=shot_choice_bg)

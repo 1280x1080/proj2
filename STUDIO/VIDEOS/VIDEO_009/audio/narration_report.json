@@ -1,0 +1,2262 @@
+{
+  "H1": {
+    "key": "5381625dae1e",
+    "text": "You finally get to spend time alone with your crush after school.",
+    "chosen": "H1_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "You finally get to spend time alone with your crush after school?",
+    "duration": 3.07,
+    "words": [
+      {
+        "w": "You",
+        "start": 0.0,
+        "end": 0.14
+      },
+      {
+        "w": "finally",
+        "start": 0.14,
+        "end": 0.46
+      },
+      {
+        "w": "get",
+        "start": 0.46,
+        "end": 0.76
+      },
+      {
+        "w": "to",
+        "start": 0.76,
+        "end": 0.94
+      },
+      {
+        "w": "spend",
+        "start": 0.94,
+        "end": 1.1
+      },
+      {
+        "w": "time",
+        "start": 1.1,
+        "end": 1.36
+      },
+      {
+        "w": "alone",
+        "start": 1.36,
+        "end": 1.62
+      },
+      {
+        "w": "with",
+        "start": 1.62,
+        "end": 1.84
+      },
+      {
+        "w": "your",
+        "start": 1.84,
+        "end": 2.0
+      },
+      {
+        "w": "crush",
+        "start": 2.0,
+        "end": 2.28
+      },
+      {
+        "w": "after",
+        "start": 2.28,
+        "end": 2.54
+      },
+      {
+        "w": "school.",
+        "start": 2.54,
+        "end": 2.84
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "H1_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "You finally get to spend time alone with your crush after school?",
+        "gen_seconds": 211.9
+      },
+      {
+        "file": "H1_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "You finally get to spend time alone with your crush after school.",
+        "gen_seconds": 32.4
+      }
+    ]
+  },
+  "H2": {
+    "key": "3b43b02dc790",
+    "text": "Then someone using her voice starts begging you to open the classroom door.",
+    "chosen": "H2_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Then, someone using her voice starts begging you to open the classroom door.",
+    "duration": 3.84,
+    "words": [
+      {
+        "w": "Then",
+        "start": 0.0,
+        "end": 0.28
+      },
+      {
+        "w": "someone",
+        "start": 0.6,
+        "end": 0.88
+      },
+      {
+        "w": "using",
+        "start": 0.88,
+        "end": 1.14
+      },
+      {
+        "w": "her",
+        "start": 1.14,
+        "end": 1.38
+      },
+      {
+        "w": "voice",
+        "start": 1.38,
+        "end": 1.58
+      },
+      {
+        "w": "starts",
+        "start": 1.58,
+        "end": 1.84
+      },
+      {
+        "w": "begging",
+        "start": 1.84,
+        "end": 2.22
+      },
+      {
+        "w": "you",
+        "start": 2.22,
+        "end": 2.52
+      },
+      {
+        "w": "to",
+        "start": 2.52,
+        "end": 2.64
+      },
+      {
+        "w": "open",
+        "start": 2.64,
+        "end": 2.84
+      },
+      {
+        "w": "the",
+        "start": 2.84,
+        "end": 2.98
+      },
+      {
+        "w": "classroom",
+        "start": 2.98,
+        "end": 3.32
+      },
+      {
+        "w": "door.",
+        "start": 3.32,
+        "end": 3.6
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "H2_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Then, someone using her voice starts begging you to open the classroom door.",
+        "gen_seconds": 30.1
+      },
+      {
+        "file": "H2_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Then someone using her voice starts begging you to open the classroom door.",
+        "gen_seconds": 34.9
+      }
+    ]
+  },
+  "P01": {
+    "key": "e57c683b6868",
+    "text": "You've had a crush on her for months. Today, you finally get time alone together.",
+    "chosen": "P01_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "You've had a crush on her for months. Today, you finally get time alone together.",
+    "duration": 4.5,
+    "words": [
+      {
+        "w": "You've",
+        "start": 0.0,
+        "end": 0.22
+      },
+      {
+        "w": "had",
+        "start": 0.22,
+        "end": 0.32
+      },
+      {
+        "w": "a",
+        "start": 0.32,
+        "end": 0.42
+      },
+      {
+        "w": "crush",
+        "start": 0.42,
+        "end": 0.62
+      },
+      {
+        "w": "on",
+        "start": 0.62,
+        "end": 0.84
+      },
+      {
+        "w": "her",
+        "start": 0.84,
+        "end": 0.96
+      },
+      {
+        "w": "for",
+        "start": 0.96,
+        "end": 1.14
+      },
+      {
+        "w": "months.",
+        "start": 1.14,
+        "end": 1.46
+      },
+      {
+        "w": "Today,",
+        "start": 2.18,
+        "end": 2.4
+      },
+      {
+        "w": "you",
+        "start": 2.68,
+        "end": 2.78
+      },
+      {
+        "w": "finally",
+        "start": 2.78,
+        "end": 3.0
+      },
+      {
+        "w": "get",
+        "start": 3.0,
+        "end": 3.3
+      },
+      {
+        "w": "time",
+        "start": 3.3,
+        "end": 3.54
+      },
+      {
+        "w": "alone",
+        "start": 3.54,
+        "end": 3.8
+      },
+      {
+        "w": "together.",
+        "start": 3.8,
+        "end": 4.14
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P01_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "You've had a crush on her for months. Today you finally get time alone together.",
+        "gen_seconds": 40.6
+      },
+      {
+        "file": "P01_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "You've had a crush on her for months. Today, you finally get time alone together.",
+        "gen_seconds": 38.4
+      }
+    ]
+  },
+  "P02": {
+    "key": "a6687796e90c",
+    "text": "You stay after school to finish a project.",
+    "chosen": "P02_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "You stay after school to finish a project?",
+    "duration": 2.17,
+    "words": [
+      {
+        "w": "You",
+        "start": 0.0,
+        "end": 0.14
+      },
+      {
+        "w": "stay",
+        "start": 0.14,
+        "end": 0.38
+      },
+      {
+        "w": "after",
+        "start": 0.38,
+        "end": 0.62
+      },
+      {
+        "w": "school",
+        "start": 0.62,
+        "end": 0.94
+      },
+      {
+        "w": "to",
+        "start": 0.94,
+        "end": 1.14
+      },
+      {
+        "w": "finish",
+        "start": 1.14,
+        "end": 1.36
+      },
+      {
+        "w": "a",
+        "start": 1.36,
+        "end": 1.54
+      },
+      {
+        "w": "project.",
+        "start": 1.54,
+        "end": 1.88
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P02_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "You stay after school to finish a project.",
+        "gen_seconds": 24.3
+      },
+      {
+        "file": "P02_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "You stay after school to finish a project?",
+        "gen_seconds": 24.5
+      }
+    ]
+  },
+  "P03": {
+    "key": "32bd464585a7",
+    "text": "She's laughing at your terrible handwriting.",
+    "chosen": "P03_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "She's laughing at your terrible handwriting.",
+    "duration": 2.21,
+    "words": [
+      {
+        "w": "She's",
+        "start": 0.0,
+        "end": 0.3
+      },
+      {
+        "w": "laughing",
+        "start": 0.3,
+        "end": 0.64
+      },
+      {
+        "w": "at",
+        "start": 0.64,
+        "end": 0.84
+      },
+      {
+        "w": "your",
+        "start": 0.84,
+        "end": 0.98
+      },
+      {
+        "w": "terrible",
+        "start": 0.98,
+        "end": 1.38
+      },
+      {
+        "w": "handwriting.",
+        "start": 1.38,
+        "end": 1.86
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P03_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "She's laughing at your terrible handwriting.",
+        "gen_seconds": 21.0
+      },
+      {
+        "file": "P03_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "She's laughing at your terrible handwriting.",
+        "gen_seconds": 23.8
+      }
+    ]
+  },
+  "P04": {
+    "key": "b7e3136f6fc3",
+    "text": "For once, talking to her doesn't feel awkward.",
+    "chosen": "P04_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "For once, talking to her doesn't feel awkward.",
+    "duration": 2.46,
+    "words": [
+      {
+        "w": "For",
+        "start": 0.0,
+        "end": 0.2
+      },
+      {
+        "w": "once,",
+        "start": 0.2,
+        "end": 0.54
+      },
+      {
+        "w": "talking",
+        "start": 0.76,
+        "end": 0.98
+      },
+      {
+        "w": "to",
+        "start": 0.98,
+        "end": 1.18
+      },
+      {
+        "w": "her",
+        "start": 1.18,
+        "end": 1.28
+      },
+      {
+        "w": "doesn't",
+        "start": 1.28,
+        "end": 1.64
+      },
+      {
+        "w": "feel",
+        "start": 1.64,
+        "end": 1.78
+      },
+      {
+        "w": "awkward.",
+        "start": 1.78,
+        "end": 2.24
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P04_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "For once, talking to her doesn't feel awkward.",
+        "gen_seconds": 23.0
+      },
+      {
+        "file": "P04_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "For once, talking to her doesn't feel awkward.",
+        "gen_seconds": 20.8
+      }
+    ]
+  },
+  "P05": {
+    "key": "eebef5a0a4c6",
+    "text": "Then suddenly... the emergency alarm starts screaming.",
+    "chosen": "P05_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Then suddenly, the emergency alarm starts screaming.",
+    "duration": 2.86,
+    "words": [
+      {
+        "w": "Then",
+        "start": 0.0,
+        "end": 0.2
+      },
+      {
+        "w": "suddenly...",
+        "start": 0.2,
+        "end": 0.66
+      },
+      {
+        "w": "the",
+        "start": 0.84,
+        "end": 0.98
+      },
+      {
+        "w": "emergency",
+        "start": 0.98,
+        "end": 1.34
+      },
+      {
+        "w": "alarm",
+        "start": 1.34,
+        "end": 1.76
+      },
+      {
+        "w": "starts",
+        "start": 1.76,
+        "end": 2.1
+      },
+      {
+        "w": "screaming.",
+        "start": 2.1,
+        "end": 2.56
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P05_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Then suddenly, the emergency alarm starts screaming.",
+        "gen_seconds": 21.5
+      },
+      {
+        "file": "P05_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Then suddenly, the emergency alarm starts screaming.",
+        "gen_seconds": 27.9
+      }
+    ]
+  },
+  "P06": {
+    "key": "b603cb48570a",
+    "text": "The classroom lights turn red.",
+    "chosen": "P06_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "The classroom lights turn red.",
+    "duration": 1.67,
+    "words": [
+      {
+        "w": "The",
+        "start": 0.0,
+        "end": 0.14
+      },
+      {
+        "w": "classroom",
+        "start": 0.14,
+        "end": 0.52
+      },
+      {
+        "w": "lights",
+        "start": 0.52,
+        "end": 0.84
+      },
+      {
+        "w": "turn",
+        "start": 0.84,
+        "end": 1.16
+      },
+      {
+        "w": "red.",
+        "start": 1.16,
+        "end": 1.46
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P06_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "The classroom lights turn red.",
+        "gen_seconds": 14.5
+      },
+      {
+        "file": "P06_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "The classroom lights turn red.",
+        "gen_seconds": 20.6
+      }
+    ]
+  },
+  "P07": {
+    "key": "5ea668226fa0",
+    "text": "\"Attention. This is an emergency lockdown. An unidentified individual has entered the school.\"",
+    "chosen": "P07_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Attention. This is an emergency lockdown. An unidentified individual has entered the school.",
+    "duration": 6.41,
+    "words": [
+      {
+        "w": "\"Attention.",
+        "start": 0.0,
+        "end": 0.54
+      },
+      {
+        "w": "This",
+        "start": 1.36,
+        "end": 1.54
+      },
+      {
+        "w": "is",
+        "start": 1.54,
+        "end": 1.76
+      },
+      {
+        "w": "an",
+        "start": 1.76,
+        "end": 1.92
+      },
+      {
+        "w": "emergency",
+        "start": 1.92,
+        "end": 2.36
+      },
+      {
+        "w": "lockdown.",
+        "start": 2.36,
+        "end": 3.04
+      },
+      {
+        "w": "An",
+        "start": 3.64,
+        "end": 3.7
+      },
+      {
+        "w": "unidentified",
+        "start": 3.7,
+        "end": 4.38
+      },
+      {
+        "w": "individual",
+        "start": 4.38,
+        "end": 5.04
+      },
+      {
+        "w": "has",
+        "start": 5.04,
+        "end": 5.38
+      },
+      {
+        "w": "entered",
+        "start": 5.38,
+        "end": 5.66
+      },
+      {
+        "w": "the",
+        "start": 5.66,
+        "end": 5.86
+      },
+      {
+        "w": "school.\"",
+        "start": 5.86,
+        "end": 6.14
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P07_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Attention! This is an emergency lockdown. An unidentified individual has entered the school.",
+        "gen_seconds": 51.1
+      },
+      {
+        "file": "P07_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Attention. This is an emergency lockdown. An unidentified individual has entered the school.",
+        "gen_seconds": 46.3
+      }
+    ]
+  },
+  "P08": {
+    "key": "fd126abc7771",
+    "text": "\"Lock your doors. Cover your windows. Do not respond to anyone calling your name.\"",
+    "chosen": "P08_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Lock your doors. Cover your windows. Do not respond to anyone calling your name.",
+    "duration": 6.24,
+    "words": [
+      {
+        "w": "\"Lock",
+        "start": 0.0,
+        "end": 0.34
+      },
+      {
+        "w": "your",
+        "start": 0.34,
+        "end": 0.58
+      },
+      {
+        "w": "doors.",
+        "start": 0.58,
+        "end": 1.12
+      },
+      {
+        "w": "Cover",
+        "start": 1.7,
+        "end": 1.82
+      },
+      {
+        "w": "your",
+        "start": 1.82,
+        "end": 2.12
+      },
+      {
+        "w": "windows.",
+        "start": 2.12,
+        "end": 2.58
+      },
+      {
+        "w": "Do",
+        "start": 3.42,
+        "end": 3.5
+      },
+      {
+        "w": "not",
+        "start": 3.5,
+        "end": 3.72
+      },
+      {
+        "w": "respond",
+        "start": 3.72,
+        "end": 4.24
+      },
+      {
+        "w": "to",
+        "start": 4.24,
+        "end": 4.54
+      },
+      {
+        "w": "anyone",
+        "start": 4.54,
+        "end": 4.88
+      },
+      {
+        "w": "calling",
+        "start": 4.88,
+        "end": 5.32
+      },
+      {
+        "w": "your",
+        "start": 5.32,
+        "end": 5.6
+      },
+      {
+        "w": "name.\"",
+        "start": 5.6,
+        "end": 5.94
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P08_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Lock your doors. Cover your windows. Do not respond to anyone calling your name.",
+        "gen_seconds": 44.3
+      },
+      {
+        "file": "P08_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Lock your doors. Cover your windows. Do not respond to anyone calling your name.",
+        "gen_seconds": 39.7
+      }
+    ]
+  },
+  "P09": {
+    "key": "ae5600700bfe",
+    "text": "You look at your crush. She's no longer smiling.",
+    "chosen": "P09_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "You look at your crush, she's no longer smiling.",
+    "duration": 2.99,
+    "words": [
+      {
+        "w": "You",
+        "start": 0.0,
+        "end": 0.14
+      },
+      {
+        "w": "look",
+        "start": 0.14,
+        "end": 0.3
+      },
+      {
+        "w": "at",
+        "start": 0.3,
+        "end": 0.42
+      },
+      {
+        "w": "your",
+        "start": 0.42,
+        "end": 0.56
+      },
+      {
+        "w": "crush.",
+        "start": 0.56,
+        "end": 0.94
+      },
+      {
+        "w": "She's",
+        "start": 1.54,
+        "end": 1.8
+      },
+      {
+        "w": "no",
+        "start": 1.8,
+        "end": 1.96
+      },
+      {
+        "w": "longer",
+        "start": 1.96,
+        "end": 2.24
+      },
+      {
+        "w": "smiling.",
+        "start": 2.24,
+        "end": 2.66
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P09_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "You look at your crush, she's no longer smiling.",
+        "gen_seconds": 28.6
+      },
+      {
+        "file": "P09_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "You look at your crush, she's no longer smiling.",
+        "gen_seconds": 28.2
+      }
+    ]
+  },
+  "P10": {
+    "key": "6a12d0c705c1",
+    "text": "You both move away from the windows. The hallway goes completely silent.",
+    "chosen": "P10_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "You both move away from the windows. The hallway goes completely silent.",
+    "duration": 4.41,
+    "words": [
+      {
+        "w": "You",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "w": "both",
+        "start": 0.16,
+        "end": 0.38
+      },
+      {
+        "w": "move",
+        "start": 0.38,
+        "end": 0.58
+      },
+      {
+        "w": "away",
+        "start": 0.58,
+        "end": 0.88
+      },
+      {
+        "w": "from",
+        "start": 0.88,
+        "end": 1.1
+      },
+      {
+        "w": "the",
+        "start": 1.1,
+        "end": 1.26
+      },
+      {
+        "w": "windows.",
+        "start": 1.26,
+        "end": 1.66
+      },
+      {
+        "w": "The",
+        "start": 2.46,
+        "end": 2.62
+      },
+      {
+        "w": "hallway",
+        "start": 2.62,
+        "end": 2.84
+      },
+      {
+        "w": "goes",
+        "start": 2.84,
+        "end": 3.18
+      },
+      {
+        "w": "completely",
+        "start": 3.18,
+        "end": 3.64
+      },
+      {
+        "w": "silent.",
+        "start": 3.64,
+        "end": 4.14
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P10_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "You both move away from the windows. The hallway goes completely silent.",
+        "gen_seconds": 36.0
+      },
+      {
+        "file": "P10_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "You both move away from the windows. The hallway goes completely silent.",
+        "gen_seconds": 35.7
+      }
+    ]
+  },
+  "P11": {
+    "key": "0e449f613f73",
+    "text": "Then... three knocks.",
+    "chosen": "P11_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Then, three knocks.",
+    "duration": 2.0,
+    "words": [
+      {
+        "w": "Then...",
+        "start": 0.0,
+        "end": 0.4
+      },
+      {
+        "w": "three",
+        "start": 1.18,
+        "end": 1.36
+      },
+      {
+        "w": "knocks.",
+        "start": 1.36,
+        "end": 1.74
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P11_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Then, three knocks.",
+        "gen_seconds": 20.4
+      },
+      {
+        "file": "P11_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Then, three knocks.",
+        "gen_seconds": 19.3
+      }
+    ]
+  },
+  "P12": {
+    "key": "b4273919049e",
+    "text": "\"Hey... can you let me in?\"",
+    "chosen": "P12_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Hey, can you let me in?",
+    "duration": 2.13,
+    "words": [
+      {
+        "w": "\"Hey...",
+        "start": 0.0,
+        "end": 0.32
+      },
+      {
+        "w": "can",
+        "start": 0.96,
+        "end": 1.2
+      },
+      {
+        "w": "you",
+        "start": 1.2,
+        "end": 1.36
+      },
+      {
+        "w": "let",
+        "start": 1.36,
+        "end": 1.54
+      },
+      {
+        "w": "me",
+        "start": 1.54,
+        "end": 1.72
+      },
+      {
+        "w": "in?\"",
+        "start": 1.72,
+        "end": 1.98
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P12_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Hey, can you let me in?",
+        "gen_seconds": 18.7
+      },
+      {
+        "file": "P12_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Hey, can you let me in?",
+        "gen_seconds": 22.3
+      }
+    ]
+  },
+  "P13": {
+    "key": "db57bdc48e2d",
+    "text": "She's sitting right beside you. She slowly shakes her head.",
+    "chosen": "P13_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "She's sitting right beside you. She slowly shakes her head.",
+    "duration": 3.55,
+    "words": [
+      {
+        "w": "She's",
+        "start": 0.0,
+        "end": 0.36
+      },
+      {
+        "w": "sitting",
+        "start": 0.36,
+        "end": 0.54
+      },
+      {
+        "w": "right",
+        "start": 0.54,
+        "end": 0.84
+      },
+      {
+        "w": "beside",
+        "start": 0.84,
+        "end": 1.2
+      },
+      {
+        "w": "you.",
+        "start": 1.2,
+        "end": 1.56
+      },
+      {
+        "w": "She",
+        "start": 2.18,
+        "end": 2.34
+      },
+      {
+        "w": "slowly",
+        "start": 2.34,
+        "end": 2.7
+      },
+      {
+        "w": "shakes",
+        "start": 2.7,
+        "end": 2.98
+      },
+      {
+        "w": "her",
+        "start": 2.98,
+        "end": 3.18
+      },
+      {
+        "w": "head.",
+        "start": 3.18,
+        "end": 3.38
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P13_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "She's sitting right beside you. She slowly shakes her head.",
+        "gen_seconds": 32.0
+      },
+      {
+        "file": "P13_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "She's sitting right beside you. She slowly shakes her head.",
+        "gen_seconds": 32.5
+      }
+    ]
+  },
+  "P14": {
+    "key": "804e2ae91111",
+    "text": "\"Don't open it.\"",
+    "chosen": "P14_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Don't open it!",
+    "duration": 0.91,
+    "words": [
+      {
+        "w": "\"Don't",
+        "start": 0.0,
+        "end": 0.34
+      },
+      {
+        "w": "open",
+        "start": 0.34,
+        "end": 0.58
+      },
+      {
+        "w": "it.\"",
+        "start": 0.58,
+        "end": 0.82
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P14_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Don't open it!",
+        "gen_seconds": 11.9
+      },
+      {
+        "file": "P14_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Don't open it!",
+        "gen_seconds": 14.7
+      }
+    ]
+  },
+  "P15": {
+    "key": "4c07e8856170",
+    "text": "The knocking comes again. This time, it sounds exactly like her.",
+    "chosen": "P15_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "The knocking comes again. This time, it sounds exactly like her.",
+    "duration": 4.75,
+    "words": [
+      {
+        "w": "The",
+        "start": 0.0,
+        "end": 0.14
+      },
+      {
+        "w": "knocking",
+        "start": 0.14,
+        "end": 0.5
+      },
+      {
+        "w": "comes",
+        "start": 0.5,
+        "end": 0.8
+      },
+      {
+        "w": "again.",
+        "start": 0.8,
+        "end": 1.22
+      },
+      {
+        "w": "This",
+        "start": 1.92,
+        "end": 2.1
+      },
+      {
+        "w": "time,",
+        "start": 2.1,
+        "end": 2.46
+      },
+      {
+        "w": "it",
+        "start": 2.78,
+        "end": 3.04
+      },
+      {
+        "w": "sounds",
+        "start": 3.04,
+        "end": 3.38
+      },
+      {
+        "w": "exactly",
+        "start": 3.38,
+        "end": 3.92
+      },
+      {
+        "w": "like",
+        "start": 3.92,
+        "end": 4.34
+      },
+      {
+        "w": "her.",
+        "start": 4.34,
+        "end": 4.56
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P15_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "The knocking comes again. This time, it sounds exactly like her.",
+        "gen_seconds": 33.4
+      },
+      {
+        "file": "P15_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "The knocking comes again. This time, it sounds exactly like her.",
+        "gen_seconds": 35.9
+      }
+    ]
+  },
+  "P16": {
+    "key": "ce15f9721e2b",
+    "text": "\"Please. It's getting closer. Why are you leaving me out here?\"",
+    "chosen": "P16_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Please! It's getting closer! Why are you leaving me out here?",
+    "duration": 4.98,
+    "words": [
+      {
+        "w": "\"Please.",
+        "start": 0.0,
+        "end": 0.52
+      },
+      {
+        "w": "It's",
+        "start": 1.42,
+        "end": 1.72
+      },
+      {
+        "w": "getting",
+        "start": 1.72,
+        "end": 1.88
+      },
+      {
+        "w": "closer.",
+        "start": 1.88,
+        "end": 2.3
+      },
+      {
+        "w": "Why",
+        "start": 3.3,
+        "end": 3.46
+      },
+      {
+        "w": "are",
+        "start": 3.46,
+        "end": 3.62
+      },
+      {
+        "w": "you",
+        "start": 3.62,
+        "end": 3.76
+      },
+      {
+        "w": "leaving",
+        "start": 3.76,
+        "end": 4.0
+      },
+      {
+        "w": "me",
+        "start": 4.0,
+        "end": 4.28
+      },
+      {
+        "w": "out",
+        "start": 4.28,
+        "end": 4.44
+      },
+      {
+        "w": "here?\"",
+        "start": 4.44,
+        "end": 4.78
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P16_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Please! It's getting closer! Why are you leaving me out here?",
+        "gen_seconds": 33.6
+      },
+      {
+        "file": "P16_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Please! It's getting closer! Why are you leaving me out here?",
+        "gen_seconds": 36.9
+      }
+    ]
+  },
+  "P17": {
+    "key": "f5abd048463c",
+    "text": "Your crush grabs your arm. Her hands are shaking.",
+    "chosen": "P17_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Your crush grabs your arm, her hands are shaking.",
+    "duration": 3.27,
+    "words": [
+      {
+        "w": "Your",
+        "start": 0.0,
+        "end": 0.18
+      },
+      {
+        "w": "crush",
+        "start": 0.18,
+        "end": 0.54
+      },
+      {
+        "w": "grabs",
+        "start": 0.54,
+        "end": 0.92
+      },
+      {
+        "w": "your",
+        "start": 0.92,
+        "end": 1.12
+      },
+      {
+        "w": "arm.",
+        "start": 1.12,
+        "end": 1.44
+      },
+      {
+        "w": "Her",
+        "start": 2.08,
+        "end": 2.2
+      },
+      {
+        "w": "hands",
+        "start": 2.2,
+        "end": 2.48
+      },
+      {
+        "w": "are",
+        "start": 2.48,
+        "end": 2.64
+      },
+      {
+        "w": "shaking.",
+        "start": 2.64,
+        "end": 2.94
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P17_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Your crush grabs your arm. Her hands are shaking.",
+        "gen_seconds": 29.4
+      },
+      {
+        "file": "P17_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Your crush grabs your arm, her hands are shaking.",
+        "gen_seconds": 28.9
+      }
+    ]
+  },
+  "P18": {
+    "key": "5b67722ec389",
+    "text": "\"That's not me.\"",
+    "chosen": "P18_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "That's not me!",
+    "duration": 1.1,
+    "words": [
+      {
+        "w": "\"That's",
+        "start": 0.0,
+        "end": 0.34
+      },
+      {
+        "w": "not",
+        "start": 0.34,
+        "end": 0.48
+      },
+      {
+        "w": "me.\"",
+        "start": 0.48,
+        "end": 0.82
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P18_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "That's not me!",
+        "gen_seconds": 12.5
+      },
+      {
+        "file": "P18_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "That's not me!",
+        "gen_seconds": 16.6
+      }
+    ]
+  },
+  "P19": {
+    "key": "05d19e2729c3",
+    "text": "Then the voice says something that makes your blood run cold.",
+    "chosen": "P19_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Then the voice says something that makes your blood run cold.",
+    "duration": 2.62,
+    "words": [
+      {
+        "w": "Then",
+        "start": 0.0,
+        "end": 0.18
+      },
+      {
+        "w": "the",
+        "start": 0.18,
+        "end": 0.3
+      },
+      {
+        "w": "voice",
+        "start": 0.3,
+        "end": 0.54
+      },
+      {
+        "w": "says",
+        "start": 0.54,
+        "end": 0.8
+      },
+      {
+        "w": "something",
+        "start": 0.8,
+        "end": 1.12
+      },
+      {
+        "w": "that",
+        "start": 1.12,
+        "end": 1.32
+      },
+      {
+        "w": "makes",
+        "start": 1.32,
+        "end": 1.48
+      },
+      {
+        "w": "your",
+        "start": 1.48,
+        "end": 1.66
+      },
+      {
+        "w": "blood",
+        "start": 1.66,
+        "end": 1.86
+      },
+      {
+        "w": "run",
+        "start": 1.86,
+        "end": 2.04
+      },
+      {
+        "w": "cold.",
+        "start": 2.04,
+        "end": 2.36
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P19_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Then the voice says something that makes your blood run cold.",
+        "gen_seconds": 21.1
+      },
+      {
+        "file": "P19_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Then the voice says something that makes your blood run cold.",
+        "gen_seconds": 25.2
+      }
+    ]
+  },
+  "P20": {
+    "key": "2746b81b4792",
+    "text": "\"Come on... you know I like you.\"",
+    "chosen": "P20_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Come on, you know I like you.",
+    "duration": 2.53,
+    "words": [
+      {
+        "w": "\"Come",
+        "start": 0.0,
+        "end": 0.28
+      },
+      {
+        "w": "on...",
+        "start": 0.28,
+        "end": 0.64
+      },
+      {
+        "w": "you",
+        "start": 1.04,
+        "end": 1.32
+      },
+      {
+        "w": "know",
+        "start": 1.32,
+        "end": 1.5
+      },
+      {
+        "w": "I",
+        "start": 1.5,
+        "end": 1.72
+      },
+      {
+        "w": "like",
+        "start": 1.72,
+        "end": 1.98
+      },
+      {
+        "w": "you.\"",
+        "start": 1.98,
+        "end": 2.38
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P20_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Come on, you know I like you.",
+        "gen_seconds": 25.8
+      },
+      {
+        "file": "P20_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Come on, you know I like you.",
+        "gen_seconds": 23.4
+      }
+    ]
+  },
+  "P21": {
+    "key": "f44c75f53c38",
+    "text": "You turn toward your crush. She looks completely confused.",
+    "chosen": "P21_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "You turn toward your crush. She looks completely confused.",
+    "duration": 3.71,
+    "words": [
+      {
+        "w": "You",
+        "start": 0.0,
+        "end": 0.14
+      },
+      {
+        "w": "turn",
+        "start": 0.14,
+        "end": 0.42
+      },
+      {
+        "w": "toward",
+        "start": 0.42,
+        "end": 0.68
+      },
+      {
+        "w": "your",
+        "start": 0.68,
+        "end": 0.88
+      },
+      {
+        "w": "crush.",
+        "start": 0.88,
+        "end": 1.18
+      },
+      {
+        "w": "She",
+        "start": 1.96,
+        "end": 2.12
+      },
+      {
+        "w": "looks",
+        "start": 2.12,
+        "end": 2.32
+      },
+      {
+        "w": "completely",
+        "start": 2.32,
+        "end": 2.84
+      },
+      {
+        "w": "confused.",
+        "start": 2.84,
+        "end": 3.36
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P21_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "You turn toward your crush. She looks completely confused.",
+        "gen_seconds": 31.5
+      },
+      {
+        "file": "P21_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "You turn toward your crush. She looks completely confused.",
+        "gen_seconds": 31.4
+      }
+    ]
+  },
+  "P22": {
+    "key": "486a5e7b698e",
+    "text": "Your phone vibrates. A photo, from an unknown number.",
+    "chosen": "P22_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Your phone vibrates? A photo from an unknown number.",
+    "duration": 3.59,
+    "words": [
+      {
+        "w": "Your",
+        "start": 0.0,
+        "end": 0.14
+      },
+      {
+        "w": "phone",
+        "start": 0.14,
+        "end": 0.48
+      },
+      {
+        "w": "vibrates.",
+        "start": 0.48,
+        "end": 1.24
+      },
+      {
+        "w": "A",
+        "start": 1.72,
+        "end": 1.9
+      },
+      {
+        "w": "photo,",
+        "start": 1.9,
+        "end": 2.2
+      },
+      {
+        "w": "from",
+        "start": 2.2,
+        "end": 2.5
+      },
+      {
+        "w": "an",
+        "start": 2.5,
+        "end": 2.62
+      },
+      {
+        "w": "unknown",
+        "start": 2.62,
+        "end": 3.0
+      },
+      {
+        "w": "number.",
+        "start": 3.0,
+        "end": 3.36
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P22_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Your phone vibrates? A photo from an unknown number.",
+        "gen_seconds": 32.0
+      },
+      {
+        "file": "P22_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Your phone vibrates. A photo from an unknown number.",
+        "gen_seconds": 30.4
+      }
+    ]
+  },
+  "P23": {
+    "key": "f184a539ed70",
+    "text": "It's the two of you, in this classroom... taken from behind you.",
+    "chosen": "P23_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "It's the two of you in this classroom taken from behind you.",
+    "duration": 3.92,
+    "words": [
+      {
+        "w": "It's",
+        "start": 0.0,
+        "end": 0.24
+      },
+      {
+        "w": "the",
+        "start": 0.24,
+        "end": 0.4
+      },
+      {
+        "w": "two",
+        "start": 0.4,
+        "end": 0.64
+      },
+      {
+        "w": "of",
+        "start": 0.64,
+        "end": 0.8
+      },
+      {
+        "w": "you,",
+        "start": 0.8,
+        "end": 1.22
+      },
+      {
+        "w": "in",
+        "start": 1.22,
+        "end": 1.9
+      },
+      {
+        "w": "this",
+        "start": 1.9,
+        "end": 2.1
+      },
+      {
+        "w": "classroom...",
+        "start": 2.1,
+        "end": 2.6
+      },
+      {
+        "w": "taken",
+        "start": 2.6,
+        "end": 2.94
+      },
+      {
+        "w": "from",
+        "start": 2.94,
+        "end": 3.22
+      },
+      {
+        "w": "behind",
+        "start": 3.22,
+        "end": 3.54
+      },
+      {
+        "w": "you.",
+        "start": 3.54,
+        "end": 3.78
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P23_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "It's the two of you in this classroom taken from behind you.",
+        "gen_seconds": 32.6
+      },
+      {
+        "file": "P23_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "It's the two of you in this classroom taken from behind you.",
+        "gen_seconds": 31.3
+      }
+    ]
+  },
+  "P24": {
+    "key": "033a6c8c4762",
+    "text": "You turn around. There's nobody there.",
+    "chosen": "P24_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "You turn around, there's nobody there.",
+    "duration": 2.46,
+    "words": [
+      {
+        "w": "You",
+        "start": 0.0,
+        "end": 0.14
+      },
+      {
+        "w": "turn",
+        "start": 0.14,
+        "end": 0.38
+      },
+      {
+        "w": "around.",
+        "start": 0.38,
+        "end": 0.78
+      },
+      {
+        "w": "There's",
+        "start": 1.26,
+        "end": 1.56
+      },
+      {
+        "w": "nobody",
+        "start": 1.56,
+        "end": 1.82
+      },
+      {
+        "w": "there.",
+        "start": 1.82,
+        "end": 2.26
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P24_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "You turn around. There's nobody there.",
+        "gen_seconds": 26.5
+      },
+      {
+        "file": "P24_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "You turn around, there's nobody there.",
+        "gen_seconds": 22.0
+      }
+    ]
+  },
+  "P25": {
+    "key": "8bc11372db18",
+    "text": "Another message: She hasn't told you what happened last time.",
+    "chosen": "P25_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Another message? She hasn't told you what happened last time.",
+    "duration": 3.79,
+    "words": [
+      {
+        "w": "Another",
+        "start": 0.0,
+        "end": 0.32
+      },
+      {
+        "w": "message:",
+        "start": 0.32,
+        "end": 0.72
+      },
+      {
+        "w": "She",
+        "start": 1.7,
+        "end": 1.94
+      },
+      {
+        "w": "hasn't",
+        "start": 1.94,
+        "end": 2.28
+      },
+      {
+        "w": "told",
+        "start": 2.28,
+        "end": 2.44
+      },
+      {
+        "w": "you",
+        "start": 2.44,
+        "end": 2.64
+      },
+      {
+        "w": "what",
+        "start": 2.64,
+        "end": 2.74
+      },
+      {
+        "w": "happened",
+        "start": 2.74,
+        "end": 2.98
+      },
+      {
+        "w": "last",
+        "start": 2.98,
+        "end": 3.26
+      },
+      {
+        "w": "time.",
+        "start": 3.26,
+        "end": 3.6
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P25_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Another message? She hasn't told you what happened last time.",
+        "gen_seconds": 31.1
+      },
+      {
+        "file": "P25_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Another message. She hasn't told you what happened last time.",
+        "gen_seconds": 29.2
+      }
+    ]
+  },
+  "P26": {
+    "key": "31764bcbc4e3",
+    "text": "Your crush starts crying. She looks right at you.",
+    "chosen": "P26_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Your crush starts crying. She looks right at you.",
+    "duration": 3.14,
+    "words": [
+      {
+        "w": "Your",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "w": "crush",
+        "start": 0.16,
+        "end": 0.42
+      },
+      {
+        "w": "starts",
+        "start": 0.42,
+        "end": 0.76
+      },
+      {
+        "w": "crying.",
+        "start": 0.76,
+        "end": 1.22
+      },
+      {
+        "w": "She",
+        "start": 2.04,
+        "end": 2.2
+      },
+      {
+        "w": "looks",
+        "start": 2.2,
+        "end": 2.36
+      },
+      {
+        "w": "right",
+        "start": 2.36,
+        "end": 2.62
+      },
+      {
+        "w": "at",
+        "start": 2.62,
+        "end": 2.8
+      },
+      {
+        "w": "you.",
+        "start": 2.8,
+        "end": 3.02
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P26_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Your crush starts crying. She looks right at you.",
+        "gen_seconds": 29.0
+      },
+      {
+        "file": "P26_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Your crush starts crying. She looks right at you.",
+        "gen_seconds": 30.4
+      }
+    ]
+  },
+  "P27": {
+    "key": "d69623bcf37e",
+    "text": "\"Please... don't let it remember me.\"",
+    "chosen": "P27_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Please, don't let it remember me.",
+    "duration": 2.19,
+    "words": [
+      {
+        "w": "\"Please...",
+        "start": 0.0,
+        "end": 0.42
+      },
+      {
+        "w": "don't",
+        "start": 0.76,
+        "end": 1.06
+      },
+      {
+        "w": "let",
+        "start": 1.06,
+        "end": 1.22
+      },
+      {
+        "w": "it",
+        "start": 1.22,
+        "end": 1.34
+      },
+      {
+        "w": "remember",
+        "start": 1.34,
+        "end": 1.68
+      },
+      {
+        "w": "me.\"",
+        "start": 1.68,
+        "end": 2.04
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P27_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Please, don't let it remember me.",
+        "gen_seconds": 19.2
+      },
+      {
+        "file": "P27_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Please, don't let it remember me.",
+        "gen_seconds": 17.9
+      }
+    ]
+  },
+  "P28": {
+    "key": "ce894a7cb03c",
+    "text": "The door handle begins to turn.",
+    "chosen": "P28_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "The door handle begins to turn.",
+    "duration": 1.8,
+    "words": [
+      {
+        "w": "The",
+        "start": 0.0,
+        "end": 0.14
+      },
+      {
+        "w": "door",
+        "start": 0.14,
+        "end": 0.42
+      },
+      {
+        "w": "handle",
+        "start": 0.42,
+        "end": 0.78
+      },
+      {
+        "w": "begins",
+        "start": 0.78,
+        "end": 1.08
+      },
+      {
+        "w": "to",
+        "start": 1.08,
+        "end": 1.34
+      },
+      {
+        "w": "turn.",
+        "start": 1.34,
+        "end": 1.58
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P28_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "The door handle begins to turn.",
+        "gen_seconds": 16.9
+      },
+      {
+        "file": "P28_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "The door handle begins to turn.",
+        "gen_seconds": 21.1
+      }
+    ]
+  },
+  "P29": {
+    "key": "2d989ca9e2a5",
+    "text": "She grabs your hand and whispers...",
+    "chosen": "P29_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "She grabs your hand and whispers.",
+    "duration": 2.0,
+    "words": [
+      {
+        "w": "She",
+        "start": 0.0,
+        "end": 0.2
+      },
+      {
+        "w": "grabs",
+        "start": 0.2,
+        "end": 0.48
+      },
+      {
+        "w": "your",
+        "start": 0.48,
+        "end": 0.74
+      },
+      {
+        "w": "hand",
+        "start": 0.74,
+        "end": 1.08
+      },
+      {
+        "w": "and",
+        "start": 1.08,
+        "end": 1.32
+      },
+      {
+        "w": "whispers...",
+        "start": 1.32,
+        "end": 1.6
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P29_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "She grabs your hand and whispers.",
+        "gen_seconds": 20.2
+      },
+      {
+        "file": "P29_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "She grabs your hand and whispers.",
+        "gen_seconds": 19.0
+      }
+    ]
+  },
+  "P30": {
+    "key": "bfeba2c24a92",
+    "text": "\"Whatever you do, don't let it touch your shadow.\"",
+    "chosen": "P30_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Whatever you do, don't let it touch your shadow.",
+    "duration": 2.69,
+    "words": [
+      {
+        "w": "\"Whatever",
+        "start": 0.0,
+        "end": 0.34
+      },
+      {
+        "w": "you",
+        "start": 0.34,
+        "end": 0.62
+      },
+      {
+        "w": "do,",
+        "start": 0.62,
+        "end": 0.96
+      },
+      {
+        "w": "don't",
+        "start": 1.16,
+        "end": 1.34
+      },
+      {
+        "w": "let",
+        "start": 1.34,
+        "end": 1.48
+      },
+      {
+        "w": "it",
+        "start": 1.48,
+        "end": 1.6
+      },
+      {
+        "w": "touch",
+        "start": 1.6,
+        "end": 1.82
+      },
+      {
+        "w": "your",
+        "start": 1.82,
+        "end": 2.06
+      },
+      {
+        "w": "shadow.\"",
+        "start": 2.06,
+        "end": 2.4
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P30_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Whatever you do, don't let it touch your shadow.",
+        "gen_seconds": 28.6
+      },
+      {
+        "file": "P30_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Whatever you do, don't let it touch your shadow.",
+        "gen_seconds": 25.0
+      }
+    ]
+  },
+  "P31": {
+    "key": "0170cb7239c5",
+    "text": "Comment A or B. Your decision decides Part 2.",
+    "chosen": "P31_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Comment A or B. Your decision decides part two.",
+    "duration": 3.2,
+    "words": [
+      {
+        "w": "Comment",
+        "start": 0.0,
+        "end": 0.34
+      },
+      {
+        "w": "A",
+        "start": 0.34,
+        "end": 0.7
+      },
+      {
+        "w": "or",
+        "start": 0.7,
+        "end": 0.98
+      },
+      {
+        "w": "B.",
+        "start": 0.98,
+        "end": 1.24
+      },
+      {
+        "w": "Your",
+        "start": 1.48,
+        "end": 1.6
+      },
+      {
+        "w": "decision",
+        "start": 1.6,
+        "end": 1.92
+      },
+      {
+        "w": "decides",
+        "start": 1.92,
+        "end": 2.44
+      },
+      {
+        "w": "Part",
+        "start": 2.44,
+        "end": 2.7
+      },
+      {
+        "w": "2.",
+        "start": 2.7,
+        "end": 3.0
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "P31_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Comment A or B. Your decision decides part two.",
+        "gen_seconds": 26.2
+      },
+      {
+        "file": "P31_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Comment A or B. Your decision decides part two.",
+        "gen_seconds": 36.0
+      }
+    ]
+  }
+}

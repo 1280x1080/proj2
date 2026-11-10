@@ -1,0 +1,1737 @@
+{
+  "duration": 111.17,
+  "lines": [
+    {
+      "id": "H1",
+      "who": "narrator",
+      "text": "You finally get to spend time alone with your crush after school.",
+      "start": 0.1,
+      "end": 3.17,
+      "words": [
+        {
+          "w": "You",
+          "start": 0.1,
+          "end": 0.24
+        },
+        {
+          "w": "finally",
+          "start": 0.24,
+          "end": 0.56
+        },
+        {
+          "w": "get",
+          "start": 0.56,
+          "end": 0.86
+        },
+        {
+          "w": "to",
+          "start": 0.86,
+          "end": 1.04
+        },
+        {
+          "w": "spend",
+          "start": 1.04,
+          "end": 1.2
+        },
+        {
+          "w": "time",
+          "start": 1.2,
+          "end": 1.46
+        },
+        {
+          "w": "alone",
+          "start": 1.46,
+          "end": 1.72
+        },
+        {
+          "w": "with",
+          "start": 1.72,
+          "end": 1.94
+        },
+        {
+          "w": "your",
+          "start": 1.94,
+          "end": 2.1
+        },
+        {
+          "w": "crush",
+          "start": 2.1,
+          "end": 2.38
+        },
+        {
+          "w": "after",
+          "start": 2.38,
+          "end": 2.64
+        },
+        {
+          "w": "school.",
+          "start": 2.64,
+          "end": 2.94
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "who": "narrator",
+      "text": "Then someone using her voice starts begging you to open the classroom door.",
+      "start": 3.29,
+      "end": 7.13,
+      "words": [
+        {
+          "w": "Then",
+          "start": 3.29,
+          "end": 3.57
+        },
+        {
+          "w": "someone",
+          "start": 3.89,
+          "end": 4.17
+        },
+        {
+          "w": "using",
+          "start": 4.17,
+          "end": 4.43
+        },
+        {
+          "w": "her",
+          "start": 4.43,
+          "end": 4.67
+        },
+        {
+          "w": "voice",
+          "start": 4.67,
+          "end": 4.87
+        },
+        {
+          "w": "starts",
+          "start": 4.87,
+          "end": 5.13
+        },
+        {
+          "w": "begging",
+          "start": 5.13,
+          "end": 5.51
+        },
+        {
+          "w": "you",
+          "start": 5.51,
+          "end": 5.81
+        },
+        {
+          "w": "to",
+          "start": 5.81,
+          "end": 5.93
+        },
+        {
+          "w": "open",
+          "start": 5.93,
+          "end": 6.13
+        },
+        {
+          "w": "the",
+          "start": 6.13,
+          "end": 6.27
+        },
+        {
+          "w": "classroom",
+          "start": 6.27,
+          "end": 6.61
+        },
+        {
+          "w": "door.",
+          "start": 6.61,
+          "end": 6.89
+        }
+      ]
+    },
+    {
+      "id": "P01",
+      "who": "narrator",
+      "text": "You've had a crush on her for months. Today, you finally get time alone together.",
+      "start": 7.43,
+      "end": 11.93,
+      "words": [
+        {
+          "w": "You've",
+          "start": 7.43,
+          "end": 7.65
+        },
+        {
+          "w": "had",
+          "start": 7.65,
+          "end": 7.75
+        },
+        {
+          "w": "a",
+          "start": 7.75,
+          "end": 7.85
+        },
+        {
+          "w": "crush",
+          "start": 7.85,
+          "end": 8.05
+        },
+        {
+          "w": "on",
+          "start": 8.05,
+          "end": 8.27
+        },
+        {
+          "w": "her",
+          "start": 8.27,
+          "end": 8.39
+        },
+        {
+          "w": "for",
+          "start": 8.39,
+          "end": 8.57
+        },
+        {
+          "w": "months.",
+          "start": 8.57,
+          "end": 8.89
+        },
+        {
+          "w": "Today,",
+          "start": 9.61,
+          "end": 9.83
+        },
+        {
+          "w": "you",
+          "start": 10.11,
+          "end": 10.21
+        },
+        {
+          "w": "finally",
+          "start": 10.21,
+          "end": 10.43
+        },
+        {
+          "w": "get",
+          "start": 10.43,
+          "end": 10.73
+        },
+        {
+          "w": "time",
+          "start": 10.73,
+          "end": 10.97
+        },
+        {
+          "w": "alone",
+          "start": 10.97,
+          "end": 11.23
+        },
+        {
+          "w": "together.",
+          "start": 11.23,
+          "end": 11.57
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "who": "narrator",
+      "text": "You stay after school to finish a project.",
+      "start": 12.05,
+      "end": 14.22,
+      "words": [
+        {
+          "w": "You",
+          "start": 12.05,
+          "end": 12.19
+        },
+        {
+          "w": "stay",
+          "start": 12.19,
+          "end": 12.43
+        },
+        {
+          "w": "after",
+          "start": 12.43,
+          "end": 12.67
+        },
+        {
+          "w": "school",
+          "start": 12.67,
+          "end": 12.99
+        },
+        {
+          "w": "to",
+          "start": 12.99,
+          "end": 13.19
+        },
+        {
+          "w": "finish",
+          "start": 13.19,
+          "end": 13.41
+        },
+        {
+          "w": "a",
+          "start": 13.41,
+          "end": 13.59
+        },
+        {
+          "w": "project.",
+          "start": 13.59,
+          "end": 13.93
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "who": "narrator",
+      "text": "She's laughing at your terrible handwriting.",
+      "start": 14.34,
+      "end": 16.55,
+      "words": [
+        {
+          "w": "She's",
+          "start": 14.34,
+          "end": 14.64
+        },
+        {
+          "w": "laughing",
+          "start": 14.64,
+          "end": 14.98
+        },
+        {
+          "w": "at",
+          "start": 14.98,
+          "end": 15.18
+        },
+        {
+          "w": "your",
+          "start": 15.18,
+          "end": 15.32
+        },
+        {
+          "w": "terrible",
+          "start": 15.32,
+          "end": 15.72
+        },
+        {
+          "w": "handwriting.",
+          "start": 15.72,
+          "end": 16.2
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "who": "narrator",
+      "text": "For once, talking to her doesn't feel awkward.",
+      "start": 16.67,
+      "end": 19.13,
+      "words": [
+        {
+          "w": "For",
+          "start": 16.67,
+          "end": 16.87
+        },
+        {
+          "w": "once,",
+          "start": 16.87,
+          "end": 17.21
+        },
+        {
+          "w": "talking",
+          "start": 17.43,
+          "end": 17.65
+        },
+        {
+          "w": "to",
+          "start": 17.65,
+          "end": 17.85
+        },
+        {
+          "w": "her",
+          "start": 17.85,
+          "end": 17.95
+        },
+        {
+          "w": "doesn't",
+          "start": 17.95,
+          "end": 18.31
+        },
+        {
+          "w": "feel",
+          "start": 18.31,
+          "end": 18.45
+        },
+        {
+          "w": "awkward.",
+          "start": 18.45,
+          "end": 18.91
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "who": "narrator",
+      "text": "Then suddenly... the emergency alarm starts screaming.",
+      "start": 19.38,
+      "end": 22.24,
+      "words": [
+        {
+          "w": "Then",
+          "start": 19.38,
+          "end": 19.58
+        },
+        {
+          "w": "suddenly...",
+          "start": 19.58,
+          "end": 20.04
+        },
+        {
+          "w": "the",
+          "start": 20.22,
+          "end": 20.36
+        },
+        {
+          "w": "emergency",
+          "start": 20.36,
+          "end": 20.72
+        },
+        {
+          "w": "alarm",
+          "start": 20.72,
+          "end": 21.14
+        },
+        {
+          "w": "starts",
+          "start": 21.14,
+          "end": 21.48
+        },
+        {
+          "w": "screaming.",
+          "start": 21.48,
+          "end": 21.94
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "who": "narrator",
+      "text": "The classroom lights turn red.",
+      "start": 22.36,
+      "end": 24.03,
+      "words": [
+        {
+          "w": "The",
+          "start": 22.36,
+          "end": 22.5
+        },
+        {
+          "w": "classroom",
+          "start": 22.5,
+          "end": 22.88
+        },
+        {
+          "w": "lights",
+          "start": 22.88,
+          "end": 23.2
+        },
+        {
+          "w": "turn",
+          "start": 23.2,
+          "end": 23.52
+        },
+        {
+          "w": "red.",
+          "start": 23.52,
+          "end": 23.82
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "who": "intercom",
+      "text": "\"Attention. This is an emergency lockdown. An unidentified individual has entered the school.\"",
+      "start": 24.28,
+      "end": 30.69,
+      "words": [
+        {
+          "w": "\"Attention.",
+          "start": 24.28,
+          "end": 24.82
+        },
+        {
+          "w": "This",
+          "start": 25.64,
+          "end": 25.82
+        },
+        {
+          "w": "is",
+          "start": 25.82,
+          "end": 26.04
+        },
+        {
+          "w": "an",
+          "start": 26.04,
+          "end": 26.2
+        },
+        {
+          "w": "emergency",
+          "start": 26.2,
+          "end": 26.64
+        },
+        {
+          "w": "lockdown.",
+          "start": 26.64,
+          "end": 27.32
+        },
+        {
+          "w": "An",
+          "start": 27.92,
+          "end": 27.98
+        },
+        {
+          "w": "unidentified",
+          "start": 27.98,
+          "end": 28.66
+        },
+        {
+          "w": "individual",
+          "start": 28.66,
+          "end": 29.32
+        },
+        {
+          "w": "has",
+          "start": 29.32,
+          "end": 29.66
+        },
+        {
+          "w": "entered",
+          "start": 29.66,
+          "end": 29.94
+        },
+        {
+          "w": "the",
+          "start": 29.94,
+          "end": 30.14
+        },
+        {
+          "w": "school.\"",
+          "start": 30.14,
+          "end": 30.42
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "who": "intercom",
+      "text": "\"Lock your doors. Cover your windows. Do not respond to anyone calling your name.\"",
+      "start": 30.81,
+      "end": 37.05,
+      "words": [
+        {
+          "w": "\"Lock",
+          "start": 30.81,
+          "end": 31.15
+        },
+        {
+          "w": "your",
+          "start": 31.15,
+          "end": 31.39
+        },
+        {
+          "w": "doors.",
+          "start": 31.39,
+          "end": 31.93
+        },
+        {
+          "w": "Cover",
+          "start": 32.51,
+          "end": 32.63
+        },
+        {
+          "w": "your",
+          "start": 32.63,
+          "end": 32.93
+        },
+        {
+          "w": "windows.",
+          "start": 32.93,
+          "end": 33.39
+        },
+        {
+          "w": "Do",
+          "start": 34.23,
+          "end": 34.31
+        },
+        {
+          "w": "not",
+          "start": 34.31,
+          "end": 34.53
+        },
+        {
+          "w": "respond",
+          "start": 34.53,
+          "end": 35.05
+        },
+        {
+          "w": "to",
+          "start": 35.05,
+          "end": 35.35
+        },
+        {
+          "w": "anyone",
+          "start": 35.35,
+          "end": 35.69
+        },
+        {
+          "w": "calling",
+          "start": 35.69,
+          "end": 36.13
+        },
+        {
+          "w": "your",
+          "start": 36.13,
+          "end": 36.41
+        },
+        {
+          "w": "name.\"",
+          "start": 36.41,
+          "end": 36.75
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "who": "narrator",
+      "text": "You look at your crush. She's no longer smiling.",
+      "start": 37.4,
+      "end": 40.39,
+      "words": [
+        {
+          "w": "You",
+          "start": 37.4,
+          "end": 37.54
+        },
+        {
+          "w": "look",
+          "start": 37.54,
+          "end": 37.7
+        },
+        {
+          "w": "at",
+          "start": 37.7,
+          "end": 37.82
+        },
+        {
+          "w": "your",
+          "start": 37.82,
+          "end": 37.96
+        },
+        {
+          "w": "crush.",
+          "start": 37.96,
+          "end": 38.34
+        },
+        {
+          "w": "She's",
+          "start": 38.94,
+          "end": 39.2
+        },
+        {
+          "w": "no",
+          "start": 39.2,
+          "end": 39.36
+        },
+        {
+          "w": "longer",
+          "start": 39.36,
+          "end": 39.64
+        },
+        {
+          "w": "smiling.",
+          "start": 39.64,
+          "end": 40.06
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "who": "narrator",
+      "text": "You both move away from the windows. The hallway goes completely silent.",
+      "start": 40.51,
+      "end": 44.92,
+      "words": [
+        {
+          "w": "You",
+          "start": 40.51,
+          "end": 40.67
+        },
+        {
+          "w": "both",
+          "start": 40.67,
+          "end": 40.89
+        },
+        {
+          "w": "move",
+          "start": 40.89,
+          "end": 41.09
+        },
+        {
+          "w": "away",
+          "start": 41.09,
+          "end": 41.39
+        },
+        {
+          "w": "from",
+          "start": 41.39,
+          "end": 41.61
+        },
+        {
+          "w": "the",
+          "start": 41.61,
+          "end": 41.77
+        },
+        {
+          "w": "windows.",
+          "start": 41.77,
+          "end": 42.17
+        },
+        {
+          "w": "The",
+          "start": 42.97,
+          "end": 43.13
+        },
+        {
+          "w": "hallway",
+          "start": 43.13,
+          "end": 43.35
+        },
+        {
+          "w": "goes",
+          "start": 43.35,
+          "end": 43.69
+        },
+        {
+          "w": "completely",
+          "start": 43.69,
+          "end": 44.15
+        },
+        {
+          "w": "silent.",
+          "start": 44.15,
+          "end": 44.65
+        }
+      ]
+    },
+    {
+      "id": "P11",
+      "who": "narrator",
+      "text": "Then... three knocks.",
+      "start": 45.04,
+      "end": 47.04,
+      "words": [
+        {
+          "w": "Then...",
+          "start": 45.04,
+          "end": 45.44
+        },
+        {
+          "w": "three",
+          "start": 46.22,
+          "end": 46.4
+        },
+        {
+          "w": "knocks.",
+          "start": 46.4,
+          "end": 46.78
+        }
+      ]
+    },
+    {
+      "id": "P12",
+      "who": "outside",
+      "text": "\"Hey... can you let me in?\"",
+      "start": 48.44,
+      "end": 50.57,
+      "words": [
+        {
+          "w": "\"Hey...",
+          "start": 48.44,
+          "end": 48.76
+        },
+        {
+          "w": "can",
+          "start": 49.4,
+          "end": 49.64
+        },
+        {
+          "w": "you",
+          "start": 49.64,
+          "end": 49.8
+        },
+        {
+          "w": "let",
+          "start": 49.8,
+          "end": 49.98
+        },
+        {
+          "w": "me",
+          "start": 49.98,
+          "end": 50.16
+        },
+        {
+          "w": "in?\"",
+          "start": 50.16,
+          "end": 50.42
+        }
+      ]
+    },
+    {
+      "id": "P13",
+      "who": "narrator",
+      "text": "She's sitting right beside you. She slowly shakes her head.",
+      "start": 50.87,
+      "end": 54.42,
+      "words": [
+        {
+          "w": "She's",
+          "start": 50.87,
+          "end": 51.23
+        },
+        {
+          "w": "sitting",
+          "start": 51.23,
+          "end": 51.41
+        },
+        {
+          "w": "right",
+          "start": 51.41,
+          "end": 51.71
+        },
+        {
+          "w": "beside",
+          "start": 51.71,
+          "end": 52.07
+        },
+        {
+          "w": "you.",
+          "start": 52.07,
+          "end": 52.43
+        },
+        {
+          "w": "She",
+          "start": 53.05,
+          "end": 53.21
+        },
+        {
+          "w": "slowly",
+          "start": 53.21,
+          "end": 53.57
+        },
+        {
+          "w": "shakes",
+          "start": 53.57,
+          "end": 53.85
+        },
+        {
+          "w": "her",
+          "start": 53.85,
+          "end": 54.05
+        },
+        {
+          "w": "head.",
+          "start": 54.05,
+          "end": 54.25
+        }
+      ]
+    },
+    {
+      "id": "P14",
+      "who": "her",
+      "text": "\"Don't open it.\"",
+      "start": 54.54,
+      "end": 55.45,
+      "words": [
+        {
+          "w": "\"Don't",
+          "start": 54.54,
+          "end": 54.88
+        },
+        {
+          "w": "open",
+          "start": 54.88,
+          "end": 55.12
+        },
+        {
+          "w": "it.\"",
+          "start": 55.12,
+          "end": 55.36
+        }
+      ]
+    },
+    {
+      "id": "P15",
+      "who": "narrator",
+      "text": "The knocking comes again. This time, it sounds exactly like her.",
+      "start": 55.75,
+      "end": 60.5,
+      "words": [
+        {
+          "w": "The",
+          "start": 55.75,
+          "end": 55.89
+        },
+        {
+          "w": "knocking",
+          "start": 55.89,
+          "end": 56.25
+        },
+        {
+          "w": "comes",
+          "start": 56.25,
+          "end": 56.55
+        },
+        {
+          "w": "again.",
+          "start": 56.55,
+          "end": 56.97
+        },
+        {
+          "w": "This",
+          "start": 57.67,
+          "end": 57.85
+        },
+        {
+          "w": "time,",
+          "start": 57.85,
+          "end": 58.21
+        },
+        {
+          "w": "it",
+          "start": 58.53,
+          "end": 58.79
+        },
+        {
+          "w": "sounds",
+          "start": 58.79,
+          "end": 59.13
+        },
+        {
+          "w": "exactly",
+          "start": 59.13,
+          "end": 59.67
+        },
+        {
+          "w": "like",
+          "start": 59.67,
+          "end": 60.09
+        },
+        {
+          "w": "her.",
+          "start": 60.09,
+          "end": 60.31
+        }
+      ]
+    },
+    {
+      "id": "P16",
+      "who": "outside",
+      "text": "\"Please. It's getting closer. Why are you leaving me out here?\"",
+      "start": 60.62,
+      "end": 65.6,
+      "words": [
+        {
+          "w": "\"Please.",
+          "start": 60.62,
+          "end": 61.14
+        },
+        {
+          "w": "It's",
+          "start": 62.04,
+          "end": 62.34
+        },
+        {
+          "w": "getting",
+          "start": 62.34,
+          "end": 62.5
+        },
+        {
+          "w": "closer.",
+          "start": 62.5,
+          "end": 62.92
+        },
+        {
+          "w": "Why",
+          "start": 63.92,
+          "end": 64.08
+        },
+        {
+          "w": "are",
+          "start": 64.08,
+          "end": 64.24
+        },
+        {
+          "w": "you",
+          "start": 64.24,
+          "end": 64.38
+        },
+        {
+          "w": "leaving",
+          "start": 64.38,
+          "end": 64.62
+        },
+        {
+          "w": "me",
+          "start": 64.62,
+          "end": 64.9
+        },
+        {
+          "w": "out",
+          "start": 64.9,
+          "end": 65.06
+        },
+        {
+          "w": "here?\"",
+          "start": 65.06,
+          "end": 65.4
+        }
+      ]
+    },
+    {
+      "id": "P17",
+      "who": "narrator",
+      "text": "Your crush grabs your arm. Her hands are shaking.",
+      "start": 65.9,
+      "end": 69.17,
+      "words": [
+        {
+          "w": "Your",
+          "start": 65.9,
+          "end": 66.08
+        },
+        {
+          "w": "crush",
+          "start": 66.08,
+          "end": 66.44
+        },
+        {
+          "w": "grabs",
+          "start": 66.44,
+          "end": 66.82
+        },
+        {
+          "w": "your",
+          "start": 66.82,
+          "end": 67.02
+        },
+        {
+          "w": "arm.",
+          "start": 67.02,
+          "end": 67.34
+        },
+        {
+          "w": "Her",
+          "start": 67.98,
+          "end": 68.1
+        },
+        {
+          "w": "hands",
+          "start": 68.1,
+          "end": 68.38
+        },
+        {
+          "w": "are",
+          "start": 68.38,
+          "end": 68.54
+        },
+        {
+          "w": "shaking.",
+          "start": 68.54,
+          "end": 68.84
+        }
+      ]
+    },
+    {
+      "id": "P18",
+      "who": "her",
+      "text": "\"That's not me.\"",
+      "start": 69.29,
+      "end": 70.39,
+      "words": [
+        {
+          "w": "\"That's",
+          "start": 69.29,
+          "end": 69.63
+        },
+        {
+          "w": "not",
+          "start": 69.63,
+          "end": 69.77
+        },
+        {
+          "w": "me.\"",
+          "start": 69.77,
+          "end": 70.11
+        }
+      ]
+    },
+    {
+      "id": "P19",
+      "who": "narrator",
+      "text": "Then the voice says something that makes your blood run cold.",
+      "start": 70.69,
+      "end": 73.31,
+      "words": [
+        {
+          "w": "Then",
+          "start": 70.69,
+          "end": 70.87
+        },
+        {
+          "w": "the",
+          "start": 70.87,
+          "end": 70.99
+        },
+        {
+          "w": "voice",
+          "start": 70.99,
+          "end": 71.23
+        },
+        {
+          "w": "says",
+          "start": 71.23,
+          "end": 71.49
+        },
+        {
+          "w": "something",
+          "start": 71.49,
+          "end": 71.81
+        },
+        {
+          "w": "that",
+          "start": 71.81,
+          "end": 72.01
+        },
+        {
+          "w": "makes",
+          "start": 72.01,
+          "end": 72.17
+        },
+        {
+          "w": "your",
+          "start": 72.17,
+          "end": 72.35
+        },
+        {
+          "w": "blood",
+          "start": 72.35,
+          "end": 72.55
+        },
+        {
+          "w": "run",
+          "start": 72.55,
+          "end": 72.73
+        },
+        {
+          "w": "cold.",
+          "start": 72.73,
+          "end": 73.05
+        }
+      ]
+    },
+    {
+      "id": "P20",
+      "who": "outside",
+      "text": "\"Come on... you know I like you.\"",
+      "start": 73.43,
+      "end": 75.96,
+      "words": [
+        {
+          "w": "\"Come",
+          "start": 73.43,
+          "end": 73.71
+        },
+        {
+          "w": "on...",
+          "start": 73.71,
+          "end": 74.07
+        },
+        {
+          "w": "you",
+          "start": 74.47,
+          "end": 74.75
+        },
+        {
+          "w": "know",
+          "start": 74.75,
+          "end": 74.93
+        },
+        {
+          "w": "I",
+          "start": 74.93,
+          "end": 75.15
+        },
+        {
+          "w": "like",
+          "start": 75.15,
+          "end": 75.41
+        },
+        {
+          "w": "you.\"",
+          "start": 75.41,
+          "end": 75.81
+        }
+      ]
+    },
+    {
+      "id": "P21",
+      "who": "narrator",
+      "text": "You turn toward your crush. She looks completely confused.",
+      "start": 76.36,
+      "end": 80.07,
+      "words": [
+        {
+          "w": "You",
+          "start": 76.36,
+          "end": 76.5
+        },
+        {
+          "w": "turn",
+          "start": 76.5,
+          "end": 76.78
+        },
+        {
+          "w": "toward",
+          "start": 76.78,
+          "end": 77.04
+        },
+        {
+          "w": "your",
+          "start": 77.04,
+          "end": 77.24
+        },
+        {
+          "w": "crush.",
+          "start": 77.24,
+          "end": 77.54
+        },
+        {
+          "w": "She",
+          "start": 78.32,
+          "end": 78.48
+        },
+        {
+          "w": "looks",
+          "start": 78.48,
+          "end": 78.68
+        },
+        {
+          "w": "completely",
+          "start": 78.68,
+          "end": 79.2
+        },
+        {
+          "w": "confused.",
+          "start": 79.2,
+          "end": 79.72
+        }
+      ]
+    },
+    {
+      "id": "P22",
+      "who": "narrator",
+      "text": "Your phone vibrates. A photo, from an unknown number.",
+      "start": 80.19,
+      "end": 83.78,
+      "words": [
+        {
+          "w": "Your",
+          "start": 80.19,
+          "end": 80.33
+        },
+        {
+          "w": "phone",
+          "start": 80.33,
+          "end": 80.67
+        },
+        {
+          "w": "vibrates.",
+          "start": 80.67,
+          "end": 81.43
+        },
+        {
+          "w": "A",
+          "start": 81.91,
+          "end": 82.09
+        },
+        {
+          "w": "photo,",
+          "start": 82.09,
+          "end": 82.39
+        },
+        {
+          "w": "from",
+          "start": 82.39,
+          "end": 82.69
+        },
+        {
+          "w": "an",
+          "start": 82.69,
+          "end": 82.81
+        },
+        {
+          "w": "unknown",
+          "start": 82.81,
+          "end": 83.19
+        },
+        {
+          "w": "number.",
+          "start": 83.19,
+          "end": 83.55
+        }
+      ]
+    },
+    {
+      "id": "P23",
+      "who": "narrator",
+      "text": "It's the two of you, in this classroom... taken from behind you.",
+      "start": 83.9,
+      "end": 87.82,
+      "words": [
+        {
+          "w": "It's",
+          "start": 83.9,
+          "end": 84.14
+        },
+        {
+          "w": "the",
+          "start": 84.14,
+          "end": 84.3
+        },
+        {
+          "w": "two",
+          "start": 84.3,
+          "end": 84.54
+        },
+        {
+          "w": "of",
+          "start": 84.54,
+          "end": 84.7
+        },
+        {
+          "w": "you,",
+          "start": 84.7,
+          "end": 85.12
+        },
+        {
+          "w": "in",
+          "start": 85.12,
+          "end": 85.8
+        },
+        {
+          "w": "this",
+          "start": 85.8,
+          "end": 86.0
+        },
+        {
+          "w": "classroom...",
+          "start": 86.0,
+          "end": 86.5
+        },
+        {
+          "w": "taken",
+          "start": 86.5,
+          "end": 86.84
+        },
+        {
+          "w": "from",
+          "start": 86.84,
+          "end": 87.12
+        },
+        {
+          "w": "behind",
+          "start": 87.12,
+          "end": 87.44
+        },
+        {
+          "w": "you.",
+          "start": 87.44,
+          "end": 87.68
+        }
+      ]
+    },
+    {
+      "id": "P24",
+      "who": "narrator",
+      "text": "You turn around. There's nobody there.",
+      "start": 87.94,
+      "end": 90.4,
+      "words": [
+        {
+          "w": "You",
+          "start": 87.94,
+          "end": 88.08
+        },
+        {
+          "w": "turn",
+          "start": 88.08,
+          "end": 88.32
+        },
+        {
+          "w": "around.",
+          "start": 88.32,
+          "end": 88.72
+        },
+        {
+          "w": "There's",
+          "start": 89.2,
+          "end": 89.5
+        },
+        {
+          "w": "nobody",
+          "start": 89.5,
+          "end": 89.76
+        },
+        {
+          "w": "there.",
+          "start": 89.76,
+          "end": 90.2
+        }
+      ]
+    },
+    {
+      "id": "P25",
+      "who": "narrator",
+      "text": "Another message: She hasn't told you what happened last time.",
+      "start": 90.7,
+      "end": 94.49,
+      "words": [
+        {
+          "w": "Another",
+          "start": 90.7,
+          "end": 91.02
+        },
+        {
+          "w": "message:",
+          "start": 91.02,
+          "end": 91.42
+        },
+        {
+          "w": "She",
+          "start": 92.4,
+          "end": 92.64
+        },
+        {
+          "w": "hasn't",
+          "start": 92.64,
+          "end": 92.98
+        },
+        {
+          "w": "told",
+          "start": 92.98,
+          "end": 93.14
+        },
+        {
+          "w": "you",
+          "start": 93.14,
+          "end": 93.34
+        },
+        {
+          "w": "what",
+          "start": 93.34,
+          "end": 93.44
+        },
+        {
+          "w": "happened",
+          "start": 93.44,
+          "end": 93.68
+        },
+        {
+          "w": "last",
+          "start": 93.68,
+          "end": 93.96
+        },
+        {
+          "w": "time.",
+          "start": 93.96,
+          "end": 94.3
+        }
+      ]
+    },
+    {
+      "id": "P26",
+      "who": "narrator",
+      "text": "Your crush starts crying. She looks right at you.",
+      "start": 94.61,
+      "end": 97.75,
+      "words": [
+        {
+          "w": "Your",
+          "start": 94.61,
+          "end": 94.77
+        },
+        {
+          "w": "crush",
+          "start": 94.77,
+          "end": 95.03
+        },
+        {
+          "w": "starts",
+          "start": 95.03,
+          "end": 95.37
+        },
+        {
+          "w": "crying.",
+          "start": 95.37,
+          "end": 95.83
+        },
+        {
+          "w": "She",
+          "start": 96.65,
+          "end": 96.81
+        },
+        {
+          "w": "looks",
+          "start": 96.81,
+          "end": 96.97
+        },
+        {
+          "w": "right",
+          "start": 96.97,
+          "end": 97.23
+        },
+        {
+          "w": "at",
+          "start": 97.23,
+          "end": 97.41
+        },
+        {
+          "w": "you.",
+          "start": 97.41,
+          "end": 97.63
+        }
+      ]
+    },
+    {
+      "id": "P27",
+      "who": "her",
+      "text": "\"Please... don't let it remember me.\"",
+      "start": 97.87,
+      "end": 100.06,
+      "words": [
+        {
+          "w": "\"Please...",
+          "start": 97.87,
+          "end": 98.29
+        },
+        {
+          "w": "don't",
+          "start": 98.63,
+          "end": 98.93
+        },
+        {
+          "w": "let",
+          "start": 98.93,
+          "end": 99.09
+        },
+        {
+          "w": "it",
+          "start": 99.09,
+          "end": 99.21
+        },
+        {
+          "w": "remember",
+          "start": 99.21,
+          "end": 99.55
+        },
+        {
+          "w": "me.\"",
+          "start": 99.55,
+          "end": 99.91
+        }
+      ]
+    },
+    {
+      "id": "P28",
+      "who": "narrator",
+      "text": "The door handle begins to turn.",
+      "start": 100.41,
+      "end": 102.21,
+      "words": [
+        {
+          "w": "The",
+          "start": 100.41,
+          "end": 100.55
+        },
+        {
+          "w": "door",
+          "start": 100.55,
+          "end": 100.83
+        },
+        {
+          "w": "handle",
+          "start": 100.83,
+          "end": 101.19
+        },
+        {
+          "w": "begins",
+          "start": 101.19,
+          "end": 101.49
+        },
+        {
+          "w": "to",
+          "start": 101.49,
+          "end": 101.75
+        },
+        {
+          "w": "turn.",
+          "start": 101.75,
+          "end": 101.99
+        }
+      ]
+    },
+    {
+      "id": "P29",
+      "who": "narrator",
+      "text": "She grabs your hand and whispers...",
+      "start": 102.51,
+      "end": 104.51,
+      "words": [
+        {
+          "w": "She",
+          "start": 102.51,
+          "end": 102.71
+        },
+        {
+          "w": "grabs",
+          "start": 102.71,
+          "end": 102.99
+        },
+        {
+          "w": "your",
+          "start": 102.99,
+          "end": 103.25
+        },
+        {
+          "w": "hand",
+          "start": 103.25,
+          "end": 103.59
+        },
+        {
+          "w": "and",
+          "start": 103.59,
+          "end": 103.83
+        },
+        {
+          "w": "whispers...",
+          "start": 103.83,
+          "end": 104.11
+        }
+      ]
+    },
+    {
+      "id": "P30",
+      "who": "her",
+      "text": "\"Whatever you do, don't let it touch your shadow.\"",
+      "start": 104.63,
+      "end": 107.32,
+      "words": [
+        {
+          "w": "\"Whatever",
+          "start": 104.63,
+          "end": 104.97
+        },
+        {
+          "w": "you",
+          "start": 104.97,
+          "end": 105.25
+        },
+        {
+          "w": "do,",
+          "start": 105.25,
+          "end": 105.59
+        },
+        {
+          "w": "don't",
+          "start": 105.79,
+          "end": 105.97
+        },
+        {
+          "w": "let",
+          "start": 105.97,
+          "end": 106.11
+        },
+        {
+          "w": "it",
+          "start": 106.11,
+          "end": 106.23
+        },
+        {
+          "w": "touch",
+          "start": 106.23,
+          "end": 106.45
+        },
+        {
+          "w": "your",
+          "start": 106.45,
+          "end": 106.69
+        },
+        {
+          "w": "shadow.\"",
+          "start": 106.69,
+          "end": 107.03
+        }
+      ]
+    },
+    {
+      "id": "P31",
+      "who": "narrator",
+      "text": "Comment A or B. Your decision decides Part 2.",
+      "start": 107.67,
+      "end": 110.87,
+      "words": [
+        {
+          "w": "Comment",
+          "start": 107.67,
+          "end": 108.01
+        },
+        {
+          "w": "A",
+          "start": 108.01,
+          "end": 108.37
+        },
+        {
+          "w": "or",
+          "start": 108.37,
+          "end": 108.65
+        },
+        {
+          "w": "B.",
+          "start": 108.65,
+          "end": 108.91
+        },
+        {
+          "w": "Your",
+          "start": 109.15,
+          "end": 109.27
+        },
+        {
+          "w": "decision",
+          "start": 109.27,
+          "end": 109.59
+        },
+        {
+          "w": "decides",
+          "start": 109.59,
+          "end": 110.11
+        },
+        {
+          "w": "Part",
+          "start": 110.11,
+          "end": 110.37
+        },
+        {
+          "w": "2.",
+          "start": 110.37,
+          "end": 110.67
+        }
+      ]
+    }
+  ]
+}

@@ -687,6 +687,13 @@ class Puppet:
             m = skia.Path()
             if shape == "o":
                 m.addOval(skia.Rect.MakeLTRB(mx - w, my - h * 0.5, mx + w, my + h * 0.6))
+            elif shape in ("frown", "flat"):  # tense / upset talking: corners pulled down, arched top (never a D-smile)
+                cy = my + h * (0.35 if shape == "frown" else 0.2)
+                m.moveTo(mx - w * 0.9, cy)
+                m.quadTo(mx, my - h * 0.55, mx + w * 0.9, cy)
+                m.quadTo(mx + w * 0.5, my + h * 0.75, mx, my + h * 0.7)
+                m.quadTo(mx - w * 0.5, my + h * 0.75, mx - w * 0.9, cy)
+                m.close()
             else:
                 curve = {"smile": 8, "grin": 12, "frown": -6}.get(shape, 2)
                 m.moveTo(mx - w, my - curve * 0.3)
@@ -698,7 +705,9 @@ class Puppet:
             c.save()
             c.clipPath(m, doAntiAlias=True)
             c.drawOval(skia.Rect.MakeLTRB(mx - w * 0.6, my + h * 0.45, mx + w * 0.6, my + h * 1.3), paint("#d0605a"))
-            if shape != "o":
+            if shape in ("frown", "flat"):
+                c.drawRect(skia.Rect.MakeLTRB(mx - w, my - h, mx + w, my - h * 0.32), paint("#f6f3ee"))
+            elif shape != "o":
                 c.drawRect(skia.Rect.MakeLTRB(mx - w, my - 20, mx + w, my + max(3.0, h * 0.18)), paint("#f6f3ee"))
             c.restore()
             return
