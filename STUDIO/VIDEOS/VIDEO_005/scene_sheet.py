@@ -10,6 +10,7 @@ import edit_video005 as E  # noqa: E402
 script = {l["id"]: l for l in json.loads((HERE / "script.json").read_text())["lines"]}
 seg = {s["scene"]: s for s in E.SEGMENTS}
 COL = {E.RED: "RED", E.YEL: "YELLOW"}
+STRIP = ".,?!" + chr(34)
 rows, last = [], None
 for sc in E.SCENES:
     s = seg.get(sc["id"])
@@ -19,7 +20,7 @@ for sc in E.SCENES:
     vo = f'{ln["who"].upper()}: {ln["text"]}' if ln else "(no VO)"
     cap = sc.get("cap")
     cap = ln["text"].upper() if (cap is None and ln) else (cap if cap else "-")
-    keys = ", ".join(f'{k.strip(".,?!\\"").upper()} ({COL[v]})' for k, v in sc.get("keys", {}).items()) or "-"
+    keys = ", ".join(k.strip(STRIP).upper() + f" ({COL[v]})" for k, v in sc.get("keys", {}).items()) or "-"
     sfx = ", ".join(f"{n} {g:+d}dB" for n, g, _ in sc.get("sfx", []) if g is not None) or "-"
     hud = f'{sc["clock"]} · CUSTOMERS {sc["cust"]}' if sc.get("clock") else "(choice screen)"
     t0 = s["t0"] if s else E.start(sc["line"]) - 0.1
