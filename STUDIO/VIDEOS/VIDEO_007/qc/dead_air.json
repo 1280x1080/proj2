@@ -1,0 +1,50 @@
+{
+  "dead_air": {
+    "threshold_lufs": -42.0,
+    "quietest_momentary": -32.2,
+    "runs": [],
+    "ok": true
+  },
+  "gaps": {
+    "min_lufs": -34.0,
+    "max_lufs": -14.0,
+    "rows": [
+      {
+        "gap": "tail",
+        "start": 4.64,
+        "dur": 0.36,
+        "bed_lufs": -27.6,
+        "ok": true
+      }
+    ],
+    "ok": true
+  },
+  "speech": {
+    "min_margin_lu": 8.0,
+    "rows": [
+      {
+        "line": "T1",
+        "voice_lufs": -14.2,
+        "bed_lufs": -23.3,
+        "margin_lu": 9.1,
+        "ok": true
+      },
+      {
+        "line": "T2",
+        "voice_lufs": -13.1,
+        "bed_lufs": -31.6,
+        "margin_lu": 18.5,
+        "ok": true
+      },
+      {
+        "line": "T3",
+        "voice_lufs": -13.9,
+        "bed_lufs": -31.4,
+        "margin_lu": 17.5,
+        "ok": true
+      }
+    ],
+    "ok": true
+  },
+  "passed": true
+}

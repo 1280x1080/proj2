@@ -39,3 +39,5 @@
 * Change emotion on story beats, with an eased blend (`emote(..., amount=span(t, beat, beat + 0.3))`), never a pop.
 * Visual pass: for every cut, ask "would someone with the sound off read the same emotion?" If not, fix the pose.
 * Preset sheet check: `emotions.png` (all presets on one character) must show no limbs crossing the body.
+* Dark scenes: darken the ROOM, not the faces. Characters keep a readable key/moon light so their emotion still reads
+  (VIDEO_007's first export failed this check: faces went near-black when the lights died).

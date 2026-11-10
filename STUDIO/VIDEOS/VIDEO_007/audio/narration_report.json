@@ -1,0 +1,137 @@
+{
+  "T1": {
+    "key": "a2b12c84dd25",
+    "text": "Then the lights go out.",
+    "chosen": "T1_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Then the lights go out.",
+    "duration": 1.26,
+    "words": [
+      {
+        "w": "Then",
+        "start": 0.0,
+        "end": 0.18
+      },
+      {
+        "w": "the",
+        "start": 0.18,
+        "end": 0.32
+      },
+      {
+        "w": "lights",
+        "start": 0.32,
+        "end": 0.58
+      },
+      {
+        "w": "go",
+        "start": 0.58,
+        "end": 0.84
+      },
+      {
+        "w": "out.",
+        "start": 0.84,
+        "end": 1.1
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "T1_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Then the lights go out.",
+        "gen_seconds": 204.1
+      },
+      {
+        "file": "T1_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Then the lights go out.",
+        "gen_seconds": 15.0
+      }
+    ]
+  },
+  "T2": {
+    "key": "745e8d4325d1",
+    "text": "\"Mia? Where are you?\"",
+    "chosen": "T2_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Mia, where are you?",
+    "duration": 1.55,
+    "words": [
+      {
+        "w": "\"Mia?",
+        "start": 0.0,
+        "end": 0.28
+      },
+      {
+        "w": "Where",
+        "start": 0.8,
+        "end": 1.06
+      },
+      {
+        "w": "are",
+        "start": 1.06,
+        "end": 1.26
+      },
+      {
+        "w": "you?\"",
+        "start": 1.26,
+        "end": 1.46
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "T2_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Mia, where are you?",
+        "gen_seconds": 19.3
+      },
+      {
+        "file": "T2_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Mia, where are you?",
+        "gen_seconds": 13.4
+      }
+    ]
+  },
+  "T3": {
+    "key": "02d4ad49a8f1",
+    "text": "\"Right behind you.\"",
+    "chosen": "T3_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "right behind you!",
+    "duration": 1.43,
+    "words": [
+      {
+        "w": "\"Right",
+        "start": 0.0,
+        "end": 0.28
+      },
+      {
+        "w": "behind",
+        "start": 0.28,
+        "end": 0.72
+      },
+      {
+        "w": "you.\"",
+        "start": 0.72,
+        "end": 1.08
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "T3_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "right behind you!",
+        "gen_seconds": 12.4
+      },
+      {
+        "file": "T3_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Right behind you!",
+        "gen_seconds": 9.9
+      }
+    ]
+  }
+}

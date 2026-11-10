@@ -1,0 +1,92 @@
+{
+  "duration": 4.79,
+  "lines": [
+    {
+      "id": "T1",
+      "who": "narrator",
+      "text": "Then the lights go out.",
+      "start": 0.1,
+      "end": 1.36,
+      "words": [
+        {
+          "w": "Then",
+          "start": 0.1,
+          "end": 0.28
+        },
+        {
+          "w": "the",
+          "start": 0.28,
+          "end": 0.42
+        },
+        {
+          "w": "lights",
+          "start": 0.42,
+          "end": 0.68
+        },
+        {
+          "w": "go",
+          "start": 0.68,
+          "end": 0.94
+        },
+        {
+          "w": "out.",
+          "start": 0.94,
+          "end": 1.2
+        }
+      ]
+    },
+    {
+      "id": "T2",
+      "who": "kai",
+      "text": "\"Mia? Where are you?\"",
+      "start": 1.51,
+      "end": 3.06,
+      "words": [
+        {
+          "w": "\"Mia?",
+          "start": 1.51,
+          "end": 1.79
+        },
+        {
+          "w": "Where",
+          "start": 2.31,
+          "end": 2.57
+        },
+        {
+          "w": "are",
+          "start": 2.57,
+          "end": 2.77
+        },
+        {
+          "w": "you?\"",
+          "start": 2.77,
+          "end": 2.97
+        }
+      ]
+    },
+    {
+      "id": "T3",
+      "who": "mia",
+      "text": "\"Right behind you.\"",
+      "start": 3.21,
+      "end": 4.64,
+      "words": [
+        {
+          "w": "\"Right",
+          "start": 3.21,
+          "end": 3.49
+        },
+        {
+          "w": "behind",
+          "start": 3.49,
+          "end": 3.93
+        },
+        {
+          "w": "you.\"",
+          "start": 3.93,
+          "end": 4.29
+        }
+      ]
+    }
+  ]
+}

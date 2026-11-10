@@ -399,6 +399,19 @@ def cue_video006():
     return s, dict(loop=False)
 
 
+def cue_video007():
+    """5 s standards test: warm low pad until the lights die, then a cold drone + tremolo; sting on her line."""
+    edl = _load_edl("007")
+    B, D = edl.BEATS, edl.DURATION
+    s = Score(D, bpm=70, seed=7)
+    s.note("pad", "pad", 45, 0.0, B["out"] + 0.2, gain=0.08, bright=0.2)
+    s.note("bass", "bass", 33, B["out"], D - B["out"], gain=0.18)
+    for m, p in ((57, -0.3), (58, 0.3)):
+        s.note("pad", "tremolo", m, B["out"] + 0.4, D - B["out"] - 0.4, gain=0.05, pan=p, rate=9.0)
+    s.note("lead", "bell", 81, edl.start("T3"), 2.0, gain=0.05, bright=0.2)
+    return s, dict(loop=False)
+
+
 def main():
     num = sys.argv[1].zfill(3)
     s, opts = globals()[f"cue_video{num}"]()

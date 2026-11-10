@@ -1,0 +1,39 @@
+{
+  "model": "base.en",
+  "lines": [
+    {
+      "id": "T1",
+      "text": "Then the lights go out.",
+      "heard": "Then the lights go out.",
+      "mismatches": 0,
+      "duration": 1.26,
+      "words_per_sec": 3.97,
+      "clipped": false
+    },
+    {
+      "id": "T2",
+      "text": "\"Mia? Where are you?\"",
+      "heard": "Mia, where are you?",
+      "mismatches": 0,
+      "duration": 1.55,
+      "words_per_sec": 2.58,
+      "clipped": false
+    },
+    {
+      "id": "T3",
+      "text": "\"Right behind you.\"",
+      "heard": "Right behind you.",
+      "mismatches": 0,
+      "duration": 1.43,
+      "words_per_sec": 2.1,
+      "clipped": false
+    }
+  ],
+  "gaps": [
+    0.15,
+    0.15
+  ],
+  "total": 4.79,
+  "peak_db": -2.95,
+  "passed": true
+}

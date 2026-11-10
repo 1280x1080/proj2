@@ -1,0 +1,47 @@
+{
+  "title": "Standards test (5 s): lights out",
+  "engine": "qwen",
+  "notes": "Tests every studio standard: Qwen voices (reused from VIDEO_006), emotion presets per line for speaker AND listener, lip-sync, caption style v2 with speaker labels, overlap check, no dead air.",
+  "voice_ref": null,
+  "voices": {
+    "narrator": {
+      "design": "Male narrator, late 30s, low calm baritone, quiet late-night storytelling voice, slight rasp, unhurried."
+    },
+    "mia": {
+      "design": "Teenage girl, 16, bright clear voice, teasing but a little nervous, slightly breathy, quick.",
+      "ref_text": "Okay, okay, I'm not scared. You're the one who's shaking. Come on, it's just an old house."
+    },
+    "kai": {
+      "design": "Teenage boy, 17, tenor, playful but obviously scared, voice cracks slightly when nervous.",
+      "ref_text": "Me? No, no, no. I'm totally fine. I just think we should, maybe, go home now. Right now."
+    }
+  },
+  "lead_in": 0.1,
+  "tail": 0.15,
+  "lines": [
+    {
+      "id": "T1",
+      "who": "narrator",
+      "text": "Then the lights go out.",
+      "delivery": "calm",
+      "emotion_on_screen": "nervous",
+      "pause_after": 0.15
+    },
+    {
+      "id": "T2",
+      "who": "kai",
+      "text": "\"Mia? Where are you?\"",
+      "delivery": "excited",
+      "emotion_on_screen": "scared",
+      "pause_after": 0.15
+    },
+    {
+      "id": "T3",
+      "who": "mia",
+      "text": "\"Right behind you.\"",
+      "delivery": "whisper",
+      "emotion_on_screen": "teasing",
+      "pause_after": 0.0
+    }
+  ]
+}

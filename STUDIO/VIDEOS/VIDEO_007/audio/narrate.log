@@ -1,0 +1,20 @@
+whisper small.en loaded in 15.8s
+
+********
+Warning: flash-attn is not installed. Will only run the manual PyTorch version. Please install flash-attn for faster inference.
+********
+ 
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1964.32it/s]
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[T1] take r0t0: 0 mismatches, 1.13s audio, 204.1s gen  | 'Then the lights go out.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[T1] take r0t1: 0 mismatches, 1.26s audio, 15.0s gen  | 'Then the lights go out.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[T2] take r0t0: 0 mismatches, 1.55s audio, 19.3s gen  | 'Mia, where are you?'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[T2] take r0t1: 0 mismatches, 1.55s audio, 13.4s gen  | 'Mia, where are you?'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[T3] take r0t0: 0 mismatches, 1.43s audio, 12.4s gen  | 'right behind you!'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[T3] take r0t1: 0 mismatches, 1.08s audio, 9.9s gen  | 'Right behind you!'
+narration: 4.79s, 3 lines; lines with mismatches: none
