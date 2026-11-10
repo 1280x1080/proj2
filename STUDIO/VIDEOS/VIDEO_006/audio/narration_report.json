@@ -1,0 +1,127 @@
+{
+  "D1": {
+    "key": "584431c46e1c",
+    "text": "Midnight. One dare.",
+    "chosen": "D1_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Midnight, one dare.",
+    "duration": 1.82,
+    "words": [
+      {
+        "w": "Midnight.",
+        "start": 0.0,
+        "end": 0.48
+      },
+      {
+        "w": "One",
+        "start": 1.06,
+        "end": 1.28
+      },
+      {
+        "w": "dare.",
+        "start": 1.28,
+        "end": 1.58
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "D1_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Midnight One Dare",
+        "gen_seconds": 21.8
+      },
+      {
+        "file": "D1_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Midnight, one dare.",
+        "gen_seconds": 22.1
+      }
+    ]
+  },
+  "D2": {
+    "key": "380bc94703d1",
+    "text": "\"You go first.\"",
+    "chosen": "D2_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "You go first.",
+    "duration": 0.96,
+    "words": [
+      {
+        "w": "\"You",
+        "start": 0.0,
+        "end": 0.18
+      },
+      {
+        "w": "go",
+        "start": 0.18,
+        "end": 0.34
+      },
+      {
+        "w": "first.\"",
+        "start": 0.34,
+        "end": 0.66
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "D2_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "You go first.",
+        "gen_seconds": 9.9
+      },
+      {
+        "file": "D2_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "You go first.",
+        "gen_seconds": 9.7
+      }
+    ]
+  },
+  "D3": {
+    "key": "f7255a00999b",
+    "text": "\"No way. You go!\"",
+    "chosen": "D3_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "No way! You go!",
+    "duration": 1.76,
+    "words": [
+      {
+        "w": "\"No",
+        "start": 0.0,
+        "end": 0.22
+      },
+      {
+        "w": "way.",
+        "start": 0.22,
+        "end": 0.52
+      },
+      {
+        "w": "You",
+        "start": 1.08,
+        "end": 1.32
+      },
+      {
+        "w": "go!\"",
+        "start": 1.32,
+        "end": 1.6
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "D3_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "No way! You go!",
+        "gen_seconds": 17.3
+      },
+      {
+        "file": "D3_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "No way! You go!",
+        "gen_seconds": 13.3
+      }
+    ]
+  }
+}

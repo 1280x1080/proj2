@@ -16,6 +16,14 @@ python STUDIO/make_video.py 001 --stills 0 2.5 5   # test stills of the edit
 | TTS venv | `python3 -m venv ~/.venvs/tts`; CPU torch from `download.pytorch.org/whl/cpu`; Chatterbox deps; `pip install --no-deps chatterbox-tts` | Chatterbox pins torch 2.6 from PyPI (pulls ~2.5 GB of CUDA). Installing it `--no-deps` on CPU torch works. |
 | Blender | 4.2.3 LTS tarball from download.blender.org → `/usr/local/bin/blender` | CPU EEVEE Next |
 | ffmpeg | system package | |
+| **Qwen3-TTS** venv | `python3 -m venv ~/.venvs/qwentts`; CPU torch; `pip install qwen-tts faster-whisper soundfile scipy`; `apt-get install sox` | own venv (pins transformers 4.57.3, Chatterbox needs 5.2). Models download on first use (~4.5 GB each: VoiceDesign + Base 1.7B) |
+
+### Choosing a TTS engine
+`narrate.py --engine chatterbox` (default, `~/.venvs/tts/bin/python`) or `--engine qwen` (`~/.venvs/qwentts/bin/python`).
+With Qwen, each speaker in `script.json` "voices" is either `{"design": "<text description of the voice>"}` - designed
+once with Qwen3-TTS-VoiceDesign, saved to `voices/<who>_qwen.wav`, then cloned for every line with Qwen3-TTS-Base, so a
+character sounds identical across lines and parts - or a path to a real clip (+ its transcript in a `.txt` next to it).
+Speed on this 4-core CPU: ~4.6 s compute per 1 s of speech (same ballpark as Chatterbox); model load ~30 s.
 
 ## Layout
 ```

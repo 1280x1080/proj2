@@ -1,0 +1,39 @@
+{
+  "model": "base.en",
+  "lines": [
+    {
+      "id": "D1",
+      "text": "Midnight. One dare.",
+      "heard": "Midnight, one dare.",
+      "mismatches": 0,
+      "duration": 1.82,
+      "words_per_sec": 1.65,
+      "clipped": false
+    },
+    {
+      "id": "D2",
+      "text": "\"You go first.\"",
+      "heard": "You go first.",
+      "mismatches": 0,
+      "duration": 0.96,
+      "words_per_sec": 3.12,
+      "clipped": false
+    },
+    {
+      "id": "D3",
+      "text": "\"No way. You go!\"",
+      "heard": "No way! You go!",
+      "mismatches": 0,
+      "duration": 1.76,
+      "words_per_sec": 2.27,
+      "clipped": false
+    }
+  ],
+  "gaps": [
+    0.12,
+    0.12
+  ],
+  "total": 5.0,
+  "peak_db": -2.96,
+  "passed": true
+}

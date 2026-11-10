@@ -220,8 +220,17 @@ def run(script_path, takes=3, only=None, force=False, engine_name="chatterbox", 
         lid = line["id"]
         if only and lid not in only:
             continue
-        voice = line.get("voice_ref") or S.get("voices", {}).get(line.get("who", "narrator")) or S.get("voice_ref")
-        voice = (vdir / voice) if voice else None
+        if engine_name == "qwen":  # designed / cloned voices per speaker (see qwen_engine.py)
+            if engine is None:
+                from qwen_engine import QwenEngine
+                engine = QwenEngine()
+                qwen_voices = engine.prepare_voices(S, vdir)
+                checker = Checker(whisper_model)
+            voice = (vdir / line["voice_ref"]) if line.get("voice_ref") else \
+                qwen_voices.get(line.get("who", "narrator"), qwen_voices["narrator"])
+        else:
+            voice = line.get("voice_ref") or S.get("voices", {}).get(line.get("who", "narrator")) or S.get("voice_ref")
+            voice = (vdir / voice) if voice else None
         params = dict(DELIVERY.get(line.get("delivery", "neutral"), DELIVERY["neutral"]))
         if line.get("emotion") is not None:
             params["exaggeration"] = float(line["emotion"])
@@ -238,7 +247,10 @@ def run(script_path, takes=3, only=None, force=False, engine_name="chatterbox", 
             for k in range(takes):
                 seed = 1000 * rnd + k
                 t = time.time()
-                x, sr = engine.synth(line["text"], voice, seed, **params)
+                if engine_name == "qwen":
+                    x, sr = engine.synth(line["text"], voice, seed, delivery=line.get("delivery"), **params)
+                else:
+                    x, sr = engine.synth(line["text"], voice, seed, **params)
                 x = dsp.normalize(x, -3) if np.max(np.abs(x)) > 0 else x
                 x, _ = trim_silence(x, sr)
                 p = out / "takes" / f"{lid}_r{rnd}_t{k}.wav"
@@ -295,7 +307,7 @@ if __name__ == "__main__":
     ap.add_argument("--takes", type=int, default=3)
     ap.add_argument("--only", nargs="*")
     ap.add_argument("--force", action="store_true")
-    ap.add_argument("--engine", default="chatterbox", choices=["chatterbox", "espeak"])
+    ap.add_argument("--engine", default="chatterbox", choices=["chatterbox", "qwen", "espeak"])
     ap.add_argument("--whisper", default="small.en")
     a = ap.parse_args()
     run(a.script, a.takes, a.only, a.force, a.engine, a.whisper)

@@ -1,0 +1,58 @@
+{
+  "duration": 5.0,
+  "loop": false,
+  "narration": {
+    "file": "narration_raw.wav",
+    "offset": 0.0
+  },
+  "sfx_duck_db": -5.0,
+  "amb_duck_db": -4.0,
+  "ceiling_dbtp": -1.6,
+  "cues": [
+    {
+      "t": 0.0,
+      "sfx": "wind",
+      "gain_db": 2,
+      "bus": "amb",
+      "dur": 5.0,
+      "fade_in": 0.05,
+      "fade_out": 0.3,
+      "note": "night wind"
+    },
+    {
+      "t": 0.0,
+      "sfx": "room_tone",
+      "gain_db": 0,
+      "bus": "amb",
+      "dur": 5.0,
+      "fade_in": 0.05,
+      "note": "air"
+    },
+    {
+      "t": 0.05,
+      "sfx": "floor_creak",
+      "gain_db": -12,
+      "pan": -0.2,
+      "note": "porch boards"
+    },
+    {
+      "t": 1.94,
+      "sfx": "floor_creak",
+      "gain_db": -10,
+      "pan": 0.3,
+      "note": "Kai shifts his weight"
+    },
+    {
+      "t": 4.93,
+      "sfx": "door_creak_long",
+      "gain_db": -10,
+      "pan": 0.0,
+      "note": "the door creaks open by itself"
+    }
+  ],
+  "music": {
+    "file": "music.wav",
+    "gain_db": -4.0,
+    "duck_db": -10.0
+  }
+}

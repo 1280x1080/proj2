@@ -1,0 +1,27 @@
+
+********
+Warning: flash-attn is not installed. Will only run the manual PyTorch version. Please install flash-attn for faster inference.
+********
+ 
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 2301.40it/s]
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+designed voice 'narrator' -> narrator_qwen.wav  (Male narrator, late 30s, low calm baritone, quiet late-night storytell...)
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+designed voice 'mia' -> mia_qwen.wav  (Teenage girl, 16, bright clear voice, teasing but a little nervous, sl...)
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+designed voice 'kai' -> kai_qwen.wav  (Teenage boy, 17, tenor, playful but obviously scared, voice cracks sli...)
+whisper small.en loaded in 0.6s
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 2598.70it/s]
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[D1] take r0t0: 0 mismatches, 3.35s audio, 28.8s gen  | 'Midnight. Two friends. One dare.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[D1] take r0t1: 0 mismatches, 3.50s audio, 24.7s gen  | 'Midnight. Two friends, one dare.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[D2] take r0t0: 0 mismatches, 0.96s audio, 9.9s gen  | 'You go first.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[D2] take r0t1: 0 mismatches, 1.00s audio, 9.7s gen  | 'You go first.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[D3] take r0t0: 0 mismatches, 1.72s audio, 17.3s gen  | 'No way! You go!'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[D3] take r0t1: 0 mismatches, 1.76s audio, 13.3s gen  | 'No way! You go!'
+narration: 6.87s, 3 lines; lines with mismatches: none

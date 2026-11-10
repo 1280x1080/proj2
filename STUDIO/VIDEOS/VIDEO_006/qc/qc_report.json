@@ -1,0 +1,81 @@
+{
+  "file": "/home/user/proj2/STUDIO/EXPORTS/video006.mp4",
+  "duration": 5.0,
+  "checks": {
+    "resolution": {
+      "ok": true,
+      "value": "1080x1920",
+      "want": "1080x1920"
+    },
+    "fps": {
+      "ok": true,
+      "value": 30.0,
+      "want": 30
+    },
+    "video_codec": {
+      "ok": true,
+      "value": "h264",
+      "want": "h264"
+    },
+    "pix_fmt": {
+      "ok": true,
+      "value": "yuv420p",
+      "want": "yuv420p"
+    },
+    "color": {
+      "ok": true,
+      "value": "bt709/bt709/bt709",
+      "want": "bt709"
+    },
+    "audio_codec": {
+      "ok": true,
+      "value": "aac",
+      "want": "aac"
+    },
+    "audio_rate": {
+      "ok": true,
+      "value": "48000",
+      "want": 48000
+    },
+    "duration": {
+      "ok": true,
+      "value": 5.0,
+      "want": 5.0
+    },
+    "av_length_match": {
+      "ok": true,
+      "value": {
+        "video": 5.0,
+        "audio": 5.0
+      },
+      "want": "|diff| < 0.08 s"
+    },
+    "loudness_lufs": {
+      "ok": true,
+      "value": -14.01,
+      "want": "-14 \u00b11"
+    },
+    "true_peak_dbtp": {
+      "ok": true,
+      "value": -2.4,
+      "want": "<= -1.0"
+    },
+    "no_long_silence": {
+      "ok": true,
+      "value": [],
+      "want": "no silence > 1.5 s"
+    },
+    "no_black": {
+      "ok": true,
+      "value": [],
+      "want": "no black segments >= 0.1 s (unless intended)"
+    },
+    "no_frozen": {
+      "ok": true,
+      "value": [],
+      "want": "no frozen picture >= 1 s (unless intended)"
+    }
+  },
+  "contact_sheet": "VIDEOS/VIDEO_006/qc/contact_sheet.png",
+  "passed": true
+}

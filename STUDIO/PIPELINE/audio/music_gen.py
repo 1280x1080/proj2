@@ -386,6 +386,19 @@ def cue_video005():
     return s, dict(loop=False)
 
 
+def cue_video006():
+    """5 s demo: a low drone + a two-note music-box hint, a soft hit when the door creaks at the end."""
+    edl = _load_edl("006")
+    D = edl.DURATION
+    s = Score(D, bpm=70, seed=6)
+    s.note("bass", "bass", 33, 0.0, D, gain=0.18)
+    s.note("pad", "pad", 45, 0.0, D, gain=0.07, bright=0.15)
+    s.note("lead", "bell", 76, 0.1, 2.0, gain=0.05, bright=0.2)
+    s.note("lead", "bell", 75, 1.2, 2.0, gain=0.05, bright=0.2)
+    s.hit("perc", drum_tom(46, 1.4), D - 0.9, 0.3)
+    return s, dict(loop=False)
+
+
 def main():
     num = sys.argv[1].zfill(3)
     s, opts = globals()[f"cue_video{num}"]()

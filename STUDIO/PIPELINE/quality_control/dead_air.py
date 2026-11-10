@@ -108,8 +108,11 @@ def run(vdir, out=None):
     print(f'[{"PASS" if rep["dead_air"]["ok"] else "FAIL"}] dead air: quietest 400 ms window '
           f'{rep["dead_air"]["quietest_momentary"]} LUFS (limit {DEAD_LUFS}); runs: {dead or "none"}')
     g = rep["gaps"]["rows"]
-    print(f'[{"PASS" if rep["gaps"]["ok"] else "FAIL"}] {len(g)} pauses filled: bed {min(r["bed_lufs"] for r in g)}..'
-          f'{max(r["bed_lufs"] for r in g)} LUFS (want {GAP_MIN_LUFS}..{GAP_MAX_LUFS})')
+    if g:
+        print(f'[{"PASS" if rep["gaps"]["ok"] else "FAIL"}] {len(g)} pauses filled: bed {min(r["bed_lufs"] for r in g)}..'
+              f'{max(r["bed_lufs"] for r in g)} LUFS (want {GAP_MIN_LUFS}..{GAP_MAX_LUFS})')
+    else:
+        print("[PASS] no pause longer than 0.2 s to fill")
     for r in g:
         if not r["ok"]:
             print(f'      !! {r["gap"]} at {r["start"]}s ({r["dur"]}s): bed {r["bed_lufs"]} LUFS')
