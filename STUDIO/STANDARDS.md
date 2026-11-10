@@ -27,3 +27,15 @@
 * ALL CAPS, key words RED (danger) / YELLOW (rules, objects).
 * **Speaker label**: when a character (not the narrator) speaks, a small dark pill with their name in their colour sits
   centred just above the caption; their dialogue drops the quote marks.
+
+## Emotion must match — face AND body
+* Every line has one emotion, and the voice, the face and the body all show **that** emotion. Decide it per line in
+  the scene table (e.g. `emotion="scared"`) next to the voice delivery / Qwen voice instruction.
+* Use the presets: `pose = flat.emote(pose, "scared", t)` (then `TIMING.lip(pose, t, who)` for talking).
+  12 presets: calm, happy, teasing, nervous, scared, terrified, shocked, suspicious, sad, angry, determined, neutral.
+  Each sets brows, lids, eyes, mouth, head tilt, lean, crouch, arm positions, tremble and breathing rate together.
+* Listeners react too: the character who isn't speaking still shows their emotion (a scared listener trembles,
+  a suspicious one narrows their eyes) — no blank faces during someone else's line.
+* Change emotion on story beats, with an eased blend (`emote(..., amount=span(t, beat, beat + 0.3))`), never a pop.
+* Visual pass: for every cut, ask "would someone with the sound off read the same emotion?" If not, fix the pose.
+* Preset sheet check: `emotions.png` (all presets on one character) must show no limbs crossing the body.

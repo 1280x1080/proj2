@@ -865,3 +865,64 @@ CAST = {
 }
 
 CAST["mascot"] = CAST["teen"]
+
+
+# ============================================================================ emotion presets (face + body together)
+# Each line in script.json has a delivery / emotion; the character on screen must SHOW the same emotion with face AND
+# body.  emote(pose, "scared", t) merges a preset into a pose (keeps lip-sync keys), adds small time-based motion
+# (tremble, fidget, breathing rate) and scales with `amount` (0..1).
+EMOTIONS = {
+    #            brow (raise, angle)  lid   mouth     pupil        head_tilt turn  lean  crouch  arms (l, r)               motion
+    "neutral":  dict(brow=(0.0, 0.0), lid=0.15, mouth="neutral", pupil=(0.0, 0.0), head_tilt=0, lean=0, crouch=0.0,
+                     arm_l=(8, 12), arm_r=(8, 12), tremble=0.0, breath=1.0),
+    "calm":     dict(brow=(-0.1, 0.0), lid=0.3, mouth="smile", pupil=(0.0, 0.05), head_tilt=-2, lean=0, crouch=0.0,
+                     arm_l=(8, 10), arm_r=(8, 10), tremble=0.0, breath=0.8),
+    "happy":    dict(brow=(0.4, -0.2), lid=0.0, mouth="grin", pupil=(0.0, -0.05), head_tilt=4, lean=-2, crouch=0.0,
+                     arm_l=(14, 20), arm_r=(14, 20), tremble=0.0, breath=1.2),
+    "teasing":  dict(brow=(0.5, -0.4), lid=0.25, mouth="smirk", pupil=(0.6, 0.0), head_tilt=7, lean=-3, crouch=0.0,
+                     arm_l=(12, 18), arm_r=(10, 14), tremble=0.0, breath=1.0),        # relaxed arms, head cocked
+    "nervous":  dict(brow=(0.5, 0.7), lid=0.0, mouth="flat", pupil=(0.4, 0.2), head_tilt=-3, lean=2, crouch=0.04,
+                     arm_l=(14, 70), arm_r=(14, 70), tremble=0.25, breath=1.6),        # hands together, fidget
+    "scared":   dict(brow=(0.9, 0.9), lid=0.0, mouth="o", pupil=(0.0, -0.1), head_tilt=0, lean=4, crouch=0.08,
+                     arm_l=(16, 62), arm_r=(16, 62), tremble=0.6, breath=2.2),         # arms pulled in, lean back
+    "terrified":dict(brow=(1.0, 1.0), lid=0.0, mouth="o", pupil=(0.0, 0.0), head_tilt=0, lean=6, crouch=0.14,
+                     arm_l=(18, 70), arm_r=(18, 70), tremble=1.0, breath=2.8, eye_open=1.0),
+    "shocked":  dict(brow=(1.0, 0.3), lid=0.0, mouth="o", pupil=(0.0, 0.0), head_tilt=0, lean=5, crouch=0.06,
+                     arm_l=(16, 30), arm_r=(16, 30), tremble=0.15, breath=1.8, eye_open=1.0),
+    "suspicious":dict(brow=(-0.3, -0.6), lid=0.45, mouth="flat", pupil=(0.7, 0.0), head_tilt=-6, lean=-2, crouch=0.0,
+                     arm_l=(10, 14), arm_r=(10, 14), tremble=0.0, breath=0.9),
+    "sad":      dict(brow=(0.3, 1.0), lid=0.4, mouth="frown", pupil=(0.0, 0.6), head_tilt=-5, lean=3, crouch=0.05,
+                     arm_l=(6, 8), arm_r=(6, 8), tremble=0.0, breath=0.7),
+    "angry":    dict(brow=(-0.4, -1.0), lid=0.2, mouth="frown", pupil=(0.0, 0.0), head_tilt=0, lean=-5, crouch=0.0,
+                     arm_l=(20, 40), arm_r=(20, 40), tremble=0.1, breath=1.5),
+    "determined":dict(brow=(-0.2, -0.5), lid=0.15, mouth="flat", pupil=(0.0, 0.0), head_tilt=0, lean=-4, crouch=0.0,
+                     arm_l=(12, 30), arm_r=(12, 30), tremble=0.0, breath=1.2),
+}
+# what a narrator/actor delivery or voice instruction usually means on screen
+DELIVERY_TO_EMOTION = {"calm": "calm", "warm": "happy", "slow": "calm", "whisper": "nervous", "dramatic": "shocked",
+                       "excited": "scared", "fast": "nervous", "neutral": "neutral"}
+
+
+def emote(pose, emotion, t=0.0, amount=1.0, seed=0):
+    """Merge an emotion preset into a puppet pose (face + body).  Lip-sync keys (talk/speaking) are kept."""
+    import math as _m
+    E = EMOTIONS[emotion]
+    P = dict(pose)
+    base = POSE_DEFAULT
+
+    def mix(a, b):
+        if isinstance(a, tuple):
+            return tuple(x + (y - x) * amount for x, y in zip(a, b))
+        return a + (b - a) * amount
+
+    for k in ("brow", "lid", "pupil", "head_tilt", "lean", "crouch", "arm_l", "arm_r", "eye_open"):
+        if k in E:
+            P[k] = mix(P.get(k, base.get(k)), E[k])
+    if amount >= 0.5:
+        P["mouth"] = E["mouth"]
+    tr = E["tremble"] * amount
+    if tr > 0:  # fear tremble: small fast shake of head + shoulders
+        P["head_tilt"] = P.get("head_tilt", 0) + tr * 2.2 * _m.sin(t * 37 + seed)
+        P["lean"] = P.get("lean", 0) + tr * 0.8 * _m.sin(t * 29 + seed * 2)
+    P["breathe"] = t * E["breath"]  # breathing rate follows the emotion
+    return P
