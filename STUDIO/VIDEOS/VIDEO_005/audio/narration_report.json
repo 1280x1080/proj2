@@ -1,0 +1,1820 @@
+{
+  "S01": {
+    "key": "8903a343849d",
+    "text": "You took... the night shift.",
+    "chosen": "S01_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "You took the night shift.",
+    "duration": 1.44,
+    "words": [
+      {
+        "w": "You",
+        "start": 0.0,
+        "end": 0.18
+      },
+      {
+        "w": "took...",
+        "start": 0.18,
+        "end": 0.4
+      },
+      {
+        "w": "the",
+        "start": 0.4,
+        "end": 0.78
+      },
+      {
+        "w": "night",
+        "start": 0.78,
+        "end": 0.94
+      },
+      {
+        "w": "shift.",
+        "start": 0.94,
+        "end": 1.16
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S01_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "You took the night shift.",
+        "gen_seconds": 9.3
+      },
+      {
+        "file": "S01_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "You took the night shift.",
+        "gen_seconds": 12.8
+      }
+    ]
+  },
+  "S02": {
+    "key": "bba894a1d402",
+    "text": "Nobody told you why it pays triple.",
+    "chosen": "S02_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Nobody told you why it pays triple.",
+    "duration": 1.82,
+    "words": [
+      {
+        "w": "Nobody",
+        "start": 0.0,
+        "end": 0.3
+      },
+      {
+        "w": "told",
+        "start": 0.3,
+        "end": 0.58
+      },
+      {
+        "w": "you",
+        "start": 0.58,
+        "end": 0.78
+      },
+      {
+        "w": "why",
+        "start": 0.78,
+        "end": 0.96
+      },
+      {
+        "w": "it",
+        "start": 0.96,
+        "end": 1.1
+      },
+      {
+        "w": "pays",
+        "start": 1.1,
+        "end": 1.3
+      },
+      {
+        "w": "triple.",
+        "start": 1.3,
+        "end": 1.6
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S02_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Nobody told you why it pays triple.",
+        "gen_seconds": 12.0
+      },
+      {
+        "file": "S02_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Nobody told you why it pays triple.",
+        "gen_seconds": 11.7
+      }
+    ]
+  },
+  "S03": {
+    "key": "584d481b1062",
+    "text": "The road is empty.",
+    "chosen": "S03_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "The road is empty.",
+    "duration": 1.07,
+    "words": [
+      {
+        "w": "The",
+        "start": 0.0,
+        "end": 0.14
+      },
+      {
+        "w": "road",
+        "start": 0.14,
+        "end": 0.3
+      },
+      {
+        "w": "is",
+        "start": 0.3,
+        "end": 0.44
+      },
+      {
+        "w": "empty.",
+        "start": 0.44,
+        "end": 0.74
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S03_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "The road is empty.",
+        "gen_seconds": 9.1
+      },
+      {
+        "file": "S03_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "The road is empty.",
+        "gen_seconds": 8.2
+      }
+    ]
+  },
+  "S04": {
+    "key": "de64f187ae4b",
+    "text": "But the door chime keeps ringing.",
+    "chosen": "S04_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "but the door chime keeps ringing.",
+    "duration": 1.78,
+    "words": [
+      {
+        "w": "But",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "w": "the",
+        "start": 0.16,
+        "end": 0.26
+      },
+      {
+        "w": "door",
+        "start": 0.26,
+        "end": 0.46
+      },
+      {
+        "w": "chime",
+        "start": 0.46,
+        "end": 0.84
+      },
+      {
+        "w": "keeps",
+        "start": 0.84,
+        "end": 1.08
+      },
+      {
+        "w": "ringing.",
+        "start": 1.08,
+        "end": 1.42
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S04_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "but the door chime keeps ringing.",
+        "gen_seconds": 11.4
+      },
+      {
+        "file": "S04_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "but the door chime keeps ringing.",
+        "gen_seconds": 11.3
+      }
+    ]
+  },
+  "S05": {
+    "key": "b15a1b909621",
+    "text": "Nobody's there.",
+    "chosen": "S05_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Nobody's there.",
+    "duration": 0.95,
+    "words": [
+      {
+        "w": "Nobody's",
+        "start": 0.0,
+        "end": 0.48
+      },
+      {
+        "w": "there.",
+        "start": 0.48,
+        "end": 0.64
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S05_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Nobody's there.",
+        "gen_seconds": 8.2
+      },
+      {
+        "file": "S05_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Nobody's there.",
+        "gen_seconds": 8.1
+      }
+    ]
+  },
+  "S06": {
+    "key": "03c5bf251c1d",
+    "text": "A text from your manager.",
+    "chosen": "S06_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "a text from your manager.",
+    "duration": 1.42,
+    "words": [
+      {
+        "w": "A",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "w": "text",
+        "start": 0.16,
+        "end": 0.38
+      },
+      {
+        "w": "from",
+        "start": 0.38,
+        "end": 0.62
+      },
+      {
+        "w": "your",
+        "start": 0.62,
+        "end": 0.74
+      },
+      {
+        "w": "manager.",
+        "start": 0.74,
+        "end": 1.06
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S06_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "a text from your manager.",
+        "gen_seconds": 10.6
+      },
+      {
+        "file": "S06_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "a text from your manager.",
+        "gen_seconds": 10.5
+      }
+    ]
+  },
+  "S07": {
+    "key": "64652ba60001",
+    "text": "You check the cameras.",
+    "chosen": "S07_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "You check the cameras.",
+    "duration": 1.1,
+    "words": [
+      {
+        "w": "You",
+        "start": 0.0,
+        "end": 0.14
+      },
+      {
+        "w": "check",
+        "start": 0.14,
+        "end": 0.32
+      },
+      {
+        "w": "the",
+        "start": 0.32,
+        "end": 0.48
+      },
+      {
+        "w": "cameras.",
+        "start": 0.48,
+        "end": 0.82
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S07_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "You check the cameras.",
+        "gen_seconds": 9.7
+      },
+      {
+        "file": "S07_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "You check the cameras.",
+        "gen_seconds": 9.5
+      }
+    ]
+  },
+  "S08": {
+    "key": "5082852ebf57",
+    "text": "Aisle four. Someone is standing there.",
+    "chosen": "S08_r0_t2.wav",
+    "mismatches": 0,
+    "heard": "Isle 4. Someone is standing there.",
+    "duration": 2.35,
+    "words": [
+      {
+        "w": "Aisle",
+        "start": 0.0,
+        "end": 0.26
+      },
+      {
+        "w": "four.",
+        "start": 0.26,
+        "end": 0.6
+      },
+      {
+        "w": "Someone",
+        "start": 1.04,
+        "end": 1.28
+      },
+      {
+        "w": "is",
+        "start": 1.28,
+        "end": 1.58
+      },
+      {
+        "w": "standing",
+        "start": 1.58,
+        "end": 1.84
+      },
+      {
+        "w": "there.",
+        "start": 1.84,
+        "end": 2.2
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S08_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Isle 4. Someone is standing there.",
+        "gen_seconds": 14.1
+      },
+      {
+        "file": "S08_r0_t1.wav",
+        "mismatches": 1,
+        "heard": "I-04, someone is standing there.",
+        "gen_seconds": 13.6
+      },
+      {
+        "file": "S08_r0_t2.wav",
+        "mismatches": 0,
+        "heard": "Isle 4. Someone is standing there.",
+        "gen_seconds": 15.3
+      }
+    ]
+  },
+  "S09": {
+    "key": "b060313f9ab1",
+    "text": "You look up. The aisle is empty.",
+    "chosen": "S09_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "You look up. The aisle is empty.",
+    "duration": 1.86,
+    "words": [
+      {
+        "w": "You",
+        "start": 0.0,
+        "end": 0.14
+      },
+      {
+        "w": "look",
+        "start": 0.14,
+        "end": 0.28
+      },
+      {
+        "w": "up.",
+        "start": 0.28,
+        "end": 0.52
+      },
+      {
+        "w": "The",
+        "start": 0.8,
+        "end": 0.9
+      },
+      {
+        "w": "aisle",
+        "start": 0.9,
+        "end": 1.14
+      },
+      {
+        "w": "is",
+        "start": 1.14,
+        "end": 1.3
+      },
+      {
+        "w": "empty.",
+        "start": 1.3,
+        "end": 1.6
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S09_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "You look up. The aisle is empty.",
+        "gen_seconds": 11.2
+      },
+      {
+        "file": "S09_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "You look up. The aisle is empty.",
+        "gen_seconds": 12.8
+      }
+    ]
+  },
+  "S10": {
+    "key": "2b8fd0524df3",
+    "text": "Behind you, the back room door creaks.",
+    "chosen": "S10_r0_t2.wav",
+    "mismatches": 0,
+    "heard": "Behind you, the back room door creaks.",
+    "duration": 1.86,
+    "words": [
+      {
+        "w": "Behind",
+        "start": 0.0,
+        "end": 0.32
+      },
+      {
+        "w": "you,",
+        "start": 0.32,
+        "end": 0.52
+      },
+      {
+        "w": "the",
+        "start": 0.62,
+        "end": 0.7
+      },
+      {
+        "w": "back",
+        "start": 0.7,
+        "end": 0.88
+      },
+      {
+        "w": "room",
+        "start": 0.88,
+        "end": 1.04
+      },
+      {
+        "w": "door",
+        "start": 1.04,
+        "end": 1.28
+      },
+      {
+        "w": "creaks.",
+        "start": 1.28,
+        "end": 1.68
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S10_r0_t0.wav",
+        "mismatches": 2,
+        "heard": "Behind you, the backroom door creaks.",
+        "gen_seconds": 13.6
+      },
+      {
+        "file": "S10_r0_t1.wav",
+        "mismatches": 2,
+        "heard": "Behind you, the backroom door creaks.",
+        "gen_seconds": 12.1
+      },
+      {
+        "file": "S10_r0_t2.wav",
+        "mismatches": 0,
+        "heard": "Behind you, the back room door creaks.",
+        "gen_seconds": 11.8
+      }
+    ]
+  },
+  "S11": {
+    "key": "336c84838208",
+    "text": "An old janitor you've never met.",
+    "chosen": "S11_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "An old janitor you've never met.",
+    "duration": 1.6,
+    "words": [
+      {
+        "w": "An",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "w": "old",
+        "start": 0.16,
+        "end": 0.34
+      },
+      {
+        "w": "janitor",
+        "start": 0.34,
+        "end": 0.76
+      },
+      {
+        "w": "you've",
+        "start": 0.76,
+        "end": 1.08
+      },
+      {
+        "w": "never",
+        "start": 1.08,
+        "end": 1.22
+      },
+      {
+        "w": "met.",
+        "start": 1.22,
+        "end": 1.48
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S11_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "an old janitor you've never met.",
+        "gen_seconds": 12.0
+      },
+      {
+        "file": "S11_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "An old janitor you've never met.",
+        "gen_seconds": 13.4
+      }
+    ]
+  },
+  "S12": {
+    "key": "bad155b3873d",
+    "text": "\"New guy? Then listen.\"",
+    "chosen": "S12_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "New guy? Then listen.",
+    "duration": 1.59,
+    "words": [
+      {
+        "w": "\"New",
+        "start": 0.0,
+        "end": 0.22
+      },
+      {
+        "w": "guy?",
+        "start": 0.22,
+        "end": 0.52
+      },
+      {
+        "w": "Then",
+        "start": 0.9,
+        "end": 0.94
+      },
+      {
+        "w": "listen.\"",
+        "start": 0.94,
+        "end": 1.28
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S12_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "New guy? Then listen.",
+        "gen_seconds": 14.4
+      },
+      {
+        "file": "S12_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "New guy? Then listen.",
+        "gen_seconds": 17.4
+      }
+    ]
+  },
+  "S13": {
+    "key": "3c7f07c17c1b",
+    "text": "He slaps a card on the counter.",
+    "chosen": "S13_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "He slaps a card on the counter.",
+    "duration": 1.92,
+    "words": [
+      {
+        "w": "He",
+        "start": 0.0,
+        "end": 0.14
+      },
+      {
+        "w": "slaps",
+        "start": 0.14,
+        "end": 0.48
+      },
+      {
+        "w": "a",
+        "start": 0.48,
+        "end": 0.66
+      },
+      {
+        "w": "card",
+        "start": 0.66,
+        "end": 0.92
+      },
+      {
+        "w": "on",
+        "start": 0.92,
+        "end": 1.16
+      },
+      {
+        "w": "the",
+        "start": 1.16,
+        "end": 1.28
+      },
+      {
+        "w": "counter.",
+        "start": 1.28,
+        "end": 1.6
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S13_r0_t0.wav",
+        "mismatches": 1,
+        "heard": "He slaps the card on the counter.",
+        "gen_seconds": 15.6
+      },
+      {
+        "file": "S13_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "He slaps a card on the counter.",
+        "gen_seconds": 16.4
+      }
+    ]
+  },
+  "S14": {
+    "key": "604c1d7675f6",
+    "text": "\"Never let anyone behind the counter.\"",
+    "chosen": "S14_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Never let anyone behind the counter.",
+    "duration": 2.3,
+    "words": [
+      {
+        "w": "\"Never",
+        "start": 0.0,
+        "end": 0.32
+      },
+      {
+        "w": "let",
+        "start": 0.32,
+        "end": 0.58
+      },
+      {
+        "w": "anyone",
+        "start": 0.58,
+        "end": 1.04
+      },
+      {
+        "w": "behind",
+        "start": 1.04,
+        "end": 1.5
+      },
+      {
+        "w": "the",
+        "start": 1.5,
+        "end": 1.68
+      },
+      {
+        "w": "counter.\"",
+        "start": 1.68,
+        "end": 2.02
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S14_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Never let anyone behind the counter.",
+        "gen_seconds": 21.7
+      },
+      {
+        "file": "S14_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Never let anyone behind the counter.",
+        "gen_seconds": 19.5
+      }
+    ]
+  },
+  "S15": {
+    "key": "3b069e7787c7",
+    "text": "\"If the lights go out... don't look at the monitor.\"",
+    "chosen": "S15_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "If the lights go out, don't look at the monitor.",
+    "duration": 3.15,
+    "words": [
+      {
+        "w": "\"If",
+        "start": 0.0,
+        "end": 0.2
+      },
+      {
+        "w": "the",
+        "start": 0.2,
+        "end": 0.36
+      },
+      {
+        "w": "lights",
+        "start": 0.36,
+        "end": 0.62
+      },
+      {
+        "w": "go",
+        "start": 0.62,
+        "end": 0.86
+      },
+      {
+        "w": "out...",
+        "start": 0.86,
+        "end": 1.24
+      },
+      {
+        "w": "don't",
+        "start": 1.6,
+        "end": 1.82
+      },
+      {
+        "w": "look",
+        "start": 1.82,
+        "end": 2.06
+      },
+      {
+        "w": "at",
+        "start": 2.06,
+        "end": 2.24
+      },
+      {
+        "w": "the",
+        "start": 2.24,
+        "end": 2.38
+      },
+      {
+        "w": "monitor.\"",
+        "start": 2.38,
+        "end": 2.74
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S15_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "If the lights go out, don't look at the monitor.",
+        "gen_seconds": 22.5
+      },
+      {
+        "file": "S15_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "If the lights go out, don't look at the monitor.",
+        "gen_seconds": 20.3
+      }
+    ]
+  },
+  "S16": {
+    "key": "3cf43146ce1f",
+    "text": "\"And never answer the phone at three thirty-three.\"",
+    "chosen": "S16_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "and never answer the phone at 3.33.",
+    "duration": 2.82,
+    "words": [
+      {
+        "w": "\"And",
+        "start": 0.0,
+        "end": 0.2
+      },
+      {
+        "w": "never",
+        "start": 0.2,
+        "end": 0.44
+      },
+      {
+        "w": "answer",
+        "start": 0.44,
+        "end": 0.9
+      },
+      {
+        "w": "the",
+        "start": 0.9,
+        "end": 1.1
+      },
+      {
+        "w": "phone",
+        "start": 1.1,
+        "end": 1.36
+      },
+      {
+        "w": "at",
+        "start": 1.36,
+        "end": 1.62
+      },
+      {
+        "w": "three",
+        "start": 1.62,
+        "end": 1.9
+      },
+      {
+        "w": "thirty-three.\"",
+        "start": 1.9,
+        "end": 2.28
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S16_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "and never answer the phone at 3.33.",
+        "gen_seconds": 19.1
+      },
+      {
+        "file": "S16_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "and never answer the phone at 3.33.",
+        "gen_seconds": 22.0
+      }
+    ]
+  },
+  "S18": {
+    "key": "6a8b8637b522",
+    "text": "Ding. A customer. Barefoot. Soaking wet.",
+    "chosen": "S18_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Ding! A customer! Barefoot! Soaking wet!",
+    "duration": 3.89,
+    "words": [
+      {
+        "w": "Ding.",
+        "start": 0.0,
+        "end": 0.34
+      },
+      {
+        "w": "A",
+        "start": 0.8,
+        "end": 1.0
+      },
+      {
+        "w": "customer.",
+        "start": 1.0,
+        "end": 1.36
+      },
+      {
+        "w": "Barefoot.",
+        "start": 2.16,
+        "end": 2.56
+      },
+      {
+        "w": "Soaking",
+        "start": 3.12,
+        "end": 3.42
+      },
+      {
+        "w": "wet.",
+        "start": 3.42,
+        "end": 3.66
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S18_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Ding! A customer! Barefoot! Soaking wet!",
+        "gen_seconds": 21.9
+      },
+      {
+        "file": "S18_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Ding! A customer. Barefoot. Soaking wet.",
+        "gen_seconds": 21.0
+      }
+    ]
+  },
+  "S19": {
+    "key": "71b37e2dd7ff",
+    "text": "She doesn't buy anything.",
+    "chosen": "S19_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "She doesn't buy anything.",
+    "duration": 1.7,
+    "words": [
+      {
+        "w": "She",
+        "start": 0.0,
+        "end": 0.2
+      },
+      {
+        "w": "doesn't",
+        "start": 0.2,
+        "end": 0.6
+      },
+      {
+        "w": "buy",
+        "start": 0.6,
+        "end": 0.8
+      },
+      {
+        "w": "anything.",
+        "start": 0.8,
+        "end": 1.4
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S19_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "She doesn't buy anything.",
+        "gen_seconds": 13.2
+      },
+      {
+        "file": "S19_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "She doesn't buy anything.",
+        "gen_seconds": 14.2
+      }
+    ]
+  },
+  "S20": {
+    "key": "9a03c97cc2df",
+    "text": "\"It's so cold... Can I come... behind the counter?\"",
+    "chosen": "S20_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "It's so cold, can I come behind the counter?",
+    "duration": 2.68,
+    "words": [
+      {
+        "w": "\"It's",
+        "start": 0.0,
+        "end": 0.28
+      },
+      {
+        "w": "so",
+        "start": 0.28,
+        "end": 0.5
+      },
+      {
+        "w": "cold...",
+        "start": 0.5,
+        "end": 0.88
+      },
+      {
+        "w": "Can",
+        "start": 1.1,
+        "end": 1.22
+      },
+      {
+        "w": "I",
+        "start": 1.22,
+        "end": 1.36
+      },
+      {
+        "w": "come...",
+        "start": 1.36,
+        "end": 1.6
+      },
+      {
+        "w": "behind",
+        "start": 1.6,
+        "end": 2.08
+      },
+      {
+        "w": "the",
+        "start": 2.08,
+        "end": 2.2
+      },
+      {
+        "w": "counter?\"",
+        "start": 2.2,
+        "end": 2.44
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S20_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "It's so cold, can I come behind the counter?",
+        "gen_seconds": 18.0
+      },
+      {
+        "file": "S20_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "It's so cold, can I come behind the counter?",
+        "gen_seconds": 20.3
+      }
+    ]
+  },
+  "S21a": {
+    "key": "e13cb85eaf9c",
+    "text": "The janitor's mop blocks the gap.",
+    "chosen": "S21a_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "the janitor's mop blocks the gap.",
+    "duration": 1.77,
+    "words": [
+      {
+        "w": "The",
+        "start": 0.0,
+        "end": 0.14
+      },
+      {
+        "w": "janitor's",
+        "start": 0.14,
+        "end": 0.56
+      },
+      {
+        "w": "mop",
+        "start": 0.56,
+        "end": 0.82
+      },
+      {
+        "w": "blocks",
+        "start": 0.82,
+        "end": 1.18
+      },
+      {
+        "w": "the",
+        "start": 1.18,
+        "end": 1.42
+      },
+      {
+        "w": "gap.",
+        "start": 1.42,
+        "end": 1.6
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S21a_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "The janitor's mop blocks the gap.",
+        "gen_seconds": 14.1
+      },
+      {
+        "file": "S21a_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "the janitor's mop blocks the gap.",
+        "gen_seconds": 15.2
+      }
+    ]
+  },
+  "S21b": {
+    "key": "cd41a29b041f",
+    "text": "\"Counter's closed.\"",
+    "chosen": "S21b_r1_t0.wav",
+    "mismatches": 0,
+    "heard": "Counters closed.",
+    "duration": 1.33,
+    "words": [
+      {
+        "w": "\"Counter's",
+        "start": 0.0,
+        "end": 0.48
+      },
+      {
+        "w": "closed.\"",
+        "start": 0.48,
+        "end": 0.88
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S21b_r0_t0.wav",
+        "mismatches": 1,
+        "heard": "Culture's closed.",
+        "gen_seconds": 14.0
+      },
+      {
+        "file": "S21b_r0_t1.wav",
+        "mismatches": 1,
+        "heard": "Tounters closed.",
+        "gen_seconds": 12.7
+      },
+      {
+        "file": "S21b_r0_t2.wav",
+        "mismatches": 1,
+        "heard": "Oh, counters closed.",
+        "gen_seconds": 18.3
+      },
+      {
+        "file": "S21b_r1_t0.wav",
+        "mismatches": 0,
+        "heard": "Counters closed.",
+        "gen_seconds": 13.3
+      },
+      {
+        "file": "S21b_r1_t1.wav",
+        "mismatches": 0,
+        "heard": "Counters closed.",
+        "gen_seconds": 12.8
+      },
+      {
+        "file": "S21b_r1_t2.wav",
+        "mismatches": 0,
+        "heard": "Counters closed.",
+        "gen_seconds": 12.1
+      }
+    ]
+  },
+  "S22": {
+    "key": "55483f2c8af2",
+    "text": "She leaves. The chime doesn't ring.",
+    "chosen": "S22_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "She leaves. The chime doesn't ring.",
+    "duration": 2.88,
+    "words": [
+      {
+        "w": "She",
+        "start": 0.0,
+        "end": 0.32
+      },
+      {
+        "w": "leaves.",
+        "start": 0.32,
+        "end": 0.82
+      },
+      {
+        "w": "The",
+        "start": 1.4,
+        "end": 1.5
+      },
+      {
+        "w": "chime",
+        "start": 1.5,
+        "end": 1.84
+      },
+      {
+        "w": "doesn't",
+        "start": 1.84,
+        "end": 2.24
+      },
+      {
+        "w": "ring.",
+        "start": 2.24,
+        "end": 2.54
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S22_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "She leaves. The chime doesn't ring.",
+        "gen_seconds": 18.2
+      },
+      {
+        "file": "S22_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "She leaves. The chime doesn't ring.",
+        "gen_seconds": 19.8
+      }
+    ]
+  },
+  "S23": {
+    "key": "c126f8161a62",
+    "text": "Three thirty-three. The phone starts to ring.",
+    "chosen": "S23_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "3.33, the phone starts to ring.",
+    "duration": 2.06,
+    "words": [
+      {
+        "w": "Three",
+        "start": 0.0,
+        "end": 0.18
+      },
+      {
+        "w": "thirty-three.",
+        "start": 0.18,
+        "end": 0.6
+      },
+      {
+        "w": "The",
+        "start": 0.92,
+        "end": 0.98
+      },
+      {
+        "w": "phone",
+        "start": 0.98,
+        "end": 1.2
+      },
+      {
+        "w": "starts",
+        "start": 1.2,
+        "end": 1.48
+      },
+      {
+        "w": "to",
+        "start": 1.48,
+        "end": 1.7
+      },
+      {
+        "w": "ring.",
+        "start": 1.7,
+        "end": 1.86
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S23_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "3.33, the phone starts to ring.",
+        "gen_seconds": 15.9
+      },
+      {
+        "file": "S23_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "3.33, the phone starts to ring.",
+        "gen_seconds": 14.8
+      }
+    ]
+  },
+  "S24": {
+    "key": "8508f1d0229c",
+    "text": "On the speaker... your little sister's voice.",
+    "chosen": "S24_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "on the speaker, your little sister's voice.",
+    "duration": 2.52,
+    "words": [
+      {
+        "w": "On",
+        "start": 0.0,
+        "end": 0.2
+      },
+      {
+        "w": "the",
+        "start": 0.2,
+        "end": 0.34
+      },
+      {
+        "w": "speaker...",
+        "start": 0.34,
+        "end": 0.74
+      },
+      {
+        "w": "your",
+        "start": 1.12,
+        "end": 1.22
+      },
+      {
+        "w": "little",
+        "start": 1.22,
+        "end": 1.46
+      },
+      {
+        "w": "sister's",
+        "start": 1.46,
+        "end": 1.96
+      },
+      {
+        "w": "voice.",
+        "start": 1.96,
+        "end": 2.2
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S24_r0_t0.wav",
+        "mismatches": 1,
+        "heard": "I'm the speaker, your little sister's voice.",
+        "gen_seconds": 16.2
+      },
+      {
+        "file": "S24_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "on the speaker, your little sister's voice.",
+        "gen_seconds": 18.4
+      }
+    ]
+  },
+  "S25": {
+    "key": "2e43548ea58e",
+    "text": "\"Please pick up. I'm scared.\"",
+    "chosen": "S25_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Please pick up. I'm scared.",
+    "duration": 1.41,
+    "words": [
+      {
+        "w": "\"Please",
+        "start": 0.0,
+        "end": 0.2
+      },
+      {
+        "w": "pick",
+        "start": 0.2,
+        "end": 0.36
+      },
+      {
+        "w": "up.",
+        "start": 0.36,
+        "end": 0.6
+      },
+      {
+        "w": "I'm",
+        "start": 0.8,
+        "end": 0.94
+      },
+      {
+        "w": "scared.\"",
+        "start": 0.94,
+        "end": 1.16
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S25_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Please pick up. I'm scared.",
+        "gen_seconds": 12.5
+      },
+      {
+        "file": "S25_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Please pick up. I'm scared.",
+        "gen_seconds": 12.9
+      }
+    ]
+  },
+  "S26": {
+    "key": "b57c3da7a4d7",
+    "text": "\"Don't. Don't touch it.\"",
+    "chosen": "S26_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Don't. Don't touch it.",
+    "duration": 1.87,
+    "words": [
+      {
+        "w": "\"Don't.",
+        "start": 0.0,
+        "end": 0.58
+      },
+      {
+        "w": "Don't",
+        "start": 0.78,
+        "end": 1.2
+      },
+      {
+        "w": "touch",
+        "start": 1.2,
+        "end": 1.38
+      },
+      {
+        "w": "it.\"",
+        "start": 1.38,
+        "end": 1.68
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S26_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Don't. Don't touch it.",
+        "gen_seconds": 15.7
+      },
+      {
+        "file": "S26_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Don't! Don't touch it!",
+        "gen_seconds": 16.8
+      }
+    ]
+  },
+  "S27": {
+    "key": "ae6d2722ecc1",
+    "text": "Three thirty-four. It rings again.",
+    "chosen": "S27_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "3.34. It rings again.",
+    "duration": 2.89,
+    "words": [
+      {
+        "w": "Three",
+        "start": 0.0,
+        "end": 0.32
+      },
+      {
+        "w": "thirty-four.",
+        "start": 0.32,
+        "end": 1.14
+      },
+      {
+        "w": "It",
+        "start": 1.6,
+        "end": 1.72
+      },
+      {
+        "w": "rings",
+        "start": 1.72,
+        "end": 2.02
+      },
+      {
+        "w": "again.",
+        "start": 2.02,
+        "end": 2.5
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S27_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "3.34. It rings again.",
+        "gen_seconds": 19.6
+      },
+      {
+        "file": "S27_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "334, it rings again.",
+        "gen_seconds": 16.3
+      },
+      {
+        "file": "S27_r0_t2.wav",
+        "mismatches": 1,
+        "heard": "Free 34. It rings again.",
+        "gen_seconds": 18.5
+      }
+    ]
+  },
+  "S28": {
+    "key": "15bdb1509ff4",
+    "text": "Then the lights die.",
+    "chosen": "S28_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Then, the lights die.",
+    "duration": 1.75,
+    "words": [
+      {
+        "w": "Then",
+        "start": 0.0,
+        "end": 0.38
+      },
+      {
+        "w": "the",
+        "start": 0.6,
+        "end": 0.8
+      },
+      {
+        "w": "lights",
+        "start": 0.8,
+        "end": 1.12
+      },
+      {
+        "w": "die.",
+        "start": 1.12,
+        "end": 1.58
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S28_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Then, the lights die.",
+        "gen_seconds": 15.1
+      },
+      {
+        "file": "S28_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Then the lights die.",
+        "gen_seconds": 12.4
+      }
+    ]
+  },
+  "S29": {
+    "key": "70213ce11753",
+    "text": "Only the monitor still glows.",
+    "chosen": "S29_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Only the monitor still glows.",
+    "duration": 2.29,
+    "words": [
+      {
+        "w": "Only",
+        "start": 0.0,
+        "end": 0.36
+      },
+      {
+        "w": "the",
+        "start": 0.36,
+        "end": 0.56
+      },
+      {
+        "w": "monitor",
+        "start": 0.56,
+        "end": 1.02
+      },
+      {
+        "w": "still",
+        "start": 1.02,
+        "end": 1.5
+      },
+      {
+        "w": "glows.",
+        "start": 1.5,
+        "end": 2.06
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S29_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Only the monitor still glows.",
+        "gen_seconds": 16.8
+      },
+      {
+        "file": "S29_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Only the monitor still glows.",
+        "gen_seconds": 16.3
+      }
+    ]
+  },
+  "S30a": {
+    "key": "789b17a7b553",
+    "text": "A whisper, right behind you.",
+    "chosen": "S30a_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "a whisper right behind you.",
+    "duration": 1.95,
+    "words": [
+      {
+        "w": "A",
+        "start": 0.0,
+        "end": 0.22
+      },
+      {
+        "w": "whisper,",
+        "start": 0.22,
+        "end": 0.68
+      },
+      {
+        "w": "right",
+        "start": 0.68,
+        "end": 1.18
+      },
+      {
+        "w": "behind",
+        "start": 1.18,
+        "end": 1.58
+      },
+      {
+        "w": "you.",
+        "start": 1.58,
+        "end": 1.86
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S30a_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "a whisper right behind you.",
+        "gen_seconds": 15.8
+      },
+      {
+        "file": "S30a_r0_t1.wav",
+        "mismatches": 1,
+        "heard": "I'll whisper right behind you.",
+        "gen_seconds": 14.7
+      },
+      {
+        "file": "S30a_r0_t2.wav",
+        "mismatches": 0,
+        "heard": "A whisper right behind you.",
+        "gen_seconds": 15.3
+      }
+    ]
+  },
+  "S30b": {
+    "key": "24b8f11aeda2",
+    "text": "\"Don't look at the monitor.\"",
+    "chosen": "S30b_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Don't look at the monitor.",
+    "duration": 1.62,
+    "words": [
+      {
+        "w": "\"Don't",
+        "start": 0.0,
+        "end": 0.44
+      },
+      {
+        "w": "look",
+        "start": 0.44,
+        "end": 0.6
+      },
+      {
+        "w": "at",
+        "start": 0.6,
+        "end": 0.76
+      },
+      {
+        "w": "the",
+        "start": 0.76,
+        "end": 0.9
+      },
+      {
+        "w": "monitor.\"",
+        "start": 0.9,
+        "end": 1.28
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S30b_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Don't look at the monitor.",
+        "gen_seconds": 16.0
+      },
+      {
+        "file": "S30b_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Don't look at the monitor.",
+        "gen_seconds": 15.2
+      }
+    ]
+  },
+  "S31": {
+    "key": "461a420e36b8",
+    "text": "But the janitor's voice... is coming from the back room.",
+    "chosen": "S31_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "But the janitor's voice is coming from the back room.",
+    "duration": 3.2,
+    "words": [
+      {
+        "w": "But",
+        "start": 0.0,
+        "end": 0.18
+      },
+      {
+        "w": "the",
+        "start": 0.18,
+        "end": 0.34
+      },
+      {
+        "w": "janitor's",
+        "start": 0.34,
+        "end": 0.94
+      },
+      {
+        "w": "voice...",
+        "start": 0.94,
+        "end": 1.16
+      },
+      {
+        "w": "is",
+        "start": 1.16,
+        "end": 1.64
+      },
+      {
+        "w": "coming",
+        "start": 1.64,
+        "end": 1.9
+      },
+      {
+        "w": "from",
+        "start": 1.9,
+        "end": 2.18
+      },
+      {
+        "w": "the",
+        "start": 2.18,
+        "end": 2.38
+      },
+      {
+        "w": "back",
+        "start": 2.38,
+        "end": 2.58
+      },
+      {
+        "w": "room.",
+        "start": 2.58,
+        "end": 2.94
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S31_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "But the janitor's voice is coming from the back room.",
+        "gen_seconds": 19.5
+      },
+      {
+        "file": "S31_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "But the janitor's voice is coming from the back room.",
+        "gen_seconds": 20.0
+      }
+    ]
+  },
+  "S32": {
+    "key": "3600acc05393",
+    "text": "Something cold touches your shoulder.",
+    "chosen": "S32_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Something cold touches your shoulder?",
+    "duration": 2.09,
+    "words": [
+      {
+        "w": "Something",
+        "start": 0.0,
+        "end": 0.38
+      },
+      {
+        "w": "cold",
+        "start": 0.38,
+        "end": 0.82
+      },
+      {
+        "w": "touches",
+        "start": 0.82,
+        "end": 1.18
+      },
+      {
+        "w": "your",
+        "start": 1.18,
+        "end": 1.46
+      },
+      {
+        "w": "shoulder.",
+        "start": 1.46,
+        "end": 1.76
+      }
+    ],
+    "engine": "chatterbox",
+    "takes": [
+      {
+        "file": "S32_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Something cold touches your shoulder?",
+        "gen_seconds": 15.6
+      },
+      {
+        "file": "S32_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Something cold touches your shoulder.",
+        "gen_seconds": 15.9
+      }
+    ]
+  }
+}

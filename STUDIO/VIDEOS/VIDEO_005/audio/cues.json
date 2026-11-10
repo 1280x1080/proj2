@@ -1,0 +1,988 @@
+{
+  "duration": 87.15,
+  "loop": false,
+  "narration": {
+    "file": "narration_raw.wav",
+    "offset": 0.0
+  },
+  "sfx_duck_db": -5.0,
+  "amb_duck_db": -5.0,
+  "ceiling_dbtp": -1.8,
+  "cues": [
+    {
+      "t": 0.0,
+      "sfx": "rain_outside",
+      "gain_db": 6,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "outside: full rain",
+      "dur": 2.0,
+      "fade_in": 0.02,
+      "fade_out": 0.3
+    },
+    {
+      "t": 0.0,
+      "sfx": "room_tone",
+      "gain_db": 2,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "store air",
+      "dur": 87.15,
+      "fade_in": 0.02
+    },
+    {
+      "t": 0.0,
+      "sfx": "lamp_buzz",
+      "gain_db": 4,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "fluorescent buzz (dies with the power)",
+      "dur": 67.1,
+      "fade_in": 0.02,
+      "fade_out": 0.05
+    },
+    {
+      "t": 0.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 1.2,
+      "sfx": "door_chime",
+      "gain_db": -26,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "01"
+    },
+    {
+      "t": 1.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 1.8,
+      "sfx": "rain_outside",
+      "gain_db": 0,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "rain on the glass, from inside",
+      "dur": 85.35000000000001,
+      "fade_in": 0.3
+    },
+    {
+      "t": 2.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 3.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 4.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 5.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 6.15,
+      "sfx": "door_chime",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "04"
+    },
+    {
+      "t": 6.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 7.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 8.1,
+      "sfx": "door_chime",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "04"
+    },
+    {
+      "t": 8.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 9.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 10.15,
+      "sfx": "door_chime",
+      "gain_db": -16,
+      "bus": "sfx",
+      "pan": 0.4,
+      "note": "the chime again, nobody there"
+    },
+    {
+      "t": 10.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 11.0,
+      "sfx": "phone_vibrate",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "06"
+    },
+    {
+      "t": 11.25,
+      "sfx": "text_ping",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "06"
+    },
+    {
+      "t": 11.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 12.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 13.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 14.0,
+      "sfx": "crt_hum",
+      "gain_db": 2,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "monitor",
+      "dur": 7.500000000000002,
+      "fade_in": 0.1,
+      "fade_out": 0.3
+    },
+    {
+      "t": 14.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 15.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 16.0,
+      "sfx": "glitch",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "08"
+    },
+    {
+      "t": 16.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 17.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 18.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 19.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 20.0,
+      "sfx": "drip",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "09"
+    },
+    {
+      "t": 20.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 21.01,
+      "sfx": "drip",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "wet footprints"
+    },
+    {
+      "t": 21.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 21.8,
+      "sfx": "door_creak_long",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "10"
+    },
+    {
+      "t": 22.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 23.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 24.2,
+      "sfx": "footstep_soft",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "11"
+    },
+    {
+      "t": 24.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 24.8,
+      "sfx": "footstep_soft",
+      "gain_db": -15,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "11"
+    },
+    {
+      "t": 25.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 26.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 27.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 28.29,
+      "sfx": "footstep_soft",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "janitor steps up"
+    },
+    {
+      "t": 28.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 29.05,
+      "sfx": "card_slap",
+      "gain_db": -2,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "13"
+    },
+    {
+      "t": 29.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 30.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 30.82,
+      "sfx": "tick",
+      "gain_db": -16,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "14"
+    },
+    {
+      "t": 31.12,
+      "sfx": "tick",
+      "gain_db": -16,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "14"
+    },
+    {
+      "t": 31.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 32.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 33.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 34.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 35.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 36.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 37.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 38.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 39.47,
+      "sfx": "rain_outside",
+      "gain_db": 4,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "scene 17: rain only",
+      "dur": 1.5300000000000011,
+      "fade_in": 0.3,
+      "fade_out": 0.3
+    },
+    {
+      "t": 39.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 40.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 40.7,
+      "sfx": "door_chime",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "18"
+    },
+    {
+      "t": 41.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 42.1,
+      "sfx": "drip",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "18"
+    },
+    {
+      "t": 42.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 42.8,
+      "sfx": "drip",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "18"
+    },
+    {
+      "t": 43.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 44.29,
+      "sfx": "wet_steps",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "19"
+    },
+    {
+      "t": 44.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 45.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 46.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 46.69,
+      "sfx": "breath_close",
+      "gain_db": -18,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "20"
+    },
+    {
+      "t": 46.74,
+      "sfx": "drip",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "her dripping"
+    },
+    {
+      "t": 47.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 48.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 49.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 49.92,
+      "sfx": "mop_slam",
+      "gain_db": -2,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "21"
+    },
+    {
+      "t": 50.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 51.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 52.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 52.77,
+      "sfx": "wet_steps",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "22"
+    },
+    {
+      "t": 53.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 54.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 55.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 55.65,
+      "sfx": "old_phone_ring",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "23"
+    },
+    {
+      "t": 55.85,
+      "sfx": "drip",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "water left behind"
+    },
+    {
+      "t": 56.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 57.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 57.85,
+      "sfx": "old_phone_ring",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "23"
+    },
+    {
+      "t": 58.51,
+      "sfx": "old_phone_ring",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "24"
+    },
+    {
+      "t": 58.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 59.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 60.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 61.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 61.73,
+      "sfx": "old_phone_ring",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "25"
+    },
+    {
+      "t": 62.09,
+      "sfx": "impact_soft",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "26"
+    },
+    {
+      "t": 62.14,
+      "sfx": "impact_soft",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "ringing cut off"
+    },
+    {
+      "t": 62.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 63.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 64.01,
+      "sfx": "old_phone_ring",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "27"
+    },
+    {
+      "t": 64.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 65.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 66.01,
+      "sfx": "old_phone_ring",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "27"
+    },
+    {
+      "t": 66.6,
+      "sfx": "tick",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.35,
+      "note": "clock"
+    },
+    {
+      "t": 66.85,
+      "sfx": "power_down",
+      "gain_db": -2,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "28"
+    },
+    {
+      "t": 68.1,
+      "sfx": "crt_hum",
+      "gain_db": 4,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "the monitor: last thing on",
+      "dur": 19.05000000000001,
+      "fade_in": 0.6
+    },
+    {
+      "t": 69.25,
+      "sfx": "glitch",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "29"
+    },
+    {
+      "t": 71.24,
+      "sfx": "breath_close",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "30"
+    },
+    {
+      "t": 71.29,
+      "sfx": "breath_close",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": -0.2,
+      "note": "someone behind you"
+    },
+    {
+      "t": 78.36,
+      "sfx": "floor_creak",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "back room"
+    },
+    {
+      "t": 78.61,
+      "sfx": "drip",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "32"
+    },
+    {
+      "t": 79.41,
+      "sfx": "drip",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "32"
+    },
+    {
+      "t": 80.75,
+      "sfx": "impact_cinematic",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "32b"
+    },
+    {
+      "t": 81.85,
+      "sfx": "old_phone_ring",
+      "gain_db": -22,
+      "bus": "sfx",
+      "pan": 0.4,
+      "note": "phone still ringing, faint"
+    },
+    {
+      "t": 83.45,
+      "sfx": "old_phone_ring",
+      "gain_db": -23,
+      "bus": "sfx",
+      "pan": 0.4,
+      "note": ""
+    },
+    {
+      "t": 84.25,
+      "sfx": "drip",
+      "gain_db": -16,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 85.05,
+      "sfx": "old_phone_ring",
+      "gain_db": -24,
+      "bus": "sfx",
+      "pan": 0.4,
+      "note": ""
+    }
+  ],
+  "music": {
+    "file": "music.wav",
+    "gain_db": -3.0,
+    "duck_db": -10.0
+  }
+}

@@ -7,6 +7,14 @@
     "duration": 3.173,
     "peak_db": -10.0
   },
+  "card_slap": {
+    "file": "card_slap.flac",
+    "description": "Laminated card slapped flat on a counter",
+    "category": "foley",
+    "loop": false,
+    "duration": 0.457,
+    "peak_db": -4.0
+  },
   "click_ui": {
     "file": "click_ui.flac",
     "description": "Crisp UI click",
@@ -15,12 +23,28 @@
     "duration": 0.041,
     "peak_db": -9.33
   },
+  "crt_hum": {
+    "file": "crt_hum.flac",
+    "description": "CRT security monitor: 15.7 kHz whine (soft) + 60 Hz hum + faint static, 6 s loopable",
+    "category": "ambience",
+    "loop": true,
+    "duration": 6.0,
+    "peak_db": -28.0
+  },
   "ding": {
     "file": "ding.flac",
     "description": "Bright notification ding (FM bell)",
     "category": "ui",
     "loop": false,
     "duration": 1.576,
+    "peak_db": -6.0
+  },
+  "door_chime": {
+    "file": "door_chime.flac",
+    "description": "Shop door chime: two-tone ding-dong, slightly detuned / wrong",
+    "category": "store",
+    "loop": false,
+    "duration": 2.82,
     "peak_db": -6.0
   },
   "door_close": {
@@ -54,6 +78,14 @@
     "loop": false,
     "duration": 1.871,
     "peak_db": -4.0
+  },
+  "drip": {
+    "file": "drip.flac",
+    "description": "Single water drop on tile",
+    "category": "foley",
+    "loop": false,
+    "duration": 0.801,
+    "peak_db": -10.0
   },
   "flicker_zap": {
     "file": "flicker_zap.flac",
@@ -94,6 +126,14 @@
     "loop": false,
     "duration": 1.049,
     "peak_db": -8.0
+  },
+  "glitch": {
+    "file": "glitch.flac",
+    "description": "Short digital glitch / static burst (HUD, monitor)",
+    "category": "ui",
+    "loop": false,
+    "duration": 0.35,
+    "peak_db": -10.0
   },
   "handle_creak": {
     "file": "handle_creak.flac",
@@ -151,6 +191,14 @@
     "duration": 6.0,
     "peak_db": -30.0
   },
+  "mop_slam": {
+    "file": "mop_slam.flac",
+    "description": "Wooden mop handle slammed across a counter",
+    "category": "foley",
+    "loop": false,
+    "duration": 0.682,
+    "peak_db": -2.0
+  },
   "night_room": {
     "file": "night_room.flac",
     "description": "Bedroom at 3 AM: fridge hum through the wall, distant traffic, soft wind, 10 s loopable",
@@ -158,6 +206,14 @@
     "loop": true,
     "duration": 10.0,
     "peak_db": -22.0
+  },
+  "old_phone_ring": {
+    "file": "old_phone_ring.flac",
+    "description": "Old wall phone: mechanical bell ringer burst, 1.6 s",
+    "category": "store",
+    "loop": false,
+    "duration": 2.311,
+    "peak_db": -4.0
   },
   "phone_ring": {
     "file": "phone_ring.flac",
@@ -190,6 +246,22 @@
     "loop": false,
     "duration": 0.165,
     "peak_db": -6.0
+  },
+  "power_down": {
+    "file": "power_down.flac",
+    "description": "Power cut: relay thunk, fluorescent hum dropping out, 1.8 s",
+    "category": "store",
+    "loop": false,
+    "duration": 1.576,
+    "peak_db": -2.0
+  },
+  "rain_outside": {
+    "file": "rain_outside.flac",
+    "description": "Steady night rain on asphalt + store awning, 10 s loopable",
+    "category": "ambience",
+    "loop": true,
+    "duration": 10.0,
+    "peak_db": -18.0
   },
   "rain_window": {
     "file": "rain_window.flac",
@@ -254,6 +326,14 @@
     "loop": true,
     "duration": 6.0,
     "peak_db": -30.0
+  },
+  "wet_steps": {
+    "file": "wet_steps.flac",
+    "description": "Three slow barefoot steps on a wet tile floor",
+    "category": "foley",
+    "loop": false,
+    "duration": 2.043,
+    "peak_db": -8.0
   },
   "whoosh": {
     "file": "whoosh.flac",

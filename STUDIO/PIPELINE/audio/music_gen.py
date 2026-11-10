@@ -338,6 +338,54 @@ def cue_video004():
     return s, dict(loop=False)
 
 
+def cue_video005():
+    """OPEN 24/7 Part 1.  Store muzak from a ceiling speaker (slow, slightly detuned, band-limited) that warps
+    and dies when the woman walks in; then a low drone + heartbeat pulse; the 3:33 ring sits on a high cluster;
+    the power cut kills the music (rain and the monitor hum stay in the ambience); choice: drone + slow pulse."""
+    edl = _load_edl("005")
+    B = edl.BEATS
+    D = edl.DURATION
+    s = Score(D, bpm=72, seed=5)
+    speaker = lambda x: dsp.bandpass(x, 350, 3200)  # noqa: E731  ceiling-speaker colour
+    # muzak: I-vi-IV-V in C, pluck melody + soft pad, detune creeping up as the night goes wrong
+    prog = [("C", [72, 76, 79, 76]), ("Am", [72, 76, 81, 76]), ("F", [72, 77, 81, 77]), ("G", [71, 74, 79, 74])]
+    t, i = 0.0, 0
+    bar = s.beat * 4
+    while t < B["customer"]:
+        name, mel = prog[i % 4]
+        warp = 0.35 * max(0.0, (t - B["s17"] + 8) / 8)  # detunes in the last bars before she walks in
+        for k, m in enumerate(mel):
+            s.add("lead", speaker(inst_pluck(midi_hz(m - warp * (k % 2)), 0.8)), t + k * s.beat, 0.06, pan=0.2)
+        s.add("pad", speaker(sum(inst_pad(midi_hz(n - warp), bar + 0.2, bright=0.2) for n in chord(name, 4)) / 3),
+              t, 0.08, pan=-0.2)
+        t += bar
+        i += 1
+    # under it all: a low drone that grows after the janitor appears
+    s.note("bass", "bass", 28, 0.0, D, gain=0.16)
+    s.note("pad", "pad", 40, start_ := B["customer"] - 6.0, D - start_, gain=0.08, bright=0.1)
+    # heartbeat pulse from the customer to the power cut
+    t = B["customer"]
+    while t < B["lights_die"]:
+        s.hit("perc", drum_kick(0.4), t, 0.18)
+        s.hit("perc", drum_kick(0.3), t + 0.27, 0.11)
+        t += 60 / (72 if t < B["ring333"] else 92)
+    # 3:33: high cluster
+    for m, p in ((86, -0.3), (87, 0.3)):
+        s.note("pad", "strings", m, B["ring333"], B["lights_die"] - B["ring333"], gain=0.03, pan=p, bright=0.1)
+    # power cut: everything musical stops for ~2 s (rain + monitor hum carry the "silence")
+    s.gate(B["lights_die"] - 0.05, B["lights_die"] + 2.2, gain=0.0, fade=0.03)
+    for m, p in ((50, -0.4), (51, 0.4)):
+        s.note("pad", "tremolo", m, B["lights_die"] + 2.0, B["freeze"] - B["lights_die"] - 2.0, gain=0.05, pan=p, rate=8.0)
+    s.hit("perc", drum_tom(44, 2.0), B["freeze"], 0.45)
+    s.gate(B["touch"] + 1.0, B["freeze"] - 0.05, gain=0.15, fade=0.1)  # "drip, then silence"
+    t = B["choice"]
+    while t < D - 0.4:
+        s.hit("perc", drum_kick(0.5), t, 0.13)
+        t += 1.0
+    s.note("lead", "bell", 62, B["choice"] + 0.3, 3.0, gain=0.05, bright=0.2)
+    return s, dict(loop=False)
+
+
 def main():
     num = sys.argv[1].zfill(3)
     s, opts = globals()[f"cue_video{num}"]()

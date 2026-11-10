@@ -1,0 +1,339 @@
+{
+  "model": "base.en",
+  "lines": [
+    {
+      "id": "S01",
+      "text": "You took... the night shift.",
+      "heard": "You took the night shift.",
+      "mismatches": 0,
+      "duration": 1.44,
+      "words_per_sec": 3.47,
+      "clipped": false
+    },
+    {
+      "id": "S02",
+      "text": "Nobody told you why it pays triple.",
+      "heard": "Nobody told you why it pays triple.",
+      "mismatches": 0,
+      "duration": 1.82,
+      "words_per_sec": 3.85,
+      "clipped": false
+    },
+    {
+      "id": "S03",
+      "text": "The road is empty.",
+      "heard": "The road is empty.",
+      "mismatches": 0,
+      "duration": 1.07,
+      "words_per_sec": 3.74,
+      "clipped": false
+    },
+    {
+      "id": "S04",
+      "text": "But the door chime keeps ringing.",
+      "heard": "But the door chime keeps ringing.",
+      "mismatches": 0,
+      "duration": 1.78,
+      "words_per_sec": 3.37,
+      "clipped": false
+    },
+    {
+      "id": "S05",
+      "text": "Nobody's there.",
+      "heard": "Nobody's there.",
+      "mismatches": 0,
+      "duration": 0.95,
+      "words_per_sec": 2.11,
+      "clipped": false
+    },
+    {
+      "id": "S06",
+      "text": "A text from your manager.",
+      "heard": "A text from your manager.",
+      "mismatches": 0,
+      "duration": 1.42,
+      "words_per_sec": 3.52,
+      "clipped": false
+    },
+    {
+      "id": "S07",
+      "text": "You check the cameras.",
+      "heard": "You check the cameras.",
+      "mismatches": 0,
+      "duration": 1.1,
+      "words_per_sec": 3.64,
+      "clipped": false
+    },
+    {
+      "id": "S08",
+      "text": "Aisle four. Someone is standing there.",
+      "heard": "aisle 4. Someone is standing there.",
+      "mismatches": 0,
+      "duration": 2.35,
+      "words_per_sec": 2.55,
+      "clipped": false
+    },
+    {
+      "id": "S09",
+      "text": "You look up. The aisle is empty.",
+      "heard": "You look up, the aisle is empty.",
+      "mismatches": 0,
+      "duration": 1.86,
+      "words_per_sec": 3.76,
+      "clipped": false
+    },
+    {
+      "id": "S10",
+      "text": "Behind you, the back room door creaks.",
+      "heard": "Behind you, the backroom door creaks.",
+      "mismatches": 0,
+      "duration": 1.86,
+      "words_per_sec": 3.76,
+      "clipped": false
+    },
+    {
+      "id": "S11",
+      "text": "An old janitor you've never met.",
+      "heard": "An old janitor you've never met.",
+      "mismatches": 0,
+      "duration": 1.6,
+      "words_per_sec": 3.75,
+      "clipped": false
+    },
+    {
+      "id": "S12",
+      "text": "\"New guy? Then listen.\"",
+      "heard": "New guy, then listen.",
+      "mismatches": 0,
+      "duration": 1.59,
+      "words_per_sec": 2.52,
+      "clipped": false
+    },
+    {
+      "id": "S13",
+      "text": "He slaps a card on the counter.",
+      "heard": "He slaps a card on the counter.",
+      "mismatches": 0,
+      "duration": 1.92,
+      "words_per_sec": 3.65,
+      "clipped": false
+    },
+    {
+      "id": "S14",
+      "text": "\"Never let anyone behind the counter.\"",
+      "heard": "Never let anyone behind the counter.",
+      "mismatches": 0,
+      "duration": 2.3,
+      "words_per_sec": 2.61,
+      "clipped": false
+    },
+    {
+      "id": "S15",
+      "text": "\"If the lights go out... don't look at the monitor.\"",
+      "heard": "If the lights go out, don't look at the monitor.",
+      "mismatches": 0,
+      "duration": 3.15,
+      "words_per_sec": 3.17,
+      "clipped": false
+    },
+    {
+      "id": "S16",
+      "text": "\"And never answer the phone at three thirty-three.\"",
+      "heard": "and never answer the phone at 333.",
+      "mismatches": 0,
+      "duration": 2.82,
+      "words_per_sec": 3.19,
+      "clipped": false
+    },
+    {
+      "id": "S18",
+      "text": "Ding. A customer. Barefoot. Soaking wet.",
+      "heard": "Ding, a customer, barefoot, soaking wet.",
+      "mismatches": 0,
+      "duration": 3.89,
+      "words_per_sec": 1.54,
+      "clipped": false
+    },
+    {
+      "id": "S19",
+      "text": "She doesn't buy anything.",
+      "heard": "She doesn't buy anything.",
+      "mismatches": 0,
+      "duration": 1.7,
+      "words_per_sec": 2.35,
+      "clipped": false
+    },
+    {
+      "id": "S20",
+      "text": "\"It's so cold... Can I come... behind the counter?\"",
+      "heard": "It's so cold, can I come behind the counter?",
+      "mismatches": 0,
+      "duration": 2.68,
+      "words_per_sec": 3.36,
+      "clipped": false
+    },
+    {
+      "id": "S21a",
+      "text": "The janitor's mop blocks the gap.",
+      "heard": "The janitor's mop blocks the gap.",
+      "mismatches": 0,
+      "duration": 1.77,
+      "words_per_sec": 3.39,
+      "clipped": false
+    },
+    {
+      "id": "S21b",
+      "text": "\"Counter's closed.\"",
+      "heard": "Counters closed.",
+      "mismatches": 0,
+      "duration": 1.33,
+      "words_per_sec": 1.5,
+      "clipped": false
+    },
+    {
+      "id": "S22",
+      "text": "She leaves. The chime doesn't ring.",
+      "heard": "She leaves, the chime doesn't ring.",
+      "mismatches": 0,
+      "duration": 2.88,
+      "words_per_sec": 2.08,
+      "clipped": false
+    },
+    {
+      "id": "S23",
+      "text": "Three thirty-three. The phone starts to ring.",
+      "heard": "333, the phone starts to ring.",
+      "mismatches": 0,
+      "duration": 2.06,
+      "words_per_sec": 3.88,
+      "clipped": false
+    },
+    {
+      "id": "S24",
+      "text": "On the speaker... your little sister's voice.",
+      "heard": "On the speaker, your little sister's voice.",
+      "mismatches": 0,
+      "duration": 2.52,
+      "words_per_sec": 2.78,
+      "clipped": false
+    },
+    {
+      "id": "S25",
+      "text": "\"Please pick up. I'm scared.\"",
+      "heard": "Please pick up, I'm scared.",
+      "mismatches": 0,
+      "duration": 1.41,
+      "words_per_sec": 3.55,
+      "clipped": false
+    },
+    {
+      "id": "S26",
+      "text": "\"Don't. Don't touch it.\"",
+      "heard": "Don't, don't touch it.",
+      "mismatches": 0,
+      "duration": 1.87,
+      "words_per_sec": 2.14,
+      "clipped": false
+    },
+    {
+      "id": "S27",
+      "text": "Three thirty-four. It rings again.",
+      "heard": "3.34, it rings again.",
+      "mismatches": 0,
+      "duration": 2.89,
+      "words_per_sec": 2.08,
+      "clipped": false
+    },
+    {
+      "id": "S28",
+      "text": "Then the lights die.",
+      "heard": "Then the lights die.",
+      "mismatches": 0,
+      "duration": 1.75,
+      "words_per_sec": 2.29,
+      "clipped": false
+    },
+    {
+      "id": "S29",
+      "text": "Only the monitor still glows.",
+      "heard": "Only the monitor still glows.",
+      "mismatches": 0,
+      "duration": 2.29,
+      "words_per_sec": 2.18,
+      "clipped": false
+    },
+    {
+      "id": "S30a",
+      "text": "A whisper, right behind you.",
+      "heard": "A whisper right behind you.",
+      "mismatches": 0,
+      "duration": 1.95,
+      "words_per_sec": 2.56,
+      "clipped": false
+    },
+    {
+      "id": "S30b",
+      "text": "\"Don't look at the monitor.\"",
+      "heard": "Don't look at the monitor.",
+      "mismatches": 0,
+      "duration": 1.62,
+      "words_per_sec": 3.09,
+      "clipped": false
+    },
+    {
+      "id": "S31",
+      "text": "But the janitor's voice... is coming from the back room.",
+      "heard": "But the janitor's voice is coming from the back room.",
+      "mismatches": 0,
+      "duration": 3.2,
+      "words_per_sec": 3.12,
+      "clipped": false
+    },
+    {
+      "id": "S32",
+      "text": "Something cold touches your shoulder.",
+      "heard": "Something cold touches your shoulder.",
+      "mismatches": 0,
+      "duration": 2.09,
+      "words_per_sec": 2.39,
+      "clipped": false
+    }
+  ],
+  "gaps": [
+    0.51,
+    0.68,
+    0.93,
+    0.72,
+    1.05,
+    1.58,
+    0.9,
+    0.65,
+    0.64,
+    0.64,
+    0.9,
+    0.41,
+    0.1,
+    0.18,
+    0.1,
+    0.93,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "total": 84.0,
+  "peak_db": -2.69,
+  "passed": true
+}

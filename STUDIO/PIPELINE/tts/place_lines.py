@@ -34,9 +34,9 @@ def assemble(script_path):
         if x.ndim == 2:
             x = x.mean(1)
         if line.get("at") is not None:
-            if line["at"] < t - 1e-3:
-                print(f"  ! {lid}: at={line['at']} overlaps the previous line (ends {t:.2f})")
-            t = float(line["at"])
+            if line["at"] < t - 1e-3:  # never overlap: a long previous line pushes this one later
+                print(f"  ! {lid}: at={line['at']} would overlap the previous line - placed at {t:.2f}")
+            t = max(t, float(line["at"]))
         d = len(x) / dsp.SR
         placed.append((line, x, t, d))
         t += d + float(line.get("pause_after", 0.3))

@@ -1,0 +1,1247 @@
+{
+  "duration": 84.0,
+  "lines": [
+    {
+      "id": "S01",
+      "who": "narrator",
+      "text": "You took... the night shift.",
+      "start": 0.15,
+      "end": 1.59,
+      "words": [
+        {
+          "w": "You",
+          "start": 0.15,
+          "end": 0.33
+        },
+        {
+          "w": "took...",
+          "start": 0.33,
+          "end": 0.55
+        },
+        {
+          "w": "the",
+          "start": 0.55,
+          "end": 0.93
+        },
+        {
+          "w": "night",
+          "start": 0.93,
+          "end": 1.09
+        },
+        {
+          "w": "shift.",
+          "start": 1.09,
+          "end": 1.31
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "who": "narrator",
+      "text": "Nobody told you why it pays triple.",
+      "start": 2.1,
+      "end": 3.92,
+      "words": [
+        {
+          "w": "Nobody",
+          "start": 2.1,
+          "end": 2.4
+        },
+        {
+          "w": "told",
+          "start": 2.4,
+          "end": 2.68
+        },
+        {
+          "w": "you",
+          "start": 2.68,
+          "end": 2.88
+        },
+        {
+          "w": "why",
+          "start": 2.88,
+          "end": 3.06
+        },
+        {
+          "w": "it",
+          "start": 3.06,
+          "end": 3.2
+        },
+        {
+          "w": "pays",
+          "start": 3.2,
+          "end": 3.4
+        },
+        {
+          "w": "triple.",
+          "start": 3.4,
+          "end": 3.7
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "who": "narrator",
+      "text": "The road is empty.",
+      "start": 4.6,
+      "end": 5.67,
+      "words": [
+        {
+          "w": "The",
+          "start": 4.6,
+          "end": 4.74
+        },
+        {
+          "w": "road",
+          "start": 4.74,
+          "end": 4.9
+        },
+        {
+          "w": "is",
+          "start": 4.9,
+          "end": 5.04
+        },
+        {
+          "w": "empty.",
+          "start": 5.04,
+          "end": 5.34
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "who": "narrator",
+      "text": "But the door chime keeps ringing.",
+      "start": 6.6,
+      "end": 8.38,
+      "words": [
+        {
+          "w": "But",
+          "start": 6.6,
+          "end": 6.76
+        },
+        {
+          "w": "the",
+          "start": 6.76,
+          "end": 6.86
+        },
+        {
+          "w": "door",
+          "start": 6.86,
+          "end": 7.06
+        },
+        {
+          "w": "chime",
+          "start": 7.06,
+          "end": 7.44
+        },
+        {
+          "w": "keeps",
+          "start": 7.44,
+          "end": 7.68
+        },
+        {
+          "w": "ringing.",
+          "start": 7.68,
+          "end": 8.02
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "who": "narrator",
+      "text": "Nobody's there.",
+      "start": 9.1,
+      "end": 10.05,
+      "words": [
+        {
+          "w": "Nobody's",
+          "start": 9.1,
+          "end": 9.58
+        },
+        {
+          "w": "there.",
+          "start": 9.58,
+          "end": 9.74
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "who": "narrator",
+      "text": "A text from your manager.",
+      "start": 11.1,
+      "end": 12.52,
+      "words": [
+        {
+          "w": "A",
+          "start": 11.1,
+          "end": 11.26
+        },
+        {
+          "w": "text",
+          "start": 11.26,
+          "end": 11.48
+        },
+        {
+          "w": "from",
+          "start": 11.48,
+          "end": 11.72
+        },
+        {
+          "w": "your",
+          "start": 11.72,
+          "end": 11.84
+        },
+        {
+          "w": "manager.",
+          "start": 11.84,
+          "end": 12.16
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "who": "narrator",
+      "text": "You check the cameras.",
+      "start": 14.1,
+      "end": 15.2,
+      "words": [
+        {
+          "w": "You",
+          "start": 14.1,
+          "end": 14.24
+        },
+        {
+          "w": "check",
+          "start": 14.24,
+          "end": 14.42
+        },
+        {
+          "w": "the",
+          "start": 14.42,
+          "end": 14.58
+        },
+        {
+          "w": "cameras.",
+          "start": 14.58,
+          "end": 14.92
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "who": "narrator",
+      "text": "Aisle four. Someone is standing there.",
+      "start": 16.1,
+      "end": 18.45,
+      "words": [
+        {
+          "w": "Aisle",
+          "start": 16.1,
+          "end": 16.36
+        },
+        {
+          "w": "four.",
+          "start": 16.36,
+          "end": 16.7
+        },
+        {
+          "w": "Someone",
+          "start": 17.14,
+          "end": 17.38
+        },
+        {
+          "w": "is",
+          "start": 17.38,
+          "end": 17.68
+        },
+        {
+          "w": "standing",
+          "start": 17.68,
+          "end": 17.94
+        },
+        {
+          "w": "there.",
+          "start": 17.94,
+          "end": 18.3
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "who": "narrator",
+      "text": "You look up. The aisle is empty.",
+      "start": 19.1,
+      "end": 20.96,
+      "words": [
+        {
+          "w": "You",
+          "start": 19.1,
+          "end": 19.24
+        },
+        {
+          "w": "look",
+          "start": 19.24,
+          "end": 19.38
+        },
+        {
+          "w": "up.",
+          "start": 19.38,
+          "end": 19.62
+        },
+        {
+          "w": "The",
+          "start": 19.9,
+          "end": 20.0
+        },
+        {
+          "w": "aisle",
+          "start": 20.0,
+          "end": 20.24
+        },
+        {
+          "w": "is",
+          "start": 20.24,
+          "end": 20.4
+        },
+        {
+          "w": "empty.",
+          "start": 20.4,
+          "end": 20.7
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "who": "narrator",
+      "text": "Behind you, the back room door creaks.",
+      "start": 21.6,
+      "end": 23.46,
+      "words": [
+        {
+          "w": "Behind",
+          "start": 21.6,
+          "end": 21.92
+        },
+        {
+          "w": "you,",
+          "start": 21.92,
+          "end": 22.12
+        },
+        {
+          "w": "the",
+          "start": 22.22,
+          "end": 22.3
+        },
+        {
+          "w": "back",
+          "start": 22.3,
+          "end": 22.48
+        },
+        {
+          "w": "room",
+          "start": 22.48,
+          "end": 22.64
+        },
+        {
+          "w": "door",
+          "start": 22.64,
+          "end": 22.88
+        },
+        {
+          "w": "creaks.",
+          "start": 22.88,
+          "end": 23.28
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "who": "narrator",
+      "text": "An old janitor you've never met.",
+      "start": 24.1,
+      "end": 25.7,
+      "words": [
+        {
+          "w": "An",
+          "start": 24.1,
+          "end": 24.26
+        },
+        {
+          "w": "old",
+          "start": 24.26,
+          "end": 24.44
+        },
+        {
+          "w": "janitor",
+          "start": 24.44,
+          "end": 24.86
+        },
+        {
+          "w": "you've",
+          "start": 24.86,
+          "end": 25.18
+        },
+        {
+          "w": "never",
+          "start": 25.18,
+          "end": 25.32
+        },
+        {
+          "w": "met.",
+          "start": 25.32,
+          "end": 25.58
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "who": "janitor",
+      "text": "\"New guy? Then listen.\"",
+      "start": 26.6,
+      "end": 28.19,
+      "words": [
+        {
+          "w": "\"New",
+          "start": 26.6,
+          "end": 26.82
+        },
+        {
+          "w": "guy?",
+          "start": 26.82,
+          "end": 27.12
+        },
+        {
+          "w": "Then",
+          "start": 27.5,
+          "end": 27.54
+        },
+        {
+          "w": "listen.\"",
+          "start": 27.54,
+          "end": 27.88
+        }
+      ]
+    },
+    {
+      "id": "S13",
+      "who": "narrator",
+      "text": "He slaps a card on the counter.",
+      "start": 28.6,
+      "end": 30.52,
+      "words": [
+        {
+          "w": "He",
+          "start": 28.6,
+          "end": 28.74
+        },
+        {
+          "w": "slaps",
+          "start": 28.74,
+          "end": 29.08
+        },
+        {
+          "w": "a",
+          "start": 29.08,
+          "end": 29.26
+        },
+        {
+          "w": "card",
+          "start": 29.26,
+          "end": 29.52
+        },
+        {
+          "w": "on",
+          "start": 29.52,
+          "end": 29.76
+        },
+        {
+          "w": "the",
+          "start": 29.76,
+          "end": 29.88
+        },
+        {
+          "w": "counter.",
+          "start": 29.88,
+          "end": 30.2
+        }
+      ]
+    },
+    {
+      "id": "S14",
+      "who": "janitor",
+      "text": "\"Never let anyone behind the counter.\"",
+      "start": 30.62,
+      "end": 32.92,
+      "words": [
+        {
+          "w": "\"Never",
+          "start": 30.62,
+          "end": 30.94
+        },
+        {
+          "w": "let",
+          "start": 30.94,
+          "end": 31.2
+        },
+        {
+          "w": "anyone",
+          "start": 31.2,
+          "end": 31.66
+        },
+        {
+          "w": "behind",
+          "start": 31.66,
+          "end": 32.12
+        },
+        {
+          "w": "the",
+          "start": 32.12,
+          "end": 32.3
+        },
+        {
+          "w": "counter.\"",
+          "start": 32.3,
+          "end": 32.64
+        }
+      ]
+    },
+    {
+      "id": "S15",
+      "who": "janitor",
+      "text": "\"If the lights go out... don't look at the monitor.\"",
+      "start": 33.1,
+      "end": 36.25,
+      "words": [
+        {
+          "w": "\"If",
+          "start": 33.1,
+          "end": 33.3
+        },
+        {
+          "w": "the",
+          "start": 33.3,
+          "end": 33.46
+        },
+        {
+          "w": "lights",
+          "start": 33.46,
+          "end": 33.72
+        },
+        {
+          "w": "go",
+          "start": 33.72,
+          "end": 33.96
+        },
+        {
+          "w": "out...",
+          "start": 33.96,
+          "end": 34.34
+        },
+        {
+          "w": "don't",
+          "start": 34.7,
+          "end": 34.92
+        },
+        {
+          "w": "look",
+          "start": 34.92,
+          "end": 35.16
+        },
+        {
+          "w": "at",
+          "start": 35.16,
+          "end": 35.34
+        },
+        {
+          "w": "the",
+          "start": 35.34,
+          "end": 35.48
+        },
+        {
+          "w": "monitor.\"",
+          "start": 35.48,
+          "end": 35.84
+        }
+      ]
+    },
+    {
+      "id": "S16",
+      "who": "janitor",
+      "text": "\"And never answer the phone at three thirty-three.\"",
+      "start": 36.35,
+      "end": 39.17,
+      "words": [
+        {
+          "w": "\"And",
+          "start": 36.35,
+          "end": 36.55
+        },
+        {
+          "w": "never",
+          "start": 36.55,
+          "end": 36.79
+        },
+        {
+          "w": "answer",
+          "start": 36.79,
+          "end": 37.25
+        },
+        {
+          "w": "the",
+          "start": 37.25,
+          "end": 37.45
+        },
+        {
+          "w": "phone",
+          "start": 37.45,
+          "end": 37.71
+        },
+        {
+          "w": "at",
+          "start": 37.71,
+          "end": 37.97
+        },
+        {
+          "w": "three",
+          "start": 37.97,
+          "end": 38.25
+        },
+        {
+          "w": "thirty-three.\"",
+          "start": 38.25,
+          "end": 38.63
+        }
+      ]
+    },
+    {
+      "id": "S18",
+      "who": "narrator",
+      "text": "Ding. A customer. Barefoot. Soaking wet.",
+      "start": 41.0,
+      "end": 44.89,
+      "words": [
+        {
+          "w": "Ding.",
+          "start": 41.0,
+          "end": 41.34
+        },
+        {
+          "w": "A",
+          "start": 41.8,
+          "end": 42.0
+        },
+        {
+          "w": "customer.",
+          "start": 42.0,
+          "end": 42.36
+        },
+        {
+          "w": "Barefoot.",
+          "start": 43.16,
+          "end": 43.56
+        },
+        {
+          "w": "Soaking",
+          "start": 44.12,
+          "end": 44.42
+        },
+        {
+          "w": "wet.",
+          "start": 44.42,
+          "end": 44.66
+        }
+      ]
+    },
+    {
+      "id": "S19",
+      "who": "narrator",
+      "text": "She doesn't buy anything.",
+      "start": 44.99,
+      "end": 46.69,
+      "words": [
+        {
+          "w": "She",
+          "start": 44.99,
+          "end": 45.19
+        },
+        {
+          "w": "doesn't",
+          "start": 45.19,
+          "end": 45.59
+        },
+        {
+          "w": "buy",
+          "start": 45.59,
+          "end": 45.79
+        },
+        {
+          "w": "anything.",
+          "start": 45.79,
+          "end": 46.39
+        }
+      ]
+    },
+    {
+      "id": "S20",
+      "who": "woman",
+      "text": "\"It's so cold... Can I come... behind the counter?\"",
+      "start": 46.79,
+      "end": 49.47,
+      "words": [
+        {
+          "w": "\"It's",
+          "start": 46.79,
+          "end": 47.07
+        },
+        {
+          "w": "so",
+          "start": 47.07,
+          "end": 47.29
+        },
+        {
+          "w": "cold...",
+          "start": 47.29,
+          "end": 47.67
+        },
+        {
+          "w": "Can",
+          "start": 47.89,
+          "end": 48.01
+        },
+        {
+          "w": "I",
+          "start": 48.01,
+          "end": 48.15
+        },
+        {
+          "w": "come...",
+          "start": 48.15,
+          "end": 48.39
+        },
+        {
+          "w": "behind",
+          "start": 48.39,
+          "end": 48.87
+        },
+        {
+          "w": "the",
+          "start": 48.87,
+          "end": 48.99
+        },
+        {
+          "w": "counter?\"",
+          "start": 48.99,
+          "end": 49.23
+        }
+      ]
+    },
+    {
+      "id": "S21a",
+      "who": "narrator",
+      "text": "The janitor's mop blocks the gap.",
+      "start": 49.57,
+      "end": 51.34,
+      "words": [
+        {
+          "w": "The",
+          "start": 49.57,
+          "end": 49.71
+        },
+        {
+          "w": "janitor's",
+          "start": 49.71,
+          "end": 50.13
+        },
+        {
+          "w": "mop",
+          "start": 50.13,
+          "end": 50.39
+        },
+        {
+          "w": "blocks",
+          "start": 50.39,
+          "end": 50.75
+        },
+        {
+          "w": "the",
+          "start": 50.75,
+          "end": 50.99
+        },
+        {
+          "w": "gap.",
+          "start": 50.99,
+          "end": 51.17
+        }
+      ]
+    },
+    {
+      "id": "S21b",
+      "who": "janitor",
+      "text": "\"Counter's closed.\"",
+      "start": 51.44,
+      "end": 52.77,
+      "words": [
+        {
+          "w": "\"Counter's",
+          "start": 51.44,
+          "end": 51.92
+        },
+        {
+          "w": "closed.\"",
+          "start": 51.92,
+          "end": 52.32
+        }
+      ]
+    },
+    {
+      "id": "S22",
+      "who": "narrator",
+      "text": "She leaves. The chime doesn't ring.",
+      "start": 52.87,
+      "end": 55.75,
+      "words": [
+        {
+          "w": "She",
+          "start": 52.87,
+          "end": 53.19
+        },
+        {
+          "w": "leaves.",
+          "start": 53.19,
+          "end": 53.69
+        },
+        {
+          "w": "The",
+          "start": 54.27,
+          "end": 54.37
+        },
+        {
+          "w": "chime",
+          "start": 54.37,
+          "end": 54.71
+        },
+        {
+          "w": "doesn't",
+          "start": 54.71,
+          "end": 55.11
+        },
+        {
+          "w": "ring.",
+          "start": 55.11,
+          "end": 55.41
+        }
+      ]
+    },
+    {
+      "id": "S23",
+      "who": "narrator",
+      "text": "Three thirty-three. The phone starts to ring.",
+      "start": 55.85,
+      "end": 57.91,
+      "words": [
+        {
+          "w": "Three",
+          "start": 55.85,
+          "end": 56.03
+        },
+        {
+          "w": "thirty-three.",
+          "start": 56.03,
+          "end": 56.45
+        },
+        {
+          "w": "The",
+          "start": 56.77,
+          "end": 56.83
+        },
+        {
+          "w": "phone",
+          "start": 56.83,
+          "end": 57.05
+        },
+        {
+          "w": "starts",
+          "start": 57.05,
+          "end": 57.33
+        },
+        {
+          "w": "to",
+          "start": 57.33,
+          "end": 57.55
+        },
+        {
+          "w": "ring.",
+          "start": 57.55,
+          "end": 57.71
+        }
+      ]
+    },
+    {
+      "id": "S24",
+      "who": "narrator",
+      "text": "On the speaker... your little sister's voice.",
+      "start": 58.01,
+      "end": 60.53,
+      "words": [
+        {
+          "w": "On",
+          "start": 58.01,
+          "end": 58.21
+        },
+        {
+          "w": "the",
+          "start": 58.21,
+          "end": 58.35
+        },
+        {
+          "w": "speaker...",
+          "start": 58.35,
+          "end": 58.75
+        },
+        {
+          "w": "your",
+          "start": 59.13,
+          "end": 59.23
+        },
+        {
+          "w": "little",
+          "start": 59.23,
+          "end": 59.47
+        },
+        {
+          "w": "sister's",
+          "start": 59.47,
+          "end": 59.97
+        },
+        {
+          "w": "voice.",
+          "start": 59.97,
+          "end": 60.21
+        }
+      ]
+    },
+    {
+      "id": "S25",
+      "who": "sister",
+      "text": "\"Please pick up. I'm scared.\"",
+      "start": 60.63,
+      "end": 62.04,
+      "words": [
+        {
+          "w": "\"Please",
+          "start": 60.63,
+          "end": 60.83
+        },
+        {
+          "w": "pick",
+          "start": 60.83,
+          "end": 60.99
+        },
+        {
+          "w": "up.",
+          "start": 60.99,
+          "end": 61.23
+        },
+        {
+          "w": "I'm",
+          "start": 61.43,
+          "end": 61.57
+        },
+        {
+          "w": "scared.\"",
+          "start": 61.57,
+          "end": 61.79
+        }
+      ]
+    },
+    {
+      "id": "S26",
+      "who": "janitor",
+      "text": "\"Don't. Don't touch it.\"",
+      "start": 62.14,
+      "end": 64.01,
+      "words": [
+        {
+          "w": "\"Don't.",
+          "start": 62.14,
+          "end": 62.72
+        },
+        {
+          "w": "Don't",
+          "start": 62.92,
+          "end": 63.34
+        },
+        {
+          "w": "touch",
+          "start": 63.34,
+          "end": 63.52
+        },
+        {
+          "w": "it.\"",
+          "start": 63.52,
+          "end": 63.82
+        }
+      ]
+    },
+    {
+      "id": "S27",
+      "who": "narrator",
+      "text": "Three thirty-four. It rings again.",
+      "start": 64.11,
+      "end": 67.0,
+      "words": [
+        {
+          "w": "Three",
+          "start": 64.11,
+          "end": 64.43
+        },
+        {
+          "w": "thirty-four.",
+          "start": 64.43,
+          "end": 65.25
+        },
+        {
+          "w": "It",
+          "start": 65.71,
+          "end": 65.83
+        },
+        {
+          "w": "rings",
+          "start": 65.83,
+          "end": 66.13
+        },
+        {
+          "w": "again.",
+          "start": 66.13,
+          "end": 66.61
+        }
+      ]
+    },
+    {
+      "id": "S28",
+      "who": "narrator",
+      "text": "Then the lights die.",
+      "start": 67.1,
+      "end": 68.85,
+      "words": [
+        {
+          "w": "Then",
+          "start": 67.1,
+          "end": 67.48
+        },
+        {
+          "w": "the",
+          "start": 67.7,
+          "end": 67.9
+        },
+        {
+          "w": "lights",
+          "start": 67.9,
+          "end": 68.22
+        },
+        {
+          "w": "die.",
+          "start": 68.22,
+          "end": 68.68
+        }
+      ]
+    },
+    {
+      "id": "S29",
+      "who": "narrator",
+      "text": "Only the monitor still glows.",
+      "start": 68.95,
+      "end": 71.24,
+      "words": [
+        {
+          "w": "Only",
+          "start": 68.95,
+          "end": 69.31
+        },
+        {
+          "w": "the",
+          "start": 69.31,
+          "end": 69.51
+        },
+        {
+          "w": "monitor",
+          "start": 69.51,
+          "end": 69.97
+        },
+        {
+          "w": "still",
+          "start": 69.97,
+          "end": 70.45
+        },
+        {
+          "w": "glows.",
+          "start": 70.45,
+          "end": 71.01
+        }
+      ]
+    },
+    {
+      "id": "S30a",
+      "who": "narrator",
+      "text": "A whisper, right behind you.",
+      "start": 71.34,
+      "end": 73.29,
+      "words": [
+        {
+          "w": "A",
+          "start": 71.34,
+          "end": 71.56
+        },
+        {
+          "w": "whisper,",
+          "start": 71.56,
+          "end": 72.02
+        },
+        {
+          "w": "right",
+          "start": 72.02,
+          "end": 72.52
+        },
+        {
+          "w": "behind",
+          "start": 72.52,
+          "end": 72.92
+        },
+        {
+          "w": "you.",
+          "start": 72.92,
+          "end": 73.2
+        }
+      ]
+    },
+    {
+      "id": "S30b",
+      "who": "whisper",
+      "text": "\"Don't look at the monitor.\"",
+      "start": 73.39,
+      "end": 75.01,
+      "words": [
+        {
+          "w": "\"Don't",
+          "start": 73.39,
+          "end": 73.83
+        },
+        {
+          "w": "look",
+          "start": 73.83,
+          "end": 73.99
+        },
+        {
+          "w": "at",
+          "start": 73.99,
+          "end": 74.15
+        },
+        {
+          "w": "the",
+          "start": 74.15,
+          "end": 74.29
+        },
+        {
+          "w": "monitor.\"",
+          "start": 74.29,
+          "end": 74.67
+        }
+      ]
+    },
+    {
+      "id": "S31",
+      "who": "narrator",
+      "text": "But the janitor's voice... is coming from the back room.",
+      "start": 75.11,
+      "end": 78.31,
+      "words": [
+        {
+          "w": "But",
+          "start": 75.11,
+          "end": 75.29
+        },
+        {
+          "w": "the",
+          "start": 75.29,
+          "end": 75.45
+        },
+        {
+          "w": "janitor's",
+          "start": 75.45,
+          "end": 76.05
+        },
+        {
+          "w": "voice...",
+          "start": 76.05,
+          "end": 76.27
+        },
+        {
+          "w": "is",
+          "start": 76.27,
+          "end": 76.75
+        },
+        {
+          "w": "coming",
+          "start": 76.75,
+          "end": 77.01
+        },
+        {
+          "w": "from",
+          "start": 77.01,
+          "end": 77.29
+        },
+        {
+          "w": "the",
+          "start": 77.29,
+          "end": 77.49
+        },
+        {
+          "w": "back",
+          "start": 77.49,
+          "end": 77.69
+        },
+        {
+          "w": "room.",
+          "start": 77.69,
+          "end": 78.05
+        }
+      ]
+    },
+    {
+      "id": "S32",
+      "who": "narrator",
+      "text": "Something cold touches your shoulder.",
+      "start": 78.41,
+      "end": 80.5,
+      "words": [
+        {
+          "w": "Something",
+          "start": 78.41,
+          "end": 78.79
+        },
+        {
+          "w": "cold",
+          "start": 78.79,
+          "end": 79.23
+        },
+        {
+          "w": "touches",
+          "start": 79.23,
+          "end": 79.59
+        },
+        {
+          "w": "your",
+          "start": 79.59,
+          "end": 79.87
+        },
+        {
+          "w": "shoulder.",
+          "start": 79.87,
+          "end": 80.17
+        }
+      ]
+    }
+  ]
+}

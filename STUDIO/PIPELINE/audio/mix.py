@@ -161,17 +161,18 @@ def run(cues_path):
     stems["sfx"] = sfx
     stems["ambience"] = amb
 
-    # --- master
+    # --- master (cues.json "ceiling_dbtp" lowers the limiter for very transient mixes; AAC adds overshoot)
+    ceiling = float(C.get("ceiling_dbtp", CEILING_DBTP))
     mix = narr + mus + sfx + amb
     pre_l = lufs(mix)
     g = dsp.undb(MASTER_LUFS - pre_l) if pre_l > -100 else 1.0
     mix = mix * g
     stems = {k: v * g for k, v in stems.items()}
-    out = dsp.limiter(mix, CEILING_DBTP)
+    out = dsp.limiter(mix, ceiling)
     # second pass: the limiter removes some loudness, so nudge and re-limit once
     l1 = lufs(out)
     if l1 > -100 and abs(l1 - MASTER_LUFS) > 0.3:
-        out = dsp.limiter(mix * dsp.undb(MASTER_LUFS - l1), CEILING_DBTP)
+        out = dsp.limiter(mix * dsp.undb(MASTER_LUFS - l1), ceiling)
     if not loop:
         out = dsp.fade(out, 0.0, 0.02)
 

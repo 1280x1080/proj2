@@ -518,9 +518,18 @@ def build_captions(edit: Edit):
     off = cfg.get("offset", 0.0)
     maxw = cfg.get("max_words", 4)
     phrases = []
+    line_text = cfg.get("line_text", {})  # optional {line_id: "caption text"} - "" hides that line's caption
     for ln in timing.data["lines"]:
+        words = ln["words"]
+        if ln.get("id") in line_text:
+            txt = line_text[ln["id"]].split()
+            if not txt:
+                continue
+            a0, a1 = words[0]["start"], words[-1]["end"]
+            step = (a1 - a0) / len(txt)  # spread the custom words over the spoken line
+            words = [dict(w=w, start=a0 + k * step, end=a0 + (k + 1) * step) for k, w in enumerate(txt)]
         cur = []
-        for w in ln["words"]:
+        for w in words:
             cur.append(w)
             ends = w["w"].rstrip()[-1:] in ".,!?;:—–"
             if ends or len(cur) >= maxw:

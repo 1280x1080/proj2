@@ -49,7 +49,7 @@ def _num_repl(m):
 
 
 # spelling variants / homophones Whisper picks that are the same spoken word
-_VARIANTS = {"towards": "toward", "nox": "knocks", "creek": "creak", "ok": "okay", "alright": "all right", "gray": "grey"}
+_VARIANTS = {"backroom": "back room", "isle": "aisle", "towards": "toward", "nox": "knocks", "creek": "creak", "ok": "okay", "alright": "all right", "gray": "grey"}
 
 
 def _time_repl(m):
@@ -68,13 +68,23 @@ def normalize_words(text: str) -> list[str]:
     t = re.sub(r"\d[\d,]*(\.\d+)?", _num_repl, t)
     t = t.replace("-", " ").replace("—", " ").replace("–", " ")
     t = re.sub(r"[^a-z' ]+", " ", t)
-    words = [_VARIANTS.get(w.strip("'"), w.strip("'")) for w in t.split()]
+    words = [w.replace("'", "") for w in t.split()]  # apostrophes never count (counter's == counters)
+    words = [x for w in words for x in _VARIANTS.get(w, w).split()]
     # contractions both ways count as equal
     return [w for w in words if w]
 
 
+def _clock_digits(text: str) -> str:
+    """'333' / '1130' -> '3:33' / '11:30' (Whisper writes spoken clock times as bare digits)."""
+    return re.sub(r"\b(\d{1,2})(\d{2})\b", lambda m: f"{m.group(1)}:{m.group(2)}" if int(m.group(2)) < 60 else m.group(0), text)
+
+
 def mismatches(ref: str, hyp: str) -> int:
-    """Word-level edit distance after normalisation."""
+    """Word-level edit distance after normalisation (bare 3-4 digit numbers may also be read as clock times)."""
+    return min(_dist(ref, hyp), _dist(ref, _clock_digits(hyp)))
+
+
+def _dist(ref: str, hyp: str) -> int:
     a, b = normalize_words(ref), normalize_words(hyp)
     d = list(range(len(b) + 1))
     for i in range(1, len(a) + 1):

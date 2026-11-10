@@ -1,0 +1,315 @@
+{
+  "title": "OPEN 24/7 - Part 1",
+  "series": "OPEN 24/7",
+  "part": 1,
+  "notes": "Lines are placed at the scene start times of the sheet ('at'); a line that runs long pushes the next one later instead of overlapping. Voices: janitor / woman / sister / whisper use pitched reference clips in voices/.",
+  "voice_ref": null,
+  "voices": {
+    "janitor": "voices/janitor_ref.wav",
+    "whisper": "voices/janitor_ref.wav",
+    "woman": "voices/woman_ref.wav",
+    "sister": "voices/sister_ref.wav"
+  },
+  "lead_in": 0.15,
+  "tail": 0.3,
+  "duration": 84.0,
+  "lines": [
+    {
+      "id": "S01",
+      "who": "narrator",
+      "text": "You took... the night shift.",
+      "delivery": "slow",
+      "emotion": 0.5,
+      "pause_after": 0.1,
+      "at": 0.15
+    },
+    {
+      "id": "S02",
+      "who": "narrator",
+      "text": "Nobody told you why it pays triple.",
+      "delivery": "calm",
+      "emotion": 0.5,
+      "pause_after": 0.1,
+      "at": 2.1
+    },
+    {
+      "id": "S03",
+      "who": "narrator",
+      "text": "The road is empty.",
+      "delivery": "whisper",
+      "emotion": 0.45,
+      "pause_after": 0.1,
+      "at": 4.6
+    },
+    {
+      "id": "S04",
+      "who": "narrator",
+      "text": "But the door chime keeps ringing.",
+      "delivery": "dramatic",
+      "emotion": 0.55,
+      "pause_after": 0.1,
+      "at": 6.6
+    },
+    {
+      "id": "S05",
+      "who": "narrator",
+      "text": "Nobody's there.",
+      "delivery": "whisper",
+      "emotion": 0.45,
+      "pause_after": 0.1,
+      "at": 9.1
+    },
+    {
+      "id": "S06",
+      "who": "narrator",
+      "text": "A text from your manager.",
+      "delivery": "calm",
+      "emotion": 0.45,
+      "pause_after": 0.1,
+      "at": 11.1
+    },
+    {
+      "id": "S07",
+      "who": "narrator",
+      "text": "You check the cameras.",
+      "delivery": "calm",
+      "emotion": 0.45,
+      "pause_after": 0.1,
+      "at": 14.1
+    },
+    {
+      "id": "S08",
+      "who": "narrator",
+      "text": "Aisle four. Someone is standing there.",
+      "delivery": "dramatic",
+      "emotion": 0.55,
+      "pause_after": 0.1,
+      "at": 16.1
+    },
+    {
+      "id": "S09",
+      "who": "narrator",
+      "text": "You look up. The aisle is empty.",
+      "delivery": "whisper",
+      "emotion": 0.5,
+      "pause_after": 0.1,
+      "at": 19.1
+    },
+    {
+      "id": "S10",
+      "who": "narrator",
+      "text": "Behind you, the back room door creaks.",
+      "delivery": "dramatic",
+      "emotion": 0.55,
+      "pause_after": 0.1,
+      "at": 21.6
+    },
+    {
+      "id": "S11",
+      "who": "narrator",
+      "text": "An old janitor you've never met.",
+      "delivery": "calm",
+      "emotion": 0.45,
+      "pause_after": 0.1,
+      "at": 24.1
+    },
+    {
+      "id": "S12",
+      "who": "janitor",
+      "text": "\"New guy? Then listen.\"",
+      "delivery": "slow",
+      "emotion": 0.45,
+      "pause_after": 0.1,
+      "at": 26.6
+    },
+    {
+      "id": "S13",
+      "who": "narrator",
+      "text": "He slaps a card on the counter.",
+      "delivery": "calm",
+      "emotion": 0.5,
+      "pause_after": 0.1,
+      "at": 28.6
+    },
+    {
+      "id": "S14",
+      "who": "janitor",
+      "text": "\"Never let anyone behind the counter.\"",
+      "delivery": "slow",
+      "emotion": 0.5,
+      "pause_after": 0.1,
+      "at": 30.6
+    },
+    {
+      "id": "S15",
+      "who": "janitor",
+      "text": "\"If the lights go out... don't look at the monitor.\"",
+      "delivery": "slow",
+      "emotion": 0.5,
+      "pause_after": 0.1,
+      "at": 33.1
+    },
+    {
+      "id": "S16",
+      "who": "janitor",
+      "text": "\"And never answer the phone at three thirty-three.\"",
+      "delivery": "slow",
+      "emotion": 0.5,
+      "pause_after": 0.1,
+      "at": 36.1
+    },
+    {
+      "id": "S18",
+      "who": "narrator",
+      "text": "Ding. A customer. Barefoot. Soaking wet.",
+      "delivery": "dramatic",
+      "emotion": 0.55,
+      "pause_after": 0.1,
+      "at": 41.0
+    },
+    {
+      "id": "S19",
+      "who": "narrator",
+      "text": "She doesn't buy anything.",
+      "delivery": "whisper",
+      "emotion": 0.45,
+      "pause_after": 0.1,
+      "at": 43.1
+    },
+    {
+      "id": "S20",
+      "who": "woman",
+      "text": "\"It's so cold... Can I come... behind the counter?\"",
+      "delivery": "slow",
+      "emotion": 0.5,
+      "pause_after": 0.1,
+      "at": 45.1
+    },
+    {
+      "id": "S21a",
+      "who": "narrator",
+      "text": "The janitor's mop blocks the gap.",
+      "delivery": "excited",
+      "emotion": 0.6,
+      "pause_after": 0.1,
+      "at": 48.1
+    },
+    {
+      "id": "S21b",
+      "who": "janitor",
+      "text": "\"Counter's closed.\"",
+      "delivery": "slow",
+      "emotion": 0.5,
+      "pause_after": 0.1,
+      "at": 49.5
+    },
+    {
+      "id": "S22",
+      "who": "narrator",
+      "text": "She leaves. The chime doesn't ring.",
+      "delivery": "whisper",
+      "emotion": 0.5,
+      "pause_after": 0.1,
+      "at": 50.6
+    },
+    {
+      "id": "S23",
+      "who": "narrator",
+      "text": "Three thirty-three. The phone starts to ring.",
+      "delivery": "slow",
+      "emotion": 0.6,
+      "pause_after": 0.1,
+      "at": 53.1
+    },
+    {
+      "id": "S24",
+      "who": "narrator",
+      "text": "On the speaker... your little sister's voice.",
+      "delivery": "calm",
+      "emotion": 0.5,
+      "pause_after": 0.1,
+      "at": 55.6
+    },
+    {
+      "id": "S25",
+      "who": "sister",
+      "text": "\"Please pick up. I'm scared.\"",
+      "delivery": "warm",
+      "emotion": 0.6,
+      "pause_after": 0.1,
+      "at": 58.1
+    },
+    {
+      "id": "S26",
+      "who": "janitor",
+      "text": "\"Don't. Don't touch it.\"",
+      "delivery": "slow",
+      "emotion": 0.5,
+      "pause_after": 0.1,
+      "at": 60.6
+    },
+    {
+      "id": "S27",
+      "who": "narrator",
+      "text": "Three thirty-four. It rings again.",
+      "delivery": "dramatic",
+      "emotion": 0.55,
+      "pause_after": 0.1,
+      "at": 62.6
+    },
+    {
+      "id": "S28",
+      "who": "narrator",
+      "text": "Then the lights die.",
+      "delivery": "whisper",
+      "emotion": 0.5,
+      "pause_after": 0.1,
+      "at": 65.1
+    },
+    {
+      "id": "S29",
+      "who": "narrator",
+      "text": "Only the monitor still glows.",
+      "delivery": "whisper",
+      "emotion": 0.45,
+      "pause_after": 0.1,
+      "at": 67.1
+    },
+    {
+      "id": "S30a",
+      "who": "narrator",
+      "text": "A whisper, right behind you.",
+      "delivery": "whisper",
+      "emotion": 0.5,
+      "pause_after": 0.1,
+      "at": 69.6
+    },
+    {
+      "id": "S30b",
+      "who": "whisper",
+      "text": "\"Don't look at the monitor.\"",
+      "delivery": "whisper",
+      "emotion": 0.4,
+      "pause_after": 0.1,
+      "at": 70.9
+    },
+    {
+      "id": "S31",
+      "who": "narrator",
+      "text": "But the janitor's voice... is coming from the back room.",
+      "delivery": "dramatic",
+      "emotion": 0.55,
+      "pause_after": 0.1,
+      "at": 72.6
+    },
+    {
+      "id": "S32",
+      "who": "narrator",
+      "text": "Something cold touches your shoulder.",
+      "delivery": "whisper",
+      "emotion": 0.55,
+      "pause_after": 0.1,
+      "at": 75.6
+    }
+  ]
+}
