@@ -512,6 +512,46 @@ def cue_video010():
     return s, dict(loop=False)
 
 
+def cue_video011():
+    """LAST ONE IN THE CALL Part 1: bouncy lo-fi game-night loop (pluck + kick/hat) that loses a layer each time a
+    friend leaves; when Jay hears the knocking only a low drone is left; near-silence before each jumpscare so the
+    sting lands; tremolo cluster + heartbeat to the freeze; choice: drone + pulse."""
+    edl = _load_edl("011")
+    B, D = edl.BEATS, edl.DURATION
+    st = edl.start
+    s = Score(D, bpm=96, seed=11)
+    beat = 60 / 96
+    s.note("bass", "bass", 31, 0.0, B["story"], gain=0.16)                     # hook: drone only
+    prog = [(57, 60, 64), (53, 57, 60), (55, 59, 62), (52, 55, 59)]
+    t, k = B["story"], 0
+    while t < st("L05") - 0.1:
+        ch = prog[(k // 8) % 4]
+        if t < B["leave2"]:
+            s.note("lead", "pluck", ch[k % 3] + 12, t, beat, gain=0.09, pan=(-0.3 if k % 2 else 0.3), bright=0.5)
+        if t < B["leave1"]:
+            if k % 2 == 0:
+                s.hit("perc", drum_kick(0.3), t, 0.16)
+            s.hit("perc", drum_hat(0.06), t + beat / 2, 0.05)
+        if k % 8 == 0:
+            s.note("bass", "bass", ch[0] - 24, t, beat * 4, gain=0.15)
+        t += beat / 2 if t < B["leave1"] else beat
+        k += 1
+    s.note("bass", "bass", 31, st("L05"), D - st("L05"), gain=0.17)
+    s.note("pad", "pad", 43, st("L05"), D - st("L05"), gain=0.05, bright=0.1)
+    for m, p in ((55, -0.4), (56, 0.4), (62, 0.0)):
+        s.note("pad", "tremolo", m, B["scare1_end"], B["freeze"] - B["scare1_end"], gain=0.04, pan=p, rate=8.0)
+    t = B["scare1_end"] + 0.6
+    while t < D - 0.6:
+        s.hit("perc", drum_kick(0.3), t, 0.09)
+        s.hit("perc", drum_kick(0.25), t + 0.22, 0.05)
+        t += 1.1 if t < B["scare2"] else 0.8
+    s.gate(st("L07") + 2.0, B["scare1"], gain=0.15, fade=0.2)        # hold your breath ...
+    s.gate(edl.end("L10") - 0.2, B["scare2"], gain=0.1, fade=0.1)
+    s.hit("perc", drum_tom(40, 2.0), B["freeze"], 0.45)
+    s.gate(B["freeze"] + 0.4, B["choice"] + 0.3, gain=0.3, fade=0.1)
+    return s, dict(loop=False)
+
+
 def main():
     num = sys.argv[1].zfill(3)
     s, opts = globals()[f"cue_video{num}"]()

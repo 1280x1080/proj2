@@ -183,6 +183,14 @@
     "duration": 0.203,
     "peak_db": -9.0
   },
+  "game_shots": {
+    "file": "game_shots.flac",
+    "description": "Cartoony game gunfire through headphones: five quick laser-pop shots + a win jingle note",
+    "category": "gaming",
+    "loop": false,
+    "duration": 1.302,
+    "peak_db": -10.0
+  },
   "ghost_drone": {
     "file": "ghost_drone.flac",
     "description": "Something huge and wrong flying beside you: detuned sub drone + hollow wind choir, 8 s loopable",
@@ -255,6 +263,22 @@
     "duration": 0.85,
     "peak_db": -3.0
   },
+  "jumpscare_sting": {
+    "file": "jumpscare_sting.flac",
+    "description": "Jumpscare: slammed dissonant string cluster + sub hit + noise burst, 1.3 s",
+    "category": "scare",
+    "loop": false,
+    "duration": 2.302,
+    "peak_db": -1.5
+  },
+  "keys_mouse": {
+    "file": "keys_mouse.flac",
+    "description": "Fast keyboard taps and mouse clicks, 1.6 s",
+    "category": "gaming",
+    "loop": false,
+    "duration": 1.598,
+    "peak_db": -14.0
+  },
   "knock_slow": {
     "file": "knock_slow.flac",
     "description": "One heavy, slow knuckle knock on a bedroom door (from inside the room)",
@@ -295,6 +319,14 @@
     "duration": 4.251,
     "peak_db": -5.0
   },
+  "mic_scream": {
+    "file": "mic_scream.flac",
+    "description": "A scream through a cheap headset mic: clipped, peaking, cut off dead",
+    "category": "scare",
+    "loop": false,
+    "duration": 0.75,
+    "peak_db": -3.0
+  },
   "mop_slam": {
     "file": "mop_slam.flac",
     "description": "Wooden mop handle slammed across a counter",
@@ -326,6 +358,14 @@
     "loop": false,
     "duration": 1.553,
     "peak_db": -6.0
+  },
+  "pc_room": {
+    "file": "pc_room.flac",
+    "description": "Bedroom at night with a gaming PC: fan whirr, faint coil whine, 10 s loopable",
+    "category": "ambience",
+    "loop": true,
+    "duration": 10.0,
+    "peak_db": -27.0
   },
   "pencil_scribble": {
     "file": "pencil_scribble.flac",
@@ -486,6 +526,22 @@
     "loop": false,
     "duration": 1.875,
     "peak_db": -6.0
+  },
+  "vc_join": {
+    "file": "vc_join.flac",
+    "description": "Voice chat: someone joined - two soft rising tones",
+    "category": "gaming",
+    "loop": false,
+    "duration": 0.378,
+    "peak_db": -10.0
+  },
+  "vc_leave": {
+    "file": "vc_leave.flac",
+    "description": "Voice chat: someone left the call - two soft descending tones",
+    "category": "gaming",
+    "loop": false,
+    "duration": 0.378,
+    "peak_db": -10.0
   },
   "wet_steps": {
     "file": "wet_steps.flac",

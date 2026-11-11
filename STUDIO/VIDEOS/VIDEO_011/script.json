@@ -1,0 +1,124 @@
+{
+ "title": "LAST ONE IN THE CALL - Part 1",
+ "series": "LAST ONE IN THE CALL",
+ "part": 1,
+ "engine": "qwen",
+ "notes": "Qwen3-TTS. narrator reuses VIDEO_008. Jay is only heard through the headset (fx phone).",
+ "voice_ref": null,
+ "voices": {
+  "narrator": {
+   "design": "(copied from VIDEO_008)",
+   "ref_text": "It was late, and the street outside was quiet. Somewhere a door closed, and I waited."
+  },
+  "jay": {
+   "design": "Teenage boy, 16, energetic gamer talking to his friends on a headset, casual, fast and hyped; when scared his voice drops to a shaky whisper.",
+   "ref_text": "Yo, let's go! Did you see that shot? That was insane, bro. Okay okay, one more game, I promise."
+  }
+ },
+ "lead_in": 0.1,
+ "tail": 0.3,
+ "lines": [
+  {
+   "id": "H1",
+   "who": "narrator",
+   "text": "It's one AM. Your whole squad just left the voice chat. So who is still breathing in your headset?",
+   "delivery": "dramatic",
+   "pause_after": 0.35
+  },
+  {
+   "id": "L01",
+   "who": "narrator",
+   "text": "One hour earlier, it's a normal night. You and the boys are playing Fortnite.",
+   "delivery": "calm",
+   "pause_after": 0.12
+  },
+  {
+   "id": "L02",
+   "who": "jay",
+   "text": "\"Bro, you are cracked tonight! One more game!\"",
+   "delivery": "excited",
+   "pause_after": 0.25,
+   "fx": "phone"
+  },
+  {
+   "id": "L03",
+   "who": "narrator",
+   "text": "Then, one by one, they leave. Marcus. Then Dee. No goodbyes.",
+   "delivery": "calm",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L04",
+   "who": "narrator",
+   "text": "Now it's only you and Jay.",
+   "delivery": "calm",
+   "pause_after": 0.25
+  },
+  {
+   "id": "L05",
+   "who": "jay",
+   "text": "\"Yo... did you hear that? Someone is knocking on my window.\"",
+   "delivery": "nervous",
+   "pause_after": 0.3,
+   "fx": "phone"
+  },
+  {
+   "id": "L06",
+   "who": "narrator",
+   "text": "Jay lives on the third floor.",
+   "delivery": "dramatic",
+   "pause_after": 0.35
+  },
+  {
+   "id": "L07",
+   "who": "jay",
+   "text": "\"Bro. It's Marcus. He's outside my window. He's smiling.\"",
+   "delivery": "whisper",
+   "pause_after": 1.3,
+   "fx": "phone"
+  },
+  {
+   "id": "L08",
+   "who": "narrator",
+   "text": "A scream. Then silence. But Jay never leaves the call.",
+   "delivery": "dramatic",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L09",
+   "who": "narrator",
+   "text": "Your phone buzzes. A text from Marcus: Don't answer Jay. That's not him anymore.",
+   "delivery": "scared",
+   "pause_after": 0.4
+  },
+  {
+   "id": "L10",
+   "who": "jay",
+   "text": "\"Hey. Your turn. Look behind you.\"",
+   "delivery": "calm",
+   "pause_after": 1.4,
+   "fx": "phone"
+  },
+  {
+   "id": "L11",
+   "who": "narrator",
+   "text": "In your dark monitor, you see your bedroom door. It's open. Someone is standing there.",
+   "delivery": "scared",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L12",
+   "who": "narrator",
+   "text": "Then, three knocks... on your window.",
+   "delivery": "dramatic",
+   "pause_after": 1.3
+  },
+  {
+   "id": "L13",
+   "who": "narrator",
+   "text": "Comment A or B. Your choice decides Part 2.",
+   "delivery": "calm",
+   "pause_after": 0.0
+  }
+ ]
+}
