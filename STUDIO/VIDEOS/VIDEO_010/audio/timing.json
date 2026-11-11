@@ -1,0 +1,1191 @@
+{
+  "duration": 77.8,
+  "lines": [
+    {
+      "id": "H1",
+      "who": "narrator",
+      "text": "Imagine boarding a plane that flies the same route as the plane that vanished ten years ago.",
+      "start": 0.1,
+      "end": 4.48,
+      "words": [
+        {
+          "w": "Imagine",
+          "start": 0.1,
+          "end": 0.52
+        },
+        {
+          "w": "boarding",
+          "start": 0.52,
+          "end": 0.84
+        },
+        {
+          "w": "a",
+          "start": 0.84,
+          "end": 1.04
+        },
+        {
+          "w": "plane",
+          "start": 1.04,
+          "end": 1.28
+        },
+        {
+          "w": "that",
+          "start": 1.28,
+          "end": 1.5
+        },
+        {
+          "w": "flies",
+          "start": 1.5,
+          "end": 1.76
+        },
+        {
+          "w": "the",
+          "start": 1.76,
+          "end": 2.0
+        },
+        {
+          "w": "same",
+          "start": 2.0,
+          "end": 2.22
+        },
+        {
+          "w": "route",
+          "start": 2.22,
+          "end": 2.48
+        },
+        {
+          "w": "as",
+          "start": 2.48,
+          "end": 2.66
+        },
+        {
+          "w": "the",
+          "start": 2.66,
+          "end": 2.8
+        },
+        {
+          "w": "plane",
+          "start": 2.8,
+          "end": 3.04
+        },
+        {
+          "w": "that",
+          "start": 3.04,
+          "end": 3.2
+        },
+        {
+          "w": "vanished",
+          "start": 3.2,
+          "end": 3.52
+        },
+        {
+          "w": "ten",
+          "start": 3.52,
+          "end": 3.8
+        },
+        {
+          "w": "years",
+          "start": 3.8,
+          "end": 4.04
+        },
+        {
+          "w": "ago.",
+          "start": 4.04,
+          "end": 4.3
+        }
+      ]
+    },
+    {
+      "id": "L01",
+      "who": "narrator",
+      "text": "Ten years ago, Flight 417 took off just before midnight.",
+      "start": 4.78,
+      "end": 8.77,
+      "words": [
+        {
+          "w": "Ten",
+          "start": 4.78,
+          "end": 5.0
+        },
+        {
+          "w": "years",
+          "start": 5.0,
+          "end": 5.26
+        },
+        {
+          "w": "ago,",
+          "start": 5.26,
+          "end": 5.64
+        },
+        {
+          "w": "Flight",
+          "start": 6.24,
+          "end": 6.3
+        },
+        {
+          "w": "417",
+          "start": 6.3,
+          "end": 7.0
+        },
+        {
+          "w": "took",
+          "start": 7.0,
+          "end": 7.42
+        },
+        {
+          "w": "off",
+          "start": 7.42,
+          "end": 7.66
+        },
+        {
+          "w": "just",
+          "start": 7.66,
+          "end": 7.88
+        },
+        {
+          "w": "before",
+          "start": 7.88,
+          "end": 8.22
+        },
+        {
+          "w": "midnight.",
+          "start": 8.22,
+          "end": 8.52
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "who": "narrator",
+      "text": "Over the ocean, it vanished. No wreckage. No signal. Nothing.",
+      "start": 8.89,
+      "end": 12.95,
+      "words": [
+        {
+          "w": "Over",
+          "start": 8.89,
+          "end": 9.11
+        },
+        {
+          "w": "the",
+          "start": 9.11,
+          "end": 9.27
+        },
+        {
+          "w": "ocean,",
+          "start": 9.27,
+          "end": 9.53
+        },
+        {
+          "w": "it",
+          "start": 9.53,
+          "end": 9.75
+        },
+        {
+          "w": "vanished.",
+          "start": 9.75,
+          "end": 10.09
+        },
+        {
+          "w": "No",
+          "start": 10.57,
+          "end": 10.79
+        },
+        {
+          "w": "wreckage.",
+          "start": 10.79,
+          "end": 11.13
+        },
+        {
+          "w": "No",
+          "start": 11.59,
+          "end": 11.69
+        },
+        {
+          "w": "signal.",
+          "start": 11.69,
+          "end": 11.99
+        },
+        {
+          "w": "Nothing.",
+          "start": 12.49,
+          "end": 12.67
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "who": "narrator",
+      "text": "Tonight, you're flying the same route. Seat 14A.",
+      "start": 13.25,
+      "end": 16.88,
+      "words": [
+        {
+          "w": "Tonight,",
+          "start": 13.25,
+          "end": 13.57
+        },
+        {
+          "w": "you're",
+          "start": 14.11,
+          "end": 14.25
+        },
+        {
+          "w": "flying",
+          "start": 14.25,
+          "end": 14.47
+        },
+        {
+          "w": "the",
+          "start": 14.47,
+          "end": 14.65
+        },
+        {
+          "w": "same",
+          "start": 14.65,
+          "end": 14.91
+        },
+        {
+          "w": "route.",
+          "start": 14.91,
+          "end": 15.25
+        },
+        {
+          "w": "Seat",
+          "start": 15.87,
+          "end": 15.95
+        },
+        {
+          "w": "14A.",
+          "start": 15.95,
+          "end": 16.71
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "who": "narrator",
+      "text": "The old man beside you keeps checking his watch.",
+      "start": 17.0,
+      "end": 19.37,
+      "words": [
+        {
+          "w": "The",
+          "start": 17.0,
+          "end": 17.14
+        },
+        {
+          "w": "old",
+          "start": 17.14,
+          "end": 17.28
+        },
+        {
+          "w": "man",
+          "start": 17.28,
+          "end": 17.5
+        },
+        {
+          "w": "beside",
+          "start": 17.5,
+          "end": 17.86
+        },
+        {
+          "w": "you",
+          "start": 17.86,
+          "end": 18.14
+        },
+        {
+          "w": "keeps",
+          "start": 18.14,
+          "end": 18.3
+        },
+        {
+          "w": "checking",
+          "start": 18.3,
+          "end": 18.62
+        },
+        {
+          "w": "his",
+          "start": 18.62,
+          "end": 18.84
+        },
+        {
+          "w": "watch.",
+          "start": 18.84,
+          "end": 19.1
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "who": "man",
+      "text": "\"My wife was on that flight. I take this route every year.\"",
+      "start": 19.57,
+      "end": 23.29,
+      "words": [
+        {
+          "w": "\"My",
+          "start": 19.57,
+          "end": 19.77
+        },
+        {
+          "w": "wife",
+          "start": 19.77,
+          "end": 20.03
+        },
+        {
+          "w": "was",
+          "start": 20.03,
+          "end": 20.23
+        },
+        {
+          "w": "on",
+          "start": 20.23,
+          "end": 20.41
+        },
+        {
+          "w": "that",
+          "start": 20.41,
+          "end": 20.57
+        },
+        {
+          "w": "flight.",
+          "start": 20.57,
+          "end": 20.91
+        },
+        {
+          "w": "I",
+          "start": 21.67,
+          "end": 21.87
+        },
+        {
+          "w": "take",
+          "start": 21.87,
+          "end": 22.07
+        },
+        {
+          "w": "this",
+          "start": 22.07,
+          "end": 22.27
+        },
+        {
+          "w": "route",
+          "start": 22.27,
+          "end": 22.51
+        },
+        {
+          "w": "every",
+          "start": 22.51,
+          "end": 22.77
+        },
+        {
+          "w": "year.\"",
+          "start": 22.77,
+          "end": 23.05
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "who": "narrator",
+      "text": "At 2:17 AM, the cabin lights flicker. Every screen goes black.",
+      "start": 23.59,
+      "end": 28.48,
+      "words": [
+        {
+          "w": "At",
+          "start": 23.59,
+          "end": 23.79
+        },
+        {
+          "w": "2:17",
+          "start": 23.79,
+          "end": 24.43
+        },
+        {
+          "w": "AM,",
+          "start": 24.43,
+          "end": 25.27
+        },
+        {
+          "w": "the",
+          "start": 25.27,
+          "end": 25.39
+        },
+        {
+          "w": "cabin",
+          "start": 25.39,
+          "end": 25.65
+        },
+        {
+          "w": "lights",
+          "start": 25.65,
+          "end": 25.95
+        },
+        {
+          "w": "flicker.",
+          "start": 25.95,
+          "end": 26.37
+        },
+        {
+          "w": "Every",
+          "start": 27.09,
+          "end": 27.27
+        },
+        {
+          "w": "screen",
+          "start": 27.27,
+          "end": 27.65
+        },
+        {
+          "w": "goes",
+          "start": 27.65,
+          "end": 27.93
+        },
+        {
+          "w": "black.",
+          "start": 27.93,
+          "end": 28.29
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "who": "captain",
+      "text": "\"This is your captain. We've lost contact with the ground. Please remain seated.\"",
+      "start": 28.68,
+      "end": 33.75,
+      "words": [
+        {
+          "w": "\"This",
+          "start": 28.68,
+          "end": 28.86
+        },
+        {
+          "w": "is",
+          "start": 28.86,
+          "end": 29.02
+        },
+        {
+          "w": "your",
+          "start": 29.02,
+          "end": 29.22
+        },
+        {
+          "w": "captain.",
+          "start": 29.22,
+          "end": 29.64
+        },
+        {
+          "w": "We've",
+          "start": 30.4,
+          "end": 30.64
+        },
+        {
+          "w": "lost",
+          "start": 30.64,
+          "end": 30.82
+        },
+        {
+          "w": "contact",
+          "start": 30.82,
+          "end": 31.36
+        },
+        {
+          "w": "with",
+          "start": 31.36,
+          "end": 31.6
+        },
+        {
+          "w": "the",
+          "start": 31.6,
+          "end": 31.74
+        },
+        {
+          "w": "ground.",
+          "start": 31.74,
+          "end": 32.04
+        },
+        {
+          "w": "Please",
+          "start": 32.54,
+          "end": 32.74
+        },
+        {
+          "w": "remain",
+          "start": 32.74,
+          "end": 33.14
+        },
+        {
+          "w": "seated.\"",
+          "start": 33.14,
+          "end": 33.54
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "who": "narrator",
+      "text": "You look out the window. Another plane is flying right beside you.",
+      "start": 34.05,
+      "end": 37.83,
+      "words": [
+        {
+          "w": "You",
+          "start": 34.05,
+          "end": 34.21
+        },
+        {
+          "w": "look",
+          "start": 34.21,
+          "end": 34.35
+        },
+        {
+          "w": "out",
+          "start": 34.35,
+          "end": 34.55
+        },
+        {
+          "w": "the",
+          "start": 34.55,
+          "end": 34.67
+        },
+        {
+          "w": "window.",
+          "start": 34.67,
+          "end": 35.03
+        },
+        {
+          "w": "Another",
+          "start": 35.81,
+          "end": 35.95
+        },
+        {
+          "w": "plane",
+          "start": 35.95,
+          "end": 36.31
+        },
+        {
+          "w": "is",
+          "start": 36.31,
+          "end": 36.47
+        },
+        {
+          "w": "flying",
+          "start": 36.47,
+          "end": 36.75
+        },
+        {
+          "w": "right",
+          "start": 36.75,
+          "end": 37.03
+        },
+        {
+          "w": "beside",
+          "start": 37.03,
+          "end": 37.39
+        },
+        {
+          "w": "you.",
+          "start": 37.39,
+          "end": 37.67
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "who": "narrator",
+      "text": "Old paint. No lights. And on its tail... 417.",
+      "start": 37.95,
+      "end": 43.27,
+      "words": [
+        {
+          "w": "Old",
+          "start": 37.95,
+          "end": 38.17
+        },
+        {
+          "w": "paint.",
+          "start": 38.17,
+          "end": 38.51
+        },
+        {
+          "w": "No",
+          "start": 39.07,
+          "end": 39.31
+        },
+        {
+          "w": "lights.",
+          "start": 39.31,
+          "end": 39.65
+        },
+        {
+          "w": "And",
+          "start": 40.37,
+          "end": 40.51
+        },
+        {
+          "w": "on",
+          "start": 40.51,
+          "end": 40.65
+        },
+        {
+          "w": "its",
+          "start": 40.65,
+          "end": 40.81
+        },
+        {
+          "w": "tail...",
+          "start": 40.81,
+          "end": 41.15
+        },
+        {
+          "w": "417.",
+          "start": 41.97,
+          "end": 42.89
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "who": "narrator",
+      "text": "Its windows are full of passengers. All of them are staring at you.",
+      "start": 43.62,
+      "end": 47.3,
+      "words": [
+        {
+          "w": "Its",
+          "start": 43.62,
+          "end": 43.82
+        },
+        {
+          "w": "windows",
+          "start": 43.82,
+          "end": 44.18
+        },
+        {
+          "w": "are",
+          "start": 44.18,
+          "end": 44.4
+        },
+        {
+          "w": "full",
+          "start": 44.4,
+          "end": 44.56
+        },
+        {
+          "w": "of",
+          "start": 44.56,
+          "end": 44.72
+        },
+        {
+          "w": "passengers.",
+          "start": 44.72,
+          "end": 45.2
+        },
+        {
+          "w": "All",
+          "start": 45.96,
+          "end": 46.1
+        },
+        {
+          "w": "of",
+          "start": 46.1,
+          "end": 46.24
+        },
+        {
+          "w": "them",
+          "start": 46.24,
+          "end": 46.36
+        },
+        {
+          "w": "are",
+          "start": 46.36,
+          "end": 46.5
+        },
+        {
+          "w": "staring",
+          "start": 46.5,
+          "end": 46.8
+        },
+        {
+          "w": "at",
+          "start": 46.8,
+          "end": 47.02
+        },
+        {
+          "w": "you.",
+          "start": 47.02,
+          "end": 47.2
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "who": "man",
+      "text": "\"That's her. That's my wife. She hasn't aged a day.\"",
+      "start": 47.6,
+      "end": 51.6,
+      "words": [
+        {
+          "w": "\"That's",
+          "start": 47.6,
+          "end": 47.88
+        },
+        {
+          "w": "her.",
+          "start": 47.88,
+          "end": 48.06
+        },
+        {
+          "w": "That's",
+          "start": 48.72,
+          "end": 48.94
+        },
+        {
+          "w": "my",
+          "start": 48.94,
+          "end": 49.1
+        },
+        {
+          "w": "wife.",
+          "start": 49.1,
+          "end": 49.4
+        },
+        {
+          "w": "She",
+          "start": 50.3,
+          "end": 50.44
+        },
+        {
+          "w": "hasn't",
+          "start": 50.44,
+          "end": 50.8
+        },
+        {
+          "w": "aged",
+          "start": 50.8,
+          "end": 51.0
+        },
+        {
+          "w": "a",
+          "start": 51.0,
+          "end": 51.18
+        },
+        {
+          "w": "day.\"",
+          "start": 51.18,
+          "end": 51.38
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "who": "narrator",
+      "text": "The woman lifts her hand... and points behind you.",
+      "start": 51.9,
+      "end": 54.74,
+      "words": [
+        {
+          "w": "The",
+          "start": 51.9,
+          "end": 52.04
+        },
+        {
+          "w": "woman",
+          "start": 52.04,
+          "end": 52.24
+        },
+        {
+          "w": "lifts",
+          "start": 52.24,
+          "end": 52.5
+        },
+        {
+          "w": "her",
+          "start": 52.5,
+          "end": 52.7
+        },
+        {
+          "w": "hand...",
+          "start": 52.7,
+          "end": 53.08
+        },
+        {
+          "w": "and",
+          "start": 53.08,
+          "end": 53.7
+        },
+        {
+          "w": "points",
+          "start": 53.7,
+          "end": 53.98
+        },
+        {
+          "w": "behind",
+          "start": 53.98,
+          "end": 54.38
+        },
+        {
+          "w": "you.",
+          "start": 54.38,
+          "end": 54.62
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "who": "narrator",
+      "text": "You turn around. Half the seats on your plane are empty. The seat belts are still buckled.",
+      "start": 54.99,
+      "end": 60.06,
+      "words": [
+        {
+          "w": "You",
+          "start": 54.99,
+          "end": 55.15
+        },
+        {
+          "w": "turn",
+          "start": 55.15,
+          "end": 55.35
+        },
+        {
+          "w": "around.",
+          "start": 55.35,
+          "end": 55.75
+        },
+        {
+          "w": "Half",
+          "start": 56.33,
+          "end": 56.43
+        },
+        {
+          "w": "the",
+          "start": 56.43,
+          "end": 56.59
+        },
+        {
+          "w": "seats",
+          "start": 56.59,
+          "end": 56.79
+        },
+        {
+          "w": "on",
+          "start": 56.79,
+          "end": 56.99
+        },
+        {
+          "w": "your",
+          "start": 56.99,
+          "end": 57.11
+        },
+        {
+          "w": "plane",
+          "start": 57.11,
+          "end": 57.35
+        },
+        {
+          "w": "are",
+          "start": 57.35,
+          "end": 57.49
+        },
+        {
+          "w": "empty.",
+          "start": 57.49,
+          "end": 57.81
+        },
+        {
+          "w": "The",
+          "start": 58.47,
+          "end": 58.55
+        },
+        {
+          "w": "seat",
+          "start": 58.55,
+          "end": 58.77
+        },
+        {
+          "w": "belts",
+          "start": 58.77,
+          "end": 59.07
+        },
+        {
+          "w": "are",
+          "start": 59.07,
+          "end": 59.25
+        },
+        {
+          "w": "still",
+          "start": 59.25,
+          "end": 59.49
+        },
+        {
+          "w": "buckled.",
+          "start": 59.49,
+          "end": 59.95
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "who": "captain",
+      "text": "\"This is Flight 417. We have room for everyone.\"",
+      "start": 60.36,
+      "end": 63.76,
+      "words": [
+        {
+          "w": "\"This",
+          "start": 60.36,
+          "end": 60.52
+        },
+        {
+          "w": "is",
+          "start": 60.52,
+          "end": 60.7
+        },
+        {
+          "w": "Flight",
+          "start": 60.7,
+          "end": 61.0
+        },
+        {
+          "w": "417.",
+          "start": 61.0,
+          "end": 61.74
+        },
+        {
+          "w": "We",
+          "start": 62.4,
+          "end": 62.56
+        },
+        {
+          "w": "have",
+          "start": 62.56,
+          "end": 62.72
+        },
+        {
+          "w": "room",
+          "start": 62.72,
+          "end": 62.92
+        },
+        {
+          "w": "for",
+          "start": 62.92,
+          "end": 63.18
+        },
+        {
+          "w": "everyone.\"",
+          "start": 63.18,
+          "end": 63.48
+        }
+      ]
+    },
+    {
+      "id": "L15",
+      "who": "narrator",
+      "text": "The old man unbuckles his belt. He's smiling.",
+      "start": 64.16,
+      "end": 67.26,
+      "words": [
+        {
+          "w": "The",
+          "start": 64.16,
+          "end": 64.3
+        },
+        {
+          "w": "old",
+          "start": 64.3,
+          "end": 64.48
+        },
+        {
+          "w": "man",
+          "start": 64.48,
+          "end": 64.8
+        },
+        {
+          "w": "unbuckles",
+          "start": 64.8,
+          "end": 65.34
+        },
+        {
+          "w": "his",
+          "start": 65.34,
+          "end": 65.56
+        },
+        {
+          "w": "belt.",
+          "start": 65.56,
+          "end": 65.88
+        },
+        {
+          "w": "He's",
+          "start": 66.48,
+          "end": 66.68
+        },
+        {
+          "w": "smiling.",
+          "start": 66.68,
+          "end": 66.96
+        }
+      ]
+    },
+    {
+      "id": "L16",
+      "who": "man",
+      "text": "\"She's waiting for me. Come with us.\"",
+      "start": 67.38,
+      "end": 69.7,
+      "words": [
+        {
+          "w": "\"She's",
+          "start": 67.38,
+          "end": 67.74
+        },
+        {
+          "w": "waiting",
+          "start": 67.74,
+          "end": 67.98
+        },
+        {
+          "w": "for",
+          "start": 67.98,
+          "end": 68.24
+        },
+        {
+          "w": "me.",
+          "start": 68.24,
+          "end": 68.5
+        },
+        {
+          "w": "Come",
+          "start": 68.98,
+          "end": 69.1
+        },
+        {
+          "w": "with",
+          "start": 69.1,
+          "end": 69.28
+        },
+        {
+          "w": "us.\"",
+          "start": 69.28,
+          "end": 69.5
+        }
+      ]
+    },
+    {
+      "id": "L17",
+      "who": "narrator",
+      "text": "Beside you, the emergency door begins to unlock by itself.",
+      "start": 70.0,
+      "end": 73.66,
+      "words": [
+        {
+          "w": "Beside",
+          "start": 70.0,
+          "end": 70.44
+        },
+        {
+          "w": "you,",
+          "start": 70.44,
+          "end": 70.66
+        },
+        {
+          "w": "the",
+          "start": 71.06,
+          "end": 71.2
+        },
+        {
+          "w": "emergency",
+          "start": 71.2,
+          "end": 71.56
+        },
+        {
+          "w": "door",
+          "start": 71.56,
+          "end": 71.9
+        },
+        {
+          "w": "begins",
+          "start": 71.9,
+          "end": 72.2
+        },
+        {
+          "w": "to",
+          "start": 72.2,
+          "end": 72.38
+        },
+        {
+          "w": "unlock",
+          "start": 72.38,
+          "end": 72.76
+        },
+        {
+          "w": "by",
+          "start": 72.76,
+          "end": 73.04
+        },
+        {
+          "w": "itself.",
+          "start": 73.04,
+          "end": 73.4
+        }
+      ]
+    },
+    {
+      "id": "L18",
+      "who": "narrator",
+      "text": "Comment A or B. Your choice decides Part 2.",
+      "start": 74.16,
+      "end": 77.5,
+      "words": [
+        {
+          "w": "Comment",
+          "start": 74.16,
+          "end": 74.48
+        },
+        {
+          "w": "A",
+          "start": 74.48,
+          "end": 74.88
+        },
+        {
+          "w": "or",
+          "start": 74.88,
+          "end": 75.1
+        },
+        {
+          "w": "B.",
+          "start": 75.1,
+          "end": 75.42
+        },
+        {
+          "w": "Your",
+          "start": 75.74,
+          "end": 75.9
+        },
+        {
+          "w": "choice",
+          "start": 75.9,
+          "end": 76.22
+        },
+        {
+          "w": "decides",
+          "start": 76.22,
+          "end": 76.78
+        },
+        {
+          "w": "Part",
+          "start": 76.78,
+          "end": 77.04
+        },
+        {
+          "w": "2.",
+          "start": 77.04,
+          "end": 77.36
+        }
+      ]
+    }
+  ]
+}

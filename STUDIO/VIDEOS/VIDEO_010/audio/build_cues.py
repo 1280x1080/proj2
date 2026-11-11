@@ -37,7 +37,8 @@ while t < B["vanish"] - 0.2:
     cue(t, "radar_ping", -8, note="radar")
     t += 0.8
 cue(B["vanish"], "power_down", -6, note="it vanishes")
-cue(end("L02") + 0.02, "tinnitus", -20, note="nothing")
+cue(end("L02") - 0.3, "tinnitus", -10, note="nothing")
+cue(end("L02") + 0.02, "radar_ping", -12)
 # tonight
 cue(B["tonight"] + 0.1, "cabin_ding", -8, note="seat-belt sign")
 cue(start("L04") + 0.3, "tick", -8, note="his watch")

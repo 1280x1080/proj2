@@ -29,3 +29,63 @@ Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
 [L03] take r0t1: 0 mismatches, 3.63s audio, 29.4s gen  | "Tonight, you're flying the same route, seat 14A."
 Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L04] take r0t0: 0 mismatches, 2.37s audio, 19.7s gen  | 'The old man beside you keeps checking his watch.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L04] take r0t1: 0 mismatches, 2.39s audio, 21.1s gen  | 'The old man beside you keeps checking his watch.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L05] take r0t0: 0 mismatches, 4.05s audio, 30.0s gen  | 'My wife was on that flight. I take this route every year.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L05] take r0t1: 0 mismatches, 3.72s audio, 27.5s gen  | 'My wife was on that flight. I take this route every year.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L06] take r0t0: 0 mismatches, 4.36s audio, 30.8s gen  | 'At 2.17 AM the cabin lights flicker, every screen goes black.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L06] take r0t1: 0 mismatches, 4.89s audio, 33.6s gen  | 'At 2.17 a.m., the cabin lights flicker. Every screen goes black.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L07] take r0t0: 0 mismatches, 5.07s audio, 42.0s gen  | "This is your captain. We've lost contact with the ground, please remain seated."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L07] take r0t1: 0 mismatches, 4.89s audio, 37.8s gen  | "This is your captain. We've lost contact with the ground. Please remain seated."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L08] take r0t0: 0 mismatches, 3.78s audio, 27.5s gen  | 'You look out the window, another plane is flying right beside you.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L08] take r0t1: 0 mismatches, 3.77s audio, 27.9s gen  | 'You look out the window. Another plane is flying right beside you.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L09] take r0t0: 0 mismatches, 5.32s audio, 35.0s gen  | 'old paint, no lights, and on its tail, four hundred seventeen.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L09] take r0t1: 0 mismatches, 5.24s audio, 35.5s gen  | 'old paint, no lights, and on its tail, four hundred seventeen.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L10] take r0t0: 0 mismatches, 3.77s audio, 26.2s gen  | 'Its windows are full of passengers. All of them are staring at you.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L10] take r0t1: 0 mismatches, 3.68s audio, 23.9s gen  | 'Its windows are full of passengers. All of them are staring at you.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L11] take r0t0: 0 mismatches, 4.24s audio, 28.9s gen  | "That's her. That's my wife. She hasn't aged a day."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L11] take r0t1: 0 mismatches, 4.00s audio, 30.1s gen  | "That's her. That's my wife. She hasn't aged a day."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L12] take r0t0: 0 mismatches, 2.84s audio, 19.7s gen  | 'The woman lifts her hand and points behind you.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L12] take r0t1: 0 mismatches, 3.25s audio, 21.5s gen  | 'The woman lifts her hand and points behind you.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L13] take r0t0: 0 mismatches, 5.43s audio, 35.2s gen  | 'You turn around. Half the seats on your plane are empty. The seat belts are still buckled.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L13] take r0t1: 0 mismatches, 5.07s audio, 33.9s gen  | 'You turn around, half the seats on your plane are empty, the seat belts are still buckled.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L14] take r0t0: 0 mismatches, 3.79s audio, 30.7s gen  | 'This is flight 417. We have room for everyone.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L14] take r0t1: 0 mismatches, 3.40s audio, 26.0s gen  | 'This is flight 417. We have room for everyone.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L15] take r0t0: 0 mismatches, 3.28s audio, 22.1s gen  | "The old man unbuckles his belt. He's smiling."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L15] take r0t1: 0 mismatches, 3.10s audio, 20.2s gen  | "The old man unbuckles his belt, he's smiling."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L16] take r0t0: 0 mismatches, 2.32s audio, 17.3s gen  | "She's waiting for me. Come with us."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L16] take r0t1: 0 mismatches, 2.31s audio, 15.9s gen  | "She's waiting for me. Come with us."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L17] take r0t0: 0 mismatches, 3.44s audio, 21.8s gen  | 'Beside you, the emergency door begins to unlock by itself.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L17] take r0t1: 0 mismatches, 3.66s audio, 23.1s gen  | 'Beside you, the emergency door begins to unlock by itself.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L18] take r0t0: 0 mismatches, 3.34s audio, 21.4s gen  | 'Comment A or B, your choice decides part 2.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L18] take r0t1: 0 mismatches, 3.34s audio, 21.4s gen  | 'Comment A or B, your choice decides part 2.'
+narration: 77.80s, 19 lines; lines with mismatches: none

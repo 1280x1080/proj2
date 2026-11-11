@@ -1,0 +1,398 @@
+{
+  "duration": 80.9,
+  "loop": false,
+  "narration": {
+    "file": "narration_raw.wav",
+    "offset": 0.0
+  },
+  "sfx_duck_db": -5.0,
+  "amb_duck_db": -5.0,
+  "ceiling_dbtp": -1.7,
+  "cues": [
+    {
+      "t": 0.0,
+      "sfx": "crt_hum",
+      "gain_db": 2,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "radar room (hook)",
+      "dur": 2.3000000000000003,
+      "fade_in": 0.02
+    },
+    {
+      "t": 0.15,
+      "sfx": "radar_ping",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "radar"
+    },
+    {
+      "t": 0.85,
+      "sfx": "radar_ping",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "radar"
+    },
+    {
+      "t": 1.55,
+      "sfx": "radar_ping",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "radar"
+    },
+    {
+      "t": 1.6,
+      "sfx": "power_down",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "blip gone (hook)"
+    },
+    {
+      "t": 2.3,
+      "sfx": "ghost_drone",
+      "gain_db": 2,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "flash-forward: the other plane",
+      "dur": 2.4,
+      "fade_in": 0.05
+    },
+    {
+      "t": 2.3,
+      "sfx": "impact_cinematic",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "ghost plane"
+    },
+    {
+      "t": 4.5,
+      "sfx": "whoosh_soft",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 4.7,
+      "sfx": "cabin_drone",
+      "gain_db": 0,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "Flight 417, ten years ago",
+      "dur": 4.19,
+      "fade_in": 0.1
+    },
+    {
+      "t": 5.0,
+      "sfx": "whoosh",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "take-off"
+    },
+    {
+      "t": 8.79,
+      "sfx": "crt_hum",
+      "gain_db": 4,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "radar room",
+      "dur": 4.379999999999999,
+      "fade_in": 0.05
+    },
+    {
+      "t": 8.89,
+      "sfx": "radar_ping",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "radar"
+    },
+    {
+      "t": 9.75,
+      "sfx": "power_down",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "it vanishes"
+    },
+    {
+      "t": 12.65,
+      "sfx": "tinnitus",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "nothing"
+    },
+    {
+      "t": 12.97,
+      "sfx": "radar_ping",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 13.17,
+      "sfx": "cabin_drone",
+      "gain_db": 2,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "your flight",
+      "dur": 67.73,
+      "fade_in": 0.1
+    },
+    {
+      "t": 13.27,
+      "sfx": "cabin_ding",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "seat-belt sign"
+    },
+    {
+      "t": 17.3,
+      "sfx": "tick",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "his watch"
+    },
+    {
+      "t": 18.3,
+      "sfx": "tick",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 19.39,
+      "sfx": "tick",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 23.31,
+      "sfx": "breath_close",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.3,
+      "note": "he sighs"
+    },
+    {
+      "t": 25.95,
+      "sfx": "flicker_zap",
+      "gain_db": -4,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "lights flicker"
+    },
+    {
+      "t": 26.3,
+      "sfx": "flicker_zap",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 27.09,
+      "sfx": "power_down",
+      "gain_db": -5,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "screens die"
+    },
+    {
+      "t": 28.18,
+      "sfx": "cabin_ding",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "PA"
+    },
+    {
+      "t": 28.5,
+      "sfx": "turbulence",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "a shudder"
+    },
+    {
+      "t": 33.77,
+      "sfx": "heartbeat",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 35.81,
+      "sfx": "ghost_drone",
+      "gain_db": 0,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "Flight 417 alongside",
+      "dur": 45.09,
+      "fade_in": 1.2
+    },
+    {
+      "t": 35.81,
+      "sfx": "riser",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "something outside"
+    },
+    {
+      "t": 37.95,
+      "sfx": "impact_soft",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 42.37,
+      "sfx": "impact_cinematic",
+      "gain_db": -7,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "417"
+    },
+    {
+      "t": 43.92,
+      "sfx": "heartbeat",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 47.32,
+      "sfx": "breath_close",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "your breath"
+    },
+    {
+      "t": 51.62,
+      "sfx": "heartbeat",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 53.7,
+      "sfx": "whoosh_soft",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "she points"
+    },
+    {
+      "t": 55.04,
+      "sfx": "whoosh",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "you turn"
+    },
+    {
+      "t": 59.91,
+      "sfx": "cabin_ding",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "PA again"
+    },
+    {
+      "t": 60.08,
+      "sfx": "turbulence",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 60.26,
+      "sfx": "crackle_burst",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "wrong voice"
+    },
+    {
+      "t": 63.81,
+      "sfx": "heartbeat",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 64.8,
+      "sfx": "belt_click",
+      "gain_db": -4,
+      "bus": "sfx",
+      "pan": 0.3,
+      "note": "he unbuckles"
+    },
+    {
+      "t": 69.72,
+      "sfx": "breath_close",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 70.5,
+      "sfx": "handle_turn",
+      "gain_db": -3,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "the exit handle turns by itself"
+    },
+    {
+      "t": 72.0,
+      "sfx": "handle_turn",
+      "gain_db": -3,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": ""
+    },
+    {
+      "t": 73.81,
+      "sfx": "impact_cinematic",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "freeze"
+    },
+    {
+      "t": 74.51,
+      "sfx": "riser",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "choice"
+    }
+  ],
+  "music": {
+    "file": "music.wav",
+    "gain_db": -4.0,
+    "duck_db": -10.0
+  }
+}

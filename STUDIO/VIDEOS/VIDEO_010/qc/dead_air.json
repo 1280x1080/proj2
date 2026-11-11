@@ -1,0 +1,246 @@
+{
+  "dead_air": {
+    "threshold_lufs": -42.0,
+    "quietest_momentary": -34.6,
+    "runs": [],
+    "ok": true
+  },
+  "gaps": {
+    "min_lufs": -34.0,
+    "max_lufs": -14.0,
+    "rows": [
+      {
+        "gap": "H1->L01",
+        "start": 4.48,
+        "dur": 0.3,
+        "bed_lufs": -29.2,
+        "ok": true
+      },
+      {
+        "gap": "L02->L03",
+        "start": 12.95,
+        "dur": 0.3,
+        "bed_lufs": -28.9,
+        "ok": true
+      },
+      {
+        "gap": "L05->L06",
+        "start": 23.29,
+        "dur": 0.3,
+        "bed_lufs": -31.4,
+        "ok": true
+      },
+      {
+        "gap": "L07->L08",
+        "start": 33.75,
+        "dur": 0.3,
+        "bed_lufs": -25.6,
+        "ok": true
+      },
+      {
+        "gap": "L09->L10",
+        "start": 43.27,
+        "dur": 0.35,
+        "bed_lufs": -23.2,
+        "ok": true
+      },
+      {
+        "gap": "L10->L11",
+        "start": 47.3,
+        "dur": 0.3,
+        "bed_lufs": -28.9,
+        "ok": true
+      },
+      {
+        "gap": "L11->L12",
+        "start": 51.6,
+        "dur": 0.3,
+        "bed_lufs": -27.2,
+        "ok": true
+      },
+      {
+        "gap": "L12->L13",
+        "start": 54.74,
+        "dur": 0.25,
+        "bed_lufs": -27.7,
+        "ok": true
+      },
+      {
+        "gap": "L13->L14",
+        "start": 60.06,
+        "dur": 0.3,
+        "bed_lufs": -21.3,
+        "ok": true
+      },
+      {
+        "gap": "L14->L15",
+        "start": 63.76,
+        "dur": 0.4,
+        "bed_lufs": -24.6,
+        "ok": true
+      },
+      {
+        "gap": "L16->L17",
+        "start": 69.7,
+        "dur": 0.3,
+        "bed_lufs": -27.5,
+        "ok": true
+      },
+      {
+        "gap": "L17->L18",
+        "start": 73.66,
+        "dur": 0.5,
+        "bed_lufs": -16.6,
+        "ok": true
+      },
+      {
+        "gap": "tail",
+        "start": 77.5,
+        "dur": 3.4,
+        "bed_lufs": -24.2,
+        "ok": true
+      }
+    ],
+    "ok": true
+  },
+  "speech": {
+    "min_margin_lu": 8.0,
+    "rows": [
+      {
+        "line": "H1",
+        "voice_lufs": -13.4,
+        "bed_lufs": -24.4,
+        "margin_lu": 11.0,
+        "ok": true
+      },
+      {
+        "line": "L01",
+        "voice_lufs": -14.6,
+        "bed_lufs": -33.1,
+        "margin_lu": 18.4,
+        "ok": true
+      },
+      {
+        "line": "L02",
+        "voice_lufs": -13.5,
+        "bed_lufs": -28.2,
+        "margin_lu": 14.6,
+        "ok": true
+      },
+      {
+        "line": "L03",
+        "voice_lufs": -13.2,
+        "bed_lufs": -32.0,
+        "margin_lu": 18.8,
+        "ok": true
+      },
+      {
+        "line": "L04",
+        "voice_lufs": -12.5,
+        "bed_lufs": -33.2,
+        "margin_lu": 20.6,
+        "ok": true
+      },
+      {
+        "line": "L05",
+        "voice_lufs": -14.2,
+        "bed_lufs": -32.7,
+        "margin_lu": 18.5,
+        "ok": true
+      },
+      {
+        "line": "L06",
+        "voice_lufs": -14.3,
+        "bed_lufs": -26.4,
+        "margin_lu": 12.1,
+        "ok": true
+      },
+      {
+        "line": "L07",
+        "voice_lufs": -13.9,
+        "bed_lufs": -33.3,
+        "margin_lu": 19.4,
+        "ok": true
+      },
+      {
+        "line": "L08",
+        "voice_lufs": -12.9,
+        "bed_lufs": -31.7,
+        "margin_lu": 18.8,
+        "ok": true
+      },
+      {
+        "line": "L09",
+        "voice_lufs": -13.8,
+        "bed_lufs": -25.3,
+        "margin_lu": 11.5,
+        "ok": true
+      },
+      {
+        "line": "L10",
+        "voice_lufs": -14.7,
+        "bed_lufs": -28.3,
+        "margin_lu": 13.6,
+        "ok": true
+      },
+      {
+        "line": "L11",
+        "voice_lufs": -13.7,
+        "bed_lufs": -28.0,
+        "margin_lu": 14.3,
+        "ok": true
+      },
+      {
+        "line": "L12",
+        "voice_lufs": -13.9,
+        "bed_lufs": -29.2,
+        "margin_lu": 15.3,
+        "ok": true
+      },
+      {
+        "line": "L13",
+        "voice_lufs": -14.1,
+        "bed_lufs": -28.1,
+        "margin_lu": 14.1,
+        "ok": true
+      },
+      {
+        "line": "L14",
+        "voice_lufs": -13.0,
+        "bed_lufs": -27.9,
+        "margin_lu": 14.9,
+        "ok": true
+      },
+      {
+        "line": "L15",
+        "voice_lufs": -13.3,
+        "bed_lufs": -28.6,
+        "margin_lu": 15.3,
+        "ok": true
+      },
+      {
+        "line": "L16",
+        "voice_lufs": -13.7,
+        "bed_lufs": -28.8,
+        "margin_lu": 15.2,
+        "ok": true
+      },
+      {
+        "line": "L17",
+        "voice_lufs": -13.4,
+        "bed_lufs": -25.8,
+        "margin_lu": 12.4,
+        "ok": true
+      },
+      {
+        "line": "L18",
+        "voice_lufs": -13.8,
+        "bed_lufs": -24.9,
+        "margin_lu": 11.0,
+        "ok": true
+      }
+    ],
+    "ok": true
+  },
+  "passed": true
+}

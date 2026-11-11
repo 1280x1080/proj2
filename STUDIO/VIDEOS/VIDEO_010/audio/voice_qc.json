@@ -1,0 +1,199 @@
+{
+  "model": "base.en",
+  "lines": [
+    {
+      "id": "H1",
+      "text": "Imagine boarding a plane that flies the same route as the plane that vanished ten years ago.",
+      "heard": "Imagine boarding a plane that flies the same route as the plane that vanished 10 years ago.",
+      "mismatches": 0,
+      "duration": 4.38,
+      "words_per_sec": 3.88,
+      "clipped": false
+    },
+    {
+      "id": "L01",
+      "text": "Ten years ago, Flight 417 took off just before midnight.",
+      "heard": "10 years ago, Flight 417 took off just before midnight.",
+      "mismatches": 0,
+      "duration": 3.99,
+      "words_per_sec": 3.01,
+      "clipped": false
+    },
+    {
+      "id": "L02",
+      "text": "Over the ocean, it vanished. No wreckage. No signal. Nothing.",
+      "heard": "Over the ocean it vanished, no wreckage, no signal, nothing.",
+      "mismatches": 0,
+      "duration": 4.06,
+      "words_per_sec": 2.46,
+      "clipped": false
+    },
+    {
+      "id": "L03",
+      "text": "Tonight, you're flying the same route. Seat 14A.",
+      "heard": "Tonight, you're flying the same route, seat 14A.",
+      "mismatches": 0,
+      "duration": 3.63,
+      "words_per_sec": 2.48,
+      "clipped": false
+    },
+    {
+      "id": "L04",
+      "text": "The old man beside you keeps checking his watch.",
+      "heard": "The old man beside you keeps checking his watch.",
+      "mismatches": 0,
+      "duration": 2.37,
+      "words_per_sec": 3.8,
+      "clipped": false
+    },
+    {
+      "id": "L05",
+      "text": "\"My wife was on that flight. I take this route every year.\"",
+      "heard": "My wife was on that flight. I take this route every year.",
+      "mismatches": 0,
+      "duration": 3.72,
+      "words_per_sec": 3.23,
+      "clipped": false
+    },
+    {
+      "id": "L06",
+      "text": "At 2:17 AM, the cabin lights flicker. Every screen goes black.",
+      "heard": "At 2.17 am, the cabin lights flicker. Every screen goes black.",
+      "mismatches": 0,
+      "duration": 4.89,
+      "words_per_sec": 2.45,
+      "clipped": false
+    },
+    {
+      "id": "L07",
+      "text": "\"This is your captain. We've lost contact with the ground. Please remain seated.\"",
+      "heard": "This is your captain. We've lost contact with the ground. Please remain seated.",
+      "mismatches": 0,
+      "duration": 5.07,
+      "words_per_sec": 2.56,
+      "clipped": false
+    },
+    {
+      "id": "L08",
+      "text": "You look out the window. Another plane is flying right beside you.",
+      "heard": "You look out the window. Another plane is flying right beside you. //",
+      "mismatches": 0,
+      "duration": 3.78,
+      "words_per_sec": 3.17,
+      "clipped": false
+    },
+    {
+      "id": "L09",
+      "text": "Old paint. No lights. And on its tail... 417.",
+      "heard": "old paint, no lights, and on its tail, 417.",
+      "mismatches": 0,
+      "duration": 5.32,
+      "words_per_sec": 2.07,
+      "clipped": false
+    },
+    {
+      "id": "L10",
+      "text": "Its windows are full of passengers. All of them are staring at you.",
+      "heard": "Its windows are full of passengers. All of them are staring at you.",
+      "mismatches": 0,
+      "duration": 3.68,
+      "words_per_sec": 3.53,
+      "clipped": false
+    },
+    {
+      "id": "L11",
+      "text": "\"That's her. That's my wife. She hasn't aged a day.\"",
+      "heard": "That's her. That's my wife. She hasn't aged a day.",
+      "mismatches": 0,
+      "duration": 4.0,
+      "words_per_sec": 2.5,
+      "clipped": false
+    },
+    {
+      "id": "L12",
+      "text": "The woman lifts her hand... and points behind you.",
+      "heard": "The woman lifts her hand and points behind you.",
+      "mismatches": 0,
+      "duration": 2.84,
+      "words_per_sec": 3.17,
+      "clipped": false
+    },
+    {
+      "id": "L13",
+      "text": "You turn around. Half the seats on your plane are empty. The seat belts are still buckled.",
+      "heard": "You turn around, half the seats on your plane are empty. The seat belts are still buckled.",
+      "mismatches": 0,
+      "duration": 5.07,
+      "words_per_sec": 3.35,
+      "clipped": false
+    },
+    {
+      "id": "L14",
+      "text": "\"This is Flight 417. We have room for everyone.\"",
+      "heard": "This is Flight 417. We have room for everyone.",
+      "mismatches": 0,
+      "duration": 3.4,
+      "words_per_sec": 3.24,
+      "clipped": false
+    },
+    {
+      "id": "L15",
+      "text": "The old man unbuckles his belt. He's smiling.",
+      "heard": "The old man unbuckles his belt, he's smiling.",
+      "mismatches": 0,
+      "duration": 3.1,
+      "words_per_sec": 2.58,
+      "clipped": false
+    },
+    {
+      "id": "L16",
+      "text": "\"She's waiting for me. Come with us.\"",
+      "heard": "She's waiting for me. Come with us.",
+      "mismatches": 0,
+      "duration": 2.32,
+      "words_per_sec": 3.02,
+      "clipped": false
+    },
+    {
+      "id": "L17",
+      "text": "Beside you, the emergency door begins to unlock by itself.",
+      "heard": "Beside you, the emergency door begins to unlock by itself.",
+      "mismatches": 0,
+      "duration": 3.66,
+      "words_per_sec": 2.73,
+      "clipped": false
+    },
+    {
+      "id": "L18",
+      "text": "Comment A or B. Your choice decides Part 2.",
+      "heard": "Comment A or B, your choice decides part 2.",
+      "mismatches": 0,
+      "duration": 3.34,
+      "words_per_sec": 2.69,
+      "clipped": false
+    }
+  ],
+  "gaps": [
+    0.3,
+    0.12,
+    0.3,
+    0.12,
+    0.2,
+    0.3,
+    0.2,
+    0.3,
+    0.12,
+    0.35,
+    0.3,
+    0.3,
+    0.25,
+    0.3,
+    0.4,
+    0.12,
+    0.3,
+    0.5
+  ],
+  "total": 77.8,
+  "peak_db": -2.9,
+  "passed": true
+}

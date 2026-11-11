@@ -136,8 +136,8 @@ def plane(c, cx, cy, s, ghost=False, t=0.0, lights=True):
 
 def shot_plane_ext(c, t):
     sky(c, t)
-    c.drawCircle(820, 360, 90, paint("#e9eefc"))
-    glow(c, 820, 360, 420, "#cfdcff", 0.35)
+    c.drawCircle(880, 540, 80, paint("#e9eefc"))
+    glow(c, 880, 540, 420, "#cfdcff", 0.35)
     clouds(c, t, 1150, 40, 0.8, 3)
     u = t - B["story"]
     plane(c, 380 + u * 40, 800 - u * 14 + 8 * math.sin(t * 1.3), 1.25, t=t)
@@ -273,7 +273,7 @@ def shot_ghost_windows(c, t):
             c.drawCircle(cx, 560 + bob, 44, paint("#c9c9cf"))
             pale_face(c, cx, 690 + bob, 1.25, hair="#c9c9cf", t=t)
             if raise_u > 0:  # arm comes up and the finger points past you
-                hx, hy = cx + 78, lerp(960, 760, raise_u) + bob
+                hx, hy = cx + 78, lerp(960, 730, raise_u) + bob
                 c.drawPath(capsule((cx + 110, 930 + bob), (hx, hy), 46), paint("#4a5262"))
                 c.drawCircle(hx, hy, 30, paint("#aab4c0"))
                 c.drawPath(capsule((hx, hy), (hx + 44, hy - 48), 15), paint("#aab4c0"))  # index finger: past you
@@ -310,9 +310,11 @@ def cabin(c, t, people=True):
         glow(c, 115, 430, 420, EXIT_RED, 0.3 + 0.1 * math.sin(t * 5))
     # your window (left wall, beside 14A): night outside, the other plane once it arrives
     win = rrect_path(40, 640, 190, 880, 70)
-    c.drawPath(rrect_path(22, 620, 208, 900, 86), paint(col("#e3e5ea", "#4a5268", k)))
+    show_win = people != "you"  # (the close-up on you would only catch a sliver of it)
+    if show_win:
+        c.drawPath(rrect_path(22, 620, 208, 900, 86), paint(col("#e3e5ea", "#4a5268", k)))
     c.save()
-    c.clipPath(win, doAntiAlias=True)
+    c.clipPath(win if show_win else rrect_path(0, 0, 1, 1, 0), doAntiAlias=True)
     c.drawRect(skia.Rect.MakeLTRB(40, 640, 190, 880), paint("#0a1226"))
     a = ghost_alpha(t)
     if a > 0:
@@ -320,7 +322,8 @@ def cabin(c, t, people=True):
         for j in range(3):
             c.drawRoundRect(skia.Rect.MakeLTRB(58 + j * 44, 746, 80 + j * 44, 772), 6, 6, paint("#11161f", a))
     c.restore()
-    c.drawPath(win, paint(col("#8d929c", "#232a3a", k), stroke=8))
+    if show_win:
+        c.drawPath(win, paint(col("#8d929c", "#232a3a", k), stroke=8))
     # seats 14A / 14B
     seat, seat_d = col("#3a4f86", "#1e2a4c", k), col("#2c3d6c", "#16203c", k)
     for x in (YOU_X, MAN_X):
@@ -336,25 +339,22 @@ def cabin(c, t, people=True):
             MAN.draw(c, MAN_X, FEET, SC, man, light=L, shadow=False)
             # his seat belt: buckled until he opens it
             if t < B["unbuckle"] + 0.4:
-                c.drawLine(MAN_X - 150, 1484, MAN_X + 150, 1484, paint("#8a8f98", stroke=26))
-                c.drawRoundRect(skia.Rect.MakeLTRB(MAN_X - 34, 1462, MAN_X + 34, 1506), 8, 8, paint("#c9ccd2"))
-            else:
-                c.drawLine(MAN_X - 150, 1484, MAN_X - 90, 1560, paint("#8a8f98", stroke=26))
-                c.drawLine(MAN_X + 150, 1484, MAN_X + 100, 1570, paint("#8a8f98", stroke=26))
+                c.drawLine(MAN_X - 150, 1436, MAN_X + 150, 1436, paint("#8a8f98", stroke=26))
+                c.drawRoundRect(skia.Rect.MakeLTRB(MAN_X - 34, 1414, MAN_X + 34, 1458), 8, 8, paint("#c9ccd2"))
         if people != "man":
-            c.drawLine(YOU_X - 150, 1484, YOU_X + 150, 1484, paint("#8a8f98", stroke=26))
-            c.drawRoundRect(skia.Rect.MakeLTRB(YOU_X - 34, 1462, YOU_X + 34, 1506), 8, 8, paint("#c9ccd2"))
+            c.drawLine(YOU_X - 150, 1436, YOU_X + 150, 1436, paint("#8a8f98", stroke=26))
+            c.drawRoundRect(skia.Rect.MakeLTRB(YOU_X - 34, 1414, YOU_X + 34, 1458), 8, 8, paint("#c9ccd2"))
     # armrest between the seats + the seat backs of row 13 in the foreground (screens)
     c.drawRoundRect(skia.Rect.MakeLTRB(505, 1440, 575, 1640), 20, 20, paint(col("#6a7080", "#2a3044", k)))
     for x in (YOU_X - 40, MAN_X + 40):
-        c.drawPath(rrect_path(x - 230, 1540, x + 230, H + 80, 50), paint(col("#33457a", "#141c36", k)))
-        scr = skia.Rect.MakeLTRB(x - 130, 1610, x + 130, 1770)
+        c.drawPath(rrect_path(x - 230, 1465, x + 230, H + 80, 50), paint(col("#33457a", "#141c36", k)))
+        scr = skia.Rect.MakeLTRB(x - 130, 1700, x + 130, 1850)
         on = t < B["black"]
         c.drawRoundRect(scr, 12, 12, paint("#101a2e" if on else "#05070c"))
         if on:
-            c.drawLine(x - 100, 1730, x + 100, 1650, paint("#6fb7ff", 0.8, stroke=4))  # the route map
-            c.drawCircle(x + 20 + 8 * math.sin(t), 1684, 7, paint("#ffffff"))
-            glow(c, x, 1690, 260, "#6fb7ff", 0.18)
+            c.drawLine(x - 100, 1810, x + 100, 1740, paint("#6fb7ff", 0.8, stroke=4))  # the route map
+            c.drawCircle(x + 20 + 8 * math.sin(t), 1768, 7, paint("#ffffff"))
+            glow(c, x, 1775, 260, "#6fb7ff", 0.18)
     if k > 0.5:
         c.drawRect(skia.Rect.MakeWH(W, H), paint("#16306a", 0.10, blend=skia.BlendMode.kPlus))
     flat.vignette(c, W, H, 0.4 + 0.2 * k)
@@ -436,7 +436,7 @@ def shot_panel_cu(c, t):
         c.drawCircle(x, 420, 32, paint(col("#fff3d6", "#2a2e3a", k)))
     sign = skia.Rect.MakeLTRB(300, 880, 780, 1060)
     c.drawRoundRect(sign, 20, 20, paint("#101216"))
-    if wrong and math.sin(t * 11) > -0.2:
+    if wrong and math.sin(t * 11) > -0.85:
         kit.draw_text(c, "417", 540, 1012, 130, color=EXIT_RED, weight="Black", max_w=420)
         glow(c, 540, 970, 420, EXIT_RED, 0.3)
     elif not wrong:
@@ -516,6 +516,7 @@ def shot_choice_bg(c, t):
         c.drawCircle(x, y, 40 * p, paint(colr))
         c.drawCircle(x, y, 40 * p, paint("#ffffff", stroke=5))
         kit.draw_text(c, letter, x, y + 17, 48, color="#ffffff", weight="Black")
+    c.drawPath(poly_path([(540, 742), (562, 772), (518, 772)]), paint("#cfe0ff"))  # that way: forward
     kit.draw_text(c, "COCKPIT", 540, 905, 30, color="#cfe0ff", weight="Black", max_w=200)
     flat.vignette(c, W, H, 0.6)
 

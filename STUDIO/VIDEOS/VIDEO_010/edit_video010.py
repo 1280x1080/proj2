@@ -78,11 +78,11 @@ OVERLAYS = [
          weight="ExtraBold", color="#ffffff", stroke=0, bg="#3f8fd6", bg_alpha=0.96),
     dict(kind="text", t0=B["choice"] + 0.8, t1=DURATION, text="Risk: who is flying this plane?", size=34, x=0.5,
          y=0.358, weight="Bold", color="#ffffff", stroke=0, bg="#000000", bg_alpha=0.7),
-    dict(kind="text", t0=start("L18") - 0.1, t1=DURATION, text="COMMENT A OR B · YOUR CHOICE DECIDES PART 2", size=36,
+    dict(kind="text", t0=end("L18") + 0.1, t1=DURATION, text="COMMENT A OR B · YOUR CHOICE DECIDES PART 2", size=36,
          y=0.885, weight="Black", color="#ffd23f", stroke=8, stroke_color="#141418"),
 ]
 CAPTIONS = dict(
-    timing="audio/timing.json", y=0.71, size=80, max_words=5, highlight="#ffffff", upper=True, speakers=True,
+    timing="audio/timing.json", y=0.775, size=80, max_words=5, highlight="#ffffff", upper=True, speakers=True,
     speaker_names={"man": "OLD MAN", "captain": "CAPTAIN"},
     speaker_colors={"man": "#ffd9a0", "captain": "#9fd3ff"},
     line_colors={line: keys for sid, line, shot, man, you, keys in SCENES if line and keys},

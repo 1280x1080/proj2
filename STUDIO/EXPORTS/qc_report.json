@@ -1,6 +1,6 @@
 {
-  "file": "/home/user/proj2/STUDIO/EXPORTS/video009.mp4",
-  "duration": 114.466667,
+  "file": "/home/user/proj2/STUDIO/EXPORTS/video010.mp4",
+  "duration": 80.9,
   "checks": {
     "resolution": {
       "ok": true,
@@ -38,26 +38,26 @@
       "want": 48000
     },
     "duration": {
-      "ok": false,
-      "value": 114.467,
+      "ok": true,
+      "value": 80.9,
       "want": "30-90 s (tests may be shorter)"
     },
     "av_length_match": {
       "ok": true,
       "value": {
-        "video": 114.466667,
-        "audio": 114.453
+        "video": 80.9,
+        "audio": 80.9
       },
       "want": "|diff| < 0.08 s"
     },
     "loudness_lufs": {
       "ok": true,
-      "value": -14.08,
+      "value": -14.12,
       "want": "-14 \u00b11"
     },
     "true_peak_dbtp": {
       "ok": true,
-      "value": -1.71,
+      "value": -1.6,
       "want": "<= -1.0"
     },
     "no_long_silence": {
@@ -77,5 +77,5 @@
     }
   },
   "contact_sheet": "/home/user/proj2/STUDIO/EXPORTS/contact_sheet.png",
-  "passed": false
+  "passed": true
 }

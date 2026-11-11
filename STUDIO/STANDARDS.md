@@ -41,3 +41,11 @@
 * Preset sheet check: `emotions.png` (all presets on one character) must show no limbs crossing the body.
 * Dark scenes: darken the ROOM, not the faces. Characters keep a readable key/moon light so their emotion still reads
   (VIDEO_007's first export failed this check: faces went near-black when the lights died).
+
+## Publish kit (every story video → `VIDEOS/VIDEO_NNN/PUBLISH.md`, each item in a copyable code block)
+* **Caption** (replaces title + description — no separate description any more), in this pattern:
+  `First-Person Hook In Title Case… Then The Twist 😨 (Series Part N) #scarystories #horror #animations #scary`
+  — one "…" pause, ONE emoji, the part in brackets, 3–5 hashtags at the end. Examples from the user:
+  "I Broke Grandma's Vase… Something Was Living Inside It 😱 (Part 1) #horror #scary #animations #scarystories",
+  "Grandma Made Me Blink Before She Opened The Door… Here's Why 😨 (The Vase Part 2)".
+* **Pinned comment (the user's):** Follow + comment A or B for PART N+1, plus one "did you notice…?" hook.
