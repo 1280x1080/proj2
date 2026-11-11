@@ -97,7 +97,7 @@ def bedroom(c, t, bag=False, people=True):
     c.drawPath(blob([(0, 1700), (500, 1640), (W, 1720), (W, H), (0, H)], 0.3), paint("#3f356a"))
     if people:  # the phone in your hands (its back to us), lighting your face
         ph = 4 * math.sin(t * 1.3)
-        glow(c, 540, 1400 + ph, 520, PHONE, 0.35)
+        glow(c, 540, 1400 + ph, 420, PHONE, 0.2)
         c.drawRoundRect(skia.Rect.MakeLTRB(470, 1330 + ph, 610, 1470 + ph), 18, 18, paint("#101216"))
         c.drawCircle(500, 1356 + ph, 9, paint("#2a2e3a"))
         for side in (-1, 1):
@@ -191,7 +191,7 @@ def shot_phone_feed(c, t):
     else:
         chew = abs(math.sin(t * 9))
         p = emote(p, "happy", t, seed=6)
-        p.update(mouth="o", talk=0.25 + 0.5 * chew, pupil=(0.0, 0.6), head_tilt=3 * math.sin(t * 4.5))
+        p.update(mouth="grin", talk=0.15 + 0.45 * chew, eye_open=0.1, brow=(0.5, -0.1), head_tilt=4 * math.sin(t * 4.5), blush=0.5)  # eyes squeezed shut, loving it
     L = Light(dir=(0.0, -0.9), shadow_px=12, rim="#ffffff", rim_alpha=0.5, rim_px=4)
     GIRL.draw(c, 540, 1470, 1.25, p, light=L, shadow=False)
     # table + a mountain of noodles
@@ -293,7 +293,7 @@ def shot_doorcam(c, t):
     c.drawRect(skia.Rect.MakeLTRB(330, 420, 750, 980), paint("#1a2620"))  # far wall
     c.drawRect(skia.Rect.MakeLTRB(470, 560, 610, 980), paint("#101a16"))  # neighbour's door
     hook = t < B["story"]
-    here = hook or (start("L04") - 0.2 <= t < B["gone"])
+    here = hook or (start("L04") - 0.2 <= t < B["scare1"])
     if here:
         lean = 0.0 if hook else span(t, start("L05"), end("L05"), "linear") * 0.25  # he leans in while he talks
         s = 1.0 + lean
@@ -307,7 +307,7 @@ def shot_doorcam(c, t):
         c.drawPath(poly_path([(bx - 110, by + 200), (bx - 124, by), (bx + 124, by), (bx + 110, by + 200)]), paint("#c9a36a"))
         c.drawCircle(bx, by + 96, 44, paint("#2f8f4e"))
         kit.draw_text(c, "QB", bx, by + 112, 42, color="#ffffff", weight="Black", max_w=90)
-    elif t >= B["gone"]:  # nobody.  (the bag is not on the mat either)
+    elif t >= B["scare1"]:  # nobody.  (the bag is not on the mat either)
         g = math.sin(t * 50) > 0.7
         if g:
             for k in range(5):

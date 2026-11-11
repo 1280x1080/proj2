@@ -150,7 +150,7 @@
       "bus": "amb",
       "pan": 0.0,
       "note": "door camera feed",
-      "dur": 6.020000000000003,
+      "dur": 10.93,
       "fade_in": 0.03
     },
     {
@@ -168,16 +168,6 @@
       "bus": "sfx",
       "pan": 0.0,
       "note": ""
-    },
-    {
-      "t": 27.27,
-      "sfx": "cam_static",
-      "gain_db": 4,
-      "bus": "amb",
-      "pan": 0.0,
-      "note": "door camera feed",
-      "dur": 4.909999999999997,
-      "fade_in": 0.03
     },
     {
       "t": 31.93,
@@ -218,17 +208,7 @@
       "bus": "amb",
       "pan": 0.0,
       "note": "door camera feed",
-      "dur": 0.3500000000000014,
-      "fade_in": 0.03
-    },
-    {
-      "t": 36.38,
-      "sfx": "cam_static",
-      "gain_db": 4,
-      "bus": "amb",
-      "pan": 0.0,
-      "note": "door camera feed",
-      "dur": 0.7000000000000028,
+      "dur": 6.1000000000000085,
       "fade_in": 0.03
     },
     {
@@ -246,16 +226,6 @@
       "bus": "sfx",
       "pan": 0.0,
       "note": ""
-    },
-    {
-      "t": 37.08,
-      "sfx": "cam_static",
-      "gain_db": 4,
-      "bus": "amb",
-      "pan": 0.0,
-      "note": "door camera feed",
-      "dur": 5.050000000000004,
-      "fade_in": 0.03
     },
     {
       "t": 37.08,

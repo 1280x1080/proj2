@@ -20,9 +20,15 @@ def cue(t, sfx, gain_db=0.0, bus="sfx", pan=0.0, note="", **kw):
 
 cue(0.0, "night_room", 6, "amb", dur=D, fade_in=0.02, note="bedroom at 2 AM")
 cue(0.0, "room_tone", 2, "amb", dur=D, fade_in=0.02)
-for sg in E.SEGMENTS:  # camera hiss whenever we look through the door camera
+runs = []  # camera hiss whenever we look through the door camera (consecutive camera shots = one cue)
+for sg in E.SEGMENTS:
     if sg["src"] in ("doorcam", "scare_cam"):
-        cue(sg["t0"], "cam_static", 4, "amb", dur=sg["t1"] - sg["t0"], fade_in=0.03, note="door camera feed")
+        if runs and abs(runs[-1][1] - sg["t0"]) < 0.01:
+            runs[-1][1] = sg["t1"]
+        else:
+            runs.append([sg["t0"], sg["t1"]])
+for a, b in runs:
+    cue(a, "cam_static", 4, "amb", dur=max(1.0, b - a), fade_in=0.03, note="door camera feed")
 # hook
 cue(0.2, "text_ping", -8, note="app notification")
 cue(E._t0("HB", None), "impact_cinematic", -8, note="him")

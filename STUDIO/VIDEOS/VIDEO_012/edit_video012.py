@@ -71,10 +71,10 @@ OVERLAYS = [
          weight="ExtraBold", color="#ffffff", stroke=0, bg="#3f8fd6", bg_alpha=0.96),
     dict(kind="text", t0=B["choice"] + 0.8, t1=DURATION, text="Risk: he's waiting right below it", size=34, x=0.5,
          y=0.305, weight="Bold", color="#ffffff", stroke=0, bg="#000000", bg_alpha=0.7),
-    dict(kind="text", t0=B["choice"] + 1.2, t1=DURATION, text="TOP COMMENT DECIDES PART 2", size=62, x=0.5, y=0.385,
+    dict(kind="text", t0=B["choice"] + 1.2, t1=DURATION, text="TOP COMMENT DECIDES PART 2", size=50, x=0.5, y=0.385,
          weight="Black", color="#141418", stroke=0, bg="#ffd23f", bg_alpha=1.0),
     dict(kind="text", t0=B["choice"] + 1.2, t1=DURATION, text="comment A or B - the most-liked comment wins", size=34, x=0.5,
-         y=0.43, weight="Bold", color="#ffffff", stroke=0, bg="#000000", bg_alpha=0.75),
+         y=0.432, weight="Bold", color="#ffffff", stroke=0, bg="#000000", bg_alpha=0.75),
 ]
 CAPTIONS = dict(
     timing="audio/timing.json", y=0.775, size=80, max_words=5, highlight="#ffffff", upper=True, speakers=True,
