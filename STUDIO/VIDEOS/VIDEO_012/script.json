@@ -1,0 +1,119 @@
+{
+ "title": "ORDER #000 - Part 1",
+ "series": "ORDER #000",
+ "part": 1,
+ "engine": "qwen",
+ "notes": "Qwen3-TTS. narrator = VIDEO_008 design; streamer = VIDEO_009 'her' design (fx phone); Sam is new, heard through the front door (fx door).",
+ "voice_ref": null,
+ "voices": {
+  "narrator": {
+   "design": "(copied from VIDEO_008)",
+   "ref_text": "It was late, and the street outside was quiet. Somewhere a door closed, and I waited."
+  },
+  "streamer": {
+   "design": "(copied from VIDEO_009 her)",
+   "ref_text": "Okay, your handwriting is honestly the worst I've ever seen. No, I'm kidding. Kind of. Hand me the glue?"
+  },
+  "sam": {
+   "design": "Man in his 30s, delivery driver, unnaturally polite and cheerful, slow flat monotone, every word evenly spaced, like someone imitating a friendly person.",
+   "ref_text": "Hello. I have a delivery for you. Thank you for your order. Please enjoy your meal. Have a wonderful night."
+  }
+ },
+ "lead_in": 0.1,
+ "tail": 0.3,
+ "lines": [
+  {
+   "id": "H1",
+   "who": "narrator",
+   "text": "It's two AM. You order food. The app says your driver is one minute away... but the restaurant is forty minutes from your house.",
+   "delivery": "dramatic",
+   "pause_after": 0.35
+  },
+  {
+   "id": "L01",
+   "who": "narrator",
+   "text": "It starts like every night. You're in bed, scrolling TikTok, watching mukbangs.",
+   "delivery": "calm",
+   "pause_after": 0.12
+  },
+  {
+   "id": "L02",
+   "who": "narrator",
+   "text": "Now you're starving. One tap. Order placed.",
+   "delivery": "calm",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L03",
+   "who": "narrator",
+   "text": "Before you even put your phone down... three knocks.",
+   "delivery": "dramatic",
+   "pause_after": 1.3
+  },
+  {
+   "id": "L04",
+   "who": "narrator",
+   "text": "You check the door camera. A delivery guy. He isn't blinking. And his smile is way too wide.",
+   "delivery": "scared",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L05",
+   "who": "sam",
+   "text": "\"Delivery for you. Please open the door. Your food is getting cold.\"",
+   "delivery": "calm",
+   "pause_after": 0.35,
+   "fx": "door"
+  },
+  {
+   "id": "L06",
+   "who": "narrator",
+   "text": "Your phone buzzes. The app says your real driver is still at the restaurant.",
+   "delivery": "dramatic",
+   "pause_after": 1.4
+  },
+  {
+   "id": "L07",
+   "who": "narrator",
+   "text": "When the camera comes back, he's gone. You run to your room and lock the door.",
+   "delivery": "scared",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L08",
+   "who": "narrator",
+   "text": "The bag is already on your bed.",
+   "delivery": "dramatic",
+   "pause_after": 0.5
+  },
+  {
+   "id": "L09",
+   "who": "narrator",
+   "text": "On your phone, the mukbang is still playing. But the girl has stopped eating. She's staring right at you.",
+   "delivery": "scared",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L10",
+   "who": "streamer",
+   "text": "\"Don't open the bag. That's how he gets in.\"",
+   "delivery": "whisper",
+   "pause_after": 0.4,
+   "fx": "phone"
+  },
+  {
+   "id": "L11",
+   "who": "narrator",
+   "text": "Then... the bag starts to move.",
+   "delivery": "dramatic",
+   "pause_after": 1.5
+  },
+  {
+   "id": "L12",
+   "who": "narrator",
+   "text": "Comment A or B. The top comment decides what happens in Part 2.",
+   "delivery": "calm",
+   "pause_after": 0.0
+  }
+ ]
+}

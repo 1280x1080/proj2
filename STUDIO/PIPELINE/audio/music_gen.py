@@ -552,6 +552,43 @@ def cue_video011():
     return s, dict(loop=False)
 
 
+def cue_video012():
+    """ORDER #000 Part 1: hook on a low drone; a cute bouncy 'late-night snack' loop (pluck + soft kick) for the
+    scrolling / ordering, cut dead by the three knocks; then drone + slow heartbeat, tremolo cluster from the moment the
+    app says the real driver is still at the restaurant; near-silence before each jumpscare; choice: drone + pulse."""
+    edl = _load_edl("012")
+    B, D = edl.BEATS, edl.DURATION
+    st = edl.start
+    s = Score(D, bpm=104, seed=12)
+    beat = 60 / 104
+    s.note("bass", "bass", 31, 0.0, B["story"], gain=0.16)
+    prog = [(60, 64, 67), (57, 60, 64), (53, 57, 60), (55, 59, 62)]
+    t, k = B["story"], 0
+    k0 = B["knocks"][0] - 0.15
+    while t < k0 - beat / 2:
+        ch = prog[(k // 8) % 4]
+        s.note("lead", "pluck", ch[(k * 2) % 3] + 12, t, beat, gain=0.085, pan=(-0.3 if k % 2 else 0.3), bright=0.55)
+        if k % 4 == 0:
+            s.hit("perc", drum_kick(0.25), t, 0.12)
+        if k % 8 == 0:
+            s.note("bass", "bass", ch[0] - 24, t, min(beat * 4, k0 - t), gain=0.14)
+        t += beat / 2
+        k += 1
+    s.note("bass", "bass", 31, k0, D - k0, gain=0.17)
+    s.note("pad", "pad", 43, st("L04"), D - st("L04"), gain=0.05, bright=0.1)
+    for m, p in ((55, -0.4), (56, 0.4), (62, 0.0)):
+        s.note("pad", "tremolo", m, st("L06"), D - st("L06") - 0.5, gain=0.04, pan=p, rate=8.0)
+    t = st("L04")
+    while t < D - 0.6:
+        s.hit("perc", drum_kick(0.3), t, 0.09)
+        s.hit("perc", drum_kick(0.25), t + 0.22, 0.05)
+        t += 1.1 if t < st("L08") else 0.8
+    s.gate(edl.end("L06") - 0.1, B["scare1"], gain=0.1, fade=0.1)
+    s.gate(edl.end("L11") - 0.1, B["scare2"], gain=0.1, fade=0.1)
+    s.hit("perc", drum_tom(40, 2.0), B["choice"], 0.4)
+    return s, dict(loop=False)
+
+
 def main():
     num = sys.argv[1].zfill(3)
     s, opts = globals()[f"cue_video{num}"]()

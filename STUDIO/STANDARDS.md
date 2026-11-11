@@ -49,3 +49,13 @@
   "I Broke Grandma's Vase… Something Was Living Inside It 😱 (Part 1) #horror #scary #animations #scarystories",
   "Grandma Made Me Blink Before She Opened The Door… Here's Why 😨 (The Vase Part 2)".
 * **Pinned comment (the user's):** Follow + comment A or B for PART N+1, plus one "did you notice…?" hook.
+
+## Top comment decides (every choice ending)
+* The choice screen must carry a big, unmissable banner: **TOP COMMENT DECIDES PART N+1** (yellow pill, black text,
+  size ≥ 60, under the A/B pills) + a small line "comment A or B - the most-liked comment wins".
+* The narrator's last line must say it out loud: "Comment A or B. The top comment decides what happens in Part N+1."
+* The pinned comment repeats it.
+
+## Jumpscares (when the brief allows them)
+* Max 2 per part; never during a spoken line; music gates to near silence ~1 s before.
+* Hard cut to the scare shot for ~0.7 s: slam zoom + shake + white flash + `jumpscare_sting` (−5…−8 dB).
