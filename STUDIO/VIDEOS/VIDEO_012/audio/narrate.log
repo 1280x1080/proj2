@@ -7,3 +7,61 @@ Warning: flash-attn is not installed. Will only run the manual PyTorch version. 
 Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
 designed voice 'narrator' -> narrator_qwen.wav  ((copied from VIDEO_008)...)
 Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+designed voice 'streamer' -> streamer_qwen.wav  ((copied from VIDEO_009 her)...)
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+designed voice 'sam' -> sam_qwen.wav  (Man in his 30s, delivery driver, unnaturally polite and cheerful, slow...)
+whisper small.en loaded in 16.7s
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1628.07it/s]
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[H1] take r0t0: 0 mismatches, 7.59s audio, 258.0s gen  | "It's 2 a.m., you order food, the app says your driver is one minute away, but the restaurant is 40 minutes from your house."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[H1] take r0t1: 0 mismatches, 7.39s audio, 54.5s gen  | "It's 2 a.m. You order food. The app says your driver is one minute away, but the restaurant is 40 minutes from your house."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L01] take r0t0: 0 mismatches, 4.99s audio, 42.6s gen  | "It starts like every night. You're in bed, scrolling TikTok, watching mukbangs."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L01] take r0t1: 1 mismatches, 4.86s audio, 40.2s gen  | "It starts like every night. You're in bed, scrolling TikTok, watching mukbongs."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L02] take r0t0: 0 mismatches, 3.32s audio, 28.8s gen  | "Now you're starving. One tap, order placed."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L02] take r0t1: 0 mismatches, 3.60s audio, 34.0s gen  | "Now you're starving, one tap, order placed."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L03] take r0t0: 0 mismatches, 2.98s audio, 28.0s gen  | 'before you even put your phone down, three knocks.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L03] take r0t1: 0 mismatches, 3.04s audio, 23.3s gen  | 'before you even put your phone down, 3 knocks.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L04] take r0t0: 0 mismatches, 5.72s audio, 46.2s gen  | "You check the door camera, a delivery guy. He isn't blinking, and his smile is way too wide."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L04] take r0t1: 0 mismatches, 5.88s audio, 47.8s gen  | "You check the door camera, a delivery guy, he isn't blinking, and his smile is way too wide."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L05] take r0t0: 0 mismatches, 4.56s audio, 38.6s gen  | 'delivery for you. Please open the door. Your food is getting cold.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L05] take r0t1: 0 mismatches, 4.22s audio, 41.6s gen  | 'Delivery for you? Please open the door. Your food is getting cold.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L06] take r0t0: 0 mismatches, 4.10s audio, 36.2s gen  | 'your phone buzzes, the app says your real driver is still at the restaurant.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L06] take r0t1: 0 mismatches, 3.72s audio, 32.7s gen  | 'Your phone buzzes, the app says your real driver is still at the restaurant.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L07] take r0t0: 0 mismatches, 4.53s audio, 38.7s gen  | "When the camera comes back, he's gone. You run to your room and lock the door."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L07] take r0t1: 0 mismatches, 5.37s audio, 46.5s gen  | "When the camera comes back, he's gone. You run to your room and lock the door."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L08] take r0t0: 0 mismatches, 1.74s audio, 18.1s gen  | 'The bag is already on your bed.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L08] take r0t1: 0 mismatches, 2.27s audio, 20.9s gen  | 'The bag is already on your bed.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L09] take r0t0: 0 mismatches, 6.47s audio, 52.5s gen  | "On your phone, the mukbang is still playing, but the girl has stopped eating, she's staring right at you."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L09] take r0t1: 0 mismatches, 6.28s audio, 48.8s gen  | "On your phone, the mukbang is still playing, but the girl has stopped eating, she's staring right at you."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L10] take r0t0: 0 mismatches, 3.00s audio, 38.4s gen  | "Don't open the bag, that's how he gets in."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L10] take r0t1: 0 mismatches, 2.41s audio, 26.2s gen  | "Don't open the bag, that's how he gets in."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L11] take r0t0: 0 mismatches, 2.83s audio, 25.1s gen  | 'Then, the bag starts to move.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L11] take r0t1: 0 mismatches, 2.36s audio, 22.4s gen  | 'Then, the bag starts to move.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L12] take r0t0: 0 mismatches, 4.35s audio, 34.4s gen  | 'Comment A or B. The top comment decides what happens in Part 2.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L12] take r0t1: 0 mismatches, 3.96s audio, 31.2s gen  | 'Comment A or B the top comment decides what happens in part 2.'
+narration: 63.54s, 13 lines; lines with mismatches: none

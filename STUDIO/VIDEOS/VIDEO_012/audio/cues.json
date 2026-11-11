@@ -1,0 +1,410 @@
+{
+  "duration": 66.84,
+  "loop": false,
+  "narration": {
+    "file": "narration_raw.wav",
+    "offset": 0.0
+  },
+  "sfx_duck_db": -5.0,
+  "amb_duck_db": -5.0,
+  "ceiling_dbtp": -1.7,
+  "cues": [
+    {
+      "t": 0.0,
+      "sfx": "night_room",
+      "gain_db": 6,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "bedroom at 2 AM",
+      "dur": 66.84,
+      "fade_in": 0.02
+    },
+    {
+      "t": 0.0,
+      "sfx": "room_tone",
+      "gain_db": 2,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "",
+      "dur": 66.84,
+      "fade_in": 0.02
+    },
+    {
+      "t": 0.2,
+      "sfx": "text_ping",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "app notification"
+    },
+    {
+      "t": 5.51,
+      "sfx": "cam_static",
+      "gain_db": 4,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "door camera feed",
+      "dur": 2.4499999999999993,
+      "fade_in": 0.03
+    },
+    {
+      "t": 5.51,
+      "sfx": "impact_cinematic",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "him"
+    },
+    {
+      "t": 7.76,
+      "sfx": "whoosh_soft",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 8.26,
+      "sfx": "whoosh_soft",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "scroll"
+    },
+    {
+      "t": 10.87,
+      "sfx": "slurp",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "mukbang"
+    },
+    {
+      "t": 12.02,
+      "sfx": "slurp",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "mukbang"
+    },
+    {
+      "t": 13.55,
+      "sfx": "heartbeat",
+      "gain_db": -18,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "stomach"
+    },
+    {
+      "t": 15.75,
+      "sfx": "click_ui",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "tap"
+    },
+    {
+      "t": 15.95,
+      "sfx": "order_chime",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "order placed"
+    },
+    {
+      "t": 16.77,
+      "sfx": "text_ping",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "driver arriving?!"
+    },
+    {
+      "t": 20.18,
+      "sfx": "door_knock",
+      "gain_db": -2,
+      "bus": "sfx",
+      "pan": 0.4,
+      "note": "three knocks"
+    },
+    {
+      "t": 20.58,
+      "sfx": "door_knock",
+      "gain_db": -2,
+      "bus": "sfx",
+      "pan": 0.4,
+      "note": "three knocks"
+    },
+    {
+      "t": 20.98,
+      "sfx": "door_knock",
+      "gain_db": -2,
+      "bus": "sfx",
+      "pan": 0.4,
+      "note": "three knocks"
+    },
+    {
+      "t": 21.25,
+      "sfx": "cam_static",
+      "gain_db": 4,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "door camera feed",
+      "dur": 6.020000000000003,
+      "fade_in": 0.03
+    },
+    {
+      "t": 21.38,
+      "sfx": "click_ui",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "open door camera"
+    },
+    {
+      "t": 27.07,
+      "sfx": "heartbeat",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 27.27,
+      "sfx": "cam_static",
+      "gain_db": 4,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "door camera feed",
+      "dur": 4.909999999999997,
+      "fade_in": 0.03
+    },
+    {
+      "t": 31.93,
+      "sfx": "breath_close",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "your breath"
+    },
+    {
+      "t": 32.31,
+      "sfx": "phone_vibrate",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 33.16,
+      "sfx": "text_ping",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 36.0,
+      "sfx": "tinnitus",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "beat of silence"
+    },
+    {
+      "t": 36.03,
+      "sfx": "cam_static",
+      "gain_db": 4,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "door camera feed",
+      "dur": 0.3500000000000014,
+      "fade_in": 0.03
+    },
+    {
+      "t": 36.38,
+      "sfx": "cam_static",
+      "gain_db": 4,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "door camera feed",
+      "dur": 0.7000000000000028,
+      "fade_in": 0.03
+    },
+    {
+      "t": 36.38,
+      "sfx": "jumpscare_sting",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "JUMPSCARE 1: face in the lens"
+    },
+    {
+      "t": 36.41,
+      "sfx": "glitch",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 37.08,
+      "sfx": "cam_static",
+      "gain_db": 4,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "door camera feed",
+      "dur": 5.050000000000004,
+      "fade_in": 0.03
+    },
+    {
+      "t": 37.08,
+      "sfx": "power_down",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "feed drops"
+    },
+    {
+      "t": 40.08,
+      "sfx": "run_steps",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "you run"
+    },
+    {
+      "t": 41.08,
+      "sfx": "lock_click",
+      "gain_db": -4,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "lock the door"
+    },
+    {
+      "t": 41.93,
+      "sfx": "breath_close",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 42.31,
+      "sfx": "impact_soft",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 44.5,
+      "sfx": "heartbeat",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 44.98,
+      "sfx": "slurp",
+      "gain_db": -9,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "mukbang still playing"
+    },
+    {
+      "t": 46.18,
+      "sfx": "slurp",
+      "gain_db": -9,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "mukbang still playing"
+    },
+    {
+      "t": 47.38,
+      "sfx": "slurp",
+      "gain_db": -9,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "mukbang still playing"
+    },
+    {
+      "t": 48.88,
+      "sfx": "power_down",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "she stops"
+    },
+    {
+      "t": 51.47,
+      "sfx": "tinnitus",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 54.18,
+      "sfx": "heartbeat",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 56.74,
+      "sfx": "paper_rustle",
+      "gain_db": -3,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "the bag moves"
+    },
+    {
+      "t": 57.84,
+      "sfx": "paper_rustle",
+      "gain_db": -2,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 57.89,
+      "sfx": "jumpscare_sting",
+      "gain_db": -5,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "JUMPSCARE 2: out of the bag"
+    },
+    {
+      "t": 57.91,
+      "sfx": "paper_rustle",
+      "gain_db": -4,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 59.14,
+      "sfx": "impact_cinematic",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "choice"
+    },
+    {
+      "t": 60.34,
+      "sfx": "ding",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "TOP COMMENT banner"
+    }
+  ],
+  "music": {
+    "file": "music.wav",
+    "gain_db": -4.0,
+    "duck_db": -10.0
+  }
+}

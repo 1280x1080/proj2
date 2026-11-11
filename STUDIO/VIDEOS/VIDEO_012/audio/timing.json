@@ -1,0 +1,952 @@
+{
+  "duration": 63.54,
+  "lines": [
+    {
+      "id": "H1",
+      "who": "narrator",
+      "text": "It's two AM. You order food. The app says your driver is one minute away... but the restaurant is forty minutes from your house.",
+      "start": 0.1,
+      "end": 7.69,
+      "words": [
+        {
+          "w": "It's",
+          "start": 0.1,
+          "end": 0.34
+        },
+        {
+          "w": "two",
+          "start": 0.34,
+          "end": 0.52
+        },
+        {
+          "w": "AM.",
+          "start": 0.52,
+          "end": 1.36
+        },
+        {
+          "w": "You",
+          "start": 1.36,
+          "end": 1.62
+        },
+        {
+          "w": "order",
+          "start": 1.62,
+          "end": 1.84
+        },
+        {
+          "w": "food.",
+          "start": 1.84,
+          "end": 2.2
+        },
+        {
+          "w": "The",
+          "start": 2.88,
+          "end": 2.96
+        },
+        {
+          "w": "app",
+          "start": 2.96,
+          "end": 3.16
+        },
+        {
+          "w": "says",
+          "start": 3.16,
+          "end": 3.38
+        },
+        {
+          "w": "your",
+          "start": 3.38,
+          "end": 3.6
+        },
+        {
+          "w": "driver",
+          "start": 3.6,
+          "end": 3.92
+        },
+        {
+          "w": "is",
+          "start": 3.92,
+          "end": 4.12
+        },
+        {
+          "w": "one",
+          "start": 4.12,
+          "end": 4.3
+        },
+        {
+          "w": "minute",
+          "start": 4.3,
+          "end": 4.5
+        },
+        {
+          "w": "away...",
+          "start": 4.5,
+          "end": 4.88
+        },
+        {
+          "w": "but",
+          "start": 5.66,
+          "end": 5.72
+        },
+        {
+          "w": "the",
+          "start": 5.72,
+          "end": 5.84
+        },
+        {
+          "w": "restaurant",
+          "start": 5.84,
+          "end": 6.14
+        },
+        {
+          "w": "is",
+          "start": 6.14,
+          "end": 6.38
+        },
+        {
+          "w": "forty",
+          "start": 6.38,
+          "end": 6.6
+        },
+        {
+          "w": "minutes",
+          "start": 6.6,
+          "end": 6.84
+        },
+        {
+          "w": "from",
+          "start": 6.84,
+          "end": 7.04
+        },
+        {
+          "w": "your",
+          "start": 7.04,
+          "end": 7.2
+        },
+        {
+          "w": "house.",
+          "start": 7.2,
+          "end": 7.46
+        }
+      ]
+    },
+    {
+      "id": "L01",
+      "who": "narrator",
+      "text": "It starts like every night. You're in bed, scrolling TikTok, watching mukbangs.",
+      "start": 8.04,
+      "end": 13.03,
+      "words": [
+        {
+          "w": "It",
+          "start": 8.04,
+          "end": 8.22
+        },
+        {
+          "w": "starts",
+          "start": 8.22,
+          "end": 8.46
+        },
+        {
+          "w": "like",
+          "start": 8.46,
+          "end": 8.72
+        },
+        {
+          "w": "every",
+          "start": 8.72,
+          "end": 9.0
+        },
+        {
+          "w": "night.",
+          "start": 9.0,
+          "end": 9.3
+        },
+        {
+          "w": "You're",
+          "start": 9.86,
+          "end": 10.02
+        },
+        {
+          "w": "in",
+          "start": 10.02,
+          "end": 10.12
+        },
+        {
+          "w": "bed,",
+          "start": 10.12,
+          "end": 10.38
+        },
+        {
+          "w": "scrolling",
+          "start": 10.92,
+          "end": 11.2
+        },
+        {
+          "w": "TikTok,",
+          "start": 11.2,
+          "end": 11.8
+        },
+        {
+          "w": "watching",
+          "start": 12.04,
+          "end": 12.28
+        },
+        {
+          "w": "mukbangs.",
+          "start": 12.28,
+          "end": 12.82
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "who": "narrator",
+      "text": "Now you're starving. One tap. Order placed.",
+      "start": 13.15,
+      "end": 16.75,
+      "words": [
+        {
+          "w": "Now",
+          "start": 13.15,
+          "end": 13.37
+        },
+        {
+          "w": "you're",
+          "start": 13.37,
+          "end": 13.63
+        },
+        {
+          "w": "starving.",
+          "start": 13.63,
+          "end": 14.03
+        },
+        {
+          "w": "One",
+          "start": 14.57,
+          "end": 14.79
+        },
+        {
+          "w": "tap.",
+          "start": 14.79,
+          "end": 15.13
+        },
+        {
+          "w": "Order",
+          "start": 15.85,
+          "end": 16.11
+        },
+        {
+          "w": "placed.",
+          "start": 16.11,
+          "end": 16.51
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "who": "narrator",
+      "text": "Before you even put your phone down... three knocks.",
+      "start": 17.05,
+      "end": 20.03,
+      "words": [
+        {
+          "w": "Before",
+          "start": 17.05,
+          "end": 17.37
+        },
+        {
+          "w": "you",
+          "start": 17.37,
+          "end": 17.55
+        },
+        {
+          "w": "even",
+          "start": 17.55,
+          "end": 17.75
+        },
+        {
+          "w": "put",
+          "start": 17.75,
+          "end": 17.97
+        },
+        {
+          "w": "your",
+          "start": 17.97,
+          "end": 18.13
+        },
+        {
+          "w": "phone",
+          "start": 18.13,
+          "end": 18.39
+        },
+        {
+          "w": "down...",
+          "start": 18.39,
+          "end": 18.71
+        },
+        {
+          "w": "three",
+          "start": 19.11,
+          "end": 19.37
+        },
+        {
+          "w": "knocks.",
+          "start": 19.37,
+          "end": 19.71
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "who": "narrator",
+      "text": "You check the door camera. A delivery guy. He isn't blinking. And his smile is way too wide.",
+      "start": 21.33,
+      "end": 27.05,
+      "words": [
+        {
+          "w": "You",
+          "start": 21.33,
+          "end": 21.51
+        },
+        {
+          "w": "check",
+          "start": 21.51,
+          "end": 21.71
+        },
+        {
+          "w": "the",
+          "start": 21.71,
+          "end": 21.87
+        },
+        {
+          "w": "door",
+          "start": 21.87,
+          "end": 22.07
+        },
+        {
+          "w": "camera.",
+          "start": 22.07,
+          "end": 22.49
+        },
+        {
+          "w": "A",
+          "start": 22.81,
+          "end": 22.93
+        },
+        {
+          "w": "delivery",
+          "start": 22.93,
+          "end": 23.17
+        },
+        {
+          "w": "guy.",
+          "start": 23.17,
+          "end": 23.57
+        },
+        {
+          "w": "He",
+          "start": 24.05,
+          "end": 24.17
+        },
+        {
+          "w": "isn't",
+          "start": 24.17,
+          "end": 24.47
+        },
+        {
+          "w": "blinking.",
+          "start": 24.47,
+          "end": 24.75
+        },
+        {
+          "w": "And",
+          "start": 25.17,
+          "end": 25.31
+        },
+        {
+          "w": "his",
+          "start": 25.31,
+          "end": 25.45
+        },
+        {
+          "w": "smile",
+          "start": 25.45,
+          "end": 25.77
+        },
+        {
+          "w": "is",
+          "start": 25.77,
+          "end": 26.01
+        },
+        {
+          "w": "way",
+          "start": 26.01,
+          "end": 26.25
+        },
+        {
+          "w": "too",
+          "start": 26.25,
+          "end": 26.49
+        },
+        {
+          "w": "wide.",
+          "start": 26.49,
+          "end": 26.85
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "who": "sam",
+      "text": "\"Delivery for you. Please open the door. Your food is getting cold.\"",
+      "start": 27.35,
+      "end": 31.91,
+      "words": [
+        {
+          "w": "\"Delivery",
+          "start": 27.35,
+          "end": 27.71
+        },
+        {
+          "w": "for",
+          "start": 27.71,
+          "end": 28.03
+        },
+        {
+          "w": "you.",
+          "start": 28.03,
+          "end": 28.39
+        },
+        {
+          "w": "Please",
+          "start": 29.01,
+          "end": 29.17
+        },
+        {
+          "w": "open",
+          "start": 29.17,
+          "end": 29.43
+        },
+        {
+          "w": "the",
+          "start": 29.43,
+          "end": 29.63
+        },
+        {
+          "w": "door.",
+          "start": 29.63,
+          "end": 29.87
+        },
+        {
+          "w": "Your",
+          "start": 30.57,
+          "end": 30.65
+        },
+        {
+          "w": "food",
+          "start": 30.65,
+          "end": 30.93
+        },
+        {
+          "w": "is",
+          "start": 30.93,
+          "end": 31.11
+        },
+        {
+          "w": "getting",
+          "start": 31.11,
+          "end": 31.31
+        },
+        {
+          "w": "cold.\"",
+          "start": 31.31,
+          "end": 31.69
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "who": "narrator",
+      "text": "Your phone buzzes. The app says your real driver is still at the restaurant.",
+      "start": 32.26,
+      "end": 35.98,
+      "words": [
+        {
+          "w": "Your",
+          "start": 32.26,
+          "end": 32.52
+        },
+        {
+          "w": "phone",
+          "start": 32.52,
+          "end": 32.78
+        },
+        {
+          "w": "buzzes.",
+          "start": 32.78,
+          "end": 33.28
+        },
+        {
+          "w": "The",
+          "start": 33.5,
+          "end": 33.62
+        },
+        {
+          "w": "app",
+          "start": 33.62,
+          "end": 33.76
+        },
+        {
+          "w": "says",
+          "start": 33.76,
+          "end": 33.98
+        },
+        {
+          "w": "your",
+          "start": 33.98,
+          "end": 34.18
+        },
+        {
+          "w": "real",
+          "start": 34.18,
+          "end": 34.38
+        },
+        {
+          "w": "driver",
+          "start": 34.38,
+          "end": 34.68
+        },
+        {
+          "w": "is",
+          "start": 34.68,
+          "end": 34.88
+        },
+        {
+          "w": "still",
+          "start": 34.88,
+          "end": 35.14
+        },
+        {
+          "w": "at",
+          "start": 35.14,
+          "end": 35.32
+        },
+        {
+          "w": "the",
+          "start": 35.32,
+          "end": 35.4
+        },
+        {
+          "w": "restaurant.",
+          "start": 35.4,
+          "end": 35.7
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "who": "narrator",
+      "text": "When the camera comes back, he's gone. You run to your room and lock the door.",
+      "start": 37.38,
+      "end": 41.91,
+      "words": [
+        {
+          "w": "When",
+          "start": 37.38,
+          "end": 37.58
+        },
+        {
+          "w": "the",
+          "start": 37.58,
+          "end": 37.7
+        },
+        {
+          "w": "camera",
+          "start": 37.7,
+          "end": 37.92
+        },
+        {
+          "w": "comes",
+          "start": 37.92,
+          "end": 38.2
+        },
+        {
+          "w": "back,",
+          "start": 38.2,
+          "end": 38.54
+        },
+        {
+          "w": "he's",
+          "start": 38.92,
+          "end": 39.14
+        },
+        {
+          "w": "gone.",
+          "start": 39.14,
+          "end": 39.4
+        },
+        {
+          "w": "You",
+          "start": 40.1,
+          "end": 40.18
+        },
+        {
+          "w": "run",
+          "start": 40.18,
+          "end": 40.38
+        },
+        {
+          "w": "to",
+          "start": 40.38,
+          "end": 40.56
+        },
+        {
+          "w": "your",
+          "start": 40.56,
+          "end": 40.7
+        },
+        {
+          "w": "room",
+          "start": 40.7,
+          "end": 40.92
+        },
+        {
+          "w": "and",
+          "start": 40.92,
+          "end": 41.08
+        },
+        {
+          "w": "lock",
+          "start": 41.08,
+          "end": 41.28
+        },
+        {
+          "w": "the",
+          "start": 41.28,
+          "end": 41.46
+        },
+        {
+          "w": "door.",
+          "start": 41.46,
+          "end": 41.68
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "who": "narrator",
+      "text": "The bag is already on your bed.",
+      "start": 42.21,
+      "end": 44.48,
+      "words": [
+        {
+          "w": "The",
+          "start": 42.21,
+          "end": 42.53
+        },
+        {
+          "w": "bag",
+          "start": 42.53,
+          "end": 42.77
+        },
+        {
+          "w": "is",
+          "start": 42.77,
+          "end": 42.91
+        },
+        {
+          "w": "already",
+          "start": 42.91,
+          "end": 43.21
+        },
+        {
+          "w": "on",
+          "start": 43.21,
+          "end": 43.45
+        },
+        {
+          "w": "your",
+          "start": 43.45,
+          "end": 43.57
+        },
+        {
+          "w": "bed.",
+          "start": 43.57,
+          "end": 43.83
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "who": "narrator",
+      "text": "On your phone, the mukbang is still playing. But the girl has stopped eating. She's staring right at you.",
+      "start": 44.98,
+      "end": 51.45,
+      "words": [
+        {
+          "w": "On",
+          "start": 44.98,
+          "end": 45.18
+        },
+        {
+          "w": "your",
+          "start": 45.18,
+          "end": 45.3
+        },
+        {
+          "w": "phone,",
+          "start": 45.3,
+          "end": 45.7
+        },
+        {
+          "w": "the",
+          "start": 46.32,
+          "end": 46.4
+        },
+        {
+          "w": "mukbang",
+          "start": 46.4,
+          "end": 46.84
+        },
+        {
+          "w": "is",
+          "start": 46.84,
+          "end": 47.02
+        },
+        {
+          "w": "still",
+          "start": 47.02,
+          "end": 47.26
+        },
+        {
+          "w": "playing.",
+          "start": 47.26,
+          "end": 47.7
+        },
+        {
+          "w": "But",
+          "start": 48.14,
+          "end": 48.36
+        },
+        {
+          "w": "the",
+          "start": 48.36,
+          "end": 48.48
+        },
+        {
+          "w": "girl",
+          "start": 48.48,
+          "end": 48.68
+        },
+        {
+          "w": "has",
+          "start": 48.68,
+          "end": 48.88
+        },
+        {
+          "w": "stopped",
+          "start": 48.88,
+          "end": 49.18
+        },
+        {
+          "w": "eating.",
+          "start": 49.18,
+          "end": 49.52
+        },
+        {
+          "w": "She's",
+          "start": 50.08,
+          "end": 50.3
+        },
+        {
+          "w": "staring",
+          "start": 50.3,
+          "end": 50.62
+        },
+        {
+          "w": "right",
+          "start": 50.62,
+          "end": 50.88
+        },
+        {
+          "w": "at",
+          "start": 50.88,
+          "end": 51.02
+        },
+        {
+          "w": "you.",
+          "start": 51.02,
+          "end": 51.26
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "who": "streamer",
+      "text": "\"Don't open the bag. That's how he gets in.\"",
+      "start": 51.75,
+      "end": 54.16,
+      "words": [
+        {
+          "w": "\"Don't",
+          "start": 51.75,
+          "end": 52.01
+        },
+        {
+          "w": "open",
+          "start": 52.01,
+          "end": 52.17
+        },
+        {
+          "w": "the",
+          "start": 52.17,
+          "end": 52.31
+        },
+        {
+          "w": "bag.",
+          "start": 52.31,
+          "end": 52.63
+        },
+        {
+          "w": "That's",
+          "start": 53.09,
+          "end": 53.33
+        },
+        {
+          "w": "how",
+          "start": 53.33,
+          "end": 53.45
+        },
+        {
+          "w": "he",
+          "start": 53.45,
+          "end": 53.57
+        },
+        {
+          "w": "gets",
+          "start": 53.57,
+          "end": 53.73
+        },
+        {
+          "w": "in.\"",
+          "start": 53.73,
+          "end": 54.01
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "who": "narrator",
+      "text": "Then... the bag starts to move.",
+      "start": 54.56,
+      "end": 57.39,
+      "words": [
+        {
+          "w": "Then...",
+          "start": 54.56,
+          "end": 54.86
+        },
+        {
+          "w": "the",
+          "start": 55.84,
+          "end": 56.18
+        },
+        {
+          "w": "bag",
+          "start": 56.18,
+          "end": 56.42
+        },
+        {
+          "w": "starts",
+          "start": 56.42,
+          "end": 56.68
+        },
+        {
+          "w": "to",
+          "start": 56.68,
+          "end": 56.94
+        },
+        {
+          "w": "move.",
+          "start": 56.94,
+          "end": 57.14
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "who": "narrator",
+      "text": "Comment A or B. The top comment decides what happens in Part 2.",
+      "start": 58.89,
+      "end": 63.24,
+      "words": [
+        {
+          "w": "Comment",
+          "start": 58.89,
+          "end": 59.23
+        },
+        {
+          "w": "A",
+          "start": 59.23,
+          "end": 59.61
+        },
+        {
+          "w": "or",
+          "start": 59.61,
+          "end": 59.79
+        },
+        {
+          "w": "B.",
+          "start": 59.79,
+          "end": 60.07
+        },
+        {
+          "w": "The",
+          "start": 60.65,
+          "end": 60.77
+        },
+        {
+          "w": "top",
+          "start": 60.77,
+          "end": 61.01
+        },
+        {
+          "w": "comment",
+          "start": 61.01,
+          "end": 61.41
+        },
+        {
+          "w": "decides",
+          "start": 61.41,
+          "end": 61.77
+        },
+        {
+          "w": "what",
+          "start": 61.77,
+          "end": 62.01
+        },
+        {
+          "w": "happens",
+          "start": 62.01,
+          "end": 62.33
+        },
+        {
+          "w": "in",
+          "start": 62.33,
+          "end": 62.55
+        },
+        {
+          "w": "Part",
+          "start": 62.55,
+          "end": 62.71
+        },
+        {
+          "w": "2.",
+          "start": 62.71,
+          "end": 63.05
+        }
+      ]
+    }
+  ]
+}

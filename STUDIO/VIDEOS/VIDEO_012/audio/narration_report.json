@@ -1,0 +1,1157 @@
+{
+  "H1": {
+    "key": "f28fde57d1fe",
+    "text": "It's two AM. You order food. The app says your driver is one minute away... but the restaurant is forty minutes from your house.",
+    "chosen": "H1_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "It's 2 a.m., you order food, the app says your driver is one minute away, but the restaurant is 40 minutes from your house.",
+    "duration": 7.59,
+    "words": [
+      {
+        "w": "It's",
+        "start": 0.0,
+        "end": 0.24
+      },
+      {
+        "w": "two",
+        "start": 0.24,
+        "end": 0.42
+      },
+      {
+        "w": "AM.",
+        "start": 0.42,
+        "end": 1.26
+      },
+      {
+        "w": "You",
+        "start": 1.26,
+        "end": 1.52
+      },
+      {
+        "w": "order",
+        "start": 1.52,
+        "end": 1.74
+      },
+      {
+        "w": "food.",
+        "start": 1.74,
+        "end": 2.1
+      },
+      {
+        "w": "The",
+        "start": 2.78,
+        "end": 2.86
+      },
+      {
+        "w": "app",
+        "start": 2.86,
+        "end": 3.06
+      },
+      {
+        "w": "says",
+        "start": 3.06,
+        "end": 3.28
+      },
+      {
+        "w": "your",
+        "start": 3.28,
+        "end": 3.5
+      },
+      {
+        "w": "driver",
+        "start": 3.5,
+        "end": 3.82
+      },
+      {
+        "w": "is",
+        "start": 3.82,
+        "end": 4.02
+      },
+      {
+        "w": "one",
+        "start": 4.02,
+        "end": 4.2
+      },
+      {
+        "w": "minute",
+        "start": 4.2,
+        "end": 4.4
+      },
+      {
+        "w": "away...",
+        "start": 4.4,
+        "end": 4.78
+      },
+      {
+        "w": "but",
+        "start": 5.56,
+        "end": 5.62
+      },
+      {
+        "w": "the",
+        "start": 5.62,
+        "end": 5.74
+      },
+      {
+        "w": "restaurant",
+        "start": 5.74,
+        "end": 6.04
+      },
+      {
+        "w": "is",
+        "start": 6.04,
+        "end": 6.28
+      },
+      {
+        "w": "forty",
+        "start": 6.28,
+        "end": 6.5
+      },
+      {
+        "w": "minutes",
+        "start": 6.5,
+        "end": 6.74
+      },
+      {
+        "w": "from",
+        "start": 6.74,
+        "end": 6.94
+      },
+      {
+        "w": "your",
+        "start": 6.94,
+        "end": 7.1
+      },
+      {
+        "w": "house.",
+        "start": 7.1,
+        "end": 7.36
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "H1_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "It's 2 a.m., you order food, the app says your driver is one minute away, but the restaurant is 40 minutes from your house.",
+        "gen_seconds": 258.0
+      },
+      {
+        "file": "H1_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "It's 2 a.m. You order food. The app says your driver is one minute away, but the restaurant is 40 minutes from your house.",
+        "gen_seconds": 54.5
+      }
+    ]
+  },
+  "L01": {
+    "key": "7f815e452a12",
+    "text": "It starts like every night. You're in bed, scrolling TikTok, watching mukbangs.",
+    "chosen": "L01_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "It starts like every night. You're in bed, scrolling TikTok, watching mukbangs.",
+    "duration": 4.99,
+    "words": [
+      {
+        "w": "It",
+        "start": 0.0,
+        "end": 0.18
+      },
+      {
+        "w": "starts",
+        "start": 0.18,
+        "end": 0.42
+      },
+      {
+        "w": "like",
+        "start": 0.42,
+        "end": 0.68
+      },
+      {
+        "w": "every",
+        "start": 0.68,
+        "end": 0.96
+      },
+      {
+        "w": "night.",
+        "start": 0.96,
+        "end": 1.26
+      },
+      {
+        "w": "You're",
+        "start": 1.82,
+        "end": 1.98
+      },
+      {
+        "w": "in",
+        "start": 1.98,
+        "end": 2.08
+      },
+      {
+        "w": "bed,",
+        "start": 2.08,
+        "end": 2.34
+      },
+      {
+        "w": "scrolling",
+        "start": 2.88,
+        "end": 3.16
+      },
+      {
+        "w": "TikTok,",
+        "start": 3.16,
+        "end": 3.76
+      },
+      {
+        "w": "watching",
+        "start": 4.0,
+        "end": 4.24
+      },
+      {
+        "w": "mukbangs.",
+        "start": 4.24,
+        "end": 4.78
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "L01_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "It starts like every night. You're in bed, scrolling TikTok, watching mukbangs.",
+        "gen_seconds": 42.6
+      },
+      {
+        "file": "L01_r0_t1.wav",
+        "mismatches": 1,
+        "heard": "It starts like every night. You're in bed, scrolling TikTok, watching mukbongs.",
+        "gen_seconds": 40.2
+      }
+    ]
+  },
+  "L02": {
+    "key": "7c526db84b7f",
+    "text": "Now you're starving. One tap. Order placed.",
+    "chosen": "L02_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Now you're starving, one tap, order placed.",
+    "duration": 3.6,
+    "words": [
+      {
+        "w": "Now",
+        "start": 0.0,
+        "end": 0.22
+      },
+      {
+        "w": "you're",
+        "start": 0.22,
+        "end": 0.48
+      },
+      {
+        "w": "starving.",
+        "start": 0.48,
+        "end": 0.88
+      },
+      {
+        "w": "One",
+        "start": 1.42,
+        "end": 1.64
+      },
+      {
+        "w": "tap.",
+        "start": 1.64,
+        "end": 1.98
+      },
+      {
+        "w": "Order",
+        "start": 2.7,
+        "end": 2.96
+      },
+      {
+        "w": "placed.",
+        "start": 2.96,
+        "end": 3.36
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "L02_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Now you're starving. One tap, order placed.",
+        "gen_seconds": 28.8
+      },
+      {
+        "file": "L02_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Now you're starving, one tap, order placed.",
+        "gen_seconds": 34.0
+      }
+    ]
+  },
+  "L03": {
+    "key": "0bed1cda92e0",
+    "text": "Before you even put your phone down... three knocks.",
+    "chosen": "L03_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "before you even put your phone down, three knocks.",
+    "duration": 2.98,
+    "words": [
+      {
+        "w": "Before",
+        "start": 0.0,
+        "end": 0.32
+      },
+      {
+        "w": "you",
+        "start": 0.32,
+        "end": 0.5
+      },
+      {
+        "w": "even",
+        "start": 0.5,
+        "end": 0.7
+      },
+      {
+        "w": "put",
+        "start": 0.7,
+        "end": 0.92
+      },
+      {
+        "w": "your",
+        "start": 0.92,
+        "end": 1.08
+      },
+      {
+        "w": "phone",
+        "start": 1.08,
+        "end": 1.34
+      },
+      {
+        "w": "down...",
+        "start": 1.34,
+        "end": 1.66
+      },
+      {
+        "w": "three",
+        "start": 2.06,
+        "end": 2.32
+      },
+      {
+        "w": "knocks.",
+        "start": 2.32,
+        "end": 2.66
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "L03_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "before you even put your phone down, three knocks.",
+        "gen_seconds": 28.0
+      },
+      {
+        "file": "L03_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "before you even put your phone down, 3 knocks.",
+        "gen_seconds": 23.3
+      }
+    ]
+  },
+  "L04": {
+    "key": "010e2504319a",
+    "text": "You check the door camera. A delivery guy. He isn't blinking. And his smile is way too wide.",
+    "chosen": "L04_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "You check the door camera, a delivery guy. He isn't blinking, and his smile is way too wide.",
+    "duration": 5.72,
+    "words": [
+      {
+        "w": "You",
+        "start": 0.0,
+        "end": 0.18
+      },
+      {
+        "w": "check",
+        "start": 0.18,
+        "end": 0.38
+      },
+      {
+        "w": "the",
+        "start": 0.38,
+        "end": 0.54
+      },
+      {
+        "w": "door",
+        "start": 0.54,
+        "end": 0.74
+      },
+      {
+        "w": "camera.",
+        "start": 0.74,
+        "end": 1.16
+      },
+      {
+        "w": "A",
+        "start": 1.48,
+        "end": 1.6
+      },
+      {
+        "w": "delivery",
+        "start": 1.6,
+        "end": 1.84
+      },
+      {
+        "w": "guy.",
+        "start": 1.84,
+        "end": 2.24
+      },
+      {
+        "w": "He",
+        "start": 2.72,
+        "end": 2.84
+      },
+      {
+        "w": "isn't",
+        "start": 2.84,
+        "end": 3.14
+      },
+      {
+        "w": "blinking.",
+        "start": 3.14,
+        "end": 3.42
+      },
+      {
+        "w": "And",
+        "start": 3.84,
+        "end": 3.98
+      },
+      {
+        "w": "his",
+        "start": 3.98,
+        "end": 4.12
+      },
+      {
+        "w": "smile",
+        "start": 4.12,
+        "end": 4.44
+      },
+      {
+        "w": "is",
+        "start": 4.44,
+        "end": 4.68
+      },
+      {
+        "w": "way",
+        "start": 4.68,
+        "end": 4.92
+      },
+      {
+        "w": "too",
+        "start": 4.92,
+        "end": 5.16
+      },
+      {
+        "w": "wide.",
+        "start": 5.16,
+        "end": 5.52
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "L04_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "You check the door camera, a delivery guy. He isn't blinking, and his smile is way too wide.",
+        "gen_seconds": 46.2
+      },
+      {
+        "file": "L04_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "You check the door camera, a delivery guy, he isn't blinking, and his smile is way too wide.",
+        "gen_seconds": 47.8
+      }
+    ]
+  },
+  "L05": {
+    "key": "18b5d33377db",
+    "text": "\"Delivery for you. Please open the door. Your food is getting cold.\"",
+    "chosen": "L05_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "delivery for you. Please open the door. Your food is getting cold.",
+    "duration": 4.56,
+    "words": [
+      {
+        "w": "\"Delivery",
+        "start": 0.0,
+        "end": 0.36
+      },
+      {
+        "w": "for",
+        "start": 0.36,
+        "end": 0.68
+      },
+      {
+        "w": "you.",
+        "start": 0.68,
+        "end": 1.04
+      },
+      {
+        "w": "Please",
+        "start": 1.66,
+        "end": 1.82
+      },
+      {
+        "w": "open",
+        "start": 1.82,
+        "end": 2.08
+      },
+      {
+        "w": "the",
+        "start": 2.08,
+        "end": 2.28
+      },
+      {
+        "w": "door.",
+        "start": 2.28,
+        "end": 2.52
+      },
+      {
+        "w": "Your",
+        "start": 3.22,
+        "end": 3.3
+      },
+      {
+        "w": "food",
+        "start": 3.3,
+        "end": 3.58
+      },
+      {
+        "w": "is",
+        "start": 3.58,
+        "end": 3.76
+      },
+      {
+        "w": "getting",
+        "start": 3.76,
+        "end": 3.96
+      },
+      {
+        "w": "cold.\"",
+        "start": 3.96,
+        "end": 4.34
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "L05_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "delivery for you. Please open the door. Your food is getting cold.",
+        "gen_seconds": 38.6
+      },
+      {
+        "file": "L05_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Delivery for you? Please open the door. Your food is getting cold.",
+        "gen_seconds": 41.6
+      }
+    ]
+  },
+  "L06": {
+    "key": "4fb705246ce7",
+    "text": "Your phone buzzes. The app says your real driver is still at the restaurant.",
+    "chosen": "L06_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Your phone buzzes, the app says your real driver is still at the restaurant.",
+    "duration": 3.72,
+    "words": [
+      {
+        "w": "Your",
+        "start": 0.0,
+        "end": 0.26
+      },
+      {
+        "w": "phone",
+        "start": 0.26,
+        "end": 0.52
+      },
+      {
+        "w": "buzzes.",
+        "start": 0.52,
+        "end": 1.02
+      },
+      {
+        "w": "The",
+        "start": 1.24,
+        "end": 1.36
+      },
+      {
+        "w": "app",
+        "start": 1.36,
+        "end": 1.5
+      },
+      {
+        "w": "says",
+        "start": 1.5,
+        "end": 1.72
+      },
+      {
+        "w": "your",
+        "start": 1.72,
+        "end": 1.92
+      },
+      {
+        "w": "real",
+        "start": 1.92,
+        "end": 2.12
+      },
+      {
+        "w": "driver",
+        "start": 2.12,
+        "end": 2.42
+      },
+      {
+        "w": "is",
+        "start": 2.42,
+        "end": 2.62
+      },
+      {
+        "w": "still",
+        "start": 2.62,
+        "end": 2.88
+      },
+      {
+        "w": "at",
+        "start": 2.88,
+        "end": 3.06
+      },
+      {
+        "w": "the",
+        "start": 3.06,
+        "end": 3.14
+      },
+      {
+        "w": "restaurant.",
+        "start": 3.14,
+        "end": 3.44
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "L06_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "your phone buzzes, the app says your real driver is still at the restaurant.",
+        "gen_seconds": 36.2
+      },
+      {
+        "file": "L06_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Your phone buzzes, the app says your real driver is still at the restaurant.",
+        "gen_seconds": 32.7
+      }
+    ]
+  },
+  "L07": {
+    "key": "0fb6e03c08c9",
+    "text": "When the camera comes back, he's gone. You run to your room and lock the door.",
+    "chosen": "L07_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "When the camera comes back, he's gone. You run to your room and lock the door.",
+    "duration": 4.53,
+    "words": [
+      {
+        "w": "When",
+        "start": 0.0,
+        "end": 0.2
+      },
+      {
+        "w": "the",
+        "start": 0.2,
+        "end": 0.32
+      },
+      {
+        "w": "camera",
+        "start": 0.32,
+        "end": 0.54
+      },
+      {
+        "w": "comes",
+        "start": 0.54,
+        "end": 0.82
+      },
+      {
+        "w": "back,",
+        "start": 0.82,
+        "end": 1.16
+      },
+      {
+        "w": "he's",
+        "start": 1.54,
+        "end": 1.76
+      },
+      {
+        "w": "gone.",
+        "start": 1.76,
+        "end": 2.02
+      },
+      {
+        "w": "You",
+        "start": 2.72,
+        "end": 2.8
+      },
+      {
+        "w": "run",
+        "start": 2.8,
+        "end": 3.0
+      },
+      {
+        "w": "to",
+        "start": 3.0,
+        "end": 3.18
+      },
+      {
+        "w": "your",
+        "start": 3.18,
+        "end": 3.32
+      },
+      {
+        "w": "room",
+        "start": 3.32,
+        "end": 3.54
+      },
+      {
+        "w": "and",
+        "start": 3.54,
+        "end": 3.7
+      },
+      {
+        "w": "lock",
+        "start": 3.7,
+        "end": 3.9
+      },
+      {
+        "w": "the",
+        "start": 3.9,
+        "end": 4.08
+      },
+      {
+        "w": "door.",
+        "start": 4.08,
+        "end": 4.3
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "L07_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "When the camera comes back, he's gone. You run to your room and lock the door.",
+        "gen_seconds": 38.7
+      },
+      {
+        "file": "L07_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "When the camera comes back, he's gone. You run to your room and lock the door.",
+        "gen_seconds": 46.5
+      }
+    ]
+  },
+  "L08": {
+    "key": "bd0e4ce68429",
+    "text": "The bag is already on your bed.",
+    "chosen": "L08_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "The bag is already on your bed.",
+    "duration": 2.27,
+    "words": [
+      {
+        "w": "The",
+        "start": 0.0,
+        "end": 0.32
+      },
+      {
+        "w": "bag",
+        "start": 0.32,
+        "end": 0.56
+      },
+      {
+        "w": "is",
+        "start": 0.56,
+        "end": 0.7
+      },
+      {
+        "w": "already",
+        "start": 0.7,
+        "end": 1.0
+      },
+      {
+        "w": "on",
+        "start": 1.0,
+        "end": 1.24
+      },
+      {
+        "w": "your",
+        "start": 1.24,
+        "end": 1.36
+      },
+      {
+        "w": "bed.",
+        "start": 1.36,
+        "end": 1.62
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "L08_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "The bag is already on your bed.",
+        "gen_seconds": 18.1
+      },
+      {
+        "file": "L08_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "The bag is already on your bed.",
+        "gen_seconds": 20.9
+      }
+    ]
+  },
+  "L09": {
+    "key": "ec1d3e7cbc7e",
+    "text": "On your phone, the mukbang is still playing. But the girl has stopped eating. She's staring right at you.",
+    "chosen": "L09_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "On your phone, the mukbang is still playing, but the girl has stopped eating, she's staring right at you.",
+    "duration": 6.47,
+    "words": [
+      {
+        "w": "On",
+        "start": 0.0,
+        "end": 0.2
+      },
+      {
+        "w": "your",
+        "start": 0.2,
+        "end": 0.32
+      },
+      {
+        "w": "phone,",
+        "start": 0.32,
+        "end": 0.72
+      },
+      {
+        "w": "the",
+        "start": 1.34,
+        "end": 1.42
+      },
+      {
+        "w": "mukbang",
+        "start": 1.42,
+        "end": 1.86
+      },
+      {
+        "w": "is",
+        "start": 1.86,
+        "end": 2.04
+      },
+      {
+        "w": "still",
+        "start": 2.04,
+        "end": 2.28
+      },
+      {
+        "w": "playing.",
+        "start": 2.28,
+        "end": 2.72
+      },
+      {
+        "w": "But",
+        "start": 3.16,
+        "end": 3.38
+      },
+      {
+        "w": "the",
+        "start": 3.38,
+        "end": 3.5
+      },
+      {
+        "w": "girl",
+        "start": 3.5,
+        "end": 3.7
+      },
+      {
+        "w": "has",
+        "start": 3.7,
+        "end": 3.9
+      },
+      {
+        "w": "stopped",
+        "start": 3.9,
+        "end": 4.2
+      },
+      {
+        "w": "eating.",
+        "start": 4.2,
+        "end": 4.54
+      },
+      {
+        "w": "She's",
+        "start": 5.1,
+        "end": 5.32
+      },
+      {
+        "w": "staring",
+        "start": 5.32,
+        "end": 5.64
+      },
+      {
+        "w": "right",
+        "start": 5.64,
+        "end": 5.9
+      },
+      {
+        "w": "at",
+        "start": 5.9,
+        "end": 6.04
+      },
+      {
+        "w": "you.",
+        "start": 6.04,
+        "end": 6.28
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "L09_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "On your phone, the mukbang is still playing, but the girl has stopped eating, she's staring right at you.",
+        "gen_seconds": 52.5
+      },
+      {
+        "file": "L09_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "On your phone, the mukbang is still playing, but the girl has stopped eating, she's staring right at you.",
+        "gen_seconds": 48.8
+      }
+    ]
+  },
+  "L10": {
+    "key": "7eed528627cb",
+    "text": "\"Don't open the bag. That's how he gets in.\"",
+    "chosen": "L10_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Don't open the bag, that's how he gets in.",
+    "duration": 2.41,
+    "words": [
+      {
+        "w": "\"Don't",
+        "start": 0.0,
+        "end": 0.26
+      },
+      {
+        "w": "open",
+        "start": 0.26,
+        "end": 0.42
+      },
+      {
+        "w": "the",
+        "start": 0.42,
+        "end": 0.56
+      },
+      {
+        "w": "bag.",
+        "start": 0.56,
+        "end": 0.88
+      },
+      {
+        "w": "That's",
+        "start": 1.34,
+        "end": 1.58
+      },
+      {
+        "w": "how",
+        "start": 1.58,
+        "end": 1.7
+      },
+      {
+        "w": "he",
+        "start": 1.7,
+        "end": 1.82
+      },
+      {
+        "w": "gets",
+        "start": 1.82,
+        "end": 1.98
+      },
+      {
+        "w": "in.\"",
+        "start": 1.98,
+        "end": 2.26
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "L10_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Don't open the bag, that's how he gets in.",
+        "gen_seconds": 38.4
+      },
+      {
+        "file": "L10_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Don't open the bag, that's how he gets in.",
+        "gen_seconds": 26.2
+      }
+    ]
+  },
+  "L11": {
+    "key": "b315b36bfb45",
+    "text": "Then... the bag starts to move.",
+    "chosen": "L11_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Then, the bag starts to move.",
+    "duration": 2.83,
+    "words": [
+      {
+        "w": "Then...",
+        "start": 0.0,
+        "end": 0.3
+      },
+      {
+        "w": "the",
+        "start": 1.28,
+        "end": 1.62
+      },
+      {
+        "w": "bag",
+        "start": 1.62,
+        "end": 1.86
+      },
+      {
+        "w": "starts",
+        "start": 1.86,
+        "end": 2.12
+      },
+      {
+        "w": "to",
+        "start": 2.12,
+        "end": 2.38
+      },
+      {
+        "w": "move.",
+        "start": 2.38,
+        "end": 2.58
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "L11_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Then, the bag starts to move.",
+        "gen_seconds": 25.1
+      },
+      {
+        "file": "L11_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Then, the bag starts to move.",
+        "gen_seconds": 22.4
+      }
+    ]
+  },
+  "L12": {
+    "key": "7947d882f4ac",
+    "text": "Comment A or B. The top comment decides what happens in Part 2.",
+    "chosen": "L12_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Comment A or B. The top comment decides what happens in Part 2.",
+    "duration": 4.35,
+    "words": [
+      {
+        "w": "Comment",
+        "start": 0.0,
+        "end": 0.34
+      },
+      {
+        "w": "A",
+        "start": 0.34,
+        "end": 0.72
+      },
+      {
+        "w": "or",
+        "start": 0.72,
+        "end": 0.9
+      },
+      {
+        "w": "B.",
+        "start": 0.9,
+        "end": 1.18
+      },
+      {
+        "w": "The",
+        "start": 1.76,
+        "end": 1.88
+      },
+      {
+        "w": "top",
+        "start": 1.88,
+        "end": 2.12
+      },
+      {
+        "w": "comment",
+        "start": 2.12,
+        "end": 2.52
+      },
+      {
+        "w": "decides",
+        "start": 2.52,
+        "end": 2.88
+      },
+      {
+        "w": "what",
+        "start": 2.88,
+        "end": 3.12
+      },
+      {
+        "w": "happens",
+        "start": 3.12,
+        "end": 3.44
+      },
+      {
+        "w": "in",
+        "start": 3.44,
+        "end": 3.66
+      },
+      {
+        "w": "Part",
+        "start": 3.66,
+        "end": 3.82
+      },
+      {
+        "w": "2.",
+        "start": 3.82,
+        "end": 4.16
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "L12_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Comment A or B. The top comment decides what happens in Part 2.",
+        "gen_seconds": 34.4
+      },
+      {
+        "file": "L12_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Comment A or B the top comment decides what happens in part 2.",
+        "gen_seconds": 31.2
+      }
+    ]
+  }
+}
