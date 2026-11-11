@@ -61,8 +61,8 @@ for i, (sid, line, shot, you, keys) in enumerate(SCENES):
 SOURCES = {name: dict(kind="2d", shot=name) for name in {s["src"] for s in SEGMENTS}}
 
 OVERLAYS = [
-    dict(kind="title", t0=B["story"] + 0.1, t1=B["story"] + 2.6, text="LAST ONE IN THE CALL", sub="PART 1", size=92,
-         y=0.14, sub_color=YEL, stroke=14),
+    dict(kind="title", t0=B["story"] + 0.1, t1=B["story"] + 2.6, text="LAST ONE IN THE CALL", sub="PART 1", size=74,
+         y=0.11, sub_color=YEL, stroke=14),
     dict(kind="chip", t0=B["story"] + 2.7, t1=B["leave1"], text="12:04 AM · SQUAD 4/4", size=28, y=0.045, bg="#15161b", color="#d7d7dc"),
     dict(kind="chip", t0=B["leave1"], t1=B["leave2"], text="12:51 AM · SQUAD 3/4", size=28, y=0.045, bg="#15161b", color="#d7d7dc"),
     dict(kind="chip", t0=B["leave2"], t1=B["choice"], text="1:00 AM · 2 IN CALL", size=28, y=0.045, bg="#3a0c0a", color="#ffb0a8"),

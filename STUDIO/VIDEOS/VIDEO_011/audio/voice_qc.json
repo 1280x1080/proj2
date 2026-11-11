@@ -1,0 +1,149 @@
+{
+  "model": "base.en",
+  "lines": [
+    {
+      "id": "H1",
+      "text": "It's one AM. Your whole squad just left the voice chat. So who is still breathing in your headset?",
+      "heard": "It's 1 a.m. Your whole squad just left the voice chat, so who is still breathing in your headset?",
+      "mismatches": 0,
+      "duration": 5.56,
+      "words_per_sec": 3.42,
+      "clipped": false
+    },
+    {
+      "id": "L01",
+      "text": "One hour earlier, it's a normal night. You and the boys are playing Fortnite.",
+      "heard": "One hour earlier, it's a normal night. You and the boys are playing Fortnite.",
+      "mismatches": 0,
+      "duration": 4.97,
+      "words_per_sec": 2.82,
+      "clipped": false
+    },
+    {
+      "id": "L02",
+      "text": "\"Bro, you are cracked tonight! One more game!\"",
+      "heard": "Bro, you are cracked tonight. One more game.",
+      "mismatches": 0,
+      "duration": 2.96,
+      "words_per_sec": 2.7,
+      "clipped": false
+    },
+    {
+      "id": "L03",
+      "text": "Then, one by one, they leave. Marcus. Then Dee. No goodbyes.",
+      "heard": "Then, one by one, they leave. Marcus, then D. No goodbyes.",
+      "mismatches": 1,
+      "duration": 6.18,
+      "words_per_sec": 1.78,
+      "clipped": false
+    },
+    {
+      "id": "L04",
+      "text": "Now it's only you and Jay.",
+      "heard": "Now it's only you and Jay.",
+      "mismatches": 0,
+      "duration": 1.75,
+      "words_per_sec": 3.43,
+      "clipped": false
+    },
+    {
+      "id": "L05",
+      "text": "\"Yo... did you hear that? Someone is knocking on my window.\"",
+      "heard": "Yo, did you hear that? Someone is knocking on my window.",
+      "mismatches": 0,
+      "duration": 3.21,
+      "words_per_sec": 3.43,
+      "clipped": false
+    },
+    {
+      "id": "L06",
+      "text": "Jay lives on the third floor.",
+      "heard": "Jay lives on the third floor.",
+      "mismatches": 0,
+      "duration": 1.67,
+      "words_per_sec": 3.59,
+      "clipped": false
+    },
+    {
+      "id": "L07",
+      "text": "\"Bro. It's Marcus. He's outside my window. He's smiling.\"",
+      "heard": "Bro, it's Marcus. He's outside my window. He's smiling.",
+      "mismatches": 0,
+      "duration": 3.27,
+      "words_per_sec": 2.75,
+      "clipped": false
+    },
+    {
+      "id": "L08",
+      "text": "A scream. Then silence. But Jay never leaves the call.",
+      "heard": "A scream, then silence, but Jay never leaves the call.",
+      "mismatches": 0,
+      "duration": 3.75,
+      "words_per_sec": 2.67,
+      "clipped": false
+    },
+    {
+      "id": "L09",
+      "text": "Your phone buzzes. A text from Marcus: Don't answer Jay. That's not him anymore.",
+      "heard": "Your phone buzzes, a text from Marcus. Don't answer Jay, that's not him anymore.",
+      "mismatches": 0,
+      "duration": 5.66,
+      "words_per_sec": 2.47,
+      "clipped": false
+    },
+    {
+      "id": "L10",
+      "text": "\"Hey. Your turn. Look behind you.\"",
+      "heard": "Hey, your turn, look behind you.",
+      "mismatches": 0,
+      "duration": 2.55,
+      "words_per_sec": 2.35,
+      "clipped": false
+    },
+    {
+      "id": "L11",
+      "text": "In your dark monitor, you see your bedroom door. It's open. Someone is standing there.",
+      "heard": "In your dark monitor, you see your bedroom door. It's open. Someone is standing there. // //",
+      "mismatches": 0,
+      "duration": 4.98,
+      "words_per_sec": 3.01,
+      "clipped": false
+    },
+    {
+      "id": "L12",
+      "text": "Then, three knocks... on your window.",
+      "heard": "Then, three knocks on your window.",
+      "mismatches": 0,
+      "duration": 2.73,
+      "words_per_sec": 2.2,
+      "clipped": false
+    },
+    {
+      "id": "L13",
+      "text": "Comment A or B. Your choice decides Part 2.",
+      "heard": "Comment A or B, your choice decides part 2.",
+      "mismatches": 0,
+      "duration": 3.34,
+      "words_per_sec": 2.69,
+      "clipped": false
+    }
+  ],
+  "gaps": [
+    0.35,
+    0.12,
+    0.25,
+    0.3,
+    0.25,
+    0.3,
+    0.35,
+    1.3,
+    0.3,
+    0.4,
+    1.4,
+    0.3,
+    1.3
+  ],
+  "total": 59.9,
+  "peak_db": -2.89,
+  "passed": false
+}

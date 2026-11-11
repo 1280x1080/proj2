@@ -1,6 +1,6 @@
 {
-  "file": "/home/user/proj2/STUDIO/EXPORTS/video010.mp4",
-  "duration": 80.9,
+  "file": "/home/user/proj2/STUDIO/EXPORTS/video011.mp4",
+  "duration": 63.7,
   "checks": {
     "resolution": {
       "ok": true,
@@ -39,25 +39,25 @@
     },
     "duration": {
       "ok": true,
-      "value": 80.9,
+      "value": 63.7,
       "want": "30-90 s (tests may be shorter)"
     },
     "av_length_match": {
       "ok": true,
       "value": {
-        "video": 80.9,
-        "audio": 80.9
+        "video": 63.7,
+        "audio": 63.7
       },
       "want": "|diff| < 0.08 s"
     },
     "loudness_lufs": {
       "ok": true,
-      "value": -14.12,
+      "value": -14.22,
       "want": "-14 \u00b11"
     },
     "true_peak_dbtp": {
       "ok": true,
-      "value": -1.6,
+      "value": -1.65,
       "want": "<= -1.0"
     },
     "no_long_silence": {

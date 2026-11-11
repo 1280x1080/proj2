@@ -161,8 +161,8 @@ def shot_room_wide(c, t):
 def shot_you_cu(c, t):
     x, y = YOU.head_pos(YOU_X, FEET, SC)
     c.save()
-    c.translate(540, 900)
-    c.scale(2.2, 2.2)
+    c.translate(540, 870)
+    c.scale(1.9, 1.9)
     c.translate(-x, -(y + 60))
     room(c, t)
     c.restore()
@@ -384,7 +384,7 @@ def shot_window_cu(c, t):
 def shot_choice_bg(c, t):
     room(c, t)
     c.drawRect(skia.Rect.MakeWH(W, H), paint("#000000", 0.25))
-    for (x, y), colr, letter in (((865, 520), "#e2574c", "A"), ((540, 1740), "#3f8fd6", "B")):
+    for (x, y), colr, letter in (((865, 950), "#e2574c", "A"), ((540, 1740), "#3f8fd6", "B")):
         p = 1 + 0.08 * math.sin(t * 6 + x)
         c.drawCircle(x, y, 40 * p, paint(colr))
         c.drawCircle(x, y, 40 * p, paint("#ffffff", stroke=5))
@@ -401,7 +401,7 @@ def _face_zone():
 def _cu_zone(t):
     name, l, tp, r, b = _face_zone()
     x, y = YOU.head_pos(YOU_X, FEET, SC)
-    f = lambda px, py: (540 + (px - x) * 2.2, 900 + (py - (y + 60)) * 2.2)  # noqa: E731
+    f = lambda px, py: (540 + (px - x) * 1.9, 870 + (py - (y + 60)) * 1.9)  # noqa: E731
     (l2, t2), (r2, b2) = f(l, tp), f(r, b)
     return [(name, l2, t2, r2, b2)]
 

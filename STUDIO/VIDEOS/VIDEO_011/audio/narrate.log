@@ -7,3 +7,68 @@ Warning: flash-attn is not installed. Will only run the manual PyTorch version. 
 Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
 designed voice 'narrator' -> narrator_qwen.wav  ((copied from VIDEO_008)...)
 Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+designed voice 'jay' -> jay_qwen.wav  (Teenage boy, 16, energetic gamer talking to his friends on a headset, ...)
+whisper small.en loaded in 16.1s
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1467.82it/s]
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[H1] take r0t0: 0 mismatches, 5.56s audio, 217.2s gen  | "It's 1 a.m. Your whole squad just left the voice chat, so who is still breathing in your headset?"
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[H1] take r0t1: 0 mismatches, 5.76s audio, 43.6s gen  | "It's 1 a.m. Your whole squad just left the voice chat, so who is still breathing in your headset?"
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L01] take r0t0: 0 mismatches, 4.76s audio, 36.6s gen  | "One hour earlier, it's a normal night. You and the boys are playing Fortnite."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L01] take r0t1: 0 mismatches, 4.97s audio, 38.7s gen  | "One hour earlier, it's a normal night. You and the boys are playing Fortnite."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L02] take r0t0: 0 mismatches, 2.96s audio, 24.6s gen  | 'Bro, you are cracked tonight. One more game!'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L02] take r0t1: 0 mismatches, 2.76s audio, 22.6s gen  | 'Bro, you are cracked tonight. One more game!'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L03] take r0t0: 0 mismatches, 6.18s audio, 45.5s gen  | 'Then, one by one, they leave. Marcus, then Dee, no goodbyes.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L03] take r0t1: 1 mismatches, 5.77s audio, 41.7s gen  | 'Then, one by one they leave. Marcus. Then D. No goodbyes.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L04] take r0t0: 2 mismatches, 1.58s audio, 15.3s gen  | "Now it's only u and j."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L04] take r0t1: 1 mismatches, 1.75s audio, 18.2s gen  | "Now it's only you and J."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L04] take r1t0: 2 mismatches, 1.60s audio, 17.3s gen  | "Now it's only u and j."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L04] take r1t1: 2 mismatches, 1.82s audio, 17.1s gen  | "Now it's only U and J."
+  !! [L04] best take still has 1 mismatches - consider rewriting the line (short lines hallucinate).
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L05] take r0t0: 0 mismatches, 3.29s audio, 31.0s gen  | 'Yo, did you hear that? Someone is knocking on my window.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L05] take r0t1: 0 mismatches, 3.21s audio, 27.9s gen  | 'Yo, did you hear that? Someone is knocking on my window.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L06] take r0t0: 0 mismatches, 1.67s audio, 14.5s gen  | 'Jay lives on the third floor.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L06] take r0t1: 1 mismatches, 1.64s audio, 14.6s gen  | 'J lives on the third floor.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L07] take r0t0: 0 mismatches, 3.27s audio, 26.5s gen  | "Bro, it's Marcus. He's outside my window. He's smiling."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L07] take r0t1: 0 mismatches, 3.85s audio, 30.5s gen  | "Bro, it's Marcus, he's outside my window, he's smiling."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L08] take r0t0: 0 mismatches, 3.97s audio, 29.2s gen  | 'A scream, then silence, but Jay never leaves the call.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L08] take r0t1: 0 mismatches, 3.75s audio, 29.4s gen  | 'A scream, then silence, but Jay never leaves the call.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L09] take r0t0: 0 mismatches, 5.66s audio, 43.6s gen  | "Your phone buzzes, a text from Marcus, don't answer Jay, that's not him anymore."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L09] take r0t1: 1 mismatches, 5.66s audio, 46.3s gen  | "Your phone buzzes. A text from Marcus. Don't answer J. That's not him anymore."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L10] take r0t0: 0 mismatches, 2.55s audio, 22.8s gen  | 'Hey, your turn. Look behind you.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L10] take r0t1: 0 mismatches, 2.93s audio, 28.4s gen  | 'Hey, your turn. Look behind you.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L11] take r0t0: 0 mismatches, 4.98s audio, 38.4s gen  | "In your dark monitor, you see your bedroom door. It's open. Someone is standing there."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L11] take r0t1: 0 mismatches, 5.57s audio, 40.7s gen  | "In your dark monitor you see your bedroom door, it's open, someone is standing there."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L12] take r0t0: 0 mismatches, 2.73s audio, 20.8s gen  | 'Then, three knocks on your window.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L12] take r0t1: 0 mismatches, 2.73s audio, 21.7s gen  | 'Then, three knocks on your window.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L13] take r0t0: 0 mismatches, 3.34s audio, 25.6s gen  | 'Comment A or B, your choice decides part 2.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L13] take r0t1: 0 mismatches, 3.34s audio, 25.5s gen  | 'Comment A or B, your choice decides part 2.'
+narration: 59.90s, 14 lines; lines with mismatches: {'L04': 1}

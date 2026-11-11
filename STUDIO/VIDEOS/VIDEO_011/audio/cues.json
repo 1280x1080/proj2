@@ -1,0 +1,398 @@
+{
+  "duration": 63.7,
+  "loop": false,
+  "narration": {
+    "file": "narration_raw.wav",
+    "offset": 0.0
+  },
+  "sfx_duck_db": -5.0,
+  "amb_duck_db": -5.0,
+  "ceiling_dbtp": -1.7,
+  "cues": [
+    {
+      "t": 0.0,
+      "sfx": "pc_room",
+      "gain_db": 6,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "bedroom + PC fans",
+      "dur": 63.7,
+      "fade_in": 0.02
+    },
+    {
+      "t": 0.0,
+      "sfx": "night_room",
+      "gain_db": 0,
+      "bus": "amb",
+      "pan": 0.0,
+      "note": "",
+      "dur": 63.7,
+      "fade_in": 0.02
+    },
+    {
+      "t": 0.3,
+      "sfx": "breath_close",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "breathing in your headset (hook)"
+    },
+    {
+      "t": 2.2,
+      "sfx": "breath_close",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "breathing in your headset (hook)"
+    },
+    {
+      "t": 3.74,
+      "sfx": "impact_soft",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 4.1,
+      "sfx": "breath_close",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "breathing in your headset (hook)"
+    },
+    {
+      "t": 5.73,
+      "sfx": "whoosh_soft",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 6.13,
+      "sfx": "keys_mouse",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "gaming"
+    },
+    {
+      "t": 7.53,
+      "sfx": "game_shots",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "game audio"
+    },
+    {
+      "t": 9.13,
+      "sfx": "keys_mouse",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 11.0,
+      "sfx": "game_shots",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 14.08,
+      "sfx": "keys_mouse",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 17.53,
+      "sfx": "vc_leave",
+      "gain_db": -3,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "Marcus left"
+    },
+    {
+      "t": 18.57,
+      "sfx": "vc_leave",
+      "gain_db": -3,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "Dee left"
+    },
+    {
+      "t": 20.51,
+      "sfx": "keys_mouse",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 22.44,
+      "sfx": "keys_mouse",
+      "gain_db": -4,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 22.56,
+      "sfx": "vc_join",
+      "gain_db": -14,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "a UI blip"
+    },
+    {
+      "t": 22.57,
+      "sfx": "impact_soft",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 24.83,
+      "sfx": "knock_slow",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.4,
+      "note": "knocking, through Jay's mic"
+    },
+    {
+      "t": 25.33,
+      "sfx": "knock_slow",
+      "gain_db": -13,
+      "bus": "sfx",
+      "pan": 0.4,
+      "note": ""
+    },
+    {
+      "t": 26.02,
+      "sfx": "knock_slow",
+      "gain_db": -11,
+      "bus": "sfx",
+      "pan": 0.4,
+      "note": ""
+    },
+    {
+      "t": 27.99,
+      "sfx": "heartbeat",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 31.64,
+      "sfx": "breath_close",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "Jay holds his breath"
+    },
+    {
+      "t": 31.94,
+      "sfx": "mic_scream",
+      "gain_db": -9,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "JUMPSCARE 1: Jay screams"
+    },
+    {
+      "t": 31.94,
+      "sfx": "jumpscare_sting",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 32.59,
+      "sfx": "power_down",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "mic goes quiet"
+    },
+    {
+      "t": 33.44,
+      "sfx": "breath_close",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.2,
+      "note": "breathing on Jay's mic"
+    },
+    {
+      "t": 36.04,
+      "sfx": "breath_close",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.2,
+      "note": "breathing on Jay's mic"
+    },
+    {
+      "t": 36.99,
+      "sfx": "phone_vibrate",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "text"
+    },
+    {
+      "t": 38.36,
+      "sfx": "text_ping",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 38.64,
+      "sfx": "breath_close",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.2,
+      "note": "breathing on Jay's mic"
+    },
+    {
+      "t": 41.24,
+      "sfx": "breath_close",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.2,
+      "note": "breathing on Jay's mic"
+    },
+    {
+      "t": 41.46,
+      "sfx": "text_ping",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 42.62,
+      "sfx": "heartbeat",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 43.84,
+      "sfx": "breath_close",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.2,
+      "note": "breathing on Jay's mic"
+    },
+    {
+      "t": 45.57,
+      "sfx": "tinnitus",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "beat of silence"
+    },
+    {
+      "t": 45.85,
+      "sfx": "jumpscare_sting",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "JUMPSCARE 2: behind you"
+    },
+    {
+      "t": 45.9,
+      "sfx": "impact_cinematic",
+      "gain_db": -10,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 46.6,
+      "sfx": "power_down",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "monitor goes dark"
+    },
+    {
+      "t": 49.29,
+      "sfx": "door_creak_long",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.4,
+      "note": "your door"
+    },
+    {
+      "t": 51.95,
+      "sfx": "floor_creak",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.4,
+      "note": ""
+    },
+    {
+      "t": 52.33,
+      "sfx": "heartbeat",
+      "gain_db": -8,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    },
+    {
+      "t": 55.11,
+      "sfx": "knock_slow",
+      "gain_db": -1,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "on YOUR window"
+    },
+    {
+      "t": 55.51,
+      "sfx": "knock_slow",
+      "gain_db": -1,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "on YOUR window"
+    },
+    {
+      "t": 55.91,
+      "sfx": "knock_slow",
+      "gain_db": -1,
+      "bus": "sfx",
+      "pan": -0.4,
+      "note": "on YOUR window"
+    },
+    {
+      "t": 56.16,
+      "sfx": "impact_cinematic",
+      "gain_db": -6,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": "freeze"
+    },
+    {
+      "t": 56.76,
+      "sfx": "riser",
+      "gain_db": -12,
+      "bus": "sfx",
+      "pan": 0.0,
+      "note": ""
+    }
+  ],
+  "music": {
+    "file": "music.wav",
+    "gain_db": -4.0,
+    "duck_db": -10.0
+  }
+}
