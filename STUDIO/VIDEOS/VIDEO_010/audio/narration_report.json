@@ -1,0 +1,327 @@
+{
+  "H1": {
+    "key": "85b643b01567",
+    "text": "Imagine boarding a plane that flies the same route as the plane that vanished ten years ago.",
+    "chosen": "H1_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Imagine boarding a plane that flies the same route as the plane that vanished 10 years ago.",
+    "duration": 4.38,
+    "words": [
+      {
+        "w": "Imagine",
+        "start": 0.0,
+        "end": 0.42
+      },
+      {
+        "w": "boarding",
+        "start": 0.42,
+        "end": 0.74
+      },
+      {
+        "w": "a",
+        "start": 0.74,
+        "end": 0.94
+      },
+      {
+        "w": "plane",
+        "start": 0.94,
+        "end": 1.18
+      },
+      {
+        "w": "that",
+        "start": 1.18,
+        "end": 1.4
+      },
+      {
+        "w": "flies",
+        "start": 1.4,
+        "end": 1.66
+      },
+      {
+        "w": "the",
+        "start": 1.66,
+        "end": 1.9
+      },
+      {
+        "w": "same",
+        "start": 1.9,
+        "end": 2.12
+      },
+      {
+        "w": "route",
+        "start": 2.12,
+        "end": 2.38
+      },
+      {
+        "w": "as",
+        "start": 2.38,
+        "end": 2.56
+      },
+      {
+        "w": "the",
+        "start": 2.56,
+        "end": 2.7
+      },
+      {
+        "w": "plane",
+        "start": 2.7,
+        "end": 2.94
+      },
+      {
+        "w": "that",
+        "start": 2.94,
+        "end": 3.1
+      },
+      {
+        "w": "vanished",
+        "start": 3.1,
+        "end": 3.42
+      },
+      {
+        "w": "ten",
+        "start": 3.42,
+        "end": 3.7
+      },
+      {
+        "w": "years",
+        "start": 3.7,
+        "end": 3.94
+      },
+      {
+        "w": "ago.",
+        "start": 3.94,
+        "end": 4.2
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "H1_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Imagine boarding a plane that flies the same route as the plane that vanished 10 years ago.",
+        "gen_seconds": 39.4
+      },
+      {
+        "file": "H1_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Imagine boarding a plane that flies the same route as the plane that vanished 10 years ago.",
+        "gen_seconds": 42.2
+      }
+    ]
+  },
+  "L01": {
+    "key": "262ff644b4e3",
+    "text": "Ten years ago, Flight 417 took off just before midnight.",
+    "chosen": "L01_r0_t0.wav",
+    "mismatches": 0,
+    "heard": "Ten years ago, flight 417 took off just before midnight.",
+    "duration": 3.99,
+    "words": [
+      {
+        "w": "Ten",
+        "start": 0.0,
+        "end": 0.22
+      },
+      {
+        "w": "years",
+        "start": 0.22,
+        "end": 0.48
+      },
+      {
+        "w": "ago,",
+        "start": 0.48,
+        "end": 0.86
+      },
+      {
+        "w": "Flight",
+        "start": 1.46,
+        "end": 1.52
+      },
+      {
+        "w": "417",
+        "start": 1.52,
+        "end": 2.22
+      },
+      {
+        "w": "took",
+        "start": 2.22,
+        "end": 2.64
+      },
+      {
+        "w": "off",
+        "start": 2.64,
+        "end": 2.88
+      },
+      {
+        "w": "just",
+        "start": 2.88,
+        "end": 3.1
+      },
+      {
+        "w": "before",
+        "start": 3.1,
+        "end": 3.44
+      },
+      {
+        "w": "midnight.",
+        "start": 3.44,
+        "end": 3.74
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "L01_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Ten years ago, flight 417 took off just before midnight.",
+        "gen_seconds": 32.6
+      },
+      {
+        "file": "L01_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "10 years ago, flight 417 took off just before midnight.",
+        "gen_seconds": 35.9
+      }
+    ]
+  },
+  "L02": {
+    "key": "ee2ed58c4590",
+    "text": "Over the ocean, it vanished. No wreckage. No signal. Nothing.",
+    "chosen": "L02_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Over the ocean it vanished, no wreckage, no signal, nothing.",
+    "duration": 4.06,
+    "words": [
+      {
+        "w": "Over",
+        "start": 0.0,
+        "end": 0.22
+      },
+      {
+        "w": "the",
+        "start": 0.22,
+        "end": 0.38
+      },
+      {
+        "w": "ocean,",
+        "start": 0.38,
+        "end": 0.64
+      },
+      {
+        "w": "it",
+        "start": 0.64,
+        "end": 0.86
+      },
+      {
+        "w": "vanished.",
+        "start": 0.86,
+        "end": 1.2
+      },
+      {
+        "w": "No",
+        "start": 1.68,
+        "end": 1.9
+      },
+      {
+        "w": "wreckage.",
+        "start": 1.9,
+        "end": 2.24
+      },
+      {
+        "w": "No",
+        "start": 2.7,
+        "end": 2.8
+      },
+      {
+        "w": "signal.",
+        "start": 2.8,
+        "end": 3.1
+      },
+      {
+        "w": "Nothing.",
+        "start": 3.6,
+        "end": 3.78
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "L02_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Over the ocean it vanished. No wreckage. No signal. Nothing.",
+        "gen_seconds": 31.8
+      },
+      {
+        "file": "L02_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Over the ocean it vanished, no wreckage, no signal, nothing.",
+        "gen_seconds": 36.0
+      }
+    ]
+  },
+  "L03": {
+    "key": "e4a33939d379",
+    "text": "Tonight, you're flying the same route. Seat 14A.",
+    "chosen": "L03_r0_t1.wav",
+    "mismatches": 0,
+    "heard": "Tonight, you're flying the same route, seat 14A.",
+    "duration": 3.63,
+    "words": [
+      {
+        "w": "Tonight,",
+        "start": 0.0,
+        "end": 0.32
+      },
+      {
+        "w": "you're",
+        "start": 0.86,
+        "end": 1.0
+      },
+      {
+        "w": "flying",
+        "start": 1.0,
+        "end": 1.22
+      },
+      {
+        "w": "the",
+        "start": 1.22,
+        "end": 1.4
+      },
+      {
+        "w": "same",
+        "start": 1.4,
+        "end": 1.66
+      },
+      {
+        "w": "route.",
+        "start": 1.66,
+        "end": 2.0
+      },
+      {
+        "w": "Seat",
+        "start": 2.62,
+        "end": 2.7
+      },
+      {
+        "w": "14A.",
+        "start": 2.7,
+        "end": 3.46
+      }
+    ],
+    "engine": "qwen",
+    "takes": [
+      {
+        "file": "L03_r0_t0.wav",
+        "mismatches": 0,
+        "heard": "Tonight, you're flying the same route, Seat 14A.",
+        "gen_seconds": 29.7
+      },
+      {
+        "file": "L03_r0_t1.wav",
+        "mismatches": 0,
+        "heard": "Tonight, you're flying the same route, seat 14A.",
+        "gen_seconds": 29.4
+      }
+    ]
+  }
+}

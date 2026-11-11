@@ -1,4 +1,12 @@
 {
+  "belt_click": {
+    "file": "belt_click.flac",
+    "description": "Seat-belt buckle released: metal clack + strap slide",
+    "category": "plane",
+    "loop": false,
+    "duration": 0.548,
+    "peak_db": -6.78
+  },
   "breath_close": {
     "file": "breath_close.flac",
     "description": "Slow breathing very close to a door, 3 s",
@@ -6,6 +14,22 @@
     "loop": false,
     "duration": 3.173,
     "peak_db": -10.0
+  },
+  "cabin_ding": {
+    "file": "cabin_ding.flac",
+    "description": "Cabin chime: single soft two-partial 'bing' before an announcement / seat-belt sign",
+    "category": "plane",
+    "loop": false,
+    "duration": 1.929,
+    "peak_db": -8.0
+  },
+  "cabin_drone": {
+    "file": "cabin_drone.flac",
+    "description": "Airliner cabin at cruise: engine drone, air-conditioning hiss, slow beating, 10 s loopable",
+    "category": "ambience",
+    "loop": true,
+    "duration": 10.0,
+    "peak_db": -22.0
   },
   "card_slap": {
     "file": "card_slap.flac",
@@ -158,6 +182,14 @@
     "loop": false,
     "duration": 0.203,
     "peak_db": -9.0
+  },
+  "ghost_drone": {
+    "file": "ghost_drone.flac",
+    "description": "Something huge and wrong flying beside you: detuned sub drone + hollow wind choir, 8 s loopable",
+    "category": "ambience",
+    "loop": true,
+    "duration": 8.0,
+    "peak_db": -20.0
   },
   "glass_clink": {
     "file": "glass_clink.flac",
@@ -343,6 +375,14 @@
     "duration": 1.576,
     "peak_db": -2.0
   },
+  "radar_ping": {
+    "file": "radar_ping.flac",
+    "description": "Radar sweep ping: short high sine blip with a tail",
+    "category": "plane",
+    "loop": false,
+    "duration": 1.071,
+    "peak_db": -10.0
+  },
   "radio_static": {
     "file": "radio_static.flac",
     "description": "Dead-air radio static: band-limited hiss with slow drift and crackles, 8 s loopable",
@@ -438,6 +478,14 @@
     "loop": true,
     "duration": 8.0,
     "peak_db": -26.0
+  },
+  "turbulence": {
+    "file": "turbulence.flac",
+    "description": "Cabin shudder: low rumble burst with rattling plastic, 1.5 s",
+    "category": "plane",
+    "loop": false,
+    "duration": 1.875,
+    "peak_db": -6.0
   },
   "wet_steps": {
     "file": "wet_steps.flac",

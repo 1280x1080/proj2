@@ -1,0 +1,31 @@
+
+********
+Warning: flash-attn is not installed. Will only run the manual PyTorch version. Please install flash-attn for faster inference.
+********
+ 
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1600.42it/s]
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+designed voice 'narrator' -> narrator_qwen.wav  ((copied from VIDEO_008)...)
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+designed voice 'man' -> man_qwen.wav  ((copied from VIDEO_008 unknown)...)
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+designed voice 'captain' -> captain_qwen.wav  (Airline captain, man in his 50s, deep calm professional voice, slightl...)
+whisper small.en loaded in 3.0s
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1321.56it/s]
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[H1] take r0t0: 0 mismatches, 4.38s audio, 39.4s gen  | 'Imagine boarding a plane that flies the same route as the plane that vanished 10 years ago.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[H1] take r0t1: 0 mismatches, 5.45s audio, 42.2s gen  | 'Imagine boarding a plane that flies the same route as the plane that vanished 10 years ago.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L01] take r0t0: 0 mismatches, 3.99s audio, 32.6s gen  | 'Ten years ago, flight 417 took off just before midnight.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L01] take r0t1: 0 mismatches, 4.38s audio, 35.9s gen  | '10 years ago, flight 417 took off just before midnight.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L02] take r0t0: 0 mismatches, 3.70s audio, 31.8s gen  | 'Over the ocean it vanished. No wreckage. No signal. Nothing.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L02] take r0t1: 0 mismatches, 4.06s audio, 36.0s gen  | 'Over the ocean it vanished, no wreckage, no signal, nothing.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L03] take r0t0: 0 mismatches, 3.44s audio, 29.7s gen  | "Tonight, you're flying the same route, Seat 14A."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L03] take r0t1: 0 mismatches, 3.63s audio, 29.4s gen  | "Tonight, you're flying the same route, seat 14A."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.

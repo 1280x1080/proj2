@@ -479,6 +479,39 @@ def cue_video009():
     return s, dict(loop=False)
 
 
+def cue_video010():
+    """FLIGHT 417 Part 1: cold pad + slow radar-like bell pulse (hook / ten years ago); a lonely music-box figure for the
+    old man's wife; from the flicker a low drone, tremolo cluster from the moment the other plane appears, heartbeat
+    kick that speeds up when the seats are empty; hit at the freeze; choice: drone + pulse."""
+    edl = _load_edl("010")
+    B, D = edl.BEATS, edl.DURATION
+    st = edl.start
+    s = Score(D, bpm=60, seed=10)
+    s.note("bass", "bass", 30, 0.0, D, gain=0.15)
+    s.note("pad", "pad", 42, 0.0, B["flicker"], gain=0.07, bright=0.15)
+    t = 0.4
+    while t < B["tonight"]:  # radar pulse
+        s.note("lead", "bell", 78, t, 1.2, gain=0.035, bright=0.15)
+        t += 1.6
+    for t0 in (st("L05"), st("L11"), st("L16")):  # her theme, more broken each time
+        k = (st("L05"), st("L11"), st("L16")).index(t0)
+        for j, m in enumerate((73, 76, 80, 78)):
+            s.note("lead", "bell", m - 0.25 * k * (j % 2), t0 + j * 0.5, 1.8, gain=0.045, pan=(-0.2 if j % 2 else 0.2), bright=0.2)
+    s.hit("perc", drum_tom(46, 1.4), B["hook_ghost"], 0.35)
+    s.hit("perc", drum_tom(44, 1.5), B["flicker"], 0.35)
+    s.note("pad", "pad", 42, B["flicker"], D - B["flicker"], gain=0.06, bright=0.1)
+    for m, p in ((54, -0.4), (55, 0.4), (61, 0.0)):
+        s.note("pad", "tremolo", m, B["plane"], B["freeze"] - B["plane"], gain=0.04, pan=p, rate=8.0)
+    t = B["flicker"] + 0.8
+    while t < D - 0.6:
+        s.hit("perc", drum_kick(0.3), t, 0.09)
+        s.hit("perc", drum_kick(0.25), t + 0.22, 0.05)
+        t += 1.15 if t < st("L13") else 0.8
+    s.hit("perc", drum_tom(40, 2.0), B["freeze"], 0.45)
+    s.gate(B["freeze"] + 0.4, B["choice"] + 0.3, gain=0.3, fade=0.1)
+    return s, dict(loop=False)
+
+
 def main():
     num = sys.argv[1].zfill(3)
     s, opts = globals()[f"cue_video{num}"]()

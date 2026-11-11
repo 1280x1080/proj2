@@ -295,6 +295,10 @@ POSE_DEFAULT = dict(
     hold_l=None,
     blush=0.0,
     breathe=0.0,          # time (s) for idle breathing
+    pupil_scale=1.0,      # < 1 = pinpoint pupils (fear), > 1 = soft / happy
+    sweat=0.0,            # 0..1 sweat drops on the temple (fear / nerves)
+    tears=0.0,            # 0..1 tear streaks + watery lower lid
+    anim_t=0.0,           # time (s) driving sweat / tear motion
 )
 
 
@@ -318,6 +322,7 @@ class Style:
     beard: bool = False
     cap: str | None = None         # cap colour (None = no cap)
     cap_backwards: bool = True
+    old: bool = False              # forehead lines, crow's feet, eye bags
 
 
 class Puppet:
@@ -522,8 +527,9 @@ class Puppet:
                 c.clipPath(eye, doAntiAlias=True)
                 pxx = ex + (px + turn * 0.35) * erx * 0.45
                 pyy = ey + py * ery * 0.4
-                c.drawCircle(pxx, pyy, 12.5 * hs, paint(S.eyes))
-                c.drawCircle(pxx, pyy, 6.5 * hs, paint("#120c0a"))
+                ps = P.get("pupil_scale", 1.0)
+                c.drawCircle(pxx, pyy, 12.5 * hs * ps, paint(S.eyes))
+                c.drawCircle(pxx, pyy, 6.5 * hs * ps, paint("#120c0a"))
                 c.drawCircle(pxx - 4, pyy - 5, 3.6 * hs, paint("#ffffff"))
                 lid = P["lid"]
                 if lid > 0:
@@ -559,6 +565,7 @@ class Puppet:
 
         # mouth
         self._draw_mouth(c, P, fx + turn * 6, hy + 66 * hs, hs)
+        self._draw_face_fx(c, P, hx, hy, rx, ry, fx, turn, hs)
 
         if S.beard:
             bd = blob([(hx - rx * 0.86, hy + ry * 0.2), (hx - rx * 0.6, hy + ry * 1.05), (hx, hy + ry * 1.18),
@@ -571,6 +578,55 @@ class Puppet:
             self._draw_cap_front(c, hx, hy, rx, ry, turn, hair, L)
             for bp in brows:  # brows read on top of the bangs (cartoon convention)
                 c.drawPath(bp, paint(shade(hair, 0.75), stroke=9 * hs))
+
+    def _draw_face_fx(self, c, P, hx, hy, rx, ry, fx, turn, hs):
+        """Age lines, tears and sweat, in head space (they tilt / turn with the face)."""
+        import math as _m
+        S = self.s
+        at = P.get("anim_t", 0.0)
+        wr = paint(shade(self.skin_sh, 0.86), 0.5, stroke=3)
+        if S.old:
+            for k, w in enumerate((30, 38)):
+                y = hy - ry * (0.62 - 0.11 * k)
+                pth = skia.Path()
+                pth.moveTo(fx - w, y)
+                pth.quadTo(fx, y - 5, fx + w, y)
+                c.drawPath(pth, wr)
+            for side in (-1, 1):
+                ex = fx + side * 42 * hs * (1 - abs(turn) * 0.12)
+                bag = skia.Path()
+                bag.moveTo(ex - 15, hy + 26 * hs)
+                bag.quadTo(ex, hy + 34 * hs, ex + 15, hy + 26 * hs)
+                c.drawPath(bag, wr)
+                for j in (-1, 1):
+                    c.drawLine(ex + side * 24, hy - 2 + j * 5, ex + side * 33, hy - 2 + j * 10, wr)
+        tears = max(0.0, min(1.0, P.get("tears", 0.0)))
+        if tears > 0.02:
+            for side in (-1, 1):
+                ex = fx + side * 42 * hs * (1 - abs(turn) * 0.12)
+                y0, y1 = hy + 22 * hs, hy + ry * (0.3 + 0.5 * tears)
+                well = skia.Path()  # watery lower lid
+                well.moveTo(ex - 14, y0 - 4)
+                well.quadTo(ex, y0 + 5, ex + 14, y0 - 4)
+                c.drawPath(well, paint("#dff1ff", 0.85 * tears, stroke=4))
+                xs = ex + side * 6
+                c.drawPath(capsule((xs, y0 + 3), (xs + side * 3, y1), 6 * hs), paint("#cfe8ff", 0.7 * tears))
+                u = (at * 0.55 + (0.4 if side > 0 else 0.0)) % 1.0
+                c.drawCircle(xs + side * 3 * u, y0 + 3 + (y1 - y0) * u, 6.5 * hs, paint("#f2faff", 0.9 * tears))
+        sweat = max(0.0, min(1.0, P.get("sweat", 0.0)))
+        if sweat > 0.05:
+            side = -1 if turn > 0 else 1  # on the temple facing the camera
+            for k in range(2 if sweat > 0.6 else 1):
+                u = (at * 0.35 + k * 0.5) % 1.0
+                sx = hx + side * rx * (0.72 - 0.05 * k)
+                sy = hy - ry * 0.42 + u * ry * 0.5 + k * 8
+                d = skia.Path()
+                d.moveTo(sx, sy - 13)
+                d.quadTo(sx + 9, sy + 2, sx, sy + 8)
+                d.quadTo(sx - 9, sy + 2, sx, sy - 13)
+                a = sweat * (1 - max(0.0, u - 0.8) * 5)
+                c.drawPath(d, paint("#bfe3ff", 0.9 * a))
+                c.drawCircle(sx - 2, sy + 1, 2.2, paint("#ffffff", 0.9 * a))
 
     def _draw_cap_front(self, c, hx, hy, rx, ry, turn, hair, L):
         """Baseball cap worn backwards: dome + band, snapback opening at the front with hair showing
@@ -886,21 +942,21 @@ EMOTIONS = {
                      arm_l=(8, 12), arm_r=(8, 12), tremble=0.0, breath=1.0),
     "calm":     dict(brow=(-0.1, 0.0), lid=0.3, mouth="smile", pupil=(0.0, 0.05), head_tilt=-2, lean=0, crouch=0.0,
                      arm_l=(8, 10), arm_r=(8, 10), tremble=0.0, breath=0.8),
-    "happy":    dict(brow=(0.4, -0.2), lid=0.0, mouth="grin", pupil=(0.0, -0.05), head_tilt=4, lean=-2, crouch=0.0,
+    "happy":    dict(pupil_scale=1.1, brow=(0.4, -0.2), lid=0.0, mouth="grin", pupil=(0.0, -0.05), head_tilt=4, lean=-2, crouch=0.0,
                      arm_l=(14, 20), arm_r=(14, 20), tremble=0.0, breath=1.2),
     "teasing":  dict(brow=(0.5, -0.4), lid=0.25, mouth="smirk", pupil=(0.6, 0.0), head_tilt=7, lean=-3, crouch=0.0,
                      arm_l=(12, 18), arm_r=(10, 14), tremble=0.0, breath=1.0),        # relaxed arms, head cocked
-    "nervous":  dict(brow=(0.5, 0.7), lid=0.0, mouth="flat", pupil=(0.4, 0.2), head_tilt=-3, lean=2, crouch=0.04,
+    "nervous":  dict(sweat=0.45, pupil_scale=0.9, brow=(0.5, 0.7), lid=0.0, mouth="flat", pupil=(0.4, 0.2), head_tilt=-3, lean=2, crouch=0.04,
                      arm_l=(14, 70), arm_r=(14, 70), tremble=0.25, breath=1.6),        # hands together, fidget
-    "scared":   dict(brow=(0.9, 0.9), lid=0.0, mouth="o", pupil=(0.0, -0.1), head_tilt=0, lean=4, crouch=0.08,
+    "scared":   dict(pupil_scale=0.8, sweat=0.6, brow=(0.9, 0.9), lid=0.0, mouth="o", pupil=(0.0, -0.1), head_tilt=0, lean=4, crouch=0.08,
                      arm_l=(16, 62), arm_r=(16, 62), tremble=0.6, breath=2.2),         # arms pulled in, lean back
-    "terrified":dict(brow=(1.0, 1.0), lid=0.0, mouth="o", pupil=(0.0, 0.0), head_tilt=0, lean=6, crouch=0.14,
+    "terrified":dict(pupil_scale=0.62, sweat=1.0, brow=(1.0, 1.0), lid=0.0, mouth="o", pupil=(0.0, 0.0), head_tilt=0, lean=6, crouch=0.14,
                      arm_l=(18, 70), arm_r=(18, 70), tremble=1.0, breath=2.8, eye_open=1.0),
-    "shocked":  dict(brow=(1.0, 0.3), lid=0.0, mouth="o", pupil=(0.0, 0.0), head_tilt=0, lean=5, crouch=0.06,
+    "shocked":  dict(pupil_scale=0.7, brow=(1.0, 0.3), lid=0.0, mouth="o", pupil=(0.0, 0.0), head_tilt=0, lean=5, crouch=0.06,
                      arm_l=(16, 30), arm_r=(16, 30), tremble=0.15, breath=1.8, eye_open=1.0),
     "suspicious":dict(brow=(-0.3, -0.6), lid=0.45, mouth="flat", pupil=(0.7, 0.0), head_tilt=-6, lean=-2, crouch=0.0,
                      arm_l=(10, 14), arm_r=(10, 14), tremble=0.0, breath=0.9),
-    "sad":      dict(brow=(0.3, 1.0), lid=0.4, mouth="frown", pupil=(0.0, 0.6), head_tilt=-5, lean=3, crouch=0.05,
+    "sad":      dict(tears=0.0, pupil_scale=1.05, brow=(0.3, 1.0), lid=0.4, mouth="frown", pupil=(0.0, 0.6), head_tilt=-5, lean=3, crouch=0.05,
                      arm_l=(6, 8), arm_r=(6, 8), tremble=0.0, breath=0.7),
     "angry":    dict(brow=(-0.4, -1.0), lid=0.2, mouth="frown", pupil=(0.0, 0.0), head_tilt=0, lean=-5, crouch=0.0,
                      arm_l=(20, 40), arm_r=(20, 40), tremble=0.1, breath=1.5),
@@ -927,6 +983,9 @@ def emote(pose, emotion, t=0.0, amount=1.0, seed=0):
     for k in ("brow", "lid", "pupil", "head_tilt", "lean", "crouch", "arm_l", "arm_r", "eye_open"):
         if k in E:
             P[k] = mix(P.get(k, base.get(k)), E[k])
+    for k in ("pupil_scale", "sweat", "tears"):  # presets without the key relax back to the default
+        P[k] = mix(P.get(k, base[k]), E.get(k, base[k]))
+    P["anim_t"] = t
     if amount >= 0.5:
         P["mouth"] = E["mouth"]
     tr = E["tremble"] * amount

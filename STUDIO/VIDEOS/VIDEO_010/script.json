@@ -1,0 +1,161 @@
+{
+ "title": "FLIGHT 417 - Part 1: The Same Route",
+ "series": "FLIGHT 417",
+ "part": 1,
+ "engine": "qwen",
+ "notes": "Qwen3-TTS. narrator + man reuse VIDEO_008 voices (narrator, unknown). Captain through the cabin PA (fx intercom).",
+ "voice_ref": null,
+ "voices": {
+  "narrator": {
+   "design": "(copied from VIDEO_008)",
+   "ref_text": "It was late, and the street outside was quiet. Somewhere a door closed, and I waited."
+  },
+  "man": {
+   "design": "(copied from VIDEO_008 unknown)",
+   "ref_text": "Hello there. I didn't mean to scare you. I just wanted to know if anyone was still awake in there."
+  },
+  "captain": {
+   "design": "Airline captain, man in his 50s, deep calm professional voice, slightly tired, speaking steadily into a cockpit microphone.",
+   "ref_text": "Good evening, ladies and gentlemen, this is your captain speaking. We are currently cruising at thirty-six thousand feet."
+  }
+ },
+ "lead_in": 0.1,
+ "tail": 0.3,
+ "lines": [
+  {
+   "id": "H1",
+   "who": "narrator",
+   "text": "Imagine boarding a plane that flies the same route as the plane that vanished ten years ago.",
+   "delivery": "dramatic",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L01",
+   "who": "narrator",
+   "text": "Ten years ago, Flight 417 took off just before midnight.",
+   "delivery": "calm",
+   "pause_after": 0.12
+  },
+  {
+   "id": "L02",
+   "who": "narrator",
+   "text": "Over the ocean, it vanished. No wreckage. No signal. Nothing.",
+   "delivery": "dramatic",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L03",
+   "who": "narrator",
+   "text": "Tonight, you're flying the same route. Seat 14A.",
+   "delivery": "calm",
+   "pause_after": 0.12
+  },
+  {
+   "id": "L04",
+   "who": "narrator",
+   "text": "The old man beside you keeps checking his watch.",
+   "delivery": "calm",
+   "pause_after": 0.2
+  },
+  {
+   "id": "L05",
+   "who": "man",
+   "text": "\"My wife was on that flight. I take this route every year.\"",
+   "delivery": "sad",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L06",
+   "who": "narrator",
+   "text": "At 2:17 AM, the cabin lights flicker. Every screen goes black.",
+   "delivery": "dramatic",
+   "pause_after": 0.2
+  },
+  {
+   "id": "L07",
+   "who": "captain",
+   "text": "\"This is your captain. We've lost contact with the ground. Please remain seated.\"",
+   "delivery": "tense",
+   "pause_after": 0.3,
+   "fx": "intercom"
+  },
+  {
+   "id": "L08",
+   "who": "narrator",
+   "text": "You look out the window. Another plane is flying right beside you.",
+   "delivery": "dramatic",
+   "pause_after": 0.12
+  },
+  {
+   "id": "L09",
+   "who": "narrator",
+   "text": "Old paint. No lights. And on its tail... 417.",
+   "delivery": "dramatic",
+   "pause_after": 0.35
+  },
+  {
+   "id": "L10",
+   "who": "narrator",
+   "text": "Its windows are full of passengers. All of them are staring at you.",
+   "delivery": "scared",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L11",
+   "who": "man",
+   "text": "\"That's her. That's my wife. She hasn't aged a day.\"",
+   "delivery": "shocked",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L12",
+   "who": "narrator",
+   "text": "The woman lifts her hand... and points behind you.",
+   "delivery": "dramatic",
+   "pause_after": 0.25
+  },
+  {
+   "id": "L13",
+   "who": "narrator",
+   "text": "You turn around. Half the seats on your plane are empty. The seat belts are still buckled.",
+   "delivery": "scared",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L14",
+   "who": "captain",
+   "text": "\"This is Flight 417. We have room for everyone.\"",
+   "delivery": "calm",
+   "pause_after": 0.4,
+   "fx": "intercom"
+  },
+  {
+   "id": "L15",
+   "who": "narrator",
+   "text": "The old man unbuckles his belt. He's smiling.",
+   "delivery": "scared",
+   "pause_after": 0.12
+  },
+  {
+   "id": "L16",
+   "who": "man",
+   "text": "\"She's waiting for me. Come with us.\"",
+   "delivery": "happy",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L17",
+   "who": "narrator",
+   "text": "Beside you, the emergency door begins to unlock by itself.",
+   "delivery": "dramatic",
+   "pause_after": 0.5
+  },
+  {
+   "id": "L18",
+   "who": "narrator",
+   "text": "Comment A or B. Your choice decides Part 2.",
+   "delivery": "calm",
+   "pause_after": 0.0
+  }
+ ]
+}
