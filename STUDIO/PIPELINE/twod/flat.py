@@ -401,6 +401,13 @@ class Puppet:
         c.save()
         c.rotate(P["lean"], 0, hip_y)
 
+        # ---- long hair hangs BEHIND the back: drawn first, so the torso / arms cover it
+        if S.hair_style == "long":
+            c.save()
+            c.rotate(P["head_tilt"], 0 + tx, sh_y - 30)
+            self._draw_back_hair(c, L, head_y, turn)
+            c.restore()
+
         # ---- legs (knees bend outward when crouching)
         for side, lift in ((-1, lift_l), (1, lift_r)):
             hx = side * 40 * W + tx * 0.5
@@ -462,6 +469,22 @@ class Puppet:
         c.restore()
         c.restore()
 
+    def _draw_back_hair(self, c, L, hy, turn):
+        """Long hair, front view: falls from the crown down behind the shoulders to mid-back, ends tapering in locks."""
+        S = self.s
+        hs = S.head_scale
+        rx, ry = self.HEAD_RX * hs, self.HEAD_RY * hs
+        hx = turn * 10
+        hair = shade(hexc(S.hair), 0.82)
+        bottom = hy + ry * 2.05
+        back = blob([(hx - rx * 1.1, hy - ry * 0.2), (hx - rx * 0.9, hy - ry * 1.02), (hx + rx * 0.9, hy - ry * 1.02),
+                     (hx + rx * 1.1, hy - ry * 0.2), (hx + rx * 1.22, hy + ry * 1.2), (hx + rx * 0.98, bottom),
+                     (hx + rx * 0.5, bottom - 14), (hx, bottom + 6), (hx - rx * 0.5, bottom - 14),
+                     (hx - rx * 0.98, bottom), (hx - rx * 1.22, hy + ry * 1.2)], 0.4)
+        cel(c, back, hair, L)
+        for k in (-0.62, 0.62):  # a couple of strand lines so it reads as hair, not cloth
+            c.drawLine(hx + rx * k, hy + ry * 0.9, hx + rx * k * 1.08, bottom - 30, paint(shade(hair, 0.86), 0.7, stroke=5))
+
     def _draw_head_front(self, c, P, L, hy, turn):
         S = self.s
         hs = S.head_scale
@@ -470,9 +493,9 @@ class Puppet:
         fx = hx + turn * 38 * hs  # face-feature centre shift for fake 3/4
         hair = hexc(S.hair)
 
-        # back hair
-        if S.hair_style in ("bob", "long"):
-            bottom = hy + (ry * 0.85 if S.hair_style == "bob" else ry * 1.9)
+        # back hair (a bob stops above the shoulders; long hair was already drawn behind the body)
+        if S.hair_style == "bob":
+            bottom = hy + ry * 0.85
             back = blob([(hx - rx * 1.12, hy - ry * 0.2), (hx - rx * 0.9, hy - ry * 1.05), (hx + rx * 0.9, hy - ry * 1.05),
                          (hx + rx * 1.12, hy - ry * 0.2), (hx + rx * 1.1, bottom), (hx - rx * 1.1, bottom)], 0.45)
             cel(c, back, shade(hair, 0.85), L)

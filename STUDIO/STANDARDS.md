@@ -59,3 +59,7 @@
 ## Jumpscares (when the brief allows them)
 * Max 2 per part; never during a spoken line; music gates to near silence ~1 s before.
 * Hard cut to the scare shot for ~0.7 s: slam zoom + shake + white flash + `jumpscare_sting` (−5…−8 dB).
+
+## Hair layering
+* Long hair hangs BEHIND the body (drawn before the torso in `flat.py`); it must never cover the chest / arms like a
+  cloak. Only the hair cap + bangs are drawn in front of the face.
