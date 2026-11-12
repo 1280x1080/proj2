@@ -1,0 +1,119 @@
+{
+ "title": "AFTER HOURS - Part 1",
+ "series": "AFTER HOURS",
+ "part": 1,
+ "engine": "qwen",
+ "notes": "Qwen3-TTS, no new voices: narrator = VIDEO_008; mia = VIDEO_009 'her'; teacher = VIDEO_009 'intercom' (fx intercom).",
+ "voice_ref": null,
+ "voices": {
+  "narrator": {
+   "design": "(copied)",
+   "ref_text": "It was late, and the street outside was quiet. Somewhere a door closed, and I waited."
+  },
+  "mia": {
+   "design": "(copied)",
+   "ref_text": "Okay, your handwriting is honestly the worst I've ever seen. No, I'm kidding. Kind of. Hand me the glue?"
+  },
+  "teacher": {
+   "design": "(copied)",
+   "ref_text": "Good afternoon, students. This is your principal speaking. Please listen carefully to the following announcement."
+  }
+ },
+ "lead_in": 0.1,
+ "tail": 0.3,
+ "lines": [
+  {
+   "id": "H1",
+   "who": "narrator",
+   "text": "You and your friends sneak into school at midnight to change your exam answers. But somebody is already inside... grading them.",
+   "delivery": "dramatic",
+   "pause_after": 0.35
+  },
+  {
+   "id": "L01",
+   "who": "narrator",
+   "text": "Rewind. The night before the exam, all five of you are online, gaming until four AM.",
+   "delivery": "calm",
+   "pause_after": 0.12
+  },
+  {
+   "id": "L02",
+   "who": "mia",
+   "text": "\"One more game! The exam is easy anyway.\"",
+   "delivery": "excited",
+   "pause_after": 0.25,
+   "fx": "phone"
+  },
+  {
+   "id": "L03",
+   "who": "narrator",
+   "text": "The exam is not easy. All five of you fail.",
+   "delivery": "calm",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L04",
+   "who": "narrator",
+   "text": "So Kai makes a plan. The answer sheets are locked in Room 12. Tonight, you fix them.",
+   "delivery": "calm",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L05",
+   "who": "narrator",
+   "text": "Midnight. One gym window is unlocked. The hallway is pitch black.",
+   "delivery": "dramatic",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L06",
+   "who": "narrator",
+   "text": "Room 12. The papers are on the desk. But they're already graded. And every single one says the same thing.",
+   "delivery": "scared",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L07",
+   "who": "narrator",
+   "text": "See me. Tonight.",
+   "delivery": "dramatic",
+   "pause_after": 0.5
+  },
+  {
+   "id": "L08",
+   "who": "teacher",
+   "text": "\"Attendance. Five students present. Please... take your seats.\"",
+   "delivery": "calm",
+   "pause_after": 1.4,
+   "fx": "intercom"
+  },
+  {
+   "id": "L09",
+   "who": "narrator",
+   "text": "The door slams shut. Mia counts heads. One. Two. Three. Four.",
+   "delivery": "scared",
+   "pause_after": 0.3
+  },
+  {
+   "id": "L10",
+   "who": "mia",
+   "text": "\"Guys... where is Kai?\"",
+   "delivery": "whisper",
+   "pause_after": 0.4
+  },
+  {
+   "id": "L11",
+   "who": "narrator",
+   "text": "On the board, chalk starts writing by itself. Kai. Detention. Four left.",
+   "delivery": "dramatic",
+   "pause_after": 1.5
+  },
+  {
+   "id": "L12",
+   "who": "narrator",
+   "text": "Comment A or B. The top comment decides what happens in Part 2.",
+   "delivery": "calm",
+   "pause_after": 0.0
+  }
+ ]
+}

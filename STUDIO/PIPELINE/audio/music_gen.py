@@ -589,6 +589,55 @@ def cue_video012():
     return s, dict(loop=False)
 
 
+def cue_video013():
+    """AFTER HOURS Part 1: hook on a low drone + ticking; the rewind is a bouncy game-night loop (pluck + kick/hat)
+    that sours into a sad two-note figure at the F; a sneaky pizzicato pulse for the plan / the hallway; from the
+    graded papers on: drone + heartbeat + tremolo; near-silence before both jumpscares; choice: drone + pulse."""
+    edl = _load_edl("013")
+    B, D = edl.BEATS, edl.DURATION
+    st = edl.start
+    s = Score(D, bpm=100, seed=13)
+    beat = 60 / 100
+    s.note("bass", "bass", 31, 0.0, B["story"], gain=0.16)
+    t = 0.3
+    while t < B["story"] - 0.3:
+        s.hit("perc", drum_hat(0.05), t, 0.05)
+        t += 0.5
+    prog = [(57, 60, 64), (53, 57, 60), (55, 59, 62), (52, 55, 59)]
+    t, k = B["story"], 0
+    while t < st("L03") - beat / 2:
+        ch = prog[(k // 8) % 4]
+        s.note("lead", "pluck", ch[k % 3] + 12, t, beat, gain=0.09, pan=(-0.3 if k % 2 else 0.3), bright=0.5)
+        if k % 2 == 0:
+            s.hit("perc", drum_kick(0.3), t, 0.15)
+        s.hit("perc", drum_hat(0.06), t + beat / 4, 0.04)
+        if k % 8 == 0:
+            s.note("bass", "bass", ch[0] - 24, t, beat * 4, gain=0.14)
+        t += beat / 2
+        k += 1
+    for j, m in enumerate((67, 63)):  # womp-womp
+        s.note("lead", "bell", m, B["fail"] + 0.1 + j * 0.5, 1.2, gain=0.06, bright=0.2)
+    s.note("bass", "bass", 33, st("L03"), st("L06") - st("L03"), gain=0.13)
+    t, k = st("L04"), 0
+    while t < st("L06") - 0.2:  # sneaking
+        s.note("lead", "pluck", (45, 48, 52, 51)[k % 4] + 12, t, beat * 0.8, gain=0.07, pan=(-0.2 if k % 2 else 0.2), bright=0.3)
+        t += beat
+        k += 1
+    s.note("bass", "bass", 31, st("L06"), D - st("L06"), gain=0.17)
+    s.note("pad", "pad", 43, st("L06"), D - st("L06"), gain=0.05, bright=0.1)
+    for m, p in ((55, -0.4), (56, 0.4), (62, 0.0)):
+        s.note("pad", "tremolo", m, B["graded"], D - B["graded"] - 0.5, gain=0.04, pan=p, rate=8.0)
+    t = B["graded"]
+    while t < D - 0.6:
+        s.hit("perc", drum_kick(0.3), t, 0.09)
+        s.hit("perc", drum_kick(0.25), t + 0.22, 0.05)
+        t += 1.1 if t < B["scare1"] else 0.8
+    s.gate(edl.end("L08") - 0.1, B["scare1"], gain=0.1, fade=0.1)
+    s.gate(B["chalk_end"] - 0.1, B["scare2"], gain=0.1, fade=0.1)
+    s.hit("perc", drum_tom(40, 2.0), B["choice"], 0.4)
+    return s, dict(loop=False)
+
+
 def main():
     num = sys.argv[1].zfill(3)
     s, opts = globals()[f"cue_video{num}"]()

@@ -81,3 +81,17 @@ def light_buzz_out():
     tail = (sine(100, d - 0.2) + 0.4 * sine(300, d - 0.2)) * 0.2 * np.minimum(1, t_axis(d - 0.2) * 3)
     x[secs(0.2):secs(0.2) + len(tail)] += tail[: len(x) - secs(0.2)]
     return normalize(_room(x, 0.2, 0.6), -8)
+
+
+@reg("chalk_write", "Chalk writing fast on a blackboard: scratchy strokes + taps, 1.6 s", "school")
+def chalk_write():
+    d = 1.6
+    t = t_axis(d)
+    r = np.random.default_rng(201)
+    env = np.zeros(secs(d))
+    for k in range(11):
+        i = secs(0.05 + k * 0.14)
+        n = secs(float(r.uniform(0.06, 0.12)))
+        env[i:i + n] = np.hanning(n) * r.uniform(0.6, 1.0)
+    x = bandpass(white(d, 202), 1800, 7000) * env * (0.7 + 0.3 * np.sin(2 * np.pi * 90 * t))
+    return normalize(_room(x, 0.25, 0.7), -8)

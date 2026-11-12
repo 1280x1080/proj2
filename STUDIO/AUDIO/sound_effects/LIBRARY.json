@@ -55,6 +55,14 @@
     "duration": 1.17,
     "peak_db": -10.0
   },
+  "chalk_write": {
+    "file": "chalk_write.flac",
+    "description": "Chalk writing fast on a blackboard: scratchy strokes + taps, 1.6 s",
+    "category": "school",
+    "loop": false,
+    "duration": 2.074,
+    "peak_db": -8.0
+  },
   "classroom_after": {
     "file": "classroom_after.flac",
     "description": "Empty classroom after school: HVAC air, fluorescent hum, far-off kids outside, 10 s loopable",
