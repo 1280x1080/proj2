@@ -115,8 +115,8 @@ def group(c, t, feet, sc, xs, kai=True, look=(0.0, 0.0)):
 def shot_hall_group(c, t):
     hallway(c, t)
     sway = 30 * math.sin(t * 1.1)
-    flat.light_cone(c, (540, 1500), (160 + sway, 600), (920 + sway, 600), TORCH, 0.16)
-    group(c, t, 1470, 0.66, (150, 345, 540, 735, 930), look=(0.3 * math.sin(t * 0.9), -0.1))
+    flat.light_cone(c, (540, 1430), (160 + sway, 600), (920 + sway, 600), TORCH, 0.16)
+    group(c, t, 1400, 0.66, (150, 345, 540, 735, 930), look=(0.3 * math.sin(t * 0.9), -0.1))
     flat.vignette(c, W, H, 0.6)
 
 
@@ -125,17 +125,17 @@ def shot_group_cu(c, t):
     c.drawRect(skia.Rect.MakeWH(W, H), paint("#10121c"))
     c.drawRect(skia.Rect.MakeLTRB(0, 300, W, 760), paint("#18301f"))  # the blackboard behind you
     c.drawRect(skia.Rect.MakeLTRB(0, 300, W, 760), paint("#3a2c22", stroke=18))
-    c.drawRect(skia.Rect.MakeLTRB(0, 1470, W, H), paint("#1a1e2c"))
+    c.drawRect(skia.Rect.MakeLTRB(0, 1400, W, H), paint("#1a1e2c"))
     kai = t < B["slam"]
-    group(c, t, 1470, 0.72, (130, 335, 540, 745, 950), kai=kai, look=(0.9, 0.0) if t < B["slam"] + 1.5 else (0.0, 0.0))
+    group(c, t, 1400, 0.72, (130, 335, 540, 745, 950), kai=kai, look=(0.9, 0.0) if t < B["slam"] + 1.5 else (0.0, 0.0))
     if not kai:  # where Kai stood: his flashlight, still on, rolling to a stop
         u = span(t, B["slam"], B["slam"] + 1.2, "out")
         fx = 745 + 60 * u
-        glow(c, fx + 120, 1490, 260, TORCH, 0.3)
+        glow(c, fx + 120, 1420, 260, TORCH, 0.3)
         c.save()
-        c.rotate(-200 * (1 - u), fx, 1490)
-        c.drawRoundRect(skia.Rect.MakeLTRB(fx - 60, 1472, fx + 50, 1508), 12, 12, paint("#e3b23c"))
-        c.drawRoundRect(skia.Rect.MakeLTRB(fx + 40, 1462, fx + 80, 1518), 8, 8, paint("#c9ccd2"))
+        c.rotate(-200 * (1 - u), fx, 1420)
+        c.drawRoundRect(skia.Rect.MakeLTRB(fx - 60, 1402, fx + 50, 1438), 12, 12, paint("#e3b23c"))
+        c.drawRoundRect(skia.Rect.MakeLTRB(fx + 40, 1392, fx + 80, 1448), 8, 8, paint("#c9ccd2"))
         c.restore()
     flat.vignette(c, W, H, 0.55)
 
@@ -259,7 +259,7 @@ def room12(c, t, teacher=0.0):
     c.drawRect(skia.Rect.MakeLTRB(850, 660, 1040, 1300), paint("#3a2c22"))
     c.drawRect(skia.Rect.MakeLTRB(900, 720, 990, 880), paint("#0a0c14"))
     if teacher > 0:  # she is IN the room now, by the board
-        tx = 770
+        tx = 770 + 10 * math.sin(t * 1.7)  # she sways, very slightly
         c.drawPath(blob([(tx - 110, 1300), (tx - 90, 760), (tx + 90, 760), (tx + 110, 1300)], 0.3), paint("#06070c", teacher))
         c.drawPath(ellipse_path(tx, 660, 62, 78), paint("#06070c", teacher))
         c.drawCircle(tx, 580, 34, paint("#06070c", teacher))
@@ -285,8 +285,12 @@ def shot_room12(c, t):
 
 
 def shot_choice_bg(c, t):
+    c.save()
+    c.translate(0, 410)  # the board + her sit below the choice pills
     room12(c, t, teacher=1.0)
-    c.drawRect(skia.Rect.MakeWH(W, H), paint("#000000", 0.3))
+    c.restore()
+    c.drawRect(skia.Rect.MakeLTRB(0, 0, W, 420), paint("#10121c"))
+    c.drawRect(skia.Rect.MakeWH(W, H), paint("#000000", 0.25 + 0.05 * math.sin(t * 5)))
     flat.vignette(c, W, H, 0.5)
 
 
@@ -307,7 +311,7 @@ def shot_papers_cu(c, t):
             c.drawLine(x0 + 24, 470 + row * 60, x0 + 200, 470 + row * 60, paint("#8a8f98", stroke=5))
         if k == 4 or not hook:  # top sheet shows the note being written
             u = wu if k == 4 else 1.0
-            f = kit.font(54, "Black")
+            f = kit.font(42, "Black")
             for j, ln in enumerate(("SEE ME.", "TONIGHT.")):
                 n = int(len(ln) * max(0.0, min(1.0, u * 2 - j)) + 0.999) if u * 2 - j > 0 else 0
                 c.drawString(ln[:n], x0 + 24, 930 + j * 80, f, paint("#d0312d"))
@@ -363,13 +367,13 @@ def shot_scare_teacher(c, t):
 
 
 ZONES = {
-    "hall_group": lambda t: [("faces", 60, 900, 1020, 1130)],
-    "group_cu": lambda t: [("faces", 40, 860, 1040, 1120)],
+    "hall_group": lambda t: [("faces", 60, 830, 1020, 1060)],
+    "group_cu": lambda t: [("faces", 40, 790, 1040, 1050)],
     "game_night": lambda t: [("tiles", 80, 330, 1000, 1410)],
     "exam_cu": lambda t: [("exam", 150, 260, 930, 1340)],
     "plan_cu": lambda t: [("chat", 100, 350, 960, 1340)],
     "room12": lambda t: [("board", 90, 330, 800, 830), ("desk", 100, 1040, 840, 1300)],
-    "choice_bg": lambda t: [("desk", 100, 1040, 840, 1300)],
+    "choice_bg": lambda t: [("board", 90, 940, 800, 1240)],
     "papers_cu": lambda t: [("papers", 130, 330, 950, 1260)],
     "intercom_cu": lambda t: [("speaker", 240, 460, 840, 900)],
     "scare_door": lambda t: [("face", 170, 300, 910, 1300)],

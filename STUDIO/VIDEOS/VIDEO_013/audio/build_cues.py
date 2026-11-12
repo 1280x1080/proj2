@@ -38,7 +38,7 @@ cue(B["story"] + 0.2, "keys_mouse", -6)
 cue(B["story"] + 1.5, "game_shots", -10)
 cue(B["story"] + 3.2, "keys_mouse", -8)
 cue(start("L02") - 0.2, "game_shots", -12)
-cue(end("L02") + 0.02, "keys_mouse", -6)
+cue(end("L02") - 0.05, "keys_mouse", -5)
 # exam
 cue(start("L03") + 0.1, "pencil_scribble", -10)
 cue(B["fail"] - 0.1, "impact_hard", -6, note="F stamp")

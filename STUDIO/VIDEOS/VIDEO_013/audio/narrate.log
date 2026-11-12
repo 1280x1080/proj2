@@ -5,3 +5,63 @@ Warning: flash-attn is not installed. Will only run the manual PyTorch version. 
  
 Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 2224.50it/s]
 Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+designed voice 'narrator' -> narrator_qwen.wav  ((copied)...)
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+designed voice 'mia' -> mia_qwen.wav  ((copied)...)
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+designed voice 'teacher' -> teacher_qwen.wav  ((copied)...)
+whisper small.en loaded in 17.0s
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1730.68it/s]
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[H1] take r0t0: 0 mismatches, 7.10s audio, 234.7s gen  | 'You and your friends sneak into school at midnight to change your exam answers, but somebody is already inside, grading them.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[H1] take r0t1: 0 mismatches, 7.74s audio, 57.0s gen  | 'You and your friends sneak into school at midnight to change your exam answers. But somebody is already inside, grading them.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L01] take r0t0: 0 mismatches, 5.59s audio, 41.9s gen  | 'Rewind. The night before the exam, all five of you are online, gaming until 4 am.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L01] take r0t1: 0 mismatches, 6.21s audio, 45.2s gen  | 'Rewind the night before the exam. All five of you are online gaming until 4 a.m'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L02] take r0t0: 0 mismatches, 3.28s audio, 28.6s gen  | 'One more game, the exam is easy anyway.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L02] take r0t1: 0 mismatches, 2.99s audio, 28.0s gen  | 'One more game. The exam is easy anyway.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L03] take r0t0: 0 mismatches, 3.13s audio, 26.2s gen  | 'The exam is not easy. All five of you fail.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L03] take r0t1: 0 mismatches, 3.42s audio, 25.3s gen  | 'The exam is not easy. All five of you fail.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L04] take r0t0: 0 mismatches, 6.50s audio, 46.8s gen  | 'So Kai makes a plan. The answer sheets are locked in room 12. Tonight, you fix them.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L04] take r0t1: 0 mismatches, 6.19s audio, 45.3s gen  | 'So Kai makes a plan. The answer sheets are locked in room 12. Tonight, you fix them.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L05] take r0t0: 0 mismatches, 5.13s audio, 38.3s gen  | 'Midnight. One gym window is unlocked. The hallway is pitch black.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L05] take r0t1: 0 mismatches, 5.03s audio, 35.6s gen  | 'Midnight. One gym window is unlocked, the hallway is pitch black.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L06] take r0t0: 0 mismatches, 6.50s audio, 45.9s gen  | "Room 12. The papers are on the desk, but they're already graded, and every single one says the same thing."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L06] take r0t1: 0 mismatches, 6.74s audio, 47.4s gen  | "Room 12. The papers are on the desk, but they're already graded, and every single one says the same thing."
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L07] take r0t0: 0 mismatches, 1.28s audio, 14.0s gen  | 'See me tonight.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L07] take r0t1: 0 mismatches, 1.46s audio, 14.7s gen  | 'See me. Tonight.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L08] take r0t0: 0 mismatches, 5.34s audio, 40.1s gen  | 'Attendance. Five students present. Please, take your seats.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L08] take r0t1: 0 mismatches, 4.86s audio, 36.4s gen  | 'Attendance. Five students present. Please, take your seats.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L09] take r0t0: 0 mismatches, 5.88s audio, 40.3s gen  | 'The door slams shut. Mia counts heads. One, two, three, four.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L09] take r0t1: 0 mismatches, 5.86s audio, 42.1s gen  | 'The door slams shut. Mia counts heads, 1, 2, 3, 4.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L10] take r0t0: 0 mismatches, 1.88s audio, 18.4s gen  | 'Guys, where is Kai?'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L10] take r0t1: 0 mismatches, 1.73s audio, 16.2s gen  | 'Guys, where is Kai?'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L11] take r0t0: 0 mismatches, 5.51s audio, 38.2s gen  | 'On the board, chalk starts writing by itself. Kai, detention, four left.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L11] take r0t1: 0 mismatches, 5.85s audio, 40.4s gen  | 'On the board, chalk starts writing by itself, Kai, detention, four left.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L12] take r0t0: 0 mismatches, 5.43s audio, 36.2s gen  | 'Comment A or B. The top comment decides what happens in Part 2.'
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+[L12] take r0t1: 0 mismatches, 5.36s audio, 37.4s gen  | 'Comment A or B. The top comment decides what happens in part 2.'
+narration: 68.78s, 13 lines; lines with mismatches: none

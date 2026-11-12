@@ -1,0 +1,139 @@
+{
+  "model": "base.en",
+  "lines": [
+    {
+      "id": "H1",
+      "text": "You and your friends sneak into school at midnight to change your exam answers. But somebody is already inside... grading them.",
+      "heard": "You and your friends sneak into school at midnight to change your exam answers. But somebody is already inside, grading them.",
+      "mismatches": 0,
+      "duration": 7.74,
+      "words_per_sec": 2.71,
+      "clipped": false
+    },
+    {
+      "id": "L01",
+      "text": "Rewind. The night before the exam, all five of you are online, gaming until four AM.",
+      "heard": "Rewind. The night before the exam, all five of you are online, gaming until 4 a.m.",
+      "mismatches": 0,
+      "duration": 5.59,
+      "words_per_sec": 2.86,
+      "clipped": false
+    },
+    {
+      "id": "L02",
+      "text": "\"One more game! The exam is easy anyway.\"",
+      "heard": "One more game, the exam is easy anyway.",
+      "mismatches": 0,
+      "duration": 3.28,
+      "words_per_sec": 2.44,
+      "clipped": false
+    },
+    {
+      "id": "L03",
+      "text": "The exam is not easy. All five of you fail.",
+      "heard": "The exam is not easy. All five of you fail.",
+      "mismatches": 0,
+      "duration": 3.13,
+      "words_per_sec": 3.19,
+      "clipped": false
+    },
+    {
+      "id": "L04",
+      "text": "So Kai makes a plan. The answer sheets are locked in Room 12. Tonight, you fix them.",
+      "heard": "So Kai makes a plan. The answer sheets are locked in room 12. Tonight, you fix them.",
+      "mismatches": 0,
+      "duration": 6.19,
+      "words_per_sec": 2.75,
+      "clipped": false
+    },
+    {
+      "id": "L05",
+      "text": "Midnight. One gym window is unlocked. The hallway is pitch black.",
+      "heard": "Midnight. One gym window is unlocked. The hallway is pitch black.",
+      "mismatches": 0,
+      "duration": 5.13,
+      "words_per_sec": 2.14,
+      "clipped": false
+    },
+    {
+      "id": "L06",
+      "text": "Room 12. The papers are on the desk. But they're already graded. And every single one says the same thing.",
+      "heard": "Room 12. The papers are on the desk, but they're already graded, and every single one says the same thing.",
+      "mismatches": 0,
+      "duration": 6.5,
+      "words_per_sec": 3.08,
+      "clipped": false
+    },
+    {
+      "id": "L07",
+      "text": "See me. Tonight.",
+      "heard": "See me, tonight.",
+      "mismatches": 0,
+      "duration": 1.46,
+      "words_per_sec": 2.05,
+      "clipped": false
+    },
+    {
+      "id": "L08",
+      "text": "\"Attendance. Five students present. Please... take your seats.\"",
+      "heard": "Attendance, five students present, please take your seats.",
+      "mismatches": 0,
+      "duration": 4.86,
+      "words_per_sec": 1.65,
+      "clipped": false
+    },
+    {
+      "id": "L09",
+      "text": "The door slams shut. Mia counts heads. One. Two. Three. Four.",
+      "heard": "The door slams shut. Mia counts heads. 1, 2, 3, 4,",
+      "mismatches": 0,
+      "duration": 5.88,
+      "words_per_sec": 1.87,
+      "clipped": false
+    },
+    {
+      "id": "L10",
+      "text": "\"Guys... where is Kai?\"",
+      "heard": "Guys, where is Kai?",
+      "mismatches": 0,
+      "duration": 1.73,
+      "words_per_sec": 2.31,
+      "clipped": false
+    },
+    {
+      "id": "L11",
+      "text": "On the board, chalk starts writing by itself. Kai. Detention. Four left.",
+      "heard": "On the board, chalk starts writing by itself. Kai, detention, four left.",
+      "mismatches": 0,
+      "duration": 5.51,
+      "words_per_sec": 2.18,
+      "clipped": false
+    },
+    {
+      "id": "L12",
+      "text": "Comment A or B. The top comment decides what happens in Part 2.",
+      "heard": "Comment A or B. The top comment decides what happens in part 2.",
+      "mismatches": 0,
+      "duration": 5.36,
+      "words_per_sec": 2.43,
+      "clipped": false
+    }
+  ],
+  "gaps": [
+    0.35,
+    0.12,
+    0.25,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.5,
+    1.4,
+    0.3,
+    0.4,
+    1.5
+  ],
+  "total": 68.78,
+  "peak_db": -2.92,
+  "passed": true
+}

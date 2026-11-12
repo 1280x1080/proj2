@@ -1,0 +1,14 @@
+{
+  "duration": 72.08,
+  "loop": false,
+  "master_lufs": -14.17,
+  "master_true_peak_dbtp": -1.85,
+  "narration_lufs_pre_master": -16.0,
+  "stems_lufs": {
+    "narration": -14.0,
+    "music": -32.32,
+    "sfx": -20.7,
+    "ambience": -38.29
+  },
+  "cue_count": 51
+}

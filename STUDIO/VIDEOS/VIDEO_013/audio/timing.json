@@ -1,0 +1,892 @@
+{
+  "duration": 68.78,
+  "lines": [
+    {
+      "id": "H1",
+      "who": "narrator",
+      "text": "You and your friends sneak into school at midnight to change your exam answers. But somebody is already inside... grading them.",
+      "start": 0.1,
+      "end": 7.84,
+      "words": [
+        {
+          "w": "You",
+          "start": 0.1,
+          "end": 0.44
+        },
+        {
+          "w": "and",
+          "start": 0.44,
+          "end": 0.58
+        },
+        {
+          "w": "your",
+          "start": 0.58,
+          "end": 0.76
+        },
+        {
+          "w": "friends",
+          "start": 0.76,
+          "end": 1.04
+        },
+        {
+          "w": "sneak",
+          "start": 1.04,
+          "end": 1.42
+        },
+        {
+          "w": "into",
+          "start": 1.42,
+          "end": 1.68
+        },
+        {
+          "w": "school",
+          "start": 1.68,
+          "end": 1.98
+        },
+        {
+          "w": "at",
+          "start": 1.98,
+          "end": 2.16
+        },
+        {
+          "w": "midnight",
+          "start": 2.16,
+          "end": 2.6
+        },
+        {
+          "w": "to",
+          "start": 2.6,
+          "end": 2.84
+        },
+        {
+          "w": "change",
+          "start": 2.84,
+          "end": 3.16
+        },
+        {
+          "w": "your",
+          "start": 3.16,
+          "end": 3.36
+        },
+        {
+          "w": "exam",
+          "start": 3.36,
+          "end": 3.72
+        },
+        {
+          "w": "answers.",
+          "start": 3.72,
+          "end": 4.22
+        },
+        {
+          "w": "But",
+          "start": 4.96,
+          "end": 5.2
+        },
+        {
+          "w": "somebody",
+          "start": 5.2,
+          "end": 5.5
+        },
+        {
+          "w": "is",
+          "start": 5.5,
+          "end": 5.72
+        },
+        {
+          "w": "already",
+          "start": 5.72,
+          "end": 6.0
+        },
+        {
+          "w": "inside...",
+          "start": 6.0,
+          "end": 6.6
+        },
+        {
+          "w": "grading",
+          "start": 7.14,
+          "end": 7.42
+        },
+        {
+          "w": "them.",
+          "start": 7.42,
+          "end": 7.7
+        }
+      ]
+    },
+    {
+      "id": "L01",
+      "who": "narrator",
+      "text": "Rewind. The night before the exam, all five of you are online, gaming until four AM.",
+      "start": 8.19,
+      "end": 13.78,
+      "words": [
+        {
+          "w": "Rewind.",
+          "start": 8.19,
+          "end": 8.89
+        },
+        {
+          "w": "The",
+          "start": 9.35,
+          "end": 9.41
+        },
+        {
+          "w": "night",
+          "start": 9.41,
+          "end": 9.55
+        },
+        {
+          "w": "before",
+          "start": 9.55,
+          "end": 9.83
+        },
+        {
+          "w": "the",
+          "start": 9.83,
+          "end": 9.99
+        },
+        {
+          "w": "exam,",
+          "start": 9.99,
+          "end": 10.41
+        },
+        {
+          "w": "all",
+          "start": 10.83,
+          "end": 10.93
+        },
+        {
+          "w": "five",
+          "start": 10.93,
+          "end": 11.21
+        },
+        {
+          "w": "of",
+          "start": 11.21,
+          "end": 11.37
+        },
+        {
+          "w": "you",
+          "start": 11.37,
+          "end": 11.49
+        },
+        {
+          "w": "are",
+          "start": 11.49,
+          "end": 11.65
+        },
+        {
+          "w": "online,",
+          "start": 11.65,
+          "end": 12.07
+        },
+        {
+          "w": "gaming",
+          "start": 12.43,
+          "end": 12.65
+        },
+        {
+          "w": "until",
+          "start": 12.65,
+          "end": 12.95
+        },
+        {
+          "w": "four",
+          "start": 12.95,
+          "end": 13.23
+        },
+        {
+          "w": "AM.",
+          "start": 13.23,
+          "end": 13.51
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "who": "mia",
+      "text": "\"One more game! The exam is easy anyway.\"",
+      "start": 13.9,
+      "end": 17.18,
+      "words": [
+        {
+          "w": "\"One",
+          "start": 13.9,
+          "end": 14.18
+        },
+        {
+          "w": "more",
+          "start": 14.18,
+          "end": 14.42
+        },
+        {
+          "w": "game!",
+          "start": 14.42,
+          "end": 14.76
+        },
+        {
+          "w": "The",
+          "start": 15.14,
+          "end": 15.3
+        },
+        {
+          "w": "exam",
+          "start": 15.3,
+          "end": 15.68
+        },
+        {
+          "w": "is",
+          "start": 15.68,
+          "end": 16.02
+        },
+        {
+          "w": "easy",
+          "start": 16.02,
+          "end": 16.44
+        },
+        {
+          "w": "anyway.\"",
+          "start": 16.44,
+          "end": 16.78
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "who": "narrator",
+      "text": "The exam is not easy. All five of you fail.",
+      "start": 17.43,
+      "end": 20.56,
+      "words": [
+        {
+          "w": "The",
+          "start": 17.43,
+          "end": 17.59
+        },
+        {
+          "w": "exam",
+          "start": 17.59,
+          "end": 17.93
+        },
+        {
+          "w": "is",
+          "start": 17.93,
+          "end": 18.15
+        },
+        {
+          "w": "not",
+          "start": 18.15,
+          "end": 18.35
+        },
+        {
+          "w": "easy.",
+          "start": 18.35,
+          "end": 18.71
+        },
+        {
+          "w": "All",
+          "start": 19.31,
+          "end": 19.47
+        },
+        {
+          "w": "five",
+          "start": 19.47,
+          "end": 19.73
+        },
+        {
+          "w": "of",
+          "start": 19.73,
+          "end": 19.87
+        },
+        {
+          "w": "you",
+          "start": 19.87,
+          "end": 20.01
+        },
+        {
+          "w": "fail.",
+          "start": 20.01,
+          "end": 20.31
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "who": "narrator",
+      "text": "So Kai makes a plan. The answer sheets are locked in Room 12. Tonight, you fix them.",
+      "start": 20.86,
+      "end": 27.05,
+      "words": [
+        {
+          "w": "So",
+          "start": 20.86,
+          "end": 21.12
+        },
+        {
+          "w": "Kai",
+          "start": 21.12,
+          "end": 21.36
+        },
+        {
+          "w": "makes",
+          "start": 21.36,
+          "end": 21.62
+        },
+        {
+          "w": "a",
+          "start": 21.62,
+          "end": 21.8
+        },
+        {
+          "w": "plan.",
+          "start": 21.8,
+          "end": 22.1
+        },
+        {
+          "w": "The",
+          "start": 22.9,
+          "end": 23.04
+        },
+        {
+          "w": "answer",
+          "start": 23.04,
+          "end": 23.3
+        },
+        {
+          "w": "sheets",
+          "start": 23.3,
+          "end": 23.6
+        },
+        {
+          "w": "are",
+          "start": 23.6,
+          "end": 23.78
+        },
+        {
+          "w": "locked",
+          "start": 23.78,
+          "end": 24.04
+        },
+        {
+          "w": "in",
+          "start": 24.04,
+          "end": 24.24
+        },
+        {
+          "w": "Room",
+          "start": 24.24,
+          "end": 24.48
+        },
+        {
+          "w": "12.",
+          "start": 24.48,
+          "end": 24.86
+        },
+        {
+          "w": "Tonight,",
+          "start": 25.56,
+          "end": 25.82
+        },
+        {
+          "w": "you",
+          "start": 26.34,
+          "end": 26.46
+        },
+        {
+          "w": "fix",
+          "start": 26.46,
+          "end": 26.66
+        },
+        {
+          "w": "them.",
+          "start": 26.66,
+          "end": 26.92
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "who": "narrator",
+      "text": "Midnight. One gym window is unlocked. The hallway is pitch black.",
+      "start": 27.35,
+      "end": 32.48,
+      "words": [
+        {
+          "w": "Midnight.",
+          "start": 27.35,
+          "end": 27.85
+        },
+        {
+          "w": "One",
+          "start": 28.59,
+          "end": 28.87
+        },
+        {
+          "w": "gym",
+          "start": 28.87,
+          "end": 29.13
+        },
+        {
+          "w": "window",
+          "start": 29.13,
+          "end": 29.55
+        },
+        {
+          "w": "is",
+          "start": 29.55,
+          "end": 29.73
+        },
+        {
+          "w": "unlocked.",
+          "start": 29.73,
+          "end": 30.15
+        },
+        {
+          "w": "The",
+          "start": 30.79,
+          "end": 30.87
+        },
+        {
+          "w": "hallway",
+          "start": 30.87,
+          "end": 31.15
+        },
+        {
+          "w": "is",
+          "start": 31.15,
+          "end": 31.45
+        },
+        {
+          "w": "pitch",
+          "start": 31.45,
+          "end": 31.69
+        },
+        {
+          "w": "black.",
+          "start": 31.69,
+          "end": 32.07
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "who": "narrator",
+      "text": "Room 12. The papers are on the desk. But they're already graded. And every single one says the same thing.",
+      "start": 32.78,
+      "end": 39.28,
+      "words": [
+        {
+          "w": "Room",
+          "start": 32.78,
+          "end": 33.04
+        },
+        {
+          "w": "12.",
+          "start": 33.04,
+          "end": 33.42
+        },
+        {
+          "w": "The",
+          "start": 34.02,
+          "end": 34.18
+        },
+        {
+          "w": "papers",
+          "start": 34.18,
+          "end": 34.42
+        },
+        {
+          "w": "are",
+          "start": 34.42,
+          "end": 34.62
+        },
+        {
+          "w": "on",
+          "start": 34.62,
+          "end": 34.74
+        },
+        {
+          "w": "the",
+          "start": 34.74,
+          "end": 34.86
+        },
+        {
+          "w": "desk.",
+          "start": 34.86,
+          "end": 35.18
+        },
+        {
+          "w": "But",
+          "start": 35.6,
+          "end": 35.82
+        },
+        {
+          "w": "they're",
+          "start": 35.82,
+          "end": 35.98
+        },
+        {
+          "w": "already",
+          "start": 35.98,
+          "end": 36.24
+        },
+        {
+          "w": "graded.",
+          "start": 36.24,
+          "end": 36.62
+        },
+        {
+          "w": "And",
+          "start": 37.12,
+          "end": 37.24
+        },
+        {
+          "w": "every",
+          "start": 37.24,
+          "end": 37.56
+        },
+        {
+          "w": "single",
+          "start": 37.56,
+          "end": 37.82
+        },
+        {
+          "w": "one",
+          "start": 37.82,
+          "end": 38.1
+        },
+        {
+          "w": "says",
+          "start": 38.1,
+          "end": 38.36
+        },
+        {
+          "w": "the",
+          "start": 38.36,
+          "end": 38.56
+        },
+        {
+          "w": "same",
+          "start": 38.56,
+          "end": 38.78
+        },
+        {
+          "w": "thing.",
+          "start": 38.78,
+          "end": 39.1
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "who": "narrator",
+      "text": "See me. Tonight.",
+      "start": 39.58,
+      "end": 41.04,
+      "words": [
+        {
+          "w": "See",
+          "start": 39.58,
+          "end": 39.84
+        },
+        {
+          "w": "me.",
+          "start": 39.84,
+          "end": 40.08
+        },
+        {
+          "w": "Tonight.",
+          "start": 40.54,
+          "end": 40.8
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "who": "teacher",
+      "text": "\"Attendance. Five students present. Please... take your seats.\"",
+      "start": 41.54,
+      "end": 46.4,
+      "words": [
+        {
+          "w": "\"Attendance.",
+          "start": 41.54,
+          "end": 42.52
+        },
+        {
+          "w": "Five",
+          "start": 42.88,
+          "end": 43.14
+        },
+        {
+          "w": "students",
+          "start": 43.14,
+          "end": 43.56
+        },
+        {
+          "w": "present.",
+          "start": 43.56,
+          "end": 43.96
+        },
+        {
+          "w": "Please...",
+          "start": 44.68,
+          "end": 44.94
+        },
+        {
+          "w": "take",
+          "start": 45.5,
+          "end": 45.64
+        },
+        {
+          "w": "your",
+          "start": 45.64,
+          "end": 45.8
+        },
+        {
+          "w": "seats.\"",
+          "start": 45.8,
+          "end": 46.08
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "who": "narrator",
+      "text": "The door slams shut. Mia counts heads. One. Two. Three. Four.",
+      "start": 47.8,
+      "end": 53.68,
+      "words": [
+        {
+          "w": "The",
+          "start": 47.8,
+          "end": 47.96
+        },
+        {
+          "w": "door",
+          "start": 47.96,
+          "end": 48.18
+        },
+        {
+          "w": "slams",
+          "start": 48.18,
+          "end": 48.64
+        },
+        {
+          "w": "shut.",
+          "start": 48.64,
+          "end": 49.02
+        },
+        {
+          "w": "Mia",
+          "start": 49.72,
+          "end": 49.84
+        },
+        {
+          "w": "counts",
+          "start": 49.84,
+          "end": 50.2
+        },
+        {
+          "w": "heads.",
+          "start": 50.2,
+          "end": 50.58
+        },
+        {
+          "w": "One.",
+          "start": 51.18,
+          "end": 51.46
+        },
+        {
+          "w": "Two.",
+          "start": 51.8,
+          "end": 52.1
+        },
+        {
+          "w": "Three.",
+          "start": 52.74,
+          "end": 52.82
+        },
+        {
+          "w": "Four.",
+          "start": 53.1,
+          "end": 53.5
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "who": "mia",
+      "text": "\"Guys... where is Kai?\"",
+      "start": 53.98,
+      "end": 55.71,
+      "words": [
+        {
+          "w": "\"Guys...",
+          "start": 53.98,
+          "end": 54.32
+        },
+        {
+          "w": "where",
+          "start": 54.68,
+          "end": 54.88
+        },
+        {
+          "w": "is",
+          "start": 54.88,
+          "end": 55.12
+        },
+        {
+          "w": "Kai?\"",
+          "start": 55.12,
+          "end": 55.38
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "who": "narrator",
+      "text": "On the board, chalk starts writing by itself. Kai. Detention. Four left.",
+      "start": 56.11,
+      "end": 61.62,
+      "words": [
+        {
+          "w": "On",
+          "start": 56.11,
+          "end": 56.27
+        },
+        {
+          "w": "the",
+          "start": 56.27,
+          "end": 56.37
+        },
+        {
+          "w": "board,",
+          "start": 56.37,
+          "end": 56.71
+        },
+        {
+          "w": "chalk",
+          "start": 57.33,
+          "end": 57.37
+        },
+        {
+          "w": "starts",
+          "start": 57.37,
+          "end": 57.69
+        },
+        {
+          "w": "writing",
+          "start": 57.69,
+          "end": 57.97
+        },
+        {
+          "w": "by",
+          "start": 57.97,
+          "end": 58.23
+        },
+        {
+          "w": "itself.",
+          "start": 58.23,
+          "end": 58.59
+        },
+        {
+          "w": "Kai.",
+          "start": 59.51,
+          "end": 59.55
+        },
+        {
+          "w": "Detention.",
+          "start": 59.87,
+          "end": 60.21
+        },
+        {
+          "w": "Four",
+          "start": 60.81,
+          "end": 61.07
+        },
+        {
+          "w": "left.",
+          "start": 61.07,
+          "end": 61.37
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "who": "narrator",
+      "text": "Comment A or B. The top comment decides what happens in Part 2.",
+      "start": 63.12,
+      "end": 68.48,
+      "words": [
+        {
+          "w": "Comment",
+          "start": 63.12,
+          "end": 63.54
+        },
+        {
+          "w": "A",
+          "start": 63.54,
+          "end": 64.02
+        },
+        {
+          "w": "or",
+          "start": 64.02,
+          "end": 64.3
+        },
+        {
+          "w": "B.",
+          "start": 64.3,
+          "end": 64.6
+        },
+        {
+          "w": "The",
+          "start": 65.4,
+          "end": 65.5
+        },
+        {
+          "w": "top",
+          "start": 65.5,
+          "end": 65.76
+        },
+        {
+          "w": "comment",
+          "start": 65.76,
+          "end": 66.18
+        },
+        {
+          "w": "decides",
+          "start": 66.18,
+          "end": 66.58
+        },
+        {
+          "w": "what",
+          "start": 66.58,
+          "end": 66.84
+        },
+        {
+          "w": "happens",
+          "start": 66.84,
+          "end": 67.2
+        },
+        {
+          "w": "in",
+          "start": 67.2,
+          "end": 67.48
+        },
+        {
+          "w": "Part",
+          "start": 67.48,
+          "end": 67.66
+        },
+        {
+          "w": "2.",
+          "start": 67.66,
+          "end": 68.06
+        }
+      ]
+    }
+  ]
+}
